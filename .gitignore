@@ -1,0 +1,41 @@
+# Entorno virtual
+scraper/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Datos y resultados
+resultados/
+backups/
+logs/
+*.xlsx
+*.csv
+*.pkl
+estado_ejecucion.json
+cookies.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporal
+*.log
+*.tmp
+temp/
