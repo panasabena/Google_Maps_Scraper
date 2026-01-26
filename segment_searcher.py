@@ -212,8 +212,12 @@ class SegmentSearcher:
                             if not datos['nombre']:
                                 continue
                             
-                            # Generar ID único
-                            lugar_id = generar_id_unico(datos['nombre'], datos['direccion'])
+                            # Generar ID único usando la URL de Google Maps (más confiable)
+                            lugar_id = generar_id_unico(
+                                datos['nombre'], 
+                                datos['direccion'],
+                                datos.get('url_google_maps')
+                            )
                             
                             if lugar_id not in seen_ids:
                                 seen_ids.add(lugar_id)

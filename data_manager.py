@@ -6,7 +6,7 @@ import logging
 import pandas as pd
 from pathlib import Path
 from datetime import datetime
-from utils import guardar_estado
+from utils import guardar_estado, generar_id_unico
 
 
 class DataManager:
@@ -59,7 +59,11 @@ class DataManager:
                 
                 # Reconstruir ids_unicos para evitar duplicados
                 for _, row in self.df.iterrows():
-                    lugar_id = f"{row.get('nombre', '')}_{row.get('direccion', '')}"
+                    lugar_id = generar_id_unico(
+                        row.get('nombre', ''),
+                        row.get('direccion', ''),
+                        row.get('url_google_maps')
+                    )
                     self.ids_unicos.add(lugar_id)
                 
                 self.total_empresas = len(self.df)
@@ -72,7 +76,11 @@ class DataManager:
                 
                 # Reconstruir ids_unicos
                 for _, row in self.df.iterrows():
-                    lugar_id = f"{row.get('nombre', '')}_{row.get('direccion', '')}"
+                    lugar_id = generar_id_unico(
+                        row.get('nombre', ''),
+                        row.get('direccion', ''),
+                        row.get('url_google_maps')
+                    )
                     self.ids_unicos.add(lugar_id)
                 
                 self.total_empresas = len(self.df)
@@ -98,8 +106,12 @@ class DataManager:
         lugares_agregados = 0
         
         for lugar in lugares:
-            # Generar ID único
-            lugar_id = f"{lugar.get('nombre', '')}_{lugar.get('direccion', '')}"
+            # Generar ID único usando URL de Google Maps (más confiable)
+            lugar_id = generar_id_unico(
+                lugar.get('nombre', ''),
+                lugar.get('direccion', ''),
+                lugar.get('url_google_maps')
+            )
             
             if lugar_id not in self.ids_unicos:
                 self.ids_unicos.add(lugar_id)
@@ -324,7 +336,11 @@ class DataManager:
                 
                 # Reconstruir IDs únicos
                 for dato in self.datos:
-                    lugar_id = f"{dato.get('nombre', '')}_{dato.get('direccion', '')}"
+                    lugar_id = generar_id_unico(
+                        dato.get('nombre', ''),
+                        dato.get('direccion', ''),
+                        dato.get('url_google_maps')
+                    )
                     self.ids_unicos.add(lugar_id)
                 
                 self.total_empresas = len(self.datos)

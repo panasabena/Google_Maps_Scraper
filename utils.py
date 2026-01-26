@@ -127,10 +127,59 @@ def limpiar_texto(texto):
     return texto.strip().replace('\n', ' ').replace('\r', ' ')
 
 
-def generar_id_unico(nombre, direccion):
-    """Genera un ID único para un lugar basado en nombre y dirección"""
+def extraer_google_maps_id(url):
+    """
+    Extrae el ID único de Google Maps de una URL
+    
+    Args:
+        url (str): URL de Google Maps
+        
+    Returns:
+        str: ID único de Google Maps o None si no se encuentra
+    
+    Ejemplos de formato:
+        https://www.google.com/maps/place/.../1s0x95bcb7deea5eedeb:0x9fd8a41563d8c561!...
+        El ID es: 0x95bcb7deea5eedeb:0x9fd8a41563d8c561
+    """
+    if not url:
+        return None
+    
+    import re
+    # Buscar el patrón del ID de Google Maps: 1s seguido de 0x...:0x...
+    match = re.search(r'1s(0x[a-f0-9]+:0x[a-f0-9]+)', url)
+    if match:
+        return match.group(1)
+    
+    # Intentar con otro formato común: !3m... después de place_id
+    match = re.search(r'place_id=([A-Za-z0-9_-]+)', url)
+    if match:
+        return match.group(1)
+    
+    return None
+
+
+def generar_id_unico(nombre, direccion, url=None):
+    """
+    Genera un ID único para un lugar usando el ID de Google Maps (más confiable)
+    o fallback a nombre + dirección
+    
+    Args:
+        nombre (str): Nombre del lugar
+        direccion (str): Dirección del lugar
+        url (str, optional): URL de Google Maps
+        
+    Returns:
+        str: ID único del lugar
+    """
+    # PRIORIDAD 1: Usar ID de Google Maps de la URL (más confiable)
+    if url:
+        google_id = extraer_google_maps_id(url)
+        if google_id:
+            return f"gmaps_{google_id}"
+    
+    # FALLBACK: Usar nombre + dirección (sin hash para consistencia)
     texto = f"{limpiar_texto(nombre)}_{limpiar_texto(direccion)}"
-    return hash(texto)
+    return f"legacy_{texto}"
 
 
 def formato_log_apify(rubro, coords, scroll, unique, duplicate, seen, paginations, out_of_location):
