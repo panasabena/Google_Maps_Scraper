@@ -172,9 +172,11 @@ Scraper_Maps/
 ├── requirements.txt            # Dependencias
 ├── README.md                   # Este archivo
 ├── resultados/                 # Archivos Excel/CSV generados
+│   ├── google_maps_results.xlsx
+│   └── google_maps_results.csv
 ├── backups/                    # Backups automáticos
 ├── logs/                       # Logs de ejecución
-├── estado_ejecucion.json      # Estado para recuperación
+├── estado_ejecucion.json      # ⭐ Estado para recuperación (EN GITHUB)
 └── cookies.pkl                # Cookies de sesión
 ```
 
@@ -399,6 +401,41 @@ El programa:
 3. **Continúa EXACTAMENTE donde se quedó**
 4. **NO repite rubros ya procesados**
 
+### 🖥️ Continuar desde Otra Computadora
+
+**IMPORTANTE**: El archivo `estado_ejecucion.json` está en GitHub para permitir portabilidad.
+
+Para continuar el scraping desde otra computadora:
+
+1. **En la computadora original** (donde pausaste):
+   ```bash
+   # Asegúrate de subir el estado actualizado
+   git add estado_ejecucion.json resultados/
+   git commit -m "Actualizar estado de ejecución"
+   git push origin main
+   ```
+
+2. **En la computadora nueva**:
+   ```bash
+   # Clonar el repositorio
+   git clone https://github.com/panasabena/Google_Maps_Scraper.git
+   cd Google_Maps_Scraper
+   
+   # Activar entorno virtual e instalar dependencias
+   python3 -m venv scraper
+   source scraper/bin/activate
+   pip install -r requirements.txt
+   
+   # Ejecutar - continuará automáticamente desde donde se quedó
+   python main.py
+   ```
+
+3. **El programa automáticamente**:
+   - Lee `estado_ejecucion.json` del repositorio
+   - Carga los 25,000+ registros ya extraídos
+   - **NO repite ubicaciones/rubros completados**
+   - Continúa con los rubros/segmentos pendientes
+
 ### Empezar desde Cero
 
 Si quieres comenzar una nueva extracción desde el principio:
@@ -545,30 +582,51 @@ cat logs/scraper_*.log
 
 ### Archivos de Estado
 
-#### `estado_ejecucion.json`
-- Guarda el progreso del scraper
-- Permite reanudar desde donde se quedó
-- Contiene:
-  - Rubros completados
-  - Segmentos procesados
-  - Empresas extraídas
-  - Fecha de inicio
+#### `estado_ejecucion.json` ⭐ IMPORTANTE
 
-Ejemplo:
+- **Guarda el progreso completo del scraper**
+- **Permite reanudar desde donde se quedó**
+- **Esencial para continuar desde otra computadora**
+- **Evita repetir 25,000+ registros ya extraídos**
+- **Está en GitHub para portabilidad**
+
+**Contenido:**
+- Ubicaciones completadas
+- Rubros procesados por ubicación
+- Segmentos finalizados
+- Total de empresas extraídas
+- Timestamp del último checkpoint
+- Fecha de inicio
+
+**Ejemplo:**
 ```json
 {
-  "rubros_completados": ["fabrica"],
-  "segmentos_completados": {
-    "seg_0": {
-      "rubros": ["fabrica", "logistica"],
-      "completado": true
+  "ubicaciones_completadas": {
+    "buenos_aires_argentina": {
+      "nombre": "Buenos Aires, Argentina",
+      "rubros_completados": [
+        "fabrica",
+        "logistica",
+        "transportes"
+      ],
+      "segmentos_completados": {
+        "seg_0": {
+          "rubros": ["fabrica", "logistica"],
+          "completado": true
+        }
+      }
     }
   },
-  "empresas_extraidas": 150,
-  "ultimo_checkpoint": "2024-01-24T10:30:00",
+  "empresas_extraidas": 25507,
+  "ultimo_checkpoint": "2024-01-26T00:23:00",
   "fecha_inicio": "2024-01-24T09:00:00"
 }
 ```
+
+**💡 Uso entre computadoras:**
+1. Commit y push del estado: `git add estado_ejecucion.json && git commit -m "Update" && git push`
+2. En otra PC: `git pull` y ejecuta `python main.py`
+3. El programa continúa automáticamente sin repetir datos
 
 #### `cookies.pkl`
 - Cookies de sesión de Google
