@@ -88,8 +88,12 @@ echo ""
 # Verificar archivos de datos
 echo "🔍 Verificando archivos de datos..."
 
-CSV_PATH="/Users/panasabena/Scraper_Maps/resultados/google_maps_results.csv"
-JSON_PATH="/Users/panasabena/Scraper_Maps/estado_ejecucion.json"
+# Usar rutas relativas desde el directorio del script
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+PARENT_DIR="$( cd "$SCRIPT_DIR/.." && pwd )"
+
+CSV_PATH="$PARENT_DIR/resultados/google_maps_results.csv"
+JSON_PATH="$PARENT_DIR/estado_ejecucion.json"
 
 if [ -f "$CSV_PATH" ]; then
     echo "✅ CSV encontrado: $CSV_PATH"

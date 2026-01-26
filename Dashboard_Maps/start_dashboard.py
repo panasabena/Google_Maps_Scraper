@@ -30,9 +30,10 @@ except KeyboardInterrupt:
     print("\n\n👋 Dashboard detenido correctamente")
     
 except Exception as e:
+    import os
     print(f"\n❌ Error al iniciar el dashboard: {e}")
     print("\n📋 Intenta ejecutar manualmente:")
-    print("   cd /Users/panasabena/Scraper_Maps/Dashboard_Maps")
-    print("   source Dossier/bin/activate")
+    print(f"   cd {os.path.dirname(os.path.abspath(__file__))}")
+    print("   source <tu_entorno_virtual>/bin/activate  # o activa tu entorno virtual")
     print("   pip install waitress")
     print("   python start_dashboard.py")

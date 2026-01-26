@@ -1,7 +1,9 @@
 #!/bin/bash
 # Script para iniciar el Dashboard fácilmente
 
-cd /Users/panasabena/Scraper_Maps/Dashboard_Maps
+# Obtener el directorio donde está este script
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$SCRIPT_DIR"
 
 # Activar entorno virtual
 source Dossier/bin/activate

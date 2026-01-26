@@ -3,6 +3,12 @@ Configuración del Dashboard de Monitoreo de Scraping Argentina
 Contiene ubicaciones, rubros y parámetros de configuración
 """
 
+import os
+
+# Obtener ruta base del proyecto
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Dashboard_Maps/
+PARENT_DIR = os.path.dirname(BASE_DIR)  # Scraper_Maps/
+
 # Ubicaciones de Argentina (28 ciudades principales)
 UBICACIONES_ARGENTINA = {
     # Ciudad Autónoma de Buenos Aires
@@ -473,13 +479,13 @@ DASHBOARD_CONFIG = {
     'debug': False
 }
 
-# Rutas de archivos (rutas absolutas)
+# Rutas de archivos (rutas relativas - funcionan en cualquier computadora)
 FILE_PATHS = {
-    'csv_data': '/Users/panasabena/Scraper_Maps/resultados/google_maps_results.csv',
-    'estado_json': '/Users/panasabena/Scraper_Maps/estado_ejecucion.json',
-    'geojson_provincias': '/Users/panasabena/Scraper_Maps/Dashboard_Maps/data/geo/argentina_provincias.geojson',
-    'geojson_departamentos': '/Users/panasabena/Scraper_Maps/Dashboard_Maps/data/geo/argentina_departamentos.geojson',
-    'logs': '/Users/panasabena/Scraper_Maps/Dashboard_Maps/logs/dashboard.log'
+    'csv_data': os.path.join(PARENT_DIR, 'resultados', 'google_maps_results.csv'),
+    'estado_json': os.path.join(PARENT_DIR, 'estado_ejecucion.json'),
+    'geojson_provincias': os.path.join(BASE_DIR, 'data', 'geo', 'argentina_provincias.geojson'),
+    'geojson_departamentos': os.path.join(BASE_DIR, 'data', 'geo', 'argentina_departamentos.geojson'),
+    'logs': os.path.join(BASE_DIR, 'logs', 'dashboard.log')
 }
 
 # Columnas esperadas en el CSV
