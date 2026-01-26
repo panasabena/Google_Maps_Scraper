@@ -17,7 +17,7 @@ build/
 # Datos y resultados
 resultados/
 backups/
-logs/
+# logs/  # Descomentado para permitir subir logs a GitHub
 *.xlsx
 *.csv
 *.pkl
@@ -36,6 +36,6 @@ cookies.pkl
 Thumbs.db
 
 # Temporal
-*.log
+# *.log  # Descomentado para permitir subir logs a GitHub
 *.tmp
 temp/

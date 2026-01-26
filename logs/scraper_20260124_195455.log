@@ -1,0 +1,200 @@
+2026-01-24T19:54:55 INFO     
+============================================================
+2026-01-24T19:54:55 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-24T19:54:55 INFO     ============================================================
+2026-01-24T19:54:55 INFO     📍 Ubicación: Córdoba, Argentina
+2026-01-24T19:54:55 INFO     🏷️  Rubros: fabrica, logistica, transportes, mudanzas, fletes, agencia de marketing, higiene y seguridad, auditores, cadetería
+2026-01-24T19:54:55 INFO     📐 Grid size: 2x2
+2026-01-24T19:54:55 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-24T19:54:55 INFO     ============================================================
+
+2026-01-24T19:54:55 INFO     🚀 Inicializando navegador...
+2026-01-24T19:54:56 INFO     patching driver executable /Users/panasabena/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-01-24T19:54:59 INFO     ✅ Navegador inicializado correctamente
+2026-01-24T19:55:00 INFO     Cookies cargadas desde cookies.pkl
+2026-01-24T19:55:00 INFO     
+============================================================
+2026-01-24T19:55:00 INFO     📍 PASO 1: GEOLOCALIZACIÓN
+2026-01-24T19:55:00 INFO     ============================================================
+2026-01-24T19:55:00 INFO     📡 Geolocalizando: Córdoba, Argentina
+2026-01-24T19:55:01 INFO     ✅ Ubicación encontrada: Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina
+2026-01-24T19:55:01 INFO        Bounding box: ['-31.5251273', '-31.3083295', '-64.3100961', '-64.0572500']
+2026-01-24T19:55:01 INFO     
+============================================================
+2026-01-24T19:55:01 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS
+2026-01-24T19:55:01 INFO     ============================================================
+2026-01-24T19:55:01 INFO     📐 Dividiendo área en cuadrícula de 2x2
+2026-01-24T19:55:01 INFO        Segmento 1: Centro (-31.4709, -64.2469)
+2026-01-24T19:55:01 INFO        Segmento 2: Centro (-31.3625, -64.2469)
+2026-01-24T19:55:01 INFO        Segmento 3: Centro (-31.4709, -64.1205)
+2026-01-24T19:55:01 INFO        Segmento 4: Centro (-31.3625, -64.1205)
+2026-01-24T19:55:01 INFO     ✅ Creados 4 segmentos
+2026-01-24T19:55:01 INFO     ✅ Área dividida en 4 segmentos
+2026-01-24T19:55:01 INFO     
+============================================================
+2026-01-24T19:55:01 INFO     🔍 PASO 3: BÚSQUEDA POR SEGMENTO Y RUBRO
+2026-01-24T19:55:01 INFO     ============================================================
+2026-01-24T19:55:01 INFO     Total de búsquedas a realizar: 36
+2026-01-24T19:55:01 INFO     Rubros: fabrica, logistica, transportes, mudanzas, fletes, agencia de marketing, higiene y seguridad, auditores, cadetería
+2026-01-24T19:55:01 INFO     
+────────────────────────────────────────────────────────────
+2026-01-24T19:55:01 INFO     📍 SEGMENTO 1/4
+2026-01-24T19:55:01 INFO        Centro: (-31.470927850000002, -64.24688457500001)
+2026-01-24T19:55:01 INFO     ────────────────────────────────────────────────────────────
+2026-01-24T19:55:01 INFO     
+🏷️  Rubro 1/9: fabrica
+2026-01-24T19:55:01 INFO     
+🔍 Buscando 'fabrica' en segmento 0
+2026-01-24T19:55:01 INFO        URL: https://www.google.com/maps/search/fabrica/@-31.470927850000002,-64.24688457500001,13z?hl=es-419
+2026-01-24T19:55:19 INFO     📄 Iniciando extracción para rubro: fabrica
+2026-01-24T19:55:30 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T19:55:30 INFO     🔍 [fabrica][-31.4709|-64.2469][SCROLL: 2]: Search page scraped: 21 unique, 27 duplicate, 21 seen, 2 paginations, 0 outOfLocation.
+2026-01-24T19:55:30 INFO     ✅ Extracción completada: 21 lugares encontrados
+2026-01-24T19:55:30 INFO     📊 21 lugares agregados (Total: 21)
+2026-01-24T19:55:31 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T19:55:31 INFO     💾 Backup guardado: backups/backup_20260124_195531.xlsx
+2026-01-24T19:55:38 INFO     ⏳ Esperando 7.0s antes del siguiente rubro...
+2026-01-24T19:55:38 INFO     
+🏷️  Rubro 2/9: logistica
+2026-01-24T19:55:38 INFO     
+🔍 Buscando 'logistica' en segmento 0
+2026-01-24T19:55:38 INFO        URL: https://www.google.com/maps/search/logistica/@-31.470927850000002,-64.24688457500001,13z?hl=es-419
+2026-01-24T19:55:56 INFO     📄 Iniciando extracción para rubro: logistica
+2026-01-24T19:55:59 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T19:55:59 INFO     🔍 [logistica][-31.4709|-64.2469][SCROLL: 0]: Search page scraped: 10 unique, 0 duplicate, 10 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T19:55:59 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-24T19:55:59 INFO     📊 10 lugares agregados (Total: 31)
+2026-01-24T19:56:04 INFO     ⏳ Esperando 5.7s antes del siguiente rubro...
+2026-01-24T19:56:04 INFO     
+🏷️  Rubro 3/9: transportes
+2026-01-24T19:56:04 INFO     
+🔍 Buscando 'transportes' en segmento 0
+2026-01-24T19:56:04 INFO        URL: https://www.google.com/maps/search/transportes/@-31.470927850000002,-64.24688457500001,13z?hl=es-419
+2026-01-24T19:56:20 INFO     📄 Iniciando extracción para rubro: transportes
+2026-01-24T19:56:39 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T19:56:39 INFO     🔍 [transportes][-31.4709|-64.2469][SCROLL: 2]: Search page scraped: 84 unique, 54 duplicate, 84 seen, 2 paginations, 0 outOfLocation.
+2026-01-24T19:56:39 INFO     ✅ Extracción completada: 84 lugares encontrados
+2026-01-24T19:56:39 INFO     📊 82 lugares agregados (Total: 113)
+2026-01-24T19:56:39 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T19:56:39 INFO     💾 Backup guardado: backups/backup_20260124_195639.xlsx
+2026-01-24T19:56:45 INFO     ⏳ Esperando 5.8s antes del siguiente rubro...
+2026-01-24T19:56:45 INFO     
+🏷️  Rubro 4/9: mudanzas
+2026-01-24T19:56:45 INFO     
+🔍 Buscando 'mudanzas' en segmento 0
+2026-01-24T19:56:45 INFO        URL: https://www.google.com/maps/search/mudanzas/@-31.470927850000002,-64.24688457500001,13z?hl=es-419
+2026-01-24T19:57:04 INFO     📄 Iniciando extracción para rubro: mudanzas
+2026-01-24T19:57:13 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T19:57:13 INFO     🔍 [mudanzas][-31.4709|-64.2469][SCROLL: 0]: Search page scraped: 120 unique, 4 duplicate, 120 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T19:57:13 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-24T19:57:13 INFO     📊 107 lugares agregados (Total: 220)
+2026-01-24T19:57:13 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T19:57:13 INFO     💾 Backup guardado: backups/backup_20260124_195713.xlsx
+2026-01-24T19:57:19 INFO     ⏳ Esperando 5.3s antes del siguiente rubro...
+2026-01-24T19:57:19 INFO     
+🏷️  Rubro 5/9: fletes
+2026-01-24T19:57:19 INFO     
+🔍 Buscando 'fletes' en segmento 0
+2026-01-24T19:57:19 INFO        URL: https://www.google.com/maps/search/fletes/@-31.470927850000002,-64.24688457500001,13z?hl=es-419
+2026-01-24T19:57:37 INFO     📄 Iniciando extracción para rubro: fletes
+2026-01-24T19:57:47 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T19:57:47 INFO     🔍 [fletes][-31.4709|-64.2469][SCROLL: 0]: Search page scraped: 122 unique, 2 duplicate, 122 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T19:57:47 INFO     ✅ Extracción completada: 122 lugares encontrados
+2026-01-24T19:57:47 INFO     📊 65 lugares agregados (Total: 285)
+2026-01-24T19:57:47 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T19:57:47 INFO     💾 Backup guardado: backups/backup_20260124_195747.xlsx
+2026-01-24T19:57:54 INFO     ⏳ Esperando 6.9s antes del siguiente rubro...
+2026-01-24T19:57:54 INFO     
+🏷️  Rubro 6/9: agencia de marketing
+2026-01-24T19:57:54 INFO     
+🔍 Buscando 'agencia de marketing' en segmento 0
+2026-01-24T19:57:54 INFO        URL: https://www.google.com/maps/search/agencia+de+marketing/@-31.470927850000002,-64.24688457500001,13z?hl=es-419
+2026-01-24T19:58:10 INFO     📄 Iniciando extracción para rubro: agencia de marketing
+2026-01-24T19:58:19 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T19:58:19 INFO     🔍 [agencia de marketing][-31.4709|-64.2469][SCROLL: 0]: Search page scraped: 120 unique, 4 duplicate, 120 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T19:58:19 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-24T19:58:19 INFO     📊 120 lugares agregados (Total: 405)
+2026-01-24T19:58:19 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T19:58:19 INFO     💾 Backup guardado: backups/backup_20260124_195819.xlsx
+2026-01-24T19:58:24 INFO     ⏳ Esperando 5.2s antes del siguiente rubro...
+2026-01-24T19:58:24 INFO     
+🏷️  Rubro 7/9: higiene y seguridad
+2026-01-24T19:58:24 INFO     
+🔍 Buscando 'higiene y seguridad' en segmento 0
+2026-01-24T19:58:24 INFO        URL: https://www.google.com/maps/search/higiene+y+seguridad/@-31.470927850000002,-64.24688457500001,13z?hl=es-419
+2026-01-24T19:58:41 INFO     📄 Iniciando extracción para rubro: higiene y seguridad
+2026-01-24T19:58:47 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T19:58:47 INFO     🔍 [higiene y seguridad][-31.4709|-64.2469][SCROLL: 0]: Search page scraped: 65 unique, 0 duplicate, 65 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T19:58:47 INFO     ✅ Extracción completada: 65 lugares encontrados
+2026-01-24T19:58:47 INFO     📊 65 lugares agregados (Total: 470)
+2026-01-24T19:58:47 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T19:58:48 INFO     💾 Backup guardado: backups/backup_20260124_195847.xlsx
+2026-01-24T19:58:52 INFO     ⏳ Esperando 4.9s antes del siguiente rubro...
+2026-01-24T19:58:52 INFO     
+🏷️  Rubro 8/9: auditores
+2026-01-24T19:58:52 INFO     
+🔍 Buscando 'auditores' en segmento 0
+2026-01-24T19:58:52 INFO        URL: https://www.google.com/maps/search/auditores/@-31.470927850000002,-64.24688457500001,13z?hl=es-419
+2026-01-24T19:59:08 INFO     📄 Iniciando extracción para rubro: auditores
+2026-01-24T19:59:12 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T19:59:12 INFO     🔍 [auditores][-31.4709|-64.2469][SCROLL: 0]: Search page scraped: 5 unique, 0 duplicate, 5 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T19:59:12 INFO     ✅ Extracción completada: 5 lugares encontrados
+2026-01-24T19:59:12 INFO     📊 5 lugares agregados (Total: 475)
+2026-01-24T19:59:19 INFO     ⏳ Esperando 6.6s antes del siguiente rubro...
+2026-01-24T19:59:19 INFO     
+🏷️  Rubro 9/9: cadetería
+2026-01-24T19:59:19 INFO     
+🔍 Buscando 'cadetería' en segmento 0
+2026-01-24T19:59:19 INFO        URL: https://www.google.com/maps/search/cadetería/@-31.470927850000002,-64.24688457500001,13z?hl=es-419
+2026-01-24T19:59:35 INFO     📄 Iniciando extracción para rubro: cadetería
+2026-01-24T19:59:39 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T19:59:39 INFO     🔍 [cadetería][-31.4709|-64.2469][SCROLL: 0]: Search page scraped: 23 unique, 0 duplicate, 23 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T19:59:39 INFO     ✅ Extracción completada: 23 lugares encontrados
+2026-01-24T19:59:39 INFO     📊 21 lugares agregados (Total: 496)
+2026-01-24T19:59:40 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T19:59:40 INFO     💾 Backup guardado: backups/backup_20260124_195940.xlsx
+2026-01-24T19:59:40 INFO     Estado guardado: 496 empresas
+2026-01-24T19:59:52 INFO     ⏳ Esperando 12.8s antes del siguiente segmento...
+2026-01-24T19:59:52 INFO     
+────────────────────────────────────────────────────────────
+2026-01-24T19:59:52 INFO     📍 SEGMENTO 2/4
+2026-01-24T19:59:52 INFO        Centro: (-31.362528950000005, -64.24688457500001)
+2026-01-24T19:59:52 INFO     ────────────────────────────────────────────────────────────
+2026-01-24T19:59:52 INFO     
+🏷️  Rubro 1/9: fabrica
+2026-01-24T19:59:52 INFO     
+🔍 Buscando 'fabrica' en segmento 1
+2026-01-24T19:59:52 INFO        URL: https://www.google.com/maps/search/fabrica/@-31.362528950000005,-64.24688457500001,13z?hl=es-419
+2026-01-24T20:00:09 INFO     📄 Iniciando extracción para rubro: fabrica
+2026-01-24T20:00:19 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T20:00:19 INFO     🔍 [fabrica][-31.3625|-64.2469][SCROLL: 0]: Search page scraped: 120 unique, 0 duplicate, 120 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T20:00:19 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-24T20:00:19 INFO     📊 105 lugares agregados (Total: 601)
+2026-01-24T20:00:19 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T20:00:19 INFO     💾 Backup guardado: backups/backup_20260124_200019.xlsx
+2026-01-24T20:00:24 INFO     ⏳ Esperando 5.5s antes del siguiente rubro...
+2026-01-24T20:00:24 INFO     
+🏷️  Rubro 2/9: logistica
+2026-01-24T20:00:24 INFO     
+🔍 Buscando 'logistica' en segmento 1
+2026-01-24T20:00:24 INFO        URL: https://www.google.com/maps/search/logistica/@-31.362528950000005,-64.24688457500001,13z?hl=es-419
+2026-01-24T20:00:43 INFO     📄 Iniciando extracción para rubro: logistica
+2026-01-24T20:00:53 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T20:00:53 INFO     🔍 [logistica][-31.3625|-64.2469][SCROLL: 0]: Search page scraped: 123 unique, 1 duplicate, 123 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T20:00:53 INFO     ✅ Extracción completada: 123 lugares encontrados
+2026-01-24T20:00:53 INFO     📊 106 lugares agregados (Total: 707)
+2026-01-24T20:00:53 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T20:00:53 INFO     💾 Backup guardado: backups/backup_20260124_200053.xlsx
+2026-01-24T20:00:59 INFO     ⏳ Esperando 6.2s antes del siguiente rubro...
+2026-01-24T20:00:59 INFO     
+🏷️  Rubro 3/9: transportes
+2026-01-24T20:00:59 INFO     
+🔍 Buscando 'transportes' en segmento 1
+2026-01-24T20:00:59 INFO        URL: https://www.google.com/maps/search/transportes/@-31.362528950000005,-64.24688457500001,13z?hl=es-419
+2026-01-24T20:01:16 INFO     📄 Iniciando extracción para rubro: transportes
+2026-01-24T20:01:25 INFO     No se pudieron cargar más resultados con scroll
+2026-01-24T20:01:25 INFO     🔍 [transportes][-31.3625|-64.2469][SCROLL: 0]: Search page scraped: 122 unique, 2 duplicate, 122 seen, 0 paginations, 0 outOfLocation.
+2026-01-24T20:01:25 INFO     ✅ Extracción completada: 122 lugares encontrados
+2026-01-24T20:01:25 INFO     📊 66 lugares agregados (Total: 773)
+2026-01-24T20:01:25 INFO     💾 Checkpoint guardado: resultados/google_maps_results.xlsx
+2026-01-24T20:01:25 INFO     💾 Backup guardado: backups/backup_20260124_200125.xlsx

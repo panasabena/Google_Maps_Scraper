@@ -1,0 +1,277 @@
+2026-01-24T21:31:53 INFO     
+============================================================
+2026-01-24T21:31:53 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-24T21:31:53 INFO     ============================================================
+2026-01-24T21:31:53 INFO     📍 Ubicación: Córdoba, Argentina
+2026-01-24T21:31:53 INFO     🏷️  Rubros: fabrica, logistica, transportes, mudanzas, fletes, agencia de marketing, higiene y seguridad, auditores, cadetería, carpintería, herrería, electricista, plomero, pintor, consultoría, software, diseño gráfico, estudio de ingeniería, consultoría ingeniería, ingeniería civil, ingenieros consultores, proyectos de ingeniería, clínica médica, consultorio médico, centro de salud, policlínico, consultorio particular, estudio jurídico, despacho de abogados, abogados especializados, bufete de abogados, asesoría legal, estudio contable, contador público, auditoría contable, asesoría impositiva, contador independiente, agencia de marketing, marketing digital, publicidad y propaganda, comunicación integral, agencias de publicidad, desarrollo de software, empresa de sistemas, software a medida, desarrolladores web, aplicaciones móviles, empresa de logística, transporte de cargas, fletes y mudanzas, distribución logística, empresa de transportes, empresa constructora, construcción civil, obras y construcciones, constructoras medianas, empresas de construcción, instituto educativo, centro de capacitación, academia especializada, escuela de oficios, centro de formación, taller mecánico especializado, mecánica industrial, mantenimiento de maquinaria, reparaciones mecánicas, taller de maquinaria, mantenimiento industrial, servicios industriales, mantenimiento predictivo, empresas de mantenimiento, servicios técnicos industriales, agencias de viajes corporativas, viajes de empresa, turismo empresarial, agencias de viaje, estudio de arquitectura, arquitectos independientes, proyectos arquitectónicos, diseño arquitectónico, energías renovables, paneles solares, energía solar, instalaciones solares, energías sustentables, laboratorio de análisis, análisis clínicos, laboratorio químico, análisis de suelos, laboratorios especializados, empresas de seguridad, vigilancia y seguridad, seguridad privada, monitoreo de alarmas, consultoría ambiental, estudios ambientales, impacto ambiental, consultores ambientales, catering empresarial, servicios de catering, viandas empresariales, catering para empresas, administración de consorcios, gerencias de condominios, administradoras de edificios, consorcios y administración, diseño gráfico, diseño web, estudio de diseño, diseñadores gráficos, agencias de diseño, limpieza comercial, empresas de limpieza, servicios de limpieza, limpieza de oficinas, limpieza empresarial, gimnasios, centros de entrenamiento, entrenadores personales, fitness center, gymnasio, productora audiovisual, producción de videos, empresas de video, producciones audiovisuales, instalaciones eléctricas, electricistas industriales, empresas de electricidad, montajes eléctricos, consultoría de recursos humanos, recursos humanos, selección de personal, headhunting, reclutamiento, paisajismo, jardinería, mantenimiento de espacios verdes, diseño de jardines, clínica veterinaria, veterinarios, hospital veterinario, consultorio veterinario, traducción e interpretación, traductores públicos, servicios de traducción, agencias de traducción, desarrolladores inmobiliarios, empresas inmobiliarias, inversiones inmobiliarias, proyectos inmobiliarios, cooperativas, asociaciones cooperativas, cooperativa de trabajo, cooperativa agrícola, fumigación, control de plagas, desinfección, empresas de fumigación, headhunting, reclutamiento ejecutivo, agencias de reclutamiento, selección ejecutiva, fotógrafos profesionales, estudio de fotografía, fotografía empresarial, fotógrafos comerciales, análisis de suelos, laboratorio de suelos, análisis de aguas, estudios geotécnicos, compliance, consultoría normativa, regulaciones, cumplimiento normativo, montaje de exposiciones, stands feriales, montajes comerciales, exposiciones y ferias, calibración de instrumentos, laboratorio de calibración, instrumentación industrial, calibraciones certificadas, digitalización documental, escaneo de documentos, gestión documental, archivo digital, consultoría de franquicias, franquicias, desarrollo de franquicias, asesoría en franquicias, gestión deportiva, representantes de deportistas, agencias deportivas, management deportivo
+2026-01-24T21:31:53 INFO     📐 Grid size: 1x1
+2026-01-24T21:31:53 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-24T21:31:53 INFO     ============================================================
+
+2026-01-24T21:31:53 INFO     Estado cargado: 800 empresas previas
+2026-01-24T21:31:53 INFO     🚀 Inicializando navegador...
+2026-01-24T21:31:55 INFO     patching driver executable /Users/panasabena/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-01-24T21:31:58 INFO     ✅ Navegador inicializado correctamente
+2026-01-24T21:31:59 INFO     Cookies cargadas desde cookies.pkl
+2026-01-24T21:31:59 INFO     
+============================================================
+2026-01-24T21:31:59 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-01-24T21:31:59 INFO     ============================================================
+2026-01-24T21:31:59 INFO       1. Buenos Aires, Argentina
+2026-01-24T21:31:59 INFO       2. Córdoba, Argentina
+2026-01-24T21:31:59 INFO       3. Rosario, Argentina
+2026-01-24T21:31:59 INFO       4. Mendoza, Argentina
+2026-01-24T21:31:59 INFO       5. Tucumán, Argentina
+2026-01-24T21:31:59 INFO       6. La Plata, Argentina
+2026-01-24T21:31:59 INFO       7. Mar del Plata, Argentina
+2026-01-24T21:31:59 INFO       8. Salta, Argentina
+2026-01-24T21:31:59 INFO       9. Santa Fe, Argentina
+2026-01-24T21:31:59 INFO       10. Resistencia, Argentina
+2026-01-24T21:31:59 INFO       11. Santiago del Estero, Argentina
+2026-01-24T21:31:59 INFO       12. Corrientes, Argentina
+2026-01-24T21:31:59 INFO       13. Neuquén, Argentina
+2026-01-24T21:31:59 INFO       14. Bahía Blanca, Argentina
+2026-01-24T21:31:59 INFO       15. San Salvador de Jujuy, Argentina
+2026-01-24T21:31:59 INFO       16. Posadas, Argentina
+2026-01-24T21:31:59 INFO       17. Paraná, Argentina
+2026-01-24T21:31:59 INFO       18. San Luis, Argentina
+2026-01-24T21:31:59 INFO       19. Río Gallegos, Argentina
+2026-01-24T21:31:59 INFO       20. Comodoro Rivadavia, Argentina
+2026-01-24T21:31:59 INFO       21. Ushuaia, Argentina
+2026-01-24T21:31:59 INFO       22. Formosa, Argentina
+2026-01-24T21:31:59 INFO       23. Quilmes, Argentina
+2026-01-24T21:31:59 INFO       24. Morón, Argentina
+2026-01-24T21:31:59 INFO       25. San Martín, Argentina
+2026-01-24T21:31:59 INFO       26. Lanús, Argentina
+2026-01-24T21:31:59 INFO       27. Lomas de Zamora, Argentina
+2026-01-24T21:31:59 INFO       28. Tigre, Argentina
+2026-01-24T21:31:59 INFO       29. Pilar, Argentina
+2026-01-24T21:31:59 INFO     
+############################################################
+2026-01-24T21:31:59 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-01-24T21:31:59 INFO     ############################################################
+2026-01-24T21:31:59 INFO     
+============================================================
+2026-01-24T21:31:59 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Buenos Aires, Argentina
+2026-01-24T21:31:59 INFO     ============================================================
+2026-01-24T21:31:59 INFO     📡 Geolocalizando: Buenos Aires, Argentina
+2026-01-24T21:32:01 INFO     ✅ Ubicación encontrada: Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina
+2026-01-24T21:32:01 INFO        Bounding box: ['-34.7058155', '-34.5265535', '-58.5314504', '-58.3351423']
+2026-01-24T21:32:01 INFO     
+============================================================
+2026-01-24T21:32:01 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Buenos Aires, Argentina
+2026-01-24T21:32:01 INFO     ============================================================
+2026-01-24T21:32:01 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-24T21:32:01 INFO        Segmento 1: Centro (-34.6162, -58.4333)
+2026-01-24T21:32:01 INFO     ✅ Creados 1 segmentos
+2026-01-24T21:32:01 INFO     ✅ Área dividida en 1 segmentos
+2026-01-24T21:32:01 INFO     
+============================================================
+2026-01-24T21:32:01 INFO     🔍 PASO 3: BÚSQUEDA - Buenos Aires, Argentina
+2026-01-24T21:32:01 INFO     ============================================================
+2026-01-24T21:32:01 INFO     Total de búsquedas en Buenos Aires, Argentina: 194
+2026-01-24T21:32:01 INFO     Rubros: 194 rubros configurados
+2026-01-24T21:32:01 INFO     📋 Rubros pendientes en Buenos Aires, Argentina: 194
+2026-01-24T21:32:01 INFO     
+────────────────────────────────────────────────────────────
+2026-01-24T21:32:01 INFO     📍 Buenos Aires, Argentina - SEGMENTO 1/1
+2026-01-24T21:32:01 INFO        Centro: (-34.6161845, -58.43329634999999)
+2026-01-24T21:32:01 INFO     ────────────────────────────────────────────────────────────
+2026-01-24T21:32:01 INFO     
+🏷️  Rubro 1/194: fabrica
+2026-01-24T21:32:01 INFO     
+🔍 Buscando 'fabrica' en segmento 0
+2026-01-24T21:32:01 INFO        URL: https://www.google.com/maps/search/fabrica/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-24T21:32:19 INFO     📄 Iniciando extracción para rubro: fabrica
+2026-01-24T21:32:19 INFO        Scroll 1: 9 elementos en página
+2026-01-24T21:32:19 INFO        ✅ 9 nuevos, 9 total
+2026-01-24T21:32:25 INFO        Scroll 2: 18 elementos en página
+2026-01-24T21:32:26 INFO        ✅ 9 nuevos, 18 total
+2026-01-24T21:32:32 INFO        Scroll 3: 22 elementos en página
+2026-01-24T21:32:33 INFO        ✅ 4 nuevos, 22 total
+2026-01-24T21:32:39 INFO        Scroll 4: 31 elementos en página
+2026-01-24T21:32:40 INFO        ✅ 7 nuevos, 29 total
+2026-01-24T21:32:47 INFO        Scroll 5: 40 elementos en página
+2026-01-24T21:32:49 INFO        ✅ 9 nuevos, 38 total
+2026-01-24T21:32:55 INFO        Scroll 6: 44 elementos en página
+2026-01-24T21:32:57 INFO        ✅ 4 nuevos, 42 total
+2026-01-24T21:33:03 INFO        Scroll 7: 53 elementos en página
+2026-01-24T21:33:06 INFO        ✅ 9 nuevos, 51 total
+2026-01-24T21:33:13 INFO        Scroll 8: 62 elementos en página
+2026-01-24T21:33:16 INFO        ✅ 9 nuevos, 60 total
+2026-01-24T21:33:22 INFO        Scroll 9: 73 elementos en página
+2026-01-24T21:33:26 INFO        ✅ 11 nuevos, 71 total
+2026-01-24T21:33:32 INFO        Scroll 10: 82 elementos en página
+2026-01-24T21:33:36 INFO        ✅ 9 nuevos, 80 total
+2026-01-24T21:33:41 INFO        Scroll 11: 93 elementos en página
+2026-01-24T21:33:46 INFO        ✅ 11 nuevos, 91 total
+2026-01-24T21:33:51 INFO        Scroll 12: 102 elementos en página
+2026-01-24T21:33:56 INFO        ✅ 9 nuevos, 100 total
+2026-01-24T21:34:02 INFO        Scroll 13: 113 elementos en página
+2026-01-24T21:34:04 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-24T21:34:04 WARNING  Error en iteración de scroll: Message: invalid session id
+Stacktrace:
+0   undetected_chromedriver             0x0000000104f77428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x0000000104f6ec8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104982d20 undetected_chromedriver + 453920
+3   undetected_chromedriver             0x00000001049c8b3d undetected_chromedriver + 740157
+4   undetected_chromedriver             0x00000001049fe8a6 undetected_chromedriver + 960678
+5   undetected_chromedriver             0x00000001049f9085 undetected_chromedriver + 938117
+6   undetected_chromedriver             0x00000001049f829c undetected_chromedriver + 934556
+7   undetected_chromedriver             0x000000010494904f undetected_chromedriver + 217167
+8   undetected_chromedriver             0x0000000104f2f3b1 undetected_chromedriver + 6402993
+9   undetected_chromedriver             0x0000000104f3373e undetected_chromedriver + 6420286
+10  undetected_chromedriver             0x0000000104f0f0dc undetected_chromedriver + 6271196
+11  undetected_chromedriver             0x0000000104f341a8 undetected_chromedriver + 6422952
+12  undetected_chromedriver             0x0000000104efd8c0 undetected_chromedriver + 6199488
+13  undetected_chromedriver             0x0000000104946ace undetected_chromedriver + 207566
+14  dyld                                0x0000000205b5d530 start + 3056
+
+2026-01-24T21:34:04 INFO     🔍 [fabrica][-34.6162|-58.4333][SCROLL: 12]: Search page scraped: 100 unique, 555 duplicate, 100 seen, 12 paginations, 0 outOfLocation.
+2026-01-24T21:34:04 INFO     ✅ Extracción completada: 100 lugares encontrados
+2026-01-24T21:34:04 INFO     📊 100 lugares agregados (Total: 100)
+2026-01-24T21:34:05 INFO     💾 Checkpoint guardado: 100 empresas
+2026-01-24T21:34:09 INFO     ⏳ Esperando 4.8s antes del siguiente rubro...
+2026-01-24T21:34:09 INFO     
+🏷️  Rubro 2/194: logistica
+2026-01-24T21:34:09 INFO     
+🔍 Buscando 'logistica' en segmento 0
+2026-01-24T21:34:09 INFO        URL: https://www.google.com/maps/search/logistica/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-24T21:34:09 ERROR    Error en búsqueda de segmento: Message: invalid session id
+Stacktrace:
+0   undetected_chromedriver             0x0000000104f77428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x0000000104f6ec8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104982d20 undetected_chromedriver + 453920
+3   undetected_chromedriver             0x00000001049c8b3d undetected_chromedriver + 740157
+4   undetected_chromedriver             0x00000001049fe8a6 undetected_chromedriver + 960678
+5   undetected_chromedriver             0x00000001049f9085 undetected_chromedriver + 938117
+6   undetected_chromedriver             0x00000001049f829c undetected_chromedriver + 934556
+7   undetected_chromedriver             0x000000010494904f undetected_chromedriver + 217167
+8   undetected_chromedriver             0x0000000104f2f3b1 undetected_chromedriver + 6402993
+9   undetected_chromedriver             0x0000000104f3373e undetected_chromedriver + 6420286
+10  undetected_chromedriver             0x0000000104f0f0dc undetected_chromedriver + 6271196
+11  undetected_chromedriver             0x0000000104f341a8 undetected_chromedriver + 6422952
+12  undetected_chromedriver             0x0000000104efd8c0 undetected_chromedriver + 6199488
+13  undetected_chromedriver             0x0000000104946ace undetected_chromedriver + 207566
+14  dyld                                0x0000000205b5d530 start + 3056
+
+2026-01-24T21:35:31 INFO     ⏳ Esperando 7.5s antes del siguiente rubro...
+2026-01-24T21:35:31 INFO     
+🏷️  Rubro 3/194: transportes
+2026-01-24T21:35:31 INFO     
+🔍 Buscando 'transportes' en segmento 0
+2026-01-24T21:35:31 INFO        URL: https://www.google.com/maps/search/transportes/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-24T21:35:31 ERROR    Error en búsqueda de segmento: Message: invalid session id
+Stacktrace:
+0   undetected_chromedriver             0x0000000104f77428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x0000000104f6ec8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104982d20 undetected_chromedriver + 453920
+3   undetected_chromedriver             0x00000001049c8b3d undetected_chromedriver + 740157
+4   undetected_chromedriver             0x00000001049fe8a6 undetected_chromedriver + 960678
+5   undetected_chromedriver             0x00000001049f9085 undetected_chromedriver + 938117
+6   undetected_chromedriver             0x00000001049f829c undetected_chromedriver + 934556
+7   undetected_chromedriver             0x000000010494904f undetected_chromedriver + 217167
+8   undetected_chromedriver             0x0000000104f2f3b1 undetected_chromedriver + 6402993
+9   undetected_chromedriver             0x0000000104f3373e undetected_chromedriver + 6420286
+10  undetected_chromedriver             0x0000000104f0f0dc undetected_chromedriver + 6271196
+11  undetected_chromedriver             0x0000000104f341a8 undetected_chromedriver + 6422952
+12  undetected_chromedriver             0x0000000104efd8c0 undetected_chromedriver + 6199488
+13  undetected_chromedriver             0x0000000104946ace undetected_chromedriver + 207566
+14  dyld                                0x0000000205b5d530 start + 3056
+
+2026-01-24T21:35:38 INFO     ⏳ Esperando 7.7s antes del siguiente rubro...
+2026-01-24T21:35:38 INFO     
+🏷️  Rubro 4/194: mudanzas
+2026-01-24T21:35:38 INFO     
+🔍 Buscando 'mudanzas' en segmento 0
+2026-01-24T21:35:38 INFO        URL: https://www.google.com/maps/search/mudanzas/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-24T21:35:38 ERROR    Error en búsqueda de segmento: Message: invalid session id
+Stacktrace:
+0   undetected_chromedriver             0x0000000104f77428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x0000000104f6ec8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104982d20 undetected_chromedriver + 453920
+3   undetected_chromedriver             0x00000001049c8b3d undetected_chromedriver + 740157
+4   undetected_chromedriver             0x00000001049fe8a6 undetected_chromedriver + 960678
+5   undetected_chromedriver             0x00000001049f9085 undetected_chromedriver + 938117
+6   undetected_chromedriver             0x00000001049f829c undetected_chromedriver + 934556
+7   undetected_chromedriver             0x000000010494904f undetected_chromedriver + 217167
+8   undetected_chromedriver             0x0000000104f2f3b1 undetected_chromedriver + 6402993
+9   undetected_chromedriver             0x0000000104f3373e undetected_chromedriver + 6420286
+10  undetected_chromedriver             0x0000000104f0f0dc undetected_chromedriver + 6271196
+11  undetected_chromedriver             0x0000000104f341a8 undetected_chromedriver + 6422952
+12  undetected_chromedriver             0x0000000104efd8c0 undetected_chromedriver + 6199488
+13  undetected_chromedriver             0x0000000104946ace undetected_chromedriver + 207566
+14  dyld                                0x0000000205b5d530 start + 3056
+
+2026-01-24T21:35:45 INFO     ⏳ Esperando 7.0s antes del siguiente rubro...
+2026-01-24T21:35:45 INFO     
+🏷️  Rubro 5/194: fletes
+2026-01-24T21:35:45 INFO     
+🔍 Buscando 'fletes' en segmento 0
+2026-01-24T21:35:45 INFO        URL: https://www.google.com/maps/search/fletes/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-24T21:35:45 ERROR    Error en búsqueda de segmento: Message: invalid session id
+Stacktrace:
+0   undetected_chromedriver             0x0000000104f77428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x0000000104f6ec8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104982d20 undetected_chromedriver + 453920
+3   undetected_chromedriver             0x00000001049c8b3d undetected_chromedriver + 740157
+4   undetected_chromedriver             0x00000001049fe8a6 undetected_chromedriver + 960678
+5   undetected_chromedriver             0x00000001049f9085 undetected_chromedriver + 938117
+6   undetected_chromedriver             0x00000001049f829c undetected_chromedriver + 934556
+7   undetected_chromedriver             0x000000010494904f undetected_chromedriver + 217167
+8   undetected_chromedriver             0x0000000104f2f3b1 undetected_chromedriver + 6402993
+9   undetected_chromedriver             0x0000000104f3373e undetected_chromedriver + 6420286
+10  undetected_chromedriver             0x0000000104f0f0dc undetected_chromedriver + 6271196
+11  undetected_chromedriver             0x0000000104f341a8 undetected_chromedriver + 6422952
+12  undetected_chromedriver             0x0000000104efd8c0 undetected_chromedriver + 6199488
+13  undetected_chromedriver             0x0000000104946ace undetected_chromedriver + 207566
+14  dyld                                0x0000000205b5d530 start + 3056
+
+2026-01-24T21:35:53 INFO     ⏳ Esperando 8.0s antes del siguiente rubro...
+2026-01-24T21:35:53 INFO     
+🏷️  Rubro 6/194: agencia de marketing
+2026-01-24T21:35:53 INFO     
+🔍 Buscando 'agencia de marketing' en segmento 0
+2026-01-24T21:35:53 INFO        URL: https://www.google.com/maps/search/agencia+de+marketing/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-24T21:35:53 ERROR    Error en búsqueda de segmento: Message: invalid session id
+Stacktrace:
+0   undetected_chromedriver             0x0000000104f77428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x0000000104f6ec8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104982d20 undetected_chromedriver + 453920
+3   undetected_chromedriver             0x00000001049c8b3d undetected_chromedriver + 740157
+4   undetected_chromedriver             0x00000001049fe8a6 undetected_chromedriver + 960678
+5   undetected_chromedriver             0x00000001049f9085 undetected_chromedriver + 938117
+6   undetected_chromedriver             0x00000001049f829c undetected_chromedriver + 934556
+7   undetected_chromedriver             0x000000010494904f undetected_chromedriver + 217167
+8   undetected_chromedriver             0x0000000104f2f3b1 undetected_chromedriver + 6402993
+9   undetected_chromedriver             0x0000000104f3373e undetected_chromedriver + 6420286
+10  undetected_chromedriver             0x0000000104f0f0dc undetected_chromedriver + 6271196
+11  undetected_chromedriver             0x0000000104f341a8 undetected_chromedriver + 6422952
+12  undetected_chromedriver             0x0000000104efd8c0 undetected_chromedriver + 6199488
+13  undetected_chromedriver             0x0000000104946ace undetected_chromedriver + 207566
+14  dyld                                0x0000000205b5d530 start + 3056
+
+2026-01-24T21:35:58 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-01-24T21:35:58 INFO     
+🏷️  Rubro 7/194: higiene y seguridad
+2026-01-24T21:35:58 INFO     
+🔍 Buscando 'higiene y seguridad' en segmento 0
+2026-01-24T21:35:58 INFO        URL: https://www.google.com/maps/search/higiene+y+seguridad/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-24T21:35:58 ERROR    Error en búsqueda de segmento: Message: invalid session id
+Stacktrace:
+0   undetected_chromedriver             0x0000000104f77428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x0000000104f6ec8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104982d20 undetected_chromedriver + 453920
+3   undetected_chromedriver             0x00000001049c8b3d undetected_chromedriver + 740157
+4   undetected_chromedriver             0x00000001049fe8a6 undetected_chromedriver + 960678
+5   undetected_chromedriver             0x00000001049f9085 undetected_chromedriver + 938117
+6   undetected_chromedriver             0x00000001049f829c undetected_chromedriver + 934556
+7   undetected_chromedriver             0x000000010494904f undetected_chromedriver + 217167
+8   undetected_chromedriver             0x0000000104f2f3b1 undetected_chromedriver + 6402993
+9   undetected_chromedriver             0x0000000104f3373e undetected_chromedriver + 6420286
+10  undetected_chromedriver             0x0000000104f0f0dc undetected_chromedriver + 6271196
+11  undetected_chromedriver             0x0000000104f341a8 undetected_chromedriver + 6422952
+12  undetected_chromedriver             0x0000000104efd8c0 undetected_chromedriver + 6199488
+13  undetected_chromedriver             0x0000000104946ace undetected_chromedriver + 207566
+14  dyld                                0x0000000205b5d530 start + 3056
+

@@ -1,0 +1,55 @@
+2026-01-24T20:41:41 INFO     
+============================================================
+2026-01-24T20:41:41 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-24T20:41:41 INFO     ============================================================
+2026-01-24T20:41:41 INFO     📍 Ubicación: Córdoba, Argentina
+2026-01-24T20:41:41 INFO     🏷️  Rubros: fabrica, logistica, transportes, mudanzas, fletes, agencia de marketing, higiene y seguridad, auditores, cadetería
+2026-01-24T20:41:41 INFO     📐 Grid size: 1x1
+2026-01-24T20:41:41 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-24T20:41:41 INFO     ============================================================
+
+2026-01-24T20:41:41 INFO     Estado cargado: 591 empresas previas
+2026-01-24T20:41:41 INFO     🚀 Inicializando navegador...
+2026-01-24T20:41:43 INFO     patching driver executable /Users/panasabena/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-01-24T20:41:45 INFO     ✅ Navegador inicializado correctamente
+2026-01-24T20:41:46 INFO     Cookies cargadas desde cookies.pkl
+2026-01-24T20:41:46 INFO     
+============================================================
+2026-01-24T20:41:46 INFO     📍 PASO 1: GEOLOCALIZACIÓN
+2026-01-24T20:41:46 INFO     ============================================================
+2026-01-24T20:41:46 INFO     📡 Geolocalizando: Córdoba, Argentina
+2026-01-24T20:41:47 INFO     ✅ Ubicación encontrada: Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina
+2026-01-24T20:41:47 INFO        Bounding box: ['-31.5251273', '-31.3083295', '-64.3100961', '-64.0572500']
+2026-01-24T20:41:47 INFO     
+============================================================
+2026-01-24T20:41:47 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS
+2026-01-24T20:41:47 INFO     ============================================================
+2026-01-24T20:41:47 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-24T20:41:47 INFO        Segmento 1: Centro (-31.4167, -64.1837)
+2026-01-24T20:41:47 INFO     ✅ Creados 1 segmentos
+2026-01-24T20:41:47 INFO     ✅ Área dividida en 1 segmentos
+2026-01-24T20:41:47 INFO     
+============================================================
+2026-01-24T20:41:47 INFO     🔍 PASO 3: BÚSQUEDA POR SEGMENTO Y RUBRO
+2026-01-24T20:41:47 INFO     ============================================================
+2026-01-24T20:41:47 INFO     Total de búsquedas a realizar: 9
+2026-01-24T20:41:47 INFO     Rubros: fabrica, logistica, transportes, mudanzas, fletes, agencia de marketing, higiene y seguridad, auditores, cadetería
+2026-01-24T20:41:47 INFO     
+────────────────────────────────────────────────────────────
+2026-01-24T20:41:47 INFO     📍 SEGMENTO 1/1
+2026-01-24T20:41:47 INFO        Centro: (-31.4167284, -64.18367305)
+2026-01-24T20:41:47 INFO     ────────────────────────────────────────────────────────────
+2026-01-24T20:41:47 INFO     ⏭️  Segmento 1 ya fue completado previamente
+2026-01-24T20:41:47 INFO     
+============================================================
+2026-01-24T20:41:47 INFO     💾 PASO 4: GUARDANDO DATOS FINALES
+2026-01-24T20:41:47 INFO     ============================================================
+2026-01-24T20:41:47 WARNING  No hay datos para guardar
+2026-01-24T20:41:47 INFO     Cookies guardadas en cookies.pkl
+2026-01-24T20:41:47 INFO     
+============================================================
+2026-01-24T20:41:47 INFO     ✅ PROCESO COMPLETADO EXITOSAMENTE
+2026-01-24T20:41:47 INFO     ============================================================
+2026-01-24T20:41:47 INFO     🔒 Cerrando navegador...
+2026-01-24T20:41:48 INFO     
+✅ Script finalizado exitosamente

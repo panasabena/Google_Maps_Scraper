@@ -1,0 +1,40 @@
+2026-01-24T19:53:30 INFO     
+============================================================
+2026-01-24T19:53:30 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-24T19:53:30 INFO     ============================================================
+2026-01-24T19:53:30 INFO     📍 Ubicación: Córdoba, Argentina
+2026-01-24T19:53:30 INFO     🏷️  Rubros: fabrica, logistica, transportes, mudanzas, fletes, agencia de marketing, higiene y seguridad, auditores, cadetería
+2026-01-24T19:53:30 INFO     📐 Grid size: 2x2
+2026-01-24T19:53:30 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-24T19:53:30 INFO     ============================================================
+
+2026-01-24T19:53:30 INFO     🚀 Inicializando navegador...
+2026-01-24T19:53:31 INFO     patching driver executable /Users/panasabena/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-01-24T19:53:35 ERROR    ❌ Error inicializando navegador: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+0   undetected_chromedriver             0x0000000104af5428 undetected_chromedriver + 6698024
+1   undetected_chromedriver             0x0000000104aecc8a undetected_chromedriver + 6663306
+2   undetected_chromedriver             0x0000000104500f25 undetected_chromedriver + 454437
+3   undetected_chromedriver             0x000000010452f7eb undetected_chromedriver + 645099
+4   undetected_chromedriver             0x000000010452ba73 undetected_chromedriver + 629363
+5   undetected_chromedriver             0x0000000104589a4d undetected_chromedriver + 1014349
+6   undetected_chromedriver             0x000000010458939d undetected_chromedriver + 1012637
+7   undetected_chromedriver             0x000000010458b168 undetected_chromedriver + 1020264
+8   undetected_chromedriver             0x000000010458af1c undetected_chromedriver + 1019676
+9   undetected_chromedriver             0x00000001045479b1 undetected_chromedriver + 743857
+10  undetected_chromedriver             0x00000001045487b1 undetected_chromedriver + 747441
+11  undetected_chromedriver             0x0000000104aad3b1 undetected_chromedriver + 6402993
+12  undetected_chromedriver             0x0000000104ab173e undetected_chromedriver + 6420286
+13  undetected_chromedriver             0x0000000104a8d0dc undetected_chromedriver + 6271196
+14  undetected_chromedriver             0x0000000104ab21a8 undetected_chromedriver + 6422952
+15  undetected_chromedriver             0x0000000104a7b8c0 undetected_chromedriver + 6199488
+16  undetected_chromedriver             0x0000000104ad94b8 undetected_chromedriver + 6583480
+17  undetected_chromedriver             0x0000000104ad9672 undetected_chromedriver + 6583922
+18  undetected_chromedriver             0x0000000104aec891 undetected_chromedriver + 6662289
+19  libsystem_pthread.dylib             0x00007ff8046e2df1 _pthread_start + 99
+20  libsystem_pthread.dylib             0x00007ff8046de857 thread_start + 15
+
+2026-01-24T19:53:35 ERROR    No se pudo inicializar el navegador
+2026-01-24T19:53:35 ERROR    
+❌ Script finalizado con errores

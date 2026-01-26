@@ -1,0 +1,153 @@
+2026-01-24T22:58:28 INFO     
+============================================================
+2026-01-24T22:58:28 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-24T22:58:28 INFO     ============================================================
+2026-01-24T22:58:28 INFO     📍 Ubicaciones: 29 ciudades
+2026-01-24T22:58:28 INFO     🏷️  Rubros: 194 rubros
+2026-01-24T22:58:28 INFO     📐 Grid size: 1x1
+2026-01-24T22:58:28 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-24T22:58:28 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-01-24T22:58:28 INFO     ============================================================
+
+2026-01-24T22:58:28 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-01-24T22:58:29 INFO     ✅ 2540 empresas cargadas desde archivo previo
+2026-01-24T22:58:29 INFO     Estado cargado: 400 empresas previas
+2026-01-24T22:58:29 INFO     🚀 Inicializando navegador...
+2026-01-24T22:58:32 INFO     patching driver executable /Users/panasabena/Library/Application Support/undetected_chromedriver/undetected_chromedriver
+2026-01-24T22:58:36 INFO     ✅ Navegador inicializado correctamente
+2026-01-24T22:58:37 INFO     Cookies cargadas desde cookies.pkl
+2026-01-24T22:58:37 INFO     
+============================================================
+2026-01-24T22:58:37 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-01-24T22:58:37 INFO     ============================================================
+2026-01-24T22:58:37 INFO       1. Buenos Aires, Argentina
+2026-01-24T22:58:37 INFO       2. Córdoba, Argentina
+2026-01-24T22:58:37 INFO       3. Rosario, Argentina
+2026-01-24T22:58:37 INFO       4. Mendoza, Argentina
+2026-01-24T22:58:37 INFO       5. Tucumán, Argentina
+2026-01-24T22:58:37 INFO       6. La Plata, Argentina
+2026-01-24T22:58:37 INFO       7. Mar del Plata, Argentina
+2026-01-24T22:58:37 INFO       8. Salta, Argentina
+2026-01-24T22:58:37 INFO       9. Santa Fe, Argentina
+2026-01-24T22:58:37 INFO       10. Resistencia, Argentina
+2026-01-24T22:58:37 INFO       11. Santiago del Estero, Argentina
+2026-01-24T22:58:37 INFO       12. Corrientes, Argentina
+2026-01-24T22:58:37 INFO       13. Neuquén, Argentina
+2026-01-24T22:58:37 INFO       14. Bahía Blanca, Argentina
+2026-01-24T22:58:37 INFO       15. San Salvador de Jujuy, Argentina
+2026-01-24T22:58:37 INFO       16. Posadas, Argentina
+2026-01-24T22:58:37 INFO       17. Paraná, Argentina
+2026-01-24T22:58:37 INFO       18. San Luis, Argentina
+2026-01-24T22:58:37 INFO       19. Río Gallegos, Argentina
+2026-01-24T22:58:37 INFO       20. Comodoro Rivadavia, Argentina
+2026-01-24T22:58:37 INFO       21. Ushuaia, Argentina
+2026-01-24T22:58:37 INFO       22. Formosa, Argentina
+2026-01-24T22:58:37 INFO       23. Quilmes, Argentina
+2026-01-24T22:58:37 INFO       24. Morón, Argentina
+2026-01-24T22:58:37 INFO       25. San Martín, Argentina
+2026-01-24T22:58:37 INFO       26. Lanús, Argentina
+2026-01-24T22:58:37 INFO       27. Lomas de Zamora, Argentina
+2026-01-24T22:58:37 INFO       28. Tigre, Argentina
+2026-01-24T22:58:37 INFO       29. Pilar, Argentina
+2026-01-24T22:58:37 INFO     
+############################################################
+2026-01-24T22:58:37 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-01-24T22:58:37 INFO     ############################################################
+2026-01-24T22:58:37 INFO     
+============================================================
+2026-01-24T22:58:37 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Buenos Aires, Argentina
+2026-01-24T22:58:37 INFO     ============================================================
+2026-01-24T22:58:37 INFO     📡 Geolocalizando: Buenos Aires, Argentina
+2026-01-24T22:58:39 INFO     ✅ Ubicación encontrada: Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina
+2026-01-24T22:58:39 INFO        Bounding box: ['-34.7058155', '-34.5265535', '-58.5314504', '-58.3351423']
+2026-01-24T22:58:39 INFO     
+============================================================
+2026-01-24T22:58:39 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Buenos Aires, Argentina
+2026-01-24T22:58:39 INFO     ============================================================
+2026-01-24T22:58:39 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-24T22:58:39 INFO        Segmento 1: Centro (-34.6162, -58.4333)
+2026-01-24T22:58:39 INFO     ✅ Creados 1 segmentos
+2026-01-24T22:58:39 INFO     ✅ Área dividida en 1 segmentos
+2026-01-24T22:58:39 INFO     
+============================================================
+2026-01-24T22:58:39 INFO     🔍 PASO 3: BÚSQUEDA - Buenos Aires, Argentina
+2026-01-24T22:58:39 INFO     ============================================================
+2026-01-24T22:58:39 INFO     Total de búsquedas en Buenos Aires, Argentina: 194
+2026-01-24T22:58:39 INFO     Rubros: 194 rubros configurados
+2026-01-24T22:58:39 INFO     📋 Rubros pendientes en Buenos Aires, Argentina: 188
+2026-01-24T22:58:39 INFO     
+────────────────────────────────────────────────────────────
+2026-01-24T22:58:39 INFO     📍 Buenos Aires, Argentina - SEGMENTO 1/1
+2026-01-24T22:58:39 INFO        Centro: (-34.6161845, -58.43329634999999)
+2026-01-24T22:58:39 INFO     ────────────────────────────────────────────────────────────
+2026-01-24T22:58:39 INFO     
+🏷️  Rubro 1/188: agencia de marketing
+2026-01-24T22:58:39 INFO     
+🔍 Buscando 'agencia de marketing' en segmento 0
+2026-01-24T22:58:39 INFO        URL: https://www.google.com/maps/search/agencia+de+marketing/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-24T22:58:57 INFO     📄 Iniciando extracción para rubro: agencia de marketing
+2026-01-24T22:58:57 INFO        Scroll 1: 9 elementos en página
+2026-01-24T22:58:58 INFO        ✅ 9 nuevos, 9 total
+2026-01-24T22:59:05 INFO        Scroll 2: 22 elementos en página
+2026-01-24T22:59:06 INFO        ✅ 13 nuevos, 22 total
+2026-01-24T22:59:13 INFO        Scroll 3: 82 elementos en página
+2026-01-24T22:59:21 INFO        ✅ 60 nuevos, 82 total
+2026-01-24T22:59:27 INFO        Scroll 4: 122 elementos en página
+2026-01-24T22:59:35 INFO        ✅ 38 nuevos, 120 total
+2026-01-24T22:59:41 INFO        Scroll 5: 122 elementos en página
+2026-01-24T22:59:48 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-24T22:59:53 INFO        Scroll 6: 122 elementos en página
+2026-01-24T23:00:00 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-24T23:00:05 INFO        Scroll 7: 122 elementos en página
+2026-01-24T23:00:12 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-24T23:00:17 INFO        Scroll 8: 122 elementos en página
+2026-01-24T23:00:24 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-24T23:00:30 INFO        Scroll 9: 122 elementos en página
+2026-01-24T23:00:37 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-24T23:00:37 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-24T23:00:37 INFO     🔍 [agencia de marketing][-34.6162|-58.4333][SCROLL: 8]: Search page scraped: 120 unique, 725 duplicate, 120 seen, 8 paginations, 0 outOfLocation.
+2026-01-24T23:00:37 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-24T23:00:37 INFO     Estado guardado: 2540 empresas
+2026-01-24T23:00:42 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-01-24T23:00:42 INFO     
+🏷️  Rubro 2/188: auditores
+2026-01-24T23:00:42 INFO     
+🔍 Buscando 'auditores' en segmento 0
+2026-01-24T23:00:42 INFO        URL: https://www.google.com/maps/search/auditores/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-24T23:00:59 INFO     📄 Iniciando extracción para rubro: auditores
+2026-01-24T23:00:59 INFO        Scroll 1: 10 elementos en página
+2026-01-24T23:01:00 INFO        ✅ 10 nuevos, 10 total
+2026-01-24T23:01:05 INFO        Scroll 2: 19 elementos en página
+2026-01-24T23:01:06 INFO        ✅ 9 nuevos, 19 total
+2026-01-24T23:01:11 INFO        Scroll 3: 31 elementos en página
+2026-01-24T23:01:13 INFO        ✅ 9 nuevos, 28 total
+2026-01-24T23:01:19 INFO        Scroll 4: 40 elementos en página
+2026-01-24T23:01:21 INFO        ✅ 8 nuevos, 36 total
+2026-01-24T23:01:27 INFO        Scroll 5: 40 elementos en página
+2026-01-24T23:01:29 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-24T23:01:35 INFO        Scroll 6: 44 elementos en página
+2026-01-24T23:01:37 INFO        ✅ 4 nuevos, 40 total
+2026-01-24T23:01:43 INFO        Scroll 7: 53 elementos en página
+2026-01-24T23:01:46 INFO        ✅ 9 nuevos, 49 total
+2026-01-24T23:01:51 INFO        Scroll 8: 62 elementos en página
+2026-01-24T23:01:54 INFO        ✅ 9 nuevos, 58 total
+2026-01-24T23:02:00 INFO        Scroll 9: 73 elementos en página
+2026-01-24T23:02:04 INFO        ✅ 11 nuevos, 69 total
+2026-01-24T23:02:08 INFO        Scroll 10: 86 elementos en página
+2026-01-24T23:02:13 INFO        ✅ 13 nuevos, 82 total
+2026-01-24T23:02:18 INFO        Scroll 11: 86 elementos en página
+2026-01-24T23:02:23 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-24T23:02:28 INFO        Scroll 12: 86 elementos en página
+2026-01-24T23:02:33 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-24T23:02:38 INFO        Scroll 13: 86 elementos en página
+2026-01-24T23:02:42 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-24T23:02:48 INFO        Scroll 14: 86 elementos en página
+2026-01-24T23:02:53 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-24T23:02:57 INFO        Scroll 15: 86 elementos en página
+2026-01-24T23:03:02 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-24T23:03:02 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-24T23:03:02 INFO     🔍 [auditores][-34.6162|-58.4333][SCROLL: 14]: Search page scraped: 82 unique, 806 duplicate, 82 seen, 14 paginations, 0 outOfLocation.
+2026-01-24T23:03:02 INFO     ✅ Extracción completada: 82 lugares encontrados
+2026-01-24T23:03:02 INFO     📊 1 lugares agregados (Total: 2541)
+2026-01-24T23:03:02 INFO     Estado guardado: 2541 empresas
