@@ -1,0 +1,193 @@
+📦 Dashboard de Monitoreo de Scraping Argentina
+│
+├── 🚀 ARCHIVOS PRINCIPALES
+│   ├── app.py ⭐                           # Aplicación principal del dashboard
+│   ├── config.py ⭐                        # Configuración (28 ubicaciones, 196 rubros)
+│   ├── requirements.txt                    # Dependencias de Python
+│   └── .gitignore                          # Archivos ignorados por Git
+│
+├── 📚 DOCUMENTACIÓN
+│   ├── README.md ⭐                        # Documentación completa (300+ líneas)
+│   ├── QUICKSTART.md                       # Guía de inicio rápido
+│   ├── PROJECT_SUMMARY.md                  # Resumen del proyecto
+│   └── ESTRUCTURA.txt                      # Este archivo
+│
+├── 🛠️ SCRIPTS
+│   ├── install.sh ⭐                       # Instalación automática
+│   ├── run.sh                              # Ejecución rápida
+│   ├── download_geojson.py                 # Descargador de GeoJSON
+│   └── generate_sample_data.py             # Generador de datos de prueba
+│
+├── 📁 src/ - MÓDULOS DE CÓDIGO ⭐
+│   ├── data_loader.py                      # Carga y procesamiento de datos
+│   ├── statistics_calculator.py            # Cálculo de estadísticas
+│   ├── progress_tracker.py                 # Seguimiento de progreso
+│   └── map_generator.py                    # Generación de mapas interactivos
+│
+├── 🎨 assets/ - RECURSOS ESTÁTICOS
+│   ├── css/
+│   │   └── style.css ⭐                    # Estilos personalizados (500+ líneas)
+│   └── images/
+│       └── (logos, íconos, etc.)
+│
+├── 📊 data/ - DATOS Y ARCHIVOS GEOGRÁFICOS
+│   └── geo/
+│       └── argentina_provincias.geojson ⭐  # Mapa de provincias (24 provincias)
+│
+├── 📝 logs/ - LOGS DE LA APLICACIÓN
+│   ├── .gitkeep
+│   └── dashboard.log                       # (se genera al ejecutar)
+│
+└── 🐍 Dossier/ - ENTORNO VIRTUAL
+    ├── bin/
+    │   ├── activate ⭐                     # Script para activar entorno
+    │   └── python                          # Intérprete de Python
+    ├── lib/
+    │   └── python3.9/
+    │       └── site-packages/              # Paquetes instalados
+    └── pyvenv.cfg
+
+═══════════════════════════════════════════════════════════════════
+
+🎯 ARCHIVOS CLAVE (⭐)
+
+1. app.py
+   • Aplicación principal con Dash
+   • 5 tabs: Resumen, Mapa, Estadísticas, Progreso, Datos
+   • 540+ líneas de código
+
+2. config.py
+   • 28 ubicaciones de Argentina
+   • 196 rubros de búsqueda
+   • Configuración del dashboard
+
+3. src/data_loader.py
+   • Carga CSV con chunks para archivos grandes
+   • Caché inteligente con detección de cambios
+   • Filtrado avanzado de datos
+
+4. src/statistics_calculator.py
+   • Estadísticas generales y por provincia
+   • Distribución por categoría y rubro
+   • Timeline y distribución de ratings
+
+5. src/progress_tracker.py
+   • Seguimiento de 5,488 combinaciones
+   • Estado por ubicación y provincia
+   • Estimación de tiempo de completado
+
+6. src/map_generator.py
+   • Mapas interactivos con Plotly
+   • Heatmaps de densidad
+   • Gráficos de progreso
+
+7. assets/css/style.css
+   • Diseño responsive
+   • Modo oscuro opcional
+   • Animaciones y transiciones
+
+8. README.md
+   • Instalación y uso
+   • Solución de problemas
+   • Personalización
+
+═══════════════════════════════════════════════════════════════════
+
+📋 DATOS DE ENTRADA (EXTERNOS)
+
+Los siguientes archivos NO están en este directorio, pero el dashboard
+los necesita para funcionar:
+
+1. CSV de empresas:
+   /Users/panasabena/Scraper_Maps/resultados/google_maps_results.csv
+   
+   Columnas:
+   • nombre, direccion, ciudad, categoria
+   • rating, num_resenas, telefono, sitio_web, email
+   • latitud, longitud, url_google_maps
+   • rubro_buscado, fecha_extraccion
+
+2. JSON de estado:
+   /Users/panasabena/Scraper_Maps/estado_ejecucion.json
+   
+   Estructura:
+   {
+     "ubicaciones_completadas": {
+       "ubicacion_key": {
+         "nombre": "...",
+         "rubros_completados": [...]
+       }
+     }
+   }
+
+═══════════════════════════════════════════════════════════════════
+
+🚀 INICIO RÁPIDO
+
+# Opción 1: Script automático
+./install.sh
+
+# Opción 2: Manual
+python3 -m venv Dossier
+source Dossier/bin/activate
+pip install -r requirements.txt
+
+# Ejecutar dashboard
+./run.sh
+# o
+python app.py
+
+# Acceder
+http://localhost:8050/
+
+═══════════════════════════════════════════════════════════════════
+
+📊 ESTADÍSTICAS DEL PROYECTO
+
+Líneas de código:
+• Python: ~3,000+ líneas
+• CSS: ~500 líneas
+• Markdown: ~800 líneas
+
+Archivos creados:
+• Python: 8 archivos
+• Documentación: 4 archivos
+• Scripts: 4 archivos
+• CSS: 1 archivo
+• GeoJSON: 1 archivo
+• Total: 18 archivos
+
+Funcionalidades:
+• 5 tabs principales
+• 15+ gráficos interactivos
+• 3 tipos de mapas
+• Filtros dinámicos
+• Exportación de datos
+• Actualización automática
+
+═══════════════════════════════════════════════════════════════════
+
+💡 PRÓXIMOS PASOS
+
+1. ✅ Instalar dependencias: ./install.sh
+2. ✅ Verificar archivos de datos en config.py
+3. ✅ Ejecutar dashboard: ./run.sh
+4. ✅ Abrir navegador: http://localhost:8050/
+5. ✅ Explorar las 5 pestañas
+6. ✅ Probar filtros y búsqueda
+7. ✅ Exportar datos si es necesario
+8. ✅ Personalizar según necesidades
+
+═══════════════════════════════════════════════════════════════════
+
+📧 SOPORTE
+
+• README.md: Documentación completa
+• QUICKSTART.md: Inicio rápido
+• PROJECT_SUMMARY.md: Resumen técnico
+• logs/dashboard.log: Logs de errores
+
+═══════════════════════════════════════════════════════════════════
+
+✅ PROYECTO COMPLETADO - Enero 2026
+🎉 ¡Listo para usar!

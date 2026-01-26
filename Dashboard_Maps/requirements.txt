@@ -1,0 +1,32 @@
+# Dashboard de Monitoreo de Scraping Argentina
+# Dependencias necesarias
+
+# Framework de Dashboard
+dash>=2.14.0
+dash-bootstrap-components>=1.5.0
+
+# Visualización y Gráficos
+plotly>=5.18.0
+
+# Análisis de Datos
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Datos Geoespaciales (opcional, solo si usas GeoDataFrames)
+# geopandas>=0.14.0
+# shapely>=2.0.0
+# pyproj>=3.6.0
+
+# Utilidades
+requests>=2.31.0
+python-dateutil>=2.8.0
+
+# Monitoreo y Logs (opcional)
+# watchdog>=3.0.0
+
+# Servidor (para producción)
+gunicorn>=21.0.0
+
+# Opcional para mejor rendimiento
+psutil>=5.9.0
