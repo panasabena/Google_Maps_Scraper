@@ -190,6 +190,16 @@ class DataManager:
                 shutil.copy2(self.archivo_csv, backup_temp)
                 logging.info(f"🔒 Backup temporal creado: {backup_temp}")
             
+            # ✅ ASEGURAR que todas las columnas estén presentes (incluso si están vacías)
+            for columna in self.columnas:
+                if columna not in self.df.columns:
+                    self.df[columna] = ''
+                    logging.info(f"📋 Columna agregada: {columna}")
+            
+            # Reordenar columnas según el orden definido
+            columnas_existentes = [col for col in self.columnas if col in self.df.columns]
+            self.df = self.df[columnas_existentes]
+            
             # Guardar archivos principales
             self.df.to_excel(self.archivo_excel, index=False, engine='openpyxl')
             self.df.to_csv(self.archivo_csv, index=False, encoding='utf-8-sig')
@@ -240,6 +250,16 @@ class DataManager:
                 backup_temp = self.archivo_csv.with_suffix('.csv.backup_temp')
                 shutil.copy2(self.archivo_csv, backup_temp)
                 logging.info(f"🔒 Backup temporal creado antes de guardar final")
+            
+            # ✅ ASEGURAR que todas las columnas estén presentes (incluso si están vacías)
+            for columna in self.columnas:
+                if columna not in self.df.columns:
+                    self.df[columna] = ''
+                    logging.info(f"📋 Columna agregada: {columna}")
+            
+            # Reordenar columnas según el orden definido
+            columnas_existentes = [col for col in self.columnas if col in self.df.columns]
+            self.df = self.df[columnas_existentes]
             
             # Guardar archivo final en Excel Y CSV
             self.df.to_excel(self.archivo_excel, index=False, engine='openpyxl')
