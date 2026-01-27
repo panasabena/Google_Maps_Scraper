@@ -222,6 +222,48 @@ class SegmentSearcher:
                             if lugar_id not in seen_ids:
                                 seen_ids.add(lugar_id)
                                 
+                                # 🔥 EXTRAER DATOS DETALLADOS (sitio web, email, coordenadas)
+                                if datos.get('url_google_maps'):
+                                    try:
+                                        logging.debug(f"   🔍 Extrayendo detalles de: {datos['nombre']}")
+                                        datos_detallados = self.extractor.extraer_datos_detallados(datos['url_google_maps'])
+                                        
+                                        # Combinar datos básicos con detallados
+                                        # Solo sobrescribir si el dato detallado tiene valor
+                                        if datos_detallados.get('telefono') and datos_detallados['telefono'] != 'N/A':
+                                            datos['telefono'] = datos_detallados['telefono']
+                                        
+                                        if datos_detallados.get('sitio_web'):
+                                            datos['sitio_web'] = datos_detallados['sitio_web']
+                                        
+                                        if datos_detallados.get('email'):
+                                            datos['email'] = datos_detallados['email']
+                                        
+                                        # Coordenadas más precisas desde la página de detalle
+                                        if datos_detallados.get('latitud'):
+                                            datos['latitud'] = datos_detallados['latitud']
+                                        if datos_detallados.get('longitud'):
+                                            datos['longitud'] = datos_detallados['longitud']
+                                        
+                                        if datos_detallados.get('direccion_completa'):
+                                            datos['direccion'] = datos_detallados['direccion_completa']
+                                        
+                                        # Volver a la página de resultados
+                                        self.driver.back()
+                                        delay_aleatorio((1, 2))
+                                        
+                                        # Re-localizar el feed después de volver
+                                        elemento_feed = self.driver.find_element(By.CSS_SELECTOR, SELECTORS['resultados_feed'])
+                                        
+                                    except Exception as e:
+                                        logging.warning(f"   ⚠️  Error extrayendo detalles: {str(e)}")
+                                        # Intentar volver a la página de resultados
+                                        try:
+                                            self.driver.back()
+                                            delay_aleatorio((1, 2))
+                                        except:
+                                            pass
+                                
                                 # Agregar metadatos
                                 datos['rubro_buscado'] = rubro
                                 datos['segmento_id'] = segmento['id']

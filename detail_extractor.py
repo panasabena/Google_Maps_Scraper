@@ -168,13 +168,26 @@ class DetailExtractor:
             'email': '',
             'horarios': '',
             'rango_precios': '',
-            'direccion_completa': ''
+            'direccion_completa': '',
+            'latitud': '',
+            'longitud': ''
         }
         
         try:
             # Navegar a la página del lugar
             self.driver.get(url_lugar)
             delay_aleatorio((2, 4))
+            
+            # Extraer coordenadas de la URL actual (más precisa después de cargar)
+            try:
+                url_actual = self.driver.current_url
+                # Buscar patrón: @latitud,longitud,zoom
+                match = re.search(r'@(-?\d+\.\d+),(-?\d+\.\d+),', url_actual)
+                if match:
+                    datos_detallados['latitud'] = match.group(1)
+                    datos_detallados['longitud'] = match.group(2)
+            except Exception as e:
+                logging.debug(f"No se pudieron extraer coordenadas de URL: {str(e)}")
             
             # Teléfono
             try:
