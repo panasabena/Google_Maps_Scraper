@@ -87,7 +87,8 @@ class GoogleMapsScraper:
             
             # Inicializar driver con undetected-chromedriver
             # undetected-chromedriver maneja automáticamente la anti-detección
-            self.driver = uc.Chrome(options=options, use_subprocess=True)
+            # version_main=144 fuerza a usar Chrome 144
+            self.driver = uc.Chrome(options=options, use_subprocess=True, version_main=144)
             
             logging.info("✅ Navegador inicializado correctamente")
             
