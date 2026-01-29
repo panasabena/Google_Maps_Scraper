@@ -1,0 +1,86 @@
+2026-01-26T20:26:06 INFO     
+============================================================
+2026-01-26T20:26:06 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-26T20:26:06 INFO     ============================================================
+2026-01-26T20:26:06 INFO     📍 Ubicaciones: 29 ciudades
+2026-01-26T20:26:06 INFO     🏷️  Rubros: 194 rubros
+2026-01-26T20:26:06 INFO     📐 Grid size: 1x1
+2026-01-26T20:26:06 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-26T20:26:06 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-01-26T20:26:06 INFO     ============================================================
+
+2026-01-26T20:26:06 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-01-26T20:26:06 INFO     ✅ 310 empresas cargadas desde archivo previo
+2026-01-26T20:26:06 INFO     🚀 Inicializando navegador...
+2026-01-26T20:26:13 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-01-26T20:26:14 INFO     ✅ Navegador inicializado correctamente
+2026-01-26T20:26:18 INFO     
+============================================================
+2026-01-26T20:26:18 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-01-26T20:26:18 INFO     ============================================================
+2026-01-26T20:26:18 INFO       1. Buenos Aires, Argentina
+2026-01-26T20:26:18 INFO       2. Córdoba, Argentina
+2026-01-26T20:26:18 INFO       3. Rosario, Argentina
+2026-01-26T20:26:18 INFO       4. Mendoza, Argentina
+2026-01-26T20:26:18 INFO       5. Tucumán, Argentina
+2026-01-26T20:26:18 INFO       6. La Plata, Argentina
+2026-01-26T20:26:18 INFO       7. Mar del Plata, Argentina
+2026-01-26T20:26:18 INFO       8. Salta, Argentina
+2026-01-26T20:26:18 INFO       9. Santa Fe, Argentina
+2026-01-26T20:26:18 INFO       10. Resistencia, Argentina
+2026-01-26T20:26:18 INFO       11. Santiago del Estero, Argentina
+2026-01-26T20:26:18 INFO       12. Corrientes, Argentina
+2026-01-26T20:26:18 INFO       13. Neuquén, Argentina
+2026-01-26T20:26:18 INFO       14. Bahía Blanca, Argentina
+2026-01-26T20:26:18 INFO       15. San Salvador de Jujuy, Argentina
+2026-01-26T20:26:18 INFO       16. Posadas, Argentina
+2026-01-26T20:26:18 INFO       17. Paraná, Argentina
+2026-01-26T20:26:18 INFO       18. San Luis, Argentina
+2026-01-26T20:26:18 INFO       19. Río Gallegos, Argentina
+2026-01-26T20:26:18 INFO       20. Comodoro Rivadavia, Argentina
+2026-01-26T20:26:18 INFO       21. Ushuaia, Argentina
+2026-01-26T20:26:18 INFO       22. Formosa, Argentina
+2026-01-26T20:26:18 INFO       23. Quilmes, Argentina
+2026-01-26T20:26:18 INFO       24. Morón, Argentina
+2026-01-26T20:26:18 INFO       25. San Martín, Argentina
+2026-01-26T20:26:18 INFO       26. Lanús, Argentina
+2026-01-26T20:26:18 INFO       27. Lomas de Zamora, Argentina
+2026-01-26T20:26:18 INFO       28. Tigre, Argentina
+2026-01-26T20:26:18 INFO       29. Pilar, Argentina
+2026-01-26T20:26:18 INFO     
+############################################################
+2026-01-26T20:26:18 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-01-26T20:26:18 INFO     ############################################################
+2026-01-26T20:26:18 INFO     
+============================================================
+2026-01-26T20:26:18 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Buenos Aires, Argentina
+2026-01-26T20:26:18 INFO     ============================================================
+2026-01-26T20:26:18 INFO     📡 Geolocalizando: Buenos Aires, Argentina
+2026-01-26T20:26:20 INFO     ✅ Ubicación encontrada: Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina
+2026-01-26T20:26:20 INFO        Bounding box: ['-34.7058155', '-34.5265535', '-58.5314504', '-58.3351423']
+2026-01-26T20:26:20 INFO     
+============================================================
+2026-01-26T20:26:20 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Buenos Aires, Argentina
+2026-01-26T20:26:20 INFO     ============================================================
+2026-01-26T20:26:20 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-26T20:26:20 INFO        Segmento 1: Centro (-34.6162, -58.4333)
+2026-01-26T20:26:20 INFO     ✅ Creados 1 segmentos
+2026-01-26T20:26:20 INFO     ✅ Área dividida en 1 segmentos
+2026-01-26T20:26:20 INFO     
+============================================================
+2026-01-26T20:26:20 INFO     🔍 PASO 3: BÚSQUEDA - Buenos Aires, Argentina
+2026-01-26T20:26:20 INFO     ============================================================
+2026-01-26T20:26:20 INFO     Total de búsquedas en Buenos Aires, Argentina: 194
+2026-01-26T20:26:20 INFO     Rubros: 194 rubros configurados
+2026-01-26T20:26:20 INFO     📋 Rubros pendientes en Buenos Aires, Argentina: 194
+2026-01-26T20:26:20 INFO     
+────────────────────────────────────────────────────────────
+2026-01-26T20:26:20 INFO     📍 Buenos Aires, Argentina - SEGMENTO 1/1
+2026-01-26T20:26:20 INFO        Centro: (-34.6161845, -58.43329634999999)
+2026-01-26T20:26:20 INFO     ────────────────────────────────────────────────────────────
+2026-01-26T20:26:20 INFO     
+🏷️  Rubro 1/194: fabrica
+2026-01-26T20:26:20 INFO     
+🔍 Buscando 'fabrica' en segmento 0
+2026-01-26T20:26:20 INFO        URL: https://www.google.com/maps/search/fabrica/@-34.6161845,-58.43329634999999,11z?hl=es-419

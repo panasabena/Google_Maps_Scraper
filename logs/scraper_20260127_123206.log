@@ -1,0 +1,193 @@
+2026-01-27T12:32:06 INFO     
+============================================================
+2026-01-27T12:32:06 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-27T12:32:06 INFO     ============================================================
+2026-01-27T12:32:06 INFO     📍 Ubicaciones: 29 ciudades
+2026-01-27T12:32:06 INFO     🏷️  Rubros: 194 rubros
+2026-01-27T12:32:06 INFO     📐 Grid size: 1x1
+2026-01-27T12:32:06 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-27T12:32:06 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-01-27T12:32:06 INFO     ============================================================
+
+2026-01-27T12:32:06 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-01-27T12:32:07 INFO     ✅ 5367 empresas cargadas desde archivo previo
+2026-01-27T12:32:07 INFO     Estado cargado: 5377 empresas previas
+2026-01-27T12:32:07 INFO     🚀 Inicializando navegador...
+2026-01-27T12:32:11 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-01-27T12:32:12 INFO     ✅ Navegador inicializado correctamente
+2026-01-27T12:32:14 INFO     
+============================================================
+2026-01-27T12:32:14 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-01-27T12:32:14 INFO     ============================================================
+2026-01-27T12:32:14 INFO       1. Buenos Aires, Argentina
+2026-01-27T12:32:14 INFO       2. Córdoba, Argentina
+2026-01-27T12:32:14 INFO       3. Rosario, Argentina
+2026-01-27T12:32:14 INFO       4. Mendoza, Argentina
+2026-01-27T12:32:14 INFO       5. Tucumán, Argentina
+2026-01-27T12:32:14 INFO       6. La Plata, Argentina
+2026-01-27T12:32:14 INFO       7. Mar del Plata, Argentina
+2026-01-27T12:32:14 INFO       8. Salta, Argentina
+2026-01-27T12:32:14 INFO       9. Santa Fe, Argentina
+2026-01-27T12:32:14 INFO       10. Resistencia, Argentina
+2026-01-27T12:32:14 INFO       11. Santiago del Estero, Argentina
+2026-01-27T12:32:14 INFO       12. Corrientes, Argentina
+2026-01-27T12:32:14 INFO       13. Neuquén, Argentina
+2026-01-27T12:32:14 INFO       14. Bahía Blanca, Argentina
+2026-01-27T12:32:14 INFO       15. San Salvador de Jujuy, Argentina
+2026-01-27T12:32:14 INFO       16. Posadas, Argentina
+2026-01-27T12:32:14 INFO       17. Paraná, Argentina
+2026-01-27T12:32:14 INFO       18. San Luis, Argentina
+2026-01-27T12:32:14 INFO       19. Río Gallegos, Argentina
+2026-01-27T12:32:14 INFO       20. Comodoro Rivadavia, Argentina
+2026-01-27T12:32:14 INFO       21. Ushuaia, Argentina
+2026-01-27T12:32:14 INFO       22. Formosa, Argentina
+2026-01-27T12:32:14 INFO       23. Quilmes, Argentina
+2026-01-27T12:32:14 INFO       24. Morón, Argentina
+2026-01-27T12:32:14 INFO       25. San Martín, Argentina
+2026-01-27T12:32:14 INFO       26. Lanús, Argentina
+2026-01-27T12:32:14 INFO       27. Lomas de Zamora, Argentina
+2026-01-27T12:32:14 INFO       28. Tigre, Argentina
+2026-01-27T12:32:14 INFO       29. Pilar, Argentina
+2026-01-27T12:32:14 INFO     
+############################################################
+2026-01-27T12:32:14 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-01-27T12:32:14 INFO     ############################################################
+2026-01-27T12:32:14 INFO     
+============================================================
+2026-01-27T12:32:14 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Buenos Aires, Argentina
+2026-01-27T12:32:14 INFO     ============================================================
+2026-01-27T12:32:14 INFO     📡 Geolocalizando: Buenos Aires, Argentina
+2026-01-27T12:32:16 INFO     ✅ Ubicación encontrada: Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina
+2026-01-27T12:32:16 INFO        Bounding box: ['-34.7058155', '-34.5265535', '-58.5314504', '-58.3351423']
+2026-01-27T12:32:16 INFO     
+============================================================
+2026-01-27T12:32:16 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Buenos Aires, Argentina
+2026-01-27T12:32:16 INFO     ============================================================
+2026-01-27T12:32:16 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-27T12:32:16 INFO        Segmento 1: Centro (-34.6162, -58.4333)
+2026-01-27T12:32:16 INFO     ✅ Creados 1 segmentos
+2026-01-27T12:32:16 INFO     ✅ Área dividida en 1 segmentos
+2026-01-27T12:32:16 INFO     
+============================================================
+2026-01-27T12:32:16 INFO     🔍 PASO 3: BÚSQUEDA - Buenos Aires, Argentina
+2026-01-27T12:32:16 INFO     ============================================================
+2026-01-27T12:32:16 INFO     Total de búsquedas en Buenos Aires, Argentina: 194
+2026-01-27T12:32:16 INFO     Rubros: 194 rubros configurados
+2026-01-27T12:32:16 INFO     📋 Rubros pendientes en Buenos Aires, Argentina: 128
+2026-01-27T12:32:16 INFO     
+────────────────────────────────────────────────────────────
+2026-01-27T12:32:16 INFO     📍 Buenos Aires, Argentina - SEGMENTO 1/1
+2026-01-27T12:32:16 INFO        Centro: (-34.6161845, -58.43329634999999)
+2026-01-27T12:32:16 INFO     ────────────────────────────────────────────────────────────
+2026-01-27T12:32:16 INFO     
+🏷️  Rubro 1/128: reparaciones mecánicas
+2026-01-27T12:32:16 INFO     
+🔍 Buscando 'reparaciones mecánicas' en segmento 0
+2026-01-27T12:32:16 INFO        URL: https://www.google.com/maps/search/reparaciones+mecánicas/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-27T12:32:35 INFO     📄 Iniciando extracción para rubro: reparaciones mecánicas
+2026-01-27T12:32:36 INFO        Scroll 1: 22 elementos en página
+2026-01-27T12:35:28 INFO        ✅ 22 nuevos, 22 total
+2026-01-27T12:35:35 INFO        Scroll 2: 29 elementos en página
+2026-01-27T12:36:23 INFO        ✅ 5 nuevos, 27 total
+2026-01-27T12:36:29 INFO        Scroll 3: 36 elementos en página
+2026-01-27T12:37:35 INFO        ✅ 7 nuevos, 34 total
+2026-01-27T12:37:41 INFO        Scroll 4: 43 elementos en página
+2026-01-27T12:39:02 INFO        ✅ 7 nuevos, 41 total
+2026-01-27T12:39:07 INFO        Scroll 5: 51 elementos en página
+2026-01-27T12:40:22 INFO        ✅ 7 nuevos, 48 total
+2026-01-27T12:40:27 INFO        Scroll 6: 58 elementos en página
+2026-01-27T12:41:36 INFO        ✅ 7 nuevos, 55 total
+2026-01-27T12:41:40 INFO        Scroll 7: 64 elementos en página
+2026-01-27T12:42:48 INFO        ✅ 6 nuevos, 61 total
+2026-01-27T12:42:54 INFO        Scroll 8: 71 elementos en página
+2026-01-27T12:44:12 INFO        ✅ 7 nuevos, 68 total
+2026-01-27T12:44:18 INFO        Scroll 9: 78 elementos en página
+2026-01-27T12:45:46 INFO        ✅ 7 nuevos, 75 total
+2026-01-27T12:45:51 INFO        Scroll 10: 84 elementos en página
+2026-01-27T12:47:10 INFO        ✅ 6 nuevos, 81 total
+2026-01-27T12:47:16 INFO        Scroll 11: 91 elementos en página
+2026-01-27T12:49:17 INFO        ✅ 7 nuevos, 88 total
+2026-01-27T12:49:22 INFO        Scroll 12: 98 elementos en página
+2026-01-27T12:51:35 INFO        ✅ 7 nuevos, 95 total
+2026-01-27T12:51:41 INFO        Scroll 13: 104 elementos en página
+2026-01-27T12:53:46 INFO        ✅ 6 nuevos, 101 total
+2026-01-27T12:53:51 INFO        Scroll 14: 111 elementos en página
+2026-01-27T12:55:59 INFO        ✅ 7 nuevos, 108 total
+2026-01-27T12:56:06 INFO        Scroll 15: 118 elementos en página
+2026-01-27T12:57:52 INFO        ✅ 7 nuevos, 115 total
+2026-01-27T12:57:59 INFO        Scroll 16: 124 elementos en página
+2026-01-27T12:59:27 INFO        ✅ 6 nuevos, 121 total
+2026-01-27T12:59:32 INFO        Scroll 17: 124 elementos en página
+2026-01-27T13:00:17 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-27T13:00:23 INFO        Scroll 18: 124 elementos en página
+2026-01-27T13:01:07 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-27T13:01:12 INFO        Scroll 19: 124 elementos en página
+2026-01-27T13:01:57 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-27T13:02:03 INFO        Scroll 20: 124 elementos en página
+2026-01-27T13:02:47 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-27T13:02:53 INFO        Scroll 21: 124 elementos en página
+2026-01-27T13:03:38 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-27T13:03:38 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-27T13:03:38 INFO     🔍 [reparaciones mecánicas][-34.6162|-58.4333][SCROLL: 20]: Search page scraped: 121 unique, 1681 duplicate, 121 seen, 20 paginations, 0 outOfLocation.
+2026-01-27T13:03:38 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-27T13:03:38 INFO     📊 118 lugares agregados (Total: 5485)
+2026-01-27T13:03:38 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-27T13:03:41 INFO     💾 Checkpoint guardado: 5485 empresas TOTALES
+2026-01-27T13:03:41 INFO     Estado guardado: 5485 empresas
+2026-01-27T13:03:46 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-01-27T13:03:46 INFO     
+🏷️  Rubro 2/128: taller de maquinaria
+2026-01-27T13:03:46 INFO     
+🔍 Buscando 'taller de maquinaria' en segmento 0
+2026-01-27T13:03:46 INFO        URL: https://www.google.com/maps/search/taller+de+maquinaria/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-27T13:04:08 INFO     📄 Iniciando extracción para rubro: taller de maquinaria
+2026-01-27T13:04:08 INFO        Scroll 1: 7 elementos en página
+2026-01-27T13:04:54 INFO        ✅ 7 nuevos, 7 total
+2026-01-27T13:04:58 INFO        Scroll 2: 7 elementos en página
+2026-01-27T13:05:01 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-27T13:05:07 INFO        Scroll 3: 7 elementos en página
+2026-01-27T13:05:09 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-27T13:05:15 INFO        Scroll 4: 7 elementos en página
+2026-01-27T13:05:17 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-27T13:05:22 INFO        Scroll 5: 7 elementos en página
+2026-01-27T13:05:24 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-27T13:05:29 INFO        Scroll 6: 7 elementos en página
+2026-01-27T13:05:32 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-27T13:05:32 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-27T13:05:32 INFO     🔍 [taller de maquinaria][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 7 unique, 35 duplicate, 7 seen, 5 paginations, 0 outOfLocation.
+2026-01-27T13:05:32 INFO     ✅ Extracción completada: 7 lugares encontrados
+2026-01-27T13:05:32 INFO     📊 2 lugares agregados (Total: 5487)
+2026-01-27T13:05:32 INFO     Estado guardado: 5487 empresas
+2026-01-27T13:05:37 INFO     ⏳ Esperando 5.4s antes del siguiente rubro...
+2026-01-27T13:05:37 INFO     
+🏷️  Rubro 3/128: mantenimiento industrial
+2026-01-27T13:05:37 INFO     
+🔍 Buscando 'mantenimiento industrial' en segmento 0
+2026-01-27T13:05:37 INFO        URL: https://www.google.com/maps/search/mantenimiento+industrial/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-27T13:05:58 INFO     📄 Iniciando extracción para rubro: mantenimiento industrial
+2026-01-27T13:05:58 INFO        Scroll 1: 10 elementos en página
+2026-01-27T13:06:54 INFO        ✅ 10 nuevos, 10 total
+2026-01-27T13:06:59 INFO        Scroll 2: 10 elementos en página
+2026-01-27T13:07:03 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-27T13:07:08 INFO        Scroll 3: 10 elementos en página
+2026-01-27T13:07:12 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-27T13:07:18 INFO        Scroll 4: 10 elementos en página
+2026-01-27T13:07:21 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-27T13:07:27 INFO        Scroll 5: 10 elementos en página
+2026-01-27T13:07:31 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-27T13:07:37 INFO        Scroll 6: 10 elementos en página
+2026-01-27T13:07:40 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-27T13:07:40 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-27T13:07:40 INFO     🔍 [mantenimiento industrial][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-27T13:07:40 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-27T13:07:40 INFO     📊 1 lugares agregados (Total: 5488)
+2026-01-27T13:07:40 INFO     Estado guardado: 5488 empresas
+2026-01-27T13:07:48 INFO     ⏳ Esperando 7.8s antes del siguiente rubro...
+2026-01-27T13:07:48 INFO     
+🏷️  Rubro 4/128: servicios industriales
+2026-01-27T13:07:48 INFO     
+🔍 Buscando 'servicios industriales' en segmento 0
+2026-01-27T13:07:48 INFO        URL: https://www.google.com/maps/search/servicios+industriales/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-27T13:08:08 INFO     📄 Iniciando extracción para rubro: servicios industriales
+2026-01-27T13:08:08 INFO        Scroll 1: 10 elementos en página

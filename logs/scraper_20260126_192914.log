@@ -1,0 +1,852 @@
+2026-01-26T19:29:14 INFO     
+============================================================
+2026-01-26T19:29:14 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-26T19:29:14 INFO     ============================================================
+2026-01-26T19:29:14 INFO     📍 Ubicaciones: 29 ciudades
+2026-01-26T19:29:14 INFO     🏷️  Rubros: 194 rubros
+2026-01-26T19:29:14 INFO     📐 Grid size: 1x1
+2026-01-26T19:29:14 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-26T19:29:14 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-01-26T19:29:14 INFO     ============================================================
+
+2026-01-26T19:29:14 INFO     📝 No hay datos previos - iniciando desde cero
+2026-01-26T19:29:14 INFO     Estado cargado: 0 empresas previas
+2026-01-26T19:29:14 INFO     🚀 Inicializando navegador...
+2026-01-26T19:29:22 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-01-26T19:29:23 INFO     ✅ Navegador inicializado correctamente
+2026-01-26T19:29:26 INFO     
+============================================================
+2026-01-26T19:29:26 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-01-26T19:29:26 INFO     ============================================================
+2026-01-26T19:29:26 INFO       1. Buenos Aires, Argentina
+2026-01-26T19:29:26 INFO       2. Córdoba, Argentina
+2026-01-26T19:29:26 INFO       3. Rosario, Argentina
+2026-01-26T19:29:26 INFO       4. Mendoza, Argentina
+2026-01-26T19:29:26 INFO       5. Tucumán, Argentina
+2026-01-26T19:29:26 INFO       6. La Plata, Argentina
+2026-01-26T19:29:26 INFO       7. Mar del Plata, Argentina
+2026-01-26T19:29:26 INFO       8. Salta, Argentina
+2026-01-26T19:29:26 INFO       9. Santa Fe, Argentina
+2026-01-26T19:29:26 INFO       10. Resistencia, Argentina
+2026-01-26T19:29:26 INFO       11. Santiago del Estero, Argentina
+2026-01-26T19:29:26 INFO       12. Corrientes, Argentina
+2026-01-26T19:29:26 INFO       13. Neuquén, Argentina
+2026-01-26T19:29:26 INFO       14. Bahía Blanca, Argentina
+2026-01-26T19:29:26 INFO       15. San Salvador de Jujuy, Argentina
+2026-01-26T19:29:26 INFO       16. Posadas, Argentina
+2026-01-26T19:29:26 INFO       17. Paraná, Argentina
+2026-01-26T19:29:26 INFO       18. San Luis, Argentina
+2026-01-26T19:29:26 INFO       19. Río Gallegos, Argentina
+2026-01-26T19:29:26 INFO       20. Comodoro Rivadavia, Argentina
+2026-01-26T19:29:26 INFO       21. Ushuaia, Argentina
+2026-01-26T19:29:26 INFO       22. Formosa, Argentina
+2026-01-26T19:29:26 INFO       23. Quilmes, Argentina
+2026-01-26T19:29:26 INFO       24. Morón, Argentina
+2026-01-26T19:29:26 INFO       25. San Martín, Argentina
+2026-01-26T19:29:26 INFO       26. Lanús, Argentina
+2026-01-26T19:29:26 INFO       27. Lomas de Zamora, Argentina
+2026-01-26T19:29:26 INFO       28. Tigre, Argentina
+2026-01-26T19:29:26 INFO       29. Pilar, Argentina
+2026-01-26T19:29:26 INFO     
+############################################################
+2026-01-26T19:29:26 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-01-26T19:29:26 INFO     ############################################################
+2026-01-26T19:29:26 INFO     
+============================================================
+2026-01-26T19:29:26 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Buenos Aires, Argentina
+2026-01-26T19:29:26 INFO     ============================================================
+2026-01-26T19:29:26 INFO     📡 Geolocalizando: Buenos Aires, Argentina
+2026-01-26T19:29:28 INFO     ✅ Ubicación encontrada: Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina
+2026-01-26T19:29:28 INFO        Bounding box: ['-34.7058155', '-34.5265535', '-58.5314504', '-58.3351423']
+2026-01-26T19:29:28 INFO     
+============================================================
+2026-01-26T19:29:28 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Buenos Aires, Argentina
+2026-01-26T19:29:28 INFO     ============================================================
+2026-01-26T19:29:28 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-26T19:29:28 INFO        Segmento 1: Centro (-34.6162, -58.4333)
+2026-01-26T19:29:28 INFO     ✅ Creados 1 segmentos
+2026-01-26T19:29:28 INFO     ✅ Área dividida en 1 segmentos
+2026-01-26T19:29:28 INFO     
+============================================================
+2026-01-26T19:29:28 INFO     🔍 PASO 3: BÚSQUEDA - Buenos Aires, Argentina
+2026-01-26T19:29:28 INFO     ============================================================
+2026-01-26T19:29:28 INFO     Total de búsquedas en Buenos Aires, Argentina: 194
+2026-01-26T19:29:28 INFO     Rubros: 194 rubros configurados
+2026-01-26T19:29:28 INFO     📋 Rubros pendientes en Buenos Aires, Argentina: 194
+2026-01-26T19:29:28 INFO     
+────────────────────────────────────────────────────────────
+2026-01-26T19:29:28 INFO     📍 Buenos Aires, Argentina - SEGMENTO 1/1
+2026-01-26T19:29:28 INFO        Centro: (-34.6161845, -58.43329634999999)
+2026-01-26T19:29:28 INFO     ────────────────────────────────────────────────────────────
+2026-01-26T19:29:28 INFO     
+🏷️  Rubro 1/194: fabrica
+2026-01-26T19:29:28 INFO     
+🔍 Buscando 'fabrica' en segmento 0
+2026-01-26T19:29:28 INFO        URL: https://www.google.com/maps/search/fabrica/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:29:51 INFO     📄 Iniciando extracción para rubro: fabrica
+2026-01-26T19:29:51 INFO        Scroll 1: 5 elementos en página
+2026-01-26T19:29:55 INFO        ✅ 5 nuevos, 5 total
+2026-01-26T19:30:00 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:30:03 INFO        ✅ 5 nuevos, 10 total
+2026-01-26T19:30:08 INFO        Scroll 3: 15 elementos en página
+2026-01-26T19:30:13 INFO        ✅ 5 nuevos, 15 total
+2026-01-26T19:30:19 INFO        Scroll 4: 20 elementos en página
+2026-01-26T19:30:30 INFO        ✅ 5 nuevos, 20 total
+2026-01-26T19:30:36 INFO        Scroll 5: 27 elementos en página
+2026-01-26T19:30:46 INFO        ✅ 5 nuevos, 25 total
+2026-01-26T19:30:52 INFO        Scroll 6: 32 elementos en página
+2026-01-26T19:31:04 INFO        ✅ 4 nuevos, 29 total
+2026-01-26T19:31:09 INFO        Scroll 7: 37 elementos en página
+2026-01-26T19:31:23 INFO        ✅ 5 nuevos, 34 total
+2026-01-26T19:31:30 INFO        Scroll 8: 42 elementos en página
+2026-01-26T19:31:46 INFO        ✅ 5 nuevos, 39 total
+2026-01-26T19:31:52 INFO        Scroll 9: 49 elementos en página
+2026-01-26T19:32:27 INFO        ✅ 7 nuevos, 46 total
+2026-01-26T19:32:34 INFO        Scroll 10: 54 elementos en página
+2026-01-26T19:33:00 INFO        ✅ 5 nuevos, 51 total
+2026-01-26T19:33:05 INFO        Scroll 11: 59 elementos en página
+2026-01-26T19:33:36 INFO        ✅ 5 nuevos, 56 total
+2026-01-26T19:33:41 INFO        Scroll 12: 64 elementos en página
+2026-01-26T19:34:14 INFO        ✅ 5 nuevos, 61 total
+2026-01-26T19:34:20 INFO        Scroll 13: 69 elementos en página
+2026-01-26T19:34:49 INFO        ✅ 5 nuevos, 66 total
+2026-01-26T19:34:54 INFO        Scroll 14: 74 elementos en página
+2026-01-26T19:35:25 INFO        ✅ 5 nuevos, 71 total
+2026-01-26T19:35:30 INFO        Scroll 15: 79 elementos en página
+2026-01-26T19:36:03 INFO        ✅ 5 nuevos, 76 total
+2026-01-26T19:36:08 INFO        Scroll 16: 84 elementos en página
+2026-01-26T19:36:43 INFO        ✅ 5 nuevos, 81 total
+2026-01-26T19:36:49 INFO        Scroll 17: 89 elementos en página
+2026-01-26T19:37:40 INFO        ✅ 5 nuevos, 86 total
+2026-01-26T19:37:45 INFO        Scroll 18: 94 elementos en página
+2026-01-26T19:38:35 INFO        ✅ 5 nuevos, 91 total
+2026-01-26T19:38:40 INFO        Scroll 19: 99 elementos en página
+2026-01-26T19:39:30 INFO        ✅ 5 nuevos, 96 total
+2026-01-26T19:39:37 INFO        Scroll 20: 99 elementos en página
+2026-01-26T19:40:15 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:40:20 INFO        Scroll 21: 99 elementos en página
+2026-01-26T19:40:58 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:41:03 INFO        Scroll 22: 99 elementos en página
+2026-01-26T19:41:41 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:41:46 INFO        Scroll 23: 99 elementos en página
+2026-01-26T19:42:24 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:42:30 INFO        Scroll 24: 99 elementos en página
+2026-01-26T19:43:07 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:43:07 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:43:07 INFO     🔍 [fabrica][-34.6162|-58.4333][SCROLL: 23]: Search page scraped: 96 unique, 1401 duplicate, 96 seen, 23 paginations, 0 outOfLocation.
+2026-01-26T19:43:07 INFO     ✅ Extracción completada: 96 lugares encontrados
+2026-01-26T19:43:07 INFO     📊 96 lugares agregados (Total: 96)
+2026-01-26T19:43:08 INFO     💾 Checkpoint guardado: 96 empresas TOTALES
+2026-01-26T19:43:08 INFO     Estado guardado: 96 empresas
+2026-01-26T19:43:13 INFO     ⏳ Esperando 5.0s antes del siguiente rubro...
+2026-01-26T19:43:13 INFO     
+🏷️  Rubro 2/194: logistica
+2026-01-26T19:43:13 INFO     
+🔍 Buscando 'logistica' en segmento 0
+2026-01-26T19:43:13 INFO        URL: https://www.google.com/maps/search/logistica/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:43:34 INFO     📄 Iniciando extracción para rubro: logistica
+2026-01-26T19:43:34 INFO        Scroll 1: 7 elementos en página
+2026-01-26T19:43:36 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:43:41 INFO        Scroll 2: 7 elementos en página
+2026-01-26T19:43:43 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:43:49 INFO        Scroll 3: 7 elementos en página
+2026-01-26T19:43:51 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:43:57 INFO        Scroll 4: 7 elementos en página
+2026-01-26T19:43:59 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:44:04 INFO        Scroll 5: 7 elementos en página
+2026-01-26T19:44:07 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:44:07 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:44:07 INFO     🔍 [logistica][-34.6162|-58.4333][SCROLL: 4]: Search page scraped: 0 unique, 0 duplicate, 0 seen, 4 paginations, 0 outOfLocation.
+2026-01-26T19:44:07 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-01-26T19:44:07 INFO     Estado guardado: 96 empresas
+2026-01-26T19:44:14 INFO     ⏳ Esperando 7.2s antes del siguiente rubro...
+2026-01-26T19:44:14 INFO     
+🏷️  Rubro 3/194: transportes
+2026-01-26T19:44:14 INFO     
+🔍 Buscando 'transportes' en segmento 0
+2026-01-26T19:44:14 INFO        URL: https://www.google.com/maps/search/transportes/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:44:34 INFO     📄 Iniciando extracción para rubro: transportes
+2026-01-26T19:44:34 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:44:38 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:44:43 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:44:47 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:44:53 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:44:57 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:45:03 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:45:07 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:45:13 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:45:16 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:45:23 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:45:26 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:45:26 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:45:26 INFO     🔍 [transportes][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:45:26 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:45:26 INFO     📊 10 lugares agregados (Total: 106)
+2026-01-26T19:45:26 INFO     Estado guardado: 106 empresas
+2026-01-26T19:45:33 INFO     ⏳ Esperando 7.2s antes del siguiente rubro...
+2026-01-26T19:45:33 INFO     
+🏷️  Rubro 4/194: mudanzas
+2026-01-26T19:45:33 INFO     
+🔍 Buscando 'mudanzas' en segmento 0
+2026-01-26T19:45:33 INFO        URL: https://www.google.com/maps/search/mudanzas/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:45:53 INFO     📄 Iniciando extracción para rubro: mudanzas
+2026-01-26T19:45:53 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:45:57 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:46:03 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:46:06 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:46:11 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:46:14 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:46:20 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:46:24 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:46:29 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:46:33 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:46:38 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:46:41 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:46:41 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:46:41 INFO     🔍 [mudanzas][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:46:41 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:46:41 INFO     📊 10 lugares agregados (Total: 116)
+2026-01-26T19:46:41 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-26T19:46:41 INFO     💾 Checkpoint guardado: 116 empresas TOTALES
+2026-01-26T19:46:41 INFO     Estado guardado: 116 empresas
+2026-01-26T19:46:47 INFO     ⏳ Esperando 5.5s antes del siguiente rubro...
+2026-01-26T19:46:47 INFO     
+🏷️  Rubro 5/194: fletes
+2026-01-26T19:46:47 INFO     
+🔍 Buscando 'fletes' en segmento 0
+2026-01-26T19:46:47 INFO        URL: https://www.google.com/maps/search/fletes/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:47:07 INFO     📄 Iniciando extracción para rubro: fletes
+2026-01-26T19:47:07 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:47:11 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:47:16 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:47:20 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:47:25 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:47:28 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:47:34 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:47:38 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:47:43 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:47:47 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:47:53 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:47:56 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:47:56 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:47:56 INFO     🔍 [fletes][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:47:56 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:47:56 INFO     📊 8 lugares agregados (Total: 124)
+2026-01-26T19:47:56 INFO     Estado guardado: 124 empresas
+2026-01-26T19:48:04 INFO     ⏳ Esperando 7.1s antes del siguiente rubro...
+2026-01-26T19:48:04 INFO     
+🏷️  Rubro 6/194: agencia de marketing
+2026-01-26T19:48:04 INFO     
+🔍 Buscando 'agencia de marketing' en segmento 0
+2026-01-26T19:48:04 INFO        URL: https://www.google.com/maps/search/agencia+de+marketing/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:48:24 INFO     📄 Iniciando extracción para rubro: agencia de marketing
+2026-01-26T19:48:24 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:48:27 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:48:32 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:48:35 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:48:41 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:48:45 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:48:51 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:48:54 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:48:59 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:49:03 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:49:08 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:49:12 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:49:12 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:49:12 INFO     🔍 [agencia de marketing][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:49:12 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:49:12 INFO     📊 10 lugares agregados (Total: 134)
+2026-01-26T19:49:12 INFO     Estado guardado: 134 empresas
+2026-01-26T19:49:19 INFO     ⏳ Esperando 7.5s antes del siguiente rubro...
+2026-01-26T19:49:19 INFO     
+🏷️  Rubro 7/194: higiene y seguridad
+2026-01-26T19:49:19 INFO     
+🔍 Buscando 'higiene y seguridad' en segmento 0
+2026-01-26T19:49:19 INFO        URL: https://www.google.com/maps/search/higiene+y+seguridad/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:49:38 INFO     📄 Iniciando extracción para rubro: higiene y seguridad
+2026-01-26T19:49:38 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:49:41 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:49:48 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:49:51 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:49:57 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:50:01 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:50:07 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:50:10 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:50:16 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:50:20 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:50:26 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:50:30 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:50:30 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:50:30 INFO     🔍 [higiene y seguridad][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:50:30 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:50:30 INFO     📊 10 lugares agregados (Total: 144)
+2026-01-26T19:50:30 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-26T19:50:30 INFO     💾 Checkpoint guardado: 144 empresas TOTALES
+2026-01-26T19:50:30 INFO     Estado guardado: 144 empresas
+2026-01-26T19:50:35 INFO     ⏳ Esperando 4.8s antes del siguiente rubro...
+2026-01-26T19:50:35 INFO     
+🏷️  Rubro 8/194: auditores
+2026-01-26T19:50:35 INFO     
+🔍 Buscando 'auditores' en segmento 0
+2026-01-26T19:50:35 INFO        URL: https://www.google.com/maps/search/auditores/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:50:54 INFO     📄 Iniciando extracción para rubro: auditores
+2026-01-26T19:50:54 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:50:58 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:51:05 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:51:09 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:51:14 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:51:18 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:51:24 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:51:28 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:51:33 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:51:37 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:51:41 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:51:45 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:51:45 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:51:45 INFO     🔍 [auditores][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:51:45 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:51:45 INFO     📊 10 lugares agregados (Total: 154)
+2026-01-26T19:51:45 INFO     Estado guardado: 154 empresas
+2026-01-26T19:51:53 INFO     ⏳ Esperando 7.5s antes del siguiente rubro...
+2026-01-26T19:51:53 INFO     
+🏷️  Rubro 9/194: cadetería
+2026-01-26T19:51:53 INFO     
+🔍 Buscando 'cadetería' en segmento 0
+2026-01-26T19:51:53 INFO        URL: https://www.google.com/maps/search/cadetería/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:52:10 INFO     📄 Iniciando extracción para rubro: cadetería
+2026-01-26T19:52:10 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:52:14 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:52:19 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:52:23 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:52:29 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:52:32 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:52:37 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:52:41 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:52:46 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:52:50 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:52:56 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:53:00 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:53:00 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:53:00 INFO     🔍 [cadetería][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:53:00 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:53:00 INFO     📊 10 lugares agregados (Total: 164)
+2026-01-26T19:53:00 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-26T19:53:00 INFO     💾 Checkpoint guardado: 164 empresas TOTALES
+2026-01-26T19:53:00 INFO     Estado guardado: 164 empresas
+2026-01-26T19:53:06 INFO     ⏳ Esperando 6.3s antes del siguiente rubro...
+2026-01-26T19:53:06 INFO     
+🏷️  Rubro 10/194: carpintería
+2026-01-26T19:53:06 INFO     
+🔍 Buscando 'carpintería' en segmento 0
+2026-01-26T19:53:06 INFO        URL: https://www.google.com/maps/search/carpintería/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:53:26 INFO     📄 Iniciando extracción para rubro: carpintería
+2026-01-26T19:53:26 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:53:30 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:53:34 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:53:38 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:53:45 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:53:48 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:53:55 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:53:58 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:54:03 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:54:07 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:54:13 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:54:17 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:54:17 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:54:17 INFO     🔍 [carpintería][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:54:17 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:54:17 INFO     📊 10 lugares agregados (Total: 174)
+2026-01-26T19:54:17 INFO     Estado guardado: 174 empresas
+2026-01-26T19:54:23 INFO     ⏳ Esperando 5.9s antes del siguiente rubro...
+2026-01-26T19:54:23 INFO     
+🏷️  Rubro 11/194: herrería
+2026-01-26T19:54:23 INFO     
+🔍 Buscando 'herrería' en segmento 0
+2026-01-26T19:54:23 INFO        URL: https://www.google.com/maps/search/herrería/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:54:42 INFO     📄 Iniciando extracción para rubro: herrería
+2026-01-26T19:54:42 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:54:46 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:54:52 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:54:55 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:55:01 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:55:05 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:55:10 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:55:14 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:55:19 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:55:23 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:55:29 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:55:32 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:55:32 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:55:32 INFO     🔍 [herrería][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:55:32 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:55:32 INFO     📊 10 lugares agregados (Total: 184)
+2026-01-26T19:55:32 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-26T19:55:32 INFO     💾 Checkpoint guardado: 184 empresas TOTALES
+2026-01-26T19:55:32 INFO     Estado guardado: 184 empresas
+2026-01-26T19:55:40 INFO     ⏳ Esperando 7.2s antes del siguiente rubro...
+2026-01-26T19:55:40 INFO     
+🏷️  Rubro 12/194: electricista
+2026-01-26T19:55:40 INFO     
+🔍 Buscando 'electricista' en segmento 0
+2026-01-26T19:55:40 INFO        URL: https://www.google.com/maps/search/electricista/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:56:00 INFO     📄 Iniciando extracción para rubro: electricista
+2026-01-26T19:56:00 INFO        Scroll 1: 7 elementos en página
+2026-01-26T19:56:02 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:56:08 INFO        Scroll 2: 7 elementos en página
+2026-01-26T19:56:11 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:56:16 INFO        Scroll 3: 7 elementos en página
+2026-01-26T19:56:18 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:56:25 INFO        Scroll 4: 7 elementos en página
+2026-01-26T19:56:27 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:56:32 INFO        Scroll 5: 7 elementos en página
+2026-01-26T19:56:35 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:56:35 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:56:35 INFO     🔍 [electricista][-34.6162|-58.4333][SCROLL: 4]: Search page scraped: 0 unique, 0 duplicate, 0 seen, 4 paginations, 0 outOfLocation.
+2026-01-26T19:56:35 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-01-26T19:56:35 INFO     Estado guardado: 184 empresas
+2026-01-26T19:56:39 INFO     ⏳ Esperando 4.9s antes del siguiente rubro...
+2026-01-26T19:56:39 INFO     
+🏷️  Rubro 13/194: plomero
+2026-01-26T19:56:39 INFO     
+🔍 Buscando 'plomero' en segmento 0
+2026-01-26T19:56:39 INFO        URL: https://www.google.com/maps/search/plomero/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:56:59 INFO     📄 Iniciando extracción para rubro: plomero
+2026-01-26T19:56:59 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:57:03 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:57:09 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:57:12 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:57:19 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:57:23 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:57:30 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:57:33 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:57:39 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:57:42 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:57:47 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:57:50 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:57:50 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:57:50 INFO     🔍 [plomero][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:57:50 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:57:50 INFO     📊 10 lugares agregados (Total: 194)
+2026-01-26T19:57:50 INFO     Estado guardado: 194 empresas
+2026-01-26T19:57:56 INFO     ⏳ Esperando 5.2s antes del siguiente rubro...
+2026-01-26T19:57:56 INFO     
+🏷️  Rubro 14/194: pintor
+2026-01-26T19:57:56 INFO     
+🔍 Buscando 'pintor' en segmento 0
+2026-01-26T19:57:56 INFO        URL: https://www.google.com/maps/search/pintor/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:58:14 INFO     📄 Iniciando extracción para rubro: pintor
+2026-01-26T19:58:14 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:58:18 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T19:58:23 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:58:27 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:58:32 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:58:36 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:58:40 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:58:44 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T19:58:49 INFO        Scroll 5: 10 elementos en página
+2026-01-26T19:58:53 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T19:58:59 INFO        Scroll 6: 10 elementos en página
+2026-01-26T19:59:03 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T19:59:03 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T19:59:03 INFO     🔍 [pintor][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T19:59:03 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T19:59:03 INFO     📊 10 lugares agregados (Total: 204)
+2026-01-26T19:59:03 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-26T19:59:03 INFO     💾 Checkpoint guardado: 204 empresas TOTALES
+2026-01-26T19:59:03 INFO     Estado guardado: 204 empresas
+2026-01-26T19:59:10 INFO     ⏳ Esperando 7.3s antes del siguiente rubro...
+2026-01-26T19:59:10 INFO     
+🏷️  Rubro 15/194: consultoría
+2026-01-26T19:59:10 INFO     
+🔍 Buscando 'consultoría' en segmento 0
+2026-01-26T19:59:10 INFO        URL: https://www.google.com/maps/search/consultoría/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T19:59:27 INFO     📄 Iniciando extracción para rubro: consultoría
+2026-01-26T19:59:27 INFO        Scroll 1: 10 elementos en página
+2026-01-26T19:59:31 INFO        ✅ 9 nuevos, 9 total
+2026-01-26T19:59:37 INFO        Scroll 2: 10 elementos en página
+2026-01-26T19:59:40 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T19:59:45 INFO        Scroll 3: 10 elementos en página
+2026-01-26T19:59:48 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T19:59:54 INFO        Scroll 4: 10 elementos en página
+2026-01-26T19:59:58 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:00:04 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:00:08 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:00:13 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:00:17 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:00:17 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:00:17 INFO     🔍 [consultoría][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 9 unique, 51 duplicate, 9 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:00:17 INFO     ✅ Extracción completada: 9 lugares encontrados
+2026-01-26T20:00:17 INFO     📊 9 lugares agregados (Total: 213)
+2026-01-26T20:00:17 INFO     Estado guardado: 213 empresas
+2026-01-26T20:00:23 INFO     ⏳ Esperando 5.6s antes del siguiente rubro...
+2026-01-26T20:00:23 INFO     
+🏷️  Rubro 16/194: software
+2026-01-26T20:00:23 INFO     
+🔍 Buscando 'software' en segmento 0
+2026-01-26T20:00:23 INFO        URL: https://www.google.com/maps/search/software/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:00:40 INFO     📄 Iniciando extracción para rubro: software
+2026-01-26T20:00:41 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:00:44 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:00:50 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:00:53 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:00:59 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:01:02 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:01:08 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:01:12 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:01:17 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:01:21 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:01:26 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:01:29 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:01:29 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:01:29 INFO     🔍 [software][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:01:29 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:01:29 INFO     📊 10 lugares agregados (Total: 223)
+2026-01-26T20:01:29 INFO     Estado guardado: 223 empresas
+2026-01-26T20:01:35 INFO     ⏳ Esperando 5.8s antes del siguiente rubro...
+2026-01-26T20:01:35 INFO     
+🏷️  Rubro 17/194: diseño gráfico
+2026-01-26T20:01:35 INFO     
+🔍 Buscando 'diseño gráfico' en segmento 0
+2026-01-26T20:01:35 INFO        URL: https://www.google.com/maps/search/diseño+gráfico/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:01:54 INFO     📄 Iniciando extracción para rubro: diseño gráfico
+2026-01-26T20:01:54 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:01:58 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:02:04 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:02:08 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:02:12 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:02:16 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:02:22 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:02:26 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:02:30 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:02:34 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:02:39 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:02:42 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:02:42 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:02:42 INFO     🔍 [diseño gráfico][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:02:42 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:02:42 INFO     📊 9 lugares agregados (Total: 232)
+2026-01-26T20:02:42 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-26T20:02:43 INFO     💾 Checkpoint guardado: 232 empresas TOTALES
+2026-01-26T20:02:43 INFO     Estado guardado: 232 empresas
+2026-01-26T20:02:48 INFO     ⏳ Esperando 5.7s antes del siguiente rubro...
+2026-01-26T20:02:48 INFO     
+🏷️  Rubro 18/194: estudio de ingeniería
+2026-01-26T20:02:48 INFO     
+🔍 Buscando 'estudio de ingeniería' en segmento 0
+2026-01-26T20:02:48 INFO        URL: https://www.google.com/maps/search/estudio+de+ingeniería/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:03:07 INFO     📄 Iniciando extracción para rubro: estudio de ingeniería
+2026-01-26T20:03:07 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:03:11 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:03:16 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:03:19 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:03:25 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:03:29 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:03:34 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:03:38 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:03:45 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:03:48 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:03:55 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:03:58 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:03:58 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:03:58 INFO     🔍 [estudio de ingeniería][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:03:58 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:03:58 INFO     📊 10 lugares agregados (Total: 242)
+2026-01-26T20:03:58 INFO     Estado guardado: 242 empresas
+2026-01-26T20:04:04 INFO     ⏳ Esperando 5.9s antes del siguiente rubro...
+2026-01-26T20:04:04 INFO     
+🏷️  Rubro 19/194: consultoría ingeniería
+2026-01-26T20:04:04 INFO     
+🔍 Buscando 'consultoría ingeniería' en segmento 0
+2026-01-26T20:04:04 INFO        URL: https://www.google.com/maps/search/consultoría+ingeniería/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:04:24 INFO     📄 Iniciando extracción para rubro: consultoría ingeniería
+2026-01-26T20:04:24 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:04:28 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:04:33 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:04:37 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:04:42 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:04:45 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:04:51 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:04:54 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:05:00 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:05:04 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:05:09 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:05:13 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:05:13 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:05:13 INFO     🔍 [consultoría ingeniería][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:05:13 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:05:13 INFO     📊 9 lugares agregados (Total: 251)
+2026-01-26T20:05:13 INFO     Estado guardado: 251 empresas
+2026-01-26T20:05:17 INFO     ⏳ Esperando 4.7s antes del siguiente rubro...
+2026-01-26T20:05:17 INFO     
+🏷️  Rubro 20/194: ingeniería civil
+2026-01-26T20:05:17 INFO     
+🔍 Buscando 'ingeniería civil' en segmento 0
+2026-01-26T20:05:17 INFO        URL: https://www.google.com/maps/search/ingeniería+civil/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:05:39 INFO     📄 Iniciando extracción para rubro: ingeniería civil
+2026-01-26T20:05:39 INFO        Scroll 1: 7 elementos en página
+2026-01-26T20:05:42 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:05:48 INFO        Scroll 2: 7 elementos en página
+2026-01-26T20:05:50 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:05:55 INFO        Scroll 3: 7 elementos en página
+2026-01-26T20:05:58 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:06:03 INFO        Scroll 4: 7 elementos en página
+2026-01-26T20:06:05 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:06:11 INFO        Scroll 5: 7 elementos en página
+2026-01-26T20:06:13 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:06:13 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:06:13 INFO     🔍 [ingeniería civil][-34.6162|-58.4333][SCROLL: 4]: Search page scraped: 0 unique, 0 duplicate, 0 seen, 4 paginations, 0 outOfLocation.
+2026-01-26T20:06:13 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-01-26T20:06:13 INFO     Estado guardado: 251 empresas
+2026-01-26T20:06:18 INFO     ⏳ Esperando 4.4s antes del siguiente rubro...
+2026-01-26T20:06:18 INFO     
+🏷️  Rubro 21/194: ingenieros consultores
+2026-01-26T20:06:18 INFO     
+🔍 Buscando 'ingenieros consultores' en segmento 0
+2026-01-26T20:06:18 INFO        URL: https://www.google.com/maps/search/ingenieros+consultores/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:06:36 INFO     📄 Iniciando extracción para rubro: ingenieros consultores
+2026-01-26T20:06:36 INFO        Scroll 1: 4 elementos en página
+2026-01-26T20:06:38 INFO        ✅ 4 nuevos, 4 total
+2026-01-26T20:06:43 INFO        Scroll 2: 4 elementos en página
+2026-01-26T20:06:45 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:06:51 INFO        Scroll 3: 4 elementos en página
+2026-01-26T20:06:53 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:06:59 INFO        Scroll 4: 4 elementos en página
+2026-01-26T20:07:01 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:07:06 INFO        Scroll 5: 4 elementos en página
+2026-01-26T20:07:07 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:07:12 INFO        Scroll 6: 4 elementos en página
+2026-01-26T20:07:14 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:07:14 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:07:14 INFO     🔍 [ingenieros consultores][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 4 unique, 20 duplicate, 4 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:07:14 INFO     ✅ Extracción completada: 4 lugares encontrados
+2026-01-26T20:07:14 INFO     📊 2 lugares agregados (Total: 253)
+2026-01-26T20:07:14 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-26T20:07:14 INFO     💾 Checkpoint guardado: 253 empresas TOTALES
+2026-01-26T20:07:14 INFO     Estado guardado: 253 empresas
+2026-01-26T20:07:22 INFO     ⏳ Esperando 7.8s antes del siguiente rubro...
+2026-01-26T20:07:22 INFO     
+🏷️  Rubro 22/194: proyectos de ingeniería
+2026-01-26T20:07:22 INFO     
+🔍 Buscando 'proyectos de ingeniería' en segmento 0
+2026-01-26T20:07:22 INFO        URL: https://www.google.com/maps/search/proyectos+de+ingeniería/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:07:42 INFO     📄 Iniciando extracción para rubro: proyectos de ingeniería
+2026-01-26T20:07:42 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:07:46 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:07:51 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:07:55 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:08:00 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:08:04 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:08:10 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:08:14 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:08:18 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:08:22 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:08:28 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:08:32 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:08:32 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:08:32 INFO     🔍 [proyectos de ingeniería][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:08:32 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:08:32 INFO     📊 9 lugares agregados (Total: 262)
+2026-01-26T20:08:32 INFO     Estado guardado: 262 empresas
+2026-01-26T20:08:38 INFO     ⏳ Esperando 5.8s antes del siguiente rubro...
+2026-01-26T20:08:38 INFO     
+🏷️  Rubro 23/194: clínica médica
+2026-01-26T20:08:38 INFO     
+🔍 Buscando 'clínica médica' en segmento 0
+2026-01-26T20:08:38 INFO        URL: https://www.google.com/maps/search/clínica+médica/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:09:00 INFO     📄 Iniciando extracción para rubro: clínica médica
+2026-01-26T20:09:00 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:09:04 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:09:10 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:09:14 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:09:20 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:09:23 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:09:29 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:09:33 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:09:38 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:09:42 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:09:46 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:09:50 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:09:50 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:09:50 INFO     🔍 [clínica médica][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:09:50 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:09:50 INFO     📊 10 lugares agregados (Total: 272)
+2026-01-26T20:09:50 INFO     Estado guardado: 272 empresas
+2026-01-26T20:09:57 INFO     ⏳ Esperando 7.0s antes del siguiente rubro...
+2026-01-26T20:09:57 INFO     
+🏷️  Rubro 24/194: consultorio médico
+2026-01-26T20:09:57 INFO     
+🔍 Buscando 'consultorio médico' en segmento 0
+2026-01-26T20:09:57 INFO        URL: https://www.google.com/maps/search/consultorio+médico/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:10:18 INFO     📄 Iniciando extracción para rubro: consultorio médico
+2026-01-26T20:10:18 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:10:22 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:10:27 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:10:30 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:10:36 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:10:40 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:10:46 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:10:49 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:10:54 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:10:58 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:11:02 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:11:06 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:11:06 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:11:06 INFO     🔍 [consultorio médico][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:11:06 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:11:06 INFO     📊 9 lugares agregados (Total: 281)
+2026-01-26T20:11:06 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-26T20:11:06 INFO     💾 Checkpoint guardado: 281 empresas TOTALES
+2026-01-26T20:11:06 INFO     Estado guardado: 281 empresas
+2026-01-26T20:11:13 INFO     ⏳ Esperando 6.7s antes del siguiente rubro...
+2026-01-26T20:11:13 INFO     
+🏷️  Rubro 25/194: centro de salud
+2026-01-26T20:11:13 INFO     
+🔍 Buscando 'centro de salud' en segmento 0
+2026-01-26T20:11:13 INFO        URL: https://www.google.com/maps/search/centro+de+salud/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:11:31 INFO     📄 Iniciando extracción para rubro: centro de salud
+2026-01-26T20:11:31 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:11:35 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:11:40 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:11:44 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:11:51 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:11:54 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:11:59 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:12:03 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:12:08 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:12:11 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:12:17 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:12:21 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:12:21 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:12:21 INFO     🔍 [centro de salud][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:12:21 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:12:21 INFO     📊 10 lugares agregados (Total: 291)
+2026-01-26T20:12:21 INFO     Estado guardado: 291 empresas
+2026-01-26T20:12:26 INFO     ⏳ Esperando 5.5s antes del siguiente rubro...
+2026-01-26T20:12:26 INFO     
+🏷️  Rubro 26/194: policlínico
+2026-01-26T20:12:26 INFO     
+🔍 Buscando 'policlínico' en segmento 0
+2026-01-26T20:12:26 INFO        URL: https://www.google.com/maps/search/policlínico/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:12:46 INFO     📄 Iniciando extracción para rubro: policlínico
+2026-01-26T20:12:46 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:12:50 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:12:56 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:12:59 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:13:06 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:13:10 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:13:15 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:13:18 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:13:23 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:13:27 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:13:33 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:13:37 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:13:37 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:13:37 INFO     🔍 [policlínico][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:13:37 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:13:37 INFO     📊 9 lugares agregados (Total: 300)
+2026-01-26T20:13:37 INFO     Estado guardado: 300 empresas
+2026-01-26T20:13:43 INFO     ⏳ Esperando 6.8s antes del siguiente rubro...
+2026-01-26T20:13:43 INFO     
+🏷️  Rubro 27/194: consultorio particular
+2026-01-26T20:13:43 INFO     
+🔍 Buscando 'consultorio particular' en segmento 0
+2026-01-26T20:13:43 INFO        URL: https://www.google.com/maps/search/consultorio+particular/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:14:06 INFO     📄 Iniciando extracción para rubro: consultorio particular
+2026-01-26T20:14:06 INFO        Scroll 1: 7 elementos en página
+2026-01-26T20:14:08 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:14:13 INFO        Scroll 2: 7 elementos en página
+2026-01-26T20:14:16 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:14:21 INFO        Scroll 3: 7 elementos en página
+2026-01-26T20:14:24 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:14:30 INFO        Scroll 4: 7 elementos en página
+2026-01-26T20:14:33 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:14:37 INFO        Scroll 5: 7 elementos en página
+2026-01-26T20:14:40 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:14:40 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:14:40 INFO     🔍 [consultorio particular][-34.6162|-58.4333][SCROLL: 4]: Search page scraped: 0 unique, 0 duplicate, 0 seen, 4 paginations, 0 outOfLocation.
+2026-01-26T20:14:40 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-01-26T20:14:40 INFO     Estado guardado: 300 empresas
+2026-01-26T20:14:44 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-01-26T20:14:44 INFO     
+🏷️  Rubro 28/194: estudio jurídico
+2026-01-26T20:14:44 INFO     
+🔍 Buscando 'estudio jurídico' en segmento 0
+2026-01-26T20:14:44 INFO        URL: https://www.google.com/maps/search/estudio+jurídico/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:15:06 INFO     📄 Iniciando extracción para rubro: estudio jurídico
+2026-01-26T20:15:06 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:15:09 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:15:14 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:15:18 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:15:22 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:15:26 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:15:32 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:15:35 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:15:40 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:15:44 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:15:48 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:15:52 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:15:52 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:15:52 INFO     🔍 [estudio jurídico][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:15:52 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:15:52 INFO     📊 10 lugares agregados (Total: 310)
+2026-01-26T20:15:52 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-26T20:15:52 INFO     💾 Checkpoint guardado: 310 empresas TOTALES
+2026-01-26T20:15:52 INFO     Estado guardado: 310 empresas
+2026-01-26T20:15:59 INFO     ⏳ Esperando 6.9s antes del siguiente rubro...
+2026-01-26T20:15:59 INFO     
+🏷️  Rubro 29/194: despacho de abogados
+2026-01-26T20:15:59 INFO     
+🔍 Buscando 'despacho de abogados' en segmento 0
+2026-01-26T20:15:59 INFO        URL: https://www.google.com/maps/search/despacho+de+abogados/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:16:18 INFO     📄 Iniciando extracción para rubro: despacho de abogados
+2026-01-26T20:16:18 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:16:22 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:16:27 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:16:31 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:16:38 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:16:41 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:16:47 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:16:51 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:16:56 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:17:00 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:17:06 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:17:09 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:17:09 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:17:09 INFO     🔍 [despacho de abogados][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:17:09 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:17:09 INFO     📊 8 lugares agregados (Total: 318)
+2026-01-26T20:17:09 INFO     Estado guardado: 318 empresas
+2026-01-26T20:17:15 INFO     ⏳ Esperando 5.4s antes del siguiente rubro...
+2026-01-26T20:17:15 INFO     
+🏷️  Rubro 30/194: abogados especializados
+2026-01-26T20:17:15 INFO     
+🔍 Buscando 'abogados especializados' en segmento 0
+2026-01-26T20:17:15 INFO        URL: https://www.google.com/maps/search/abogados+especializados/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:17:33 INFO     📄 Iniciando extracción para rubro: abogados especializados
+2026-01-26T20:17:33 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:17:36 INFO        ✅ 10 nuevos, 10 total
+2026-01-26T20:17:42 INFO        Scroll 2: 10 elementos en página
+2026-01-26T20:17:46 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-26T20:17:50 INFO        Scroll 3: 10 elementos en página
+2026-01-26T20:17:54 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-26T20:17:59 INFO        Scroll 4: 10 elementos en página
+2026-01-26T20:18:03 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-26T20:18:09 INFO        Scroll 5: 10 elementos en página
+2026-01-26T20:18:13 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-26T20:18:18 INFO        Scroll 6: 10 elementos en página
+2026-01-26T20:18:22 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-26T20:18:22 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-26T20:18:22 INFO     🔍 [abogados especializados][-34.6162|-58.4333][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-26T20:18:22 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-26T20:18:22 INFO     📊 8 lugares agregados (Total: 326)
+2026-01-26T20:18:22 INFO     Estado guardado: 326 empresas
+2026-01-26T20:18:29 INFO     ⏳ Esperando 6.9s antes del siguiente rubro...
+2026-01-26T20:18:29 INFO     
+🏷️  Rubro 31/194: bufete de abogados
+2026-01-26T20:18:29 INFO     
+🔍 Buscando 'bufete de abogados' en segmento 0
+2026-01-26T20:18:29 INFO        URL: https://www.google.com/maps/search/bufete+de+abogados/@-34.6161845,-58.43329634999999,11z?hl=es-419
+2026-01-26T20:18:49 INFO     📄 Iniciando extracción para rubro: bufete de abogados
+2026-01-26T20:18:49 INFO        Scroll 1: 10 elementos en página
+2026-01-26T20:18:53 INFO        ✅ 10 nuevos, 10 total
