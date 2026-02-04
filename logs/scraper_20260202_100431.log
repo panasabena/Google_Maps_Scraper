@@ -1,0 +1,1178 @@
+2026-02-02T10:04:31 INFO     
+============================================================
+2026-02-02T10:04:31 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-02-02T10:04:31 INFO     ============================================================
+2026-02-02T10:04:31 INFO     📍 Ubicaciones: 29 ciudades
+2026-02-02T10:04:31 INFO     🏷️  Rubros: 194 rubros
+2026-02-02T10:04:31 INFO     📐 Grid size: 1x1
+2026-02-02T10:04:31 INFO     💾 Checkpoint cada: 20 empresas
+2026-02-02T10:04:31 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-02-02T10:04:31 INFO     ============================================================
+
+2026-02-02T10:04:31 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-02-02T10:04:33 INFO     ✅ 22741 empresas cargadas desde archivo previo
+2026-02-02T10:04:33 INFO     Estado cargado: 22758 empresas previas
+2026-02-02T10:04:33 INFO     🚀 Inicializando navegador...
+2026-02-02T10:05:33 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-02-02T10:05:35 INFO     ✅ Navegador inicializado correctamente
+2026-02-02T10:05:54 INFO     
+============================================================
+2026-02-02T10:05:54 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-02-02T10:05:54 INFO     ============================================================
+2026-02-02T10:05:54 INFO       1. Buenos Aires, Argentina
+2026-02-02T10:05:54 INFO       2. Córdoba, Argentina
+2026-02-02T10:05:54 INFO       3. Rosario, Argentina
+2026-02-02T10:05:54 INFO       4. Mendoza, Argentina
+2026-02-02T10:05:54 INFO       5. Tucumán, Argentina
+2026-02-02T10:05:54 INFO       6. La Plata, Argentina
+2026-02-02T10:05:54 INFO       7. Mar del Plata, Argentina
+2026-02-02T10:05:54 INFO       8. Salta, Argentina
+2026-02-02T10:05:54 INFO       9. Santa Fe, Argentina
+2026-02-02T10:05:54 INFO       10. Resistencia, Argentina
+2026-02-02T10:05:54 INFO       11. Santiago del Estero, Argentina
+2026-02-02T10:05:54 INFO       12. Corrientes, Argentina
+2026-02-02T10:05:54 INFO       13. Neuquén, Argentina
+2026-02-02T10:05:54 INFO       14. Bahía Blanca, Argentina
+2026-02-02T10:05:54 INFO       15. San Salvador de Jujuy, Argentina
+2026-02-02T10:05:54 INFO       16. Posadas, Argentina
+2026-02-02T10:05:54 INFO       17. Paraná, Argentina
+2026-02-02T10:05:54 INFO       18. San Luis, Argentina
+2026-02-02T10:05:54 INFO       19. Río Gallegos, Argentina
+2026-02-02T10:05:54 INFO       20. Comodoro Rivadavia, Argentina
+2026-02-02T10:05:54 INFO       21. Ushuaia, Argentina
+2026-02-02T10:05:54 INFO       22. Formosa, Argentina
+2026-02-02T10:05:54 INFO       23. Quilmes, Argentina
+2026-02-02T10:05:54 INFO       24. Morón, Argentina
+2026-02-02T10:05:54 INFO       25. San Martín, Argentina
+2026-02-02T10:05:54 INFO       26. Lanús, Argentina
+2026-02-02T10:05:54 INFO       27. Lomas de Zamora, Argentina
+2026-02-02T10:05:54 INFO       28. Tigre, Argentina
+2026-02-02T10:05:54 INFO       29. Pilar, Argentina
+2026-02-02T10:05:54 INFO     
+############################################################
+2026-02-02T10:05:54 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-02-02T10:05:54 INFO     ############################################################
+2026-02-02T10:05:54 INFO     ⏭️  Buenos Aires, Argentina ya fue completada previamente
+2026-02-02T10:05:54 INFO     
+############################################################
+2026-02-02T10:05:54 INFO     🌍 UBICACIÓN 2/29: Córdoba, Argentina
+2026-02-02T10:05:54 INFO     ############################################################
+2026-02-02T10:05:54 INFO     ⏭️  Córdoba, Argentina ya fue completada previamente
+2026-02-02T10:05:54 INFO     
+############################################################
+2026-02-02T10:05:54 INFO     🌍 UBICACIÓN 3/29: Rosario, Argentina
+2026-02-02T10:05:54 INFO     ############################################################
+2026-02-02T10:05:54 INFO     
+============================================================
+2026-02-02T10:05:54 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Rosario, Argentina
+2026-02-02T10:05:54 INFO     ============================================================
+2026-02-02T10:05:54 INFO     📡 Geolocalizando: Rosario, Argentina
+2026-02-02T10:05:57 INFO     ✅ Ubicación encontrada: Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina
+2026-02-02T10:05:57 INFO        Bounding box: ['-33.0348662', '-32.8696461', '-60.7832623', '-60.6116695']
+2026-02-02T10:05:57 INFO     
+============================================================
+2026-02-02T10:05:57 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Rosario, Argentina
+2026-02-02T10:05:57 INFO     ============================================================
+2026-02-02T10:05:57 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-02-02T10:05:57 INFO        Segmento 1: Centro (-32.9523, -60.6975)
+2026-02-02T10:05:57 INFO     ✅ Creados 1 segmentos
+2026-02-02T10:05:57 INFO     ✅ Área dividida en 1 segmentos
+2026-02-02T10:05:57 INFO     
+============================================================
+2026-02-02T10:05:57 INFO     🔍 PASO 3: BÚSQUEDA - Rosario, Argentina
+2026-02-02T10:05:57 INFO     ============================================================
+2026-02-02T10:05:57 INFO     Total de búsquedas en Rosario, Argentina: 194
+2026-02-02T10:05:57 INFO     Rubros: 194 rubros configurados
+2026-02-02T10:05:57 INFO     📋 Rubros pendientes en Rosario, Argentina: 171
+2026-02-02T10:05:57 INFO     
+────────────────────────────────────────────────────────────
+2026-02-02T10:05:57 INFO     📍 Rosario, Argentina - SEGMENTO 1/1
+2026-02-02T10:05:57 INFO        Centro: (-32.952256150000004, -60.697465900000005)
+2026-02-02T10:05:57 INFO     ────────────────────────────────────────────────────────────
+2026-02-02T10:05:57 INFO     
+🏷️  Rubro 1/171: proyectos de ingeniería
+2026-02-02T10:05:57 INFO     
+🔍 Buscando 'proyectos de ingeniería' en segmento 0
+2026-02-02T10:05:57 INFO        URL: https://www.google.com/maps/search/proyectos+de+ingeniería/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T10:06:18 INFO     📄 Iniciando extracción para rubro: proyectos de ingeniería
+2026-02-02T10:06:18 INFO        Scroll 1: 7 elementos en página
+2026-02-02T10:08:03 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T10:08:08 INFO        Scroll 2: 14 elementos en página
+2026-02-02T10:10:11 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T10:10:17 INFO        Scroll 3: 21 elementos en página
+2026-02-02T10:12:04 INFO        ✅ 7 nuevos, 21 total
+2026-02-02T10:12:09 INFO        Scroll 4: 28 elementos en página
+2026-02-02T10:12:58 INFO        ✅ 6 nuevos, 27 total
+2026-02-02T10:13:04 INFO        Scroll 5: 35 elementos en página
+2026-02-02T10:14:20 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T10:14:25 INFO        Scroll 6: 42 elementos en página
+2026-02-02T10:15:35 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T10:15:41 INFO        Scroll 7: 49 elementos en página
+2026-02-02T10:16:52 INFO        ✅ 7 nuevos, 48 total
+2026-02-02T10:16:57 INFO        Scroll 8: 56 elementos en página
+2026-02-02T10:18:25 INFO        ✅ 7 nuevos, 55 total
+2026-02-02T10:18:31 INFO        Scroll 9: 62 elementos en página
+2026-02-02T10:19:47 INFO        ✅ 6 nuevos, 61 total
+2026-02-02T10:19:51 INFO        Scroll 10: 69 elementos en página
+2026-02-02T10:21:08 INFO        ✅ 7 nuevos, 68 total
+2026-02-02T10:21:15 INFO        Scroll 11: 76 elementos en página
+2026-02-02T10:23:05 INFO        ✅ 7 nuevos, 75 total
+2026-02-02T10:23:10 INFO        Scroll 12: 82 elementos en página
+2026-02-02T10:24:42 INFO        ✅ 6 nuevos, 81 total
+2026-02-02T10:24:48 INFO        Scroll 13: 89 elementos en página
+2026-02-02T10:26:46 INFO        ✅ 7 nuevos, 88 total
+2026-02-02T10:26:52 INFO        Scroll 14: 96 elementos en página
+2026-02-02T10:28:43 INFO        ✅ 7 nuevos, 95 total
+2026-02-02T10:28:49 INFO        Scroll 15: 102 elementos en página
+2026-02-02T10:30:23 INFO        ✅ 6 nuevos, 101 total
+2026-02-02T10:30:28 INFO        Scroll 16: 109 elementos en página
+2026-02-02T10:32:36 INFO        ✅ 7 nuevos, 108 total
+2026-02-02T10:32:41 INFO        Scroll 17: 116 elementos en página
+2026-02-02T10:34:38 INFO        ✅ 7 nuevos, 115 total
+2026-02-02T10:34:44 INFO        Scroll 18: 117 elementos en página
+2026-02-02T10:35:32 INFO        ✅ 1 nuevos, 116 total
+2026-02-02T10:35:38 INFO        Scroll 19: 117 elementos en página
+2026-02-02T10:36:17 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T10:36:23 INFO        Scroll 20: 117 elementos en página
+2026-02-02T10:37:02 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T10:37:08 INFO        Scroll 21: 117 elementos en página
+2026-02-02T10:37:47 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T10:37:53 INFO        Scroll 22: 117 elementos en página
+2026-02-02T10:38:32 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T10:38:37 INFO        Scroll 23: 117 elementos en página
+2026-02-02T10:39:16 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T10:39:16 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T10:39:16 INFO     🔍 [proyectos de ingeniería][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 116 unique, 1639 duplicate, 116 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T10:39:16 INFO     ✅ Extracción completada: 116 lugares encontrados
+2026-02-02T10:39:16 INFO     📊 34 lugares agregados (Total: 22775)
+2026-02-02T10:39:16 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T10:39:29 INFO     💾 Checkpoint guardado: 22775 empresas TOTALES
+2026-02-02T10:39:29 INFO     Estado guardado: 22775 empresas
+2026-02-02T10:39:37 INFO     ⏳ Esperando 7.5s antes del siguiente rubro...
+2026-02-02T10:39:37 INFO     
+🏷️  Rubro 2/171: clínica médica
+2026-02-02T10:39:37 INFO     
+🔍 Buscando 'clínica médica' en segmento 0
+2026-02-02T10:39:37 INFO        URL: https://www.google.com/maps/search/clínica+médica/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T10:39:58 INFO     📄 Iniciando extracción para rubro: clínica médica
+2026-02-02T10:39:58 INFO        Scroll 1: 7 elementos en página
+2026-02-02T10:40:43 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T10:40:49 INFO        Scroll 2: 14 elementos en página
+2026-02-02T10:41:50 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T10:41:56 INFO        Scroll 3: 21 elementos en página
+2026-02-02T10:42:45 INFO        ✅ 7 nuevos, 21 total
+2026-02-02T10:42:50 INFO        Scroll 4: 29 elementos en página
+2026-02-02T10:43:44 INFO        ✅ 6 nuevos, 27 total
+2026-02-02T10:43:49 INFO        Scroll 5: 36 elementos en página
+2026-02-02T10:44:52 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T10:44:57 INFO        Scroll 6: 43 elementos en página
+2026-02-02T10:46:11 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T10:46:17 INFO        Scroll 7: 51 elementos en página
+2026-02-02T10:47:23 INFO        ✅ 7 nuevos, 48 total
+2026-02-02T10:47:28 INFO        Scroll 8: 58 elementos en página
+2026-02-02T10:48:37 INFO        ✅ 7 nuevos, 55 total
+2026-02-02T10:48:42 INFO        Scroll 9: 64 elementos en página
+2026-02-02T10:50:00 INFO        ✅ 6 nuevos, 61 total
+2026-02-02T10:50:05 INFO        Scroll 10: 71 elementos en página
+2026-02-02T10:51:33 INFO        ✅ 7 nuevos, 68 total
+2026-02-02T10:51:38 INFO        Scroll 11: 78 elementos en página
+2026-02-02T10:53:12 INFO        ✅ 7 nuevos, 75 total
+2026-02-02T10:53:17 INFO        Scroll 12: 84 elementos en página
+2026-02-02T10:54:32 INFO        ✅ 6 nuevos, 81 total
+2026-02-02T10:54:39 INFO        Scroll 13: 91 elementos en página
+2026-02-02T10:56:12 INFO        ✅ 7 nuevos, 88 total
+2026-02-02T10:56:18 INFO        Scroll 14: 98 elementos en página
+2026-02-02T10:57:54 INFO        ✅ 7 nuevos, 95 total
+2026-02-02T10:57:59 INFO        Scroll 15: 104 elementos en página
+2026-02-02T10:59:37 INFO        ✅ 6 nuevos, 101 total
+2026-02-02T10:59:45 INFO        Scroll 16: 111 elementos en página
+2026-02-02T11:01:27 INFO        ✅ 7 nuevos, 108 total
+2026-02-02T11:01:33 INFO        Scroll 17: 118 elementos en página
+2026-02-02T11:03:19 INFO        ✅ 7 nuevos, 115 total
+2026-02-02T11:03:24 INFO        Scroll 18: 124 elementos en página
+2026-02-02T11:04:44 INFO        ✅ 6 nuevos, 121 total
+2026-02-02T11:04:50 INFO        Scroll 19: 124 elementos en página
+2026-02-02T11:05:32 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T11:05:38 INFO        Scroll 20: 124 elementos en página
+2026-02-02T11:06:21 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T11:06:25 INFO        Scroll 21: 124 elementos en página
+2026-02-02T11:07:08 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T11:07:13 INFO        Scroll 22: 124 elementos en página
+2026-02-02T11:07:56 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T11:08:02 INFO        Scroll 23: 124 elementos en página
+2026-02-02T11:08:44 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T11:08:44 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T11:08:44 INFO     🔍 [clínica médica][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1701 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T11:08:44 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-02T11:08:44 INFO     📊 120 lugares agregados (Total: 22895)
+2026-02-02T11:08:44 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T11:08:57 INFO     💾 Checkpoint guardado: 22895 empresas TOTALES
+2026-02-02T11:08:57 INFO     Estado guardado: 22895 empresas
+2026-02-02T11:09:03 INFO     ⏳ Esperando 6.3s antes del siguiente rubro...
+2026-02-02T11:09:03 INFO     
+🏷️  Rubro 3/171: consultorio médico
+2026-02-02T11:09:03 INFO     
+🔍 Buscando 'consultorio médico' en segmento 0
+2026-02-02T11:09:03 INFO        URL: https://www.google.com/maps/search/consultorio+médico/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T11:09:22 INFO     📄 Iniciando extracción para rubro: consultorio médico
+2026-02-02T11:09:22 INFO        Scroll 1: 10 elementos en página
+2026-02-02T11:10:33 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T11:10:37 INFO        Scroll 2: 17 elementos en página
+2026-02-02T11:11:33 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T11:11:38 INFO        Scroll 3: 22 elementos en página
+2026-02-02T11:12:18 INFO        ✅ 5 nuevos, 22 total
+2026-02-02T11:12:24 INFO        Scroll 4: 29 elementos en página
+2026-02-02T11:13:17 INFO        ✅ 6 nuevos, 28 total
+2026-02-02T11:13:22 INFO        Scroll 5: 36 elementos en página
+2026-02-02T11:14:22 INFO        ✅ 7 nuevos, 35 total
+2026-02-02T11:14:28 INFO        Scroll 6: 43 elementos en página
+2026-02-02T11:15:49 INFO        ✅ 7 nuevos, 42 total
+2026-02-02T11:15:53 INFO        Scroll 7: 51 elementos en página
+2026-02-02T11:17:28 INFO        ✅ 8 nuevos, 50 total
+2026-02-02T11:17:34 INFO        Scroll 8: 58 elementos en página
+2026-02-02T11:18:46 INFO        ✅ 7 nuevos, 57 total
+2026-02-02T11:18:51 INFO        Scroll 9: 64 elementos en página
+2026-02-02T11:20:01 INFO        ✅ 6 nuevos, 63 total
+2026-02-02T11:20:07 INFO        Scroll 10: 71 elementos en página
+2026-02-02T11:21:48 INFO        ✅ 7 nuevos, 70 total
+2026-02-02T11:21:54 INFO        Scroll 11: 78 elementos en página
+2026-02-02T11:23:26 INFO        ✅ 7 nuevos, 77 total
+2026-02-02T11:23:32 INFO        Scroll 12: 84 elementos en página
+2026-02-02T11:25:05 INFO        ✅ 6 nuevos, 83 total
+2026-02-02T11:25:11 INFO        Scroll 13: 91 elementos en página
+2026-02-02T11:26:40 INFO        ✅ 7 nuevos, 90 total
+2026-02-02T11:26:47 INFO        Scroll 14: 98 elementos en página
+2026-02-02T11:28:36 INFO        ✅ 7 nuevos, 97 total
+2026-02-02T11:28:42 INFO        Scroll 15: 104 elementos en página
+2026-02-02T11:30:17 INFO        ✅ 6 nuevos, 103 total
+2026-02-02T11:30:24 INFO        Scroll 16: 111 elementos en página
+2026-02-02T11:32:29 INFO        ✅ 7 nuevos, 110 total
+2026-02-02T11:32:34 INFO        Scroll 17: 118 elementos en página
+2026-02-02T11:34:30 INFO        ✅ 7 nuevos, 117 total
+2026-02-02T11:34:36 INFO        Scroll 18: 124 elementos en página
+2026-02-02T11:36:06 INFO        ✅ 6 nuevos, 123 total
+2026-02-02T11:36:12 INFO        Scroll 19: 124 elementos en página
+2026-02-02T11:36:55 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T11:37:01 INFO        Scroll 20: 124 elementos en página
+2026-02-02T11:37:43 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T11:37:50 INFO        Scroll 21: 124 elementos en página
+2026-02-02T11:38:32 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T11:38:38 INFO        Scroll 22: 124 elementos en página
+2026-02-02T11:39:21 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T11:39:28 INFO        Scroll 23: 124 elementos en página
+2026-02-02T11:40:10 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T11:40:10 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T11:40:10 INFO     🔍 [consultorio médico][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 123 unique, 1706 duplicate, 123 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T11:40:10 INFO     ✅ Extracción completada: 123 lugares encontrados
+2026-02-02T11:40:10 INFO     📊 84 lugares agregados (Total: 22979)
+2026-02-02T11:40:10 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T11:40:23 INFO     💾 Checkpoint guardado: 22979 empresas TOTALES
+2026-02-02T11:40:23 INFO     Estado guardado: 22979 empresas
+2026-02-02T11:40:27 INFO     ⏳ Esperando 4.3s antes del siguiente rubro...
+2026-02-02T11:40:27 INFO     
+🏷️  Rubro 4/171: centro de salud
+2026-02-02T11:40:27 INFO     
+🔍 Buscando 'centro de salud' en segmento 0
+2026-02-02T11:40:27 INFO        URL: https://www.google.com/maps/search/centro+de+salud/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T11:40:48 INFO     📄 Iniciando extracción para rubro: centro de salud
+2026-02-02T11:40:48 INFO        Scroll 1: 7 elementos en página
+2026-02-02T11:41:35 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T11:41:41 INFO        Scroll 2: 14 elementos en página
+2026-02-02T11:42:34 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T11:42:39 INFO        Scroll 3: 20 elementos en página
+2026-02-02T11:43:23 INFO        ✅ 6 nuevos, 20 total
+2026-02-02T11:43:29 INFO        Scroll 4: 27 elementos en página
+2026-02-02T11:44:36 INFO        ✅ 7 nuevos, 27 total
+2026-02-02T11:44:42 INFO        Scroll 5: 34 elementos en página
+2026-02-02T11:45:38 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T11:45:42 INFO        Scroll 6: 41 elementos en página
+2026-02-02T11:46:40 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T11:46:46 INFO        Scroll 7: 49 elementos en página
+2026-02-02T11:48:13 INFO        ✅ 8 nuevos, 49 total
+2026-02-02T11:48:19 INFO        Scroll 8: 56 elementos en página
+2026-02-02T11:49:48 INFO        ✅ 7 nuevos, 56 total
+2026-02-02T11:49:54 INFO        Scroll 9: 62 elementos en página
+2026-02-02T11:51:11 INFO        ✅ 6 nuevos, 62 total
+2026-02-02T11:51:17 INFO        Scroll 10: 69 elementos en página
+2026-02-02T11:52:36 INFO        ✅ 7 nuevos, 69 total
+2026-02-02T11:52:42 INFO        Scroll 11: 76 elementos en página
+2026-02-02T11:54:46 INFO        ✅ 7 nuevos, 76 total
+2026-02-02T11:54:53 INFO        Scroll 12: 82 elementos en página
+2026-02-02T11:56:16 INFO        ✅ 6 nuevos, 82 total
+2026-02-02T11:56:22 INFO        Scroll 13: 89 elementos en página
+2026-02-02T11:58:01 INFO        ✅ 7 nuevos, 89 total
+2026-02-02T11:58:06 INFO        Scroll 14: 96 elementos en página
+2026-02-02T12:00:06 INFO        ✅ 7 nuevos, 96 total
+2026-02-02T12:00:12 INFO        Scroll 15: 102 elementos en página
+2026-02-02T12:01:58 INFO        ✅ 6 nuevos, 102 total
+2026-02-02T12:02:04 INFO        Scroll 16: 109 elementos en página
+2026-02-02T12:04:33 INFO        ✅ 7 nuevos, 109 total
+2026-02-02T12:04:39 INFO        Scroll 17: 116 elementos en página
+2026-02-02T12:06:53 INFO        ✅ 7 nuevos, 116 total
+2026-02-02T12:06:59 INFO        Scroll 18: 122 elementos en página
+2026-02-02T12:08:43 INFO        ✅ 5 nuevos, 121 total
+2026-02-02T12:08:49 INFO        Scroll 19: 122 elementos en página
+2026-02-02T12:09:30 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T12:09:36 INFO        Scroll 20: 122 elementos en página
+2026-02-02T12:10:18 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T12:10:23 INFO        Scroll 21: 122 elementos en página
+2026-02-02T12:11:05 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T12:11:10 INFO        Scroll 22: 122 elementos en página
+2026-02-02T12:11:52 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T12:11:57 INFO        Scroll 23: 122 elementos en página
+2026-02-02T12:12:39 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T12:12:39 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T12:12:39 INFO     🔍 [centro de salud][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1660 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T12:12:39 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-02T12:12:39 INFO     📊 113 lugares agregados (Total: 23092)
+2026-02-02T12:12:39 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T12:12:52 INFO     💾 Checkpoint guardado: 23092 empresas TOTALES
+2026-02-02T12:12:52 INFO     Estado guardado: 23092 empresas
+2026-02-02T12:12:56 INFO     ⏳ Esperando 4.1s antes del siguiente rubro...
+2026-02-02T12:12:56 INFO     
+🏷️  Rubro 5/171: policlínico
+2026-02-02T12:12:56 INFO     
+🔍 Buscando 'policlínico' en segmento 0
+2026-02-02T12:12:56 INFO        URL: https://www.google.com/maps/search/policlínico/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T12:13:15 INFO     📄 Iniciando extracción para rubro: policlínico
+2026-02-02T12:13:15 INFO        Scroll 1: 10 elementos en página
+2026-02-02T12:14:36 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T12:14:42 INFO        Scroll 2: 17 elementos en página
+2026-02-02T12:15:33 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T12:15:39 INFO        Scroll 3: 20 elementos en página
+2026-02-02T12:16:05 INFO        ✅ 3 nuevos, 20 total
+2026-02-02T12:16:11 INFO        Scroll 4: 27 elementos en página
+2026-02-02T12:17:18 INFO        ✅ 7 nuevos, 27 total
+2026-02-02T12:17:24 INFO        Scroll 5: 34 elementos en página
+2026-02-02T12:18:55 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T12:19:01 INFO        Scroll 6: 41 elementos en página
+2026-02-02T12:20:24 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T12:20:28 INFO        Scroll 7: 48 elementos en página
+2026-02-02T12:21:54 INFO        ✅ 7 nuevos, 48 total
+2026-02-02T12:22:01 INFO        Scroll 8: 48 elementos en página
+2026-02-02T12:22:18 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T12:22:24 INFO        Scroll 9: 48 elementos en página
+2026-02-02T12:22:42 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T12:22:47 INFO        Scroll 10: 48 elementos en página
+2026-02-02T12:23:04 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T12:23:09 INFO        Scroll 11: 48 elementos en página
+2026-02-02T12:23:27 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T12:23:33 INFO        Scroll 12: 48 elementos en página
+2026-02-02T12:23:50 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T12:23:50 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T12:23:50 INFO     🔍 [policlínico][-32.9523|-60.6975][SCROLL: 11]: Search page scraped: 48 unique, 389 duplicate, 48 seen, 11 paginations, 0 outOfLocation.
+2026-02-02T12:23:50 INFO     ✅ Extracción completada: 48 lugares encontrados
+2026-02-02T12:23:50 INFO     📊 24 lugares agregados (Total: 23116)
+2026-02-02T12:23:50 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T12:24:03 INFO     💾 Checkpoint guardado: 23116 empresas TOTALES
+2026-02-02T12:24:03 INFO     Estado guardado: 23116 empresas
+2026-02-02T12:24:07 INFO     ⏳ Esperando 4.1s antes del siguiente rubro...
+2026-02-02T12:24:07 INFO     
+🏷️  Rubro 6/171: consultorio particular
+2026-02-02T12:24:07 INFO     
+🔍 Buscando 'consultorio particular' en segmento 0
+2026-02-02T12:24:07 INFO        URL: https://www.google.com/maps/search/consultorio+particular/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T12:24:27 INFO     📄 Iniciando extracción para rubro: consultorio particular
+2026-02-02T12:24:27 INFO        Scroll 1: 7 elementos en página
+2026-02-02T12:25:15 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T12:25:21 INFO        Scroll 2: 14 elementos en página
+2026-02-02T12:26:07 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T12:26:12 INFO        Scroll 3: 21 elementos en página
+2026-02-02T12:27:24 INFO        ✅ 7 nuevos, 21 total
+2026-02-02T12:27:30 INFO        Scroll 4: 29 elementos en página
+2026-02-02T12:28:41 INFO        ✅ 7 nuevos, 28 total
+2026-02-02T12:28:48 INFO        Scroll 5: 36 elementos en página
+2026-02-02T12:30:07 INFO        ✅ 7 nuevos, 35 total
+2026-02-02T12:30:13 INFO        Scroll 6: 43 elementos en página
+2026-02-02T12:31:36 INFO        ✅ 7 nuevos, 42 total
+2026-02-02T12:31:41 INFO        Scroll 7: 51 elementos en página
+2026-02-02T12:33:00 INFO        ✅ 8 nuevos, 50 total
+2026-02-02T12:33:07 INFO        Scroll 8: 58 elementos en página
+2026-02-02T12:34:14 INFO        ✅ 6 nuevos, 56 total
+2026-02-02T12:34:20 INFO        Scroll 9: 64 elementos en página
+2026-02-02T12:35:33 INFO        ✅ 6 nuevos, 62 total
+2026-02-02T12:35:39 INFO        Scroll 10: 71 elementos en página
+2026-02-02T12:37:01 INFO        ✅ 7 nuevos, 69 total
+2026-02-02T12:37:07 INFO        Scroll 11: 78 elementos en página
+2026-02-02T12:38:44 INFO        ✅ 7 nuevos, 76 total
+2026-02-02T12:38:50 INFO        Scroll 12: 78 elementos en página
+2026-02-02T12:39:18 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T12:39:23 INFO        Scroll 13: 78 elementos en página
+2026-02-02T12:39:52 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T12:39:58 INFO        Scroll 14: 78 elementos en página
+2026-02-02T12:40:27 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T12:40:34 INFO        Scroll 15: 78 elementos en página
+2026-02-02T12:41:02 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T12:41:08 INFO        Scroll 16: 78 elementos en página
+2026-02-02T12:41:36 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T12:41:36 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T12:41:36 INFO     🔍 [consultorio particular][-32.9523|-60.6975][SCROLL: 15]: Search page scraped: 76 unique, 786 duplicate, 76 seen, 15 paginations, 0 outOfLocation.
+2026-02-02T12:41:36 INFO     ✅ Extracción completada: 76 lugares encontrados
+2026-02-02T12:41:36 INFO     📊 37 lugares agregados (Total: 23153)
+2026-02-02T12:41:36 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T12:41:49 INFO     💾 Checkpoint guardado: 23153 empresas TOTALES
+2026-02-02T12:41:49 INFO     Estado guardado: 23153 empresas
+2026-02-02T12:41:54 INFO     ⏳ Esperando 5.3s antes del siguiente rubro...
+2026-02-02T12:41:54 INFO     
+🏷️  Rubro 7/171: estudio jurídico
+2026-02-02T12:41:54 INFO     
+🔍 Buscando 'estudio jurídico' en segmento 0
+2026-02-02T12:41:54 INFO        URL: https://www.google.com/maps/search/estudio+jurídico/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T12:42:13 INFO     📄 Iniciando extracción para rubro: estudio jurídico
+2026-02-02T12:42:13 INFO        Scroll 1: 10 elementos en página
+2026-02-02T12:43:19 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T12:43:24 INFO        Scroll 2: 17 elementos en página
+2026-02-02T12:44:14 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T12:44:21 INFO        Scroll 3: 21 elementos en página
+2026-02-02T12:44:53 INFO        ✅ 4 nuevos, 21 total
+2026-02-02T12:44:59 INFO        Scroll 4: 28 elementos en página
+2026-02-02T12:45:46 INFO        ✅ 6 nuevos, 27 total
+2026-02-02T12:45:52 INFO        Scroll 5: 35 elementos en página
+2026-02-02T12:46:56 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T12:47:01 INFO        Scroll 6: 42 elementos en página
+2026-02-02T12:48:22 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T12:48:27 INFO        Scroll 7: 49 elementos en página
+2026-02-02T12:49:35 INFO        ✅ 7 nuevos, 48 total
+2026-02-02T12:49:41 INFO        Scroll 8: 56 elementos en página
+2026-02-02T12:50:49 INFO        ✅ 7 nuevos, 55 total
+2026-02-02T12:50:56 INFO        Scroll 9: 62 elementos en página
+2026-02-02T12:52:08 INFO        ✅ 6 nuevos, 61 total
+2026-02-02T12:52:14 INFO        Scroll 10: 69 elementos en página
+2026-02-02T12:53:39 INFO        ✅ 7 nuevos, 68 total
+2026-02-02T12:53:45 INFO        Scroll 11: 76 elementos en página
+2026-02-02T12:55:11 INFO        ✅ 7 nuevos, 75 total
+2026-02-02T12:55:16 INFO        Scroll 12: 82 elementos en página
+2026-02-02T12:56:37 INFO        ✅ 6 nuevos, 81 total
+2026-02-02T12:56:42 INFO        Scroll 13: 89 elementos en página
+2026-02-02T12:58:13 INFO        ✅ 7 nuevos, 88 total
+2026-02-02T12:58:19 INFO        Scroll 14: 96 elementos en página
+2026-02-02T13:00:01 INFO        ✅ 7 nuevos, 95 total
+2026-02-02T13:00:06 INFO        Scroll 15: 102 elementos en página
+2026-02-02T13:01:48 INFO        ✅ 6 nuevos, 101 total
+2026-02-02T13:01:53 INFO        Scroll 16: 109 elementos en página
+2026-02-02T13:04:06 INFO        ✅ 7 nuevos, 108 total
+2026-02-02T13:04:11 INFO        Scroll 17: 116 elementos en página
+2026-02-02T13:05:57 INFO        ✅ 6 nuevos, 114 total
+2026-02-02T13:06:02 INFO        Scroll 18: 122 elementos en página
+2026-02-02T13:07:22 INFO        ✅ 6 nuevos, 120 total
+2026-02-02T13:07:27 INFO        Scroll 19: 122 elementos en página
+2026-02-02T13:08:09 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T13:08:15 INFO        Scroll 20: 122 elementos en página
+2026-02-02T13:08:57 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T13:09:04 INFO        Scroll 21: 122 elementos en página
+2026-02-02T13:09:46 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T13:09:52 INFO        Scroll 22: 122 elementos en página
+2026-02-02T13:10:34 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T13:10:39 INFO        Scroll 23: 122 elementos en página
+2026-02-02T13:11:22 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T13:11:22 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T13:11:22 INFO     🔍 [estudio jurídico][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 120 unique, 1671 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T13:11:22 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-02-02T13:11:22 INFO     📊 120 lugares agregados (Total: 23273)
+2026-02-02T13:11:22 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T13:11:35 INFO     💾 Checkpoint guardado: 23273 empresas TOTALES
+2026-02-02T13:11:35 INFO     Estado guardado: 23273 empresas
+2026-02-02T13:11:41 INFO     ⏳ Esperando 6.7s antes del siguiente rubro...
+2026-02-02T13:11:41 INFO     
+🏷️  Rubro 8/171: despacho de abogados
+2026-02-02T13:11:41 INFO     
+🔍 Buscando 'despacho de abogados' en segmento 0
+2026-02-02T13:11:41 INFO        URL: https://www.google.com/maps/search/despacho+de+abogados/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T13:12:00 INFO     📄 Iniciando extracción para rubro: despacho de abogados
+2026-02-02T13:12:01 INFO        Scroll 1: 7 elementos en página
+2026-02-02T13:12:44 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T13:12:51 INFO        Scroll 2: 14 elementos en página
+2026-02-02T13:13:40 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T13:13:46 INFO        Scroll 3: 21 elementos en página
+2026-02-02T13:14:42 INFO        ✅ 7 nuevos, 21 total
+2026-02-02T13:14:48 INFO        Scroll 4: 28 elementos en página
+2026-02-02T13:15:45 INFO        ✅ 7 nuevos, 28 total
+2026-02-02T13:15:52 INFO        Scroll 5: 35 elementos en página
+2026-02-02T13:16:50 INFO        ✅ 7 nuevos, 35 total
+2026-02-02T13:16:56 INFO        Scroll 6: 41 elementos en página
+2026-02-02T13:17:56 INFO        ✅ 6 nuevos, 41 total
+2026-02-02T13:18:01 INFO        Scroll 7: 48 elementos en página
+2026-02-02T13:19:11 INFO        ✅ 7 nuevos, 48 total
+2026-02-02T13:19:17 INFO        Scroll 8: 55 elementos en página
+2026-02-02T13:20:29 INFO        ✅ 7 nuevos, 55 total
+2026-02-02T13:20:34 INFO        Scroll 9: 61 elementos en página
+2026-02-02T13:21:45 INFO        ✅ 6 nuevos, 61 total
+2026-02-02T13:21:51 INFO        Scroll 10: 68 elementos en página
+2026-02-02T13:23:11 INFO        ✅ 7 nuevos, 68 total
+2026-02-02T13:23:18 INFO        Scroll 11: 75 elementos en página
+2026-02-02T13:24:43 INFO        ✅ 7 nuevos, 75 total
+2026-02-02T13:24:49 INFO        Scroll 12: 81 elementos en página
+2026-02-02T13:26:12 INFO        ✅ 6 nuevos, 81 total
+2026-02-02T13:26:17 INFO        Scroll 13: 88 elementos en página
+2026-02-02T13:27:50 INFO        ✅ 7 nuevos, 88 total
+2026-02-02T13:27:56 INFO        Scroll 14: 91 elementos en página
+2026-02-02T13:28:58 INFO        ✅ 3 nuevos, 91 total
+2026-02-02T13:29:04 INFO        Scroll 15: 91 elementos en página
+2026-02-02T13:29:35 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T13:29:40 INFO        Scroll 16: 91 elementos en página
+2026-02-02T13:30:11 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T13:30:18 INFO        Scroll 17: 91 elementos en página
+2026-02-02T13:30:50 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T13:30:55 INFO        Scroll 18: 91 elementos en página
+2026-02-02T13:31:27 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T13:31:34 INFO        Scroll 19: 91 elementos en página
+2026-02-02T13:32:06 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T13:32:06 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T13:32:06 INFO     🔍 [despacho de abogados][-32.9523|-60.6975][SCROLL: 18]: Search page scraped: 91 unique, 1077 duplicate, 91 seen, 18 paginations, 0 outOfLocation.
+2026-02-02T13:32:06 INFO     ✅ Extracción completada: 91 lugares encontrados
+2026-02-02T13:32:06 INFO     📊 12 lugares agregados (Total: 23285)
+2026-02-02T13:32:06 INFO     Estado guardado: 23285 empresas
+2026-02-02T13:32:13 INFO     ⏳ Esperando 7.7s antes del siguiente rubro...
+2026-02-02T13:32:13 INFO     
+🏷️  Rubro 9/171: abogados especializados
+2026-02-02T13:32:13 INFO     
+🔍 Buscando 'abogados especializados' en segmento 0
+2026-02-02T13:32:13 INFO        URL: https://www.google.com/maps/search/abogados+especializados/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T13:32:34 INFO     📄 Iniciando extracción para rubro: abogados especializados
+2026-02-02T13:32:34 INFO        Scroll 1: 10 elementos en página
+2026-02-02T13:33:38 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T13:33:43 INFO        Scroll 2: 17 elementos en página
+2026-02-02T13:34:30 INFO        ✅ 6 nuevos, 16 total
+2026-02-02T13:34:35 INFO        Scroll 3: 22 elementos en página
+2026-02-02T13:35:25 INFO        ✅ 5 nuevos, 21 total
+2026-02-02T13:35:30 INFO        Scroll 4: 29 elementos en página
+2026-02-02T13:36:21 INFO        ✅ 6 nuevos, 27 total
+2026-02-02T13:36:26 INFO        Scroll 5: 36 elementos en página
+2026-02-02T13:37:28 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T13:37:33 INFO        Scroll 6: 43 elementos en página
+2026-02-02T13:38:46 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T13:38:52 INFO        Scroll 7: 43 elementos en página
+2026-02-02T13:39:08 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T13:39:14 INFO        Scroll 8: 43 elementos en página
+2026-02-02T13:39:29 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T13:39:34 INFO        Scroll 9: 43 elementos en página
+2026-02-02T13:39:50 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T13:39:56 INFO        Scroll 10: 43 elementos en página
+2026-02-02T13:40:11 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T13:40:17 INFO        Scroll 11: 43 elementos en página
+2026-02-02T13:40:32 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T13:40:32 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T13:40:32 INFO     🔍 [abogados especializados][-32.9523|-60.6975][SCROLL: 10]: Search page scraped: 41 unique, 331 duplicate, 41 seen, 10 paginations, 0 outOfLocation.
+2026-02-02T13:40:32 INFO     ✅ Extracción completada: 41 lugares encontrados
+2026-02-02T13:40:32 INFO     📊 24 lugares agregados (Total: 23309)
+2026-02-02T13:40:32 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T13:40:45 INFO     💾 Checkpoint guardado: 23309 empresas TOTALES
+2026-02-02T13:40:45 INFO     Estado guardado: 23309 empresas
+2026-02-02T13:40:52 INFO     ⏳ Esperando 7.3s antes del siguiente rubro...
+2026-02-02T13:40:52 INFO     
+🏷️  Rubro 10/171: bufete de abogados
+2026-02-02T13:40:52 INFO     
+🔍 Buscando 'bufete de abogados' en segmento 0
+2026-02-02T13:40:52 INFO        URL: https://www.google.com/maps/search/bufete+de+abogados/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T13:41:13 INFO     📄 Iniciando extracción para rubro: bufete de abogados
+2026-02-02T13:41:13 INFO        Scroll 1: 7 elementos en página
+2026-02-02T13:41:57 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T13:42:03 INFO        Scroll 2: 14 elementos en página
+2026-02-02T13:42:54 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T13:43:01 INFO        Scroll 3: 21 elementos en página
+2026-02-02T13:43:55 INFO        ✅ 7 nuevos, 21 total
+2026-02-02T13:44:01 INFO        Scroll 4: 28 elementos en página
+2026-02-02T13:44:52 INFO        ✅ 6 nuevos, 27 total
+2026-02-02T13:44:58 INFO        Scroll 5: 35 elementos en página
+2026-02-02T13:45:56 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T13:46:01 INFO        Scroll 6: 42 elementos en página
+2026-02-02T13:47:13 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T13:47:19 INFO        Scroll 7: 49 elementos en página
+2026-02-02T13:48:28 INFO        ✅ 7 nuevos, 48 total
+2026-02-02T13:48:33 INFO        Scroll 8: 56 elementos en página
+2026-02-02T13:49:41 INFO        ✅ 7 nuevos, 55 total
+2026-02-02T13:49:47 INFO        Scroll 9: 62 elementos en página
+2026-02-02T13:50:56 INFO        ✅ 6 nuevos, 61 total
+2026-02-02T13:51:02 INFO        Scroll 10: 69 elementos en página
+2026-02-02T13:52:31 INFO        ✅ 7 nuevos, 68 total
+2026-02-02T13:52:37 INFO        Scroll 11: 76 elementos en página
+2026-02-02T13:54:00 INFO        ✅ 7 nuevos, 75 total
+2026-02-02T13:54:06 INFO        Scroll 12: 82 elementos en página
+2026-02-02T13:55:39 INFO        ✅ 6 nuevos, 81 total
+2026-02-02T13:55:46 INFO        Scroll 13: 89 elementos en página
+2026-02-02T13:57:18 INFO        ✅ 7 nuevos, 88 total
+2026-02-02T13:57:23 INFO        Scroll 14: 96 elementos en página
+2026-02-02T13:59:04 INFO        ✅ 7 nuevos, 95 total
+2026-02-02T13:59:11 INFO        Scroll 15: 102 elementos en página
+2026-02-02T14:01:02 INFO        ✅ 6 nuevos, 101 total
+2026-02-02T14:01:07 INFO        Scroll 16: 109 elementos en página
+2026-02-02T14:02:56 INFO        ✅ 7 nuevos, 108 total
+2026-02-02T14:03:03 INFO        Scroll 17: 116 elementos en página
+2026-02-02T14:05:05 INFO        ✅ 7 nuevos, 115 total
+2026-02-02T14:05:11 INFO        Scroll 18: 122 elementos en página
+2026-02-02T14:06:31 INFO        ✅ 5 nuevos, 120 total
+2026-02-02T14:06:36 INFO        Scroll 19: 122 elementos en página
+2026-02-02T14:07:18 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T14:07:23 INFO        Scroll 20: 122 elementos en página
+2026-02-02T14:08:05 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T14:08:10 INFO        Scroll 21: 122 elementos en página
+2026-02-02T14:08:52 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T14:08:59 INFO        Scroll 22: 122 elementos en página
+2026-02-02T14:09:41 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T14:09:47 INFO        Scroll 23: 122 elementos en página
+2026-02-02T14:10:28 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T14:10:28 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T14:10:28 INFO     🔍 [bufete de abogados][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 120 unique, 1665 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T14:10:28 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-02-02T14:10:28 INFO     📊 69 lugares agregados (Total: 23378)
+2026-02-02T14:10:28 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T14:10:41 INFO     💾 Checkpoint guardado: 23378 empresas TOTALES
+2026-02-02T14:10:41 INFO     Estado guardado: 23378 empresas
+2026-02-02T14:10:46 INFO     ⏳ Esperando 5.2s antes del siguiente rubro...
+2026-02-02T14:10:46 INFO     
+🏷️  Rubro 11/171: asesoría legal
+2026-02-02T14:10:46 INFO     
+🔍 Buscando 'asesoría legal' en segmento 0
+2026-02-02T14:10:46 INFO        URL: https://www.google.com/maps/search/asesoría+legal/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T14:11:05 INFO     📄 Iniciando extracción para rubro: asesoría legal
+2026-02-02T14:11:05 INFO        Scroll 1: 10 elementos en página
+2026-02-02T14:12:07 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T14:12:13 INFO        Scroll 2: 17 elementos en página
+2026-02-02T14:13:00 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T14:13:06 INFO        Scroll 3: 21 elementos en página
+2026-02-02T14:13:38 INFO        ✅ 4 nuevos, 21 total
+2026-02-02T14:13:43 INFO        Scroll 4: 28 elementos en página
+2026-02-02T14:14:49 INFO        ✅ 6 nuevos, 27 total
+2026-02-02T14:14:54 INFO        Scroll 5: 35 elementos en página
+2026-02-02T14:15:52 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T14:15:58 INFO        Scroll 6: 42 elementos en página
+2026-02-02T14:17:04 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T14:17:10 INFO        Scroll 7: 49 elementos en página
+2026-02-02T14:18:24 INFO        ✅ 7 nuevos, 48 total
+2026-02-02T14:18:31 INFO        Scroll 8: 56 elementos en página
+2026-02-02T14:20:09 INFO        ✅ 7 nuevos, 55 total
+2026-02-02T14:20:15 INFO        Scroll 9: 62 elementos en página
+2026-02-02T14:21:21 INFO        ✅ 6 nuevos, 61 total
+2026-02-02T14:21:26 INFO        Scroll 10: 69 elementos en página
+2026-02-02T14:23:00 INFO        ✅ 7 nuevos, 68 total
+2026-02-02T14:23:05 INFO        Scroll 11: 76 elementos en página
+2026-02-02T14:24:25 INFO        ✅ 7 nuevos, 75 total
+2026-02-02T14:24:30 INFO        Scroll 12: 82 elementos en página
+2026-02-02T14:26:00 INFO        ✅ 6 nuevos, 81 total
+2026-02-02T14:26:06 INFO        Scroll 13: 89 elementos en página
+2026-02-02T14:27:35 INFO        ✅ 7 nuevos, 88 total
+2026-02-02T14:27:41 INFO        Scroll 14: 96 elementos en página
+2026-02-02T14:29:17 INFO        ✅ 7 nuevos, 95 total
+2026-02-02T14:29:24 INFO        Scroll 15: 102 elementos en página
+2026-02-02T14:30:51 INFO        ✅ 6 nuevos, 101 total
+2026-02-02T14:30:58 INFO        Scroll 16: 105 elementos en página
+2026-02-02T14:32:14 INFO        ✅ 3 nuevos, 104 total
+2026-02-02T14:32:20 INFO        Scroll 17: 105 elementos en página
+2026-02-02T14:32:55 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T14:33:03 INFO        Scroll 18: 105 elementos en página
+2026-02-02T14:33:38 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T14:33:43 INFO        Scroll 19: 105 elementos en página
+2026-02-02T14:34:18 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T14:34:23 INFO        Scroll 20: 105 elementos en página
+2026-02-02T14:34:58 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T14:35:05 INFO        Scroll 21: 105 elementos en página
+2026-02-02T14:35:41 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T14:35:41 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T14:35:41 INFO     🔍 [asesoría legal][-32.9523|-60.6975][SCROLL: 20]: Search page scraped: 104 unique, 1360 duplicate, 104 seen, 20 paginations, 0 outOfLocation.
+2026-02-02T14:35:41 INFO     ✅ Extracción completada: 104 lugares encontrados
+2026-02-02T14:35:41 INFO     📊 49 lugares agregados (Total: 23427)
+2026-02-02T14:35:41 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T14:35:54 INFO     💾 Checkpoint guardado: 23427 empresas TOTALES
+2026-02-02T14:35:54 INFO     Estado guardado: 23427 empresas
+2026-02-02T14:36:02 INFO     ⏳ Esperando 7.6s antes del siguiente rubro...
+2026-02-02T14:36:02 INFO     
+🏷️  Rubro 12/171: estudio contable
+2026-02-02T14:36:02 INFO     
+🔍 Buscando 'estudio contable' en segmento 0
+2026-02-02T14:36:02 INFO        URL: https://www.google.com/maps/search/estudio+contable/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T14:36:22 INFO     📄 Iniciando extracción para rubro: estudio contable
+2026-02-02T14:36:22 INFO        Scroll 1: 7 elementos en página
+2026-02-02T14:37:02 INFO        ✅ 6 nuevos, 6 total
+2026-02-02T14:37:07 INFO        Scroll 2: 14 elementos en página
+2026-02-02T14:37:59 INFO        ✅ 7 nuevos, 13 total
+2026-02-02T14:38:04 INFO        Scroll 3: 21 elementos en página
+2026-02-02T14:38:52 INFO        ✅ 7 nuevos, 20 total
+2026-02-02T14:38:58 INFO        Scroll 4: 29 elementos en página
+2026-02-02T14:39:46 INFO        ✅ 6 nuevos, 26 total
+2026-02-02T14:39:53 INFO        Scroll 5: 36 elementos en página
+2026-02-02T14:40:50 INFO        ✅ 7 nuevos, 33 total
+2026-02-02T14:40:55 INFO        Scroll 6: 43 elementos en página
+2026-02-02T14:42:10 INFO        ✅ 7 nuevos, 40 total
+2026-02-02T14:42:15 INFO        Scroll 7: 51 elementos en página
+2026-02-02T14:43:22 INFO        ✅ 7 nuevos, 47 total
+2026-02-02T14:43:28 INFO        Scroll 8: 58 elementos en página
+2026-02-02T14:44:52 INFO        ✅ 7 nuevos, 54 total
+2026-02-02T14:44:58 INFO        Scroll 9: 64 elementos en página
+2026-02-02T14:46:02 INFO        ✅ 6 nuevos, 60 total
+2026-02-02T14:46:08 INFO        Scroll 10: 71 elementos en página
+2026-02-02T14:47:29 INFO        ✅ 7 nuevos, 67 total
+2026-02-02T14:47:34 INFO        Scroll 11: 78 elementos en página
+2026-02-02T14:49:09 INFO        ✅ 7 nuevos, 74 total
+2026-02-02T14:49:16 INFO        Scroll 12: 84 elementos en página
+2026-02-02T14:50:36 INFO        ✅ 6 nuevos, 80 total
+2026-02-02T14:50:41 INFO        Scroll 13: 91 elementos en página
+2026-02-02T14:52:18 INFO        ✅ 7 nuevos, 87 total
+2026-02-02T14:52:23 INFO        Scroll 14: 98 elementos en página
+2026-02-02T14:54:20 INFO        ✅ 7 nuevos, 94 total
+2026-02-02T14:54:26 INFO        Scroll 15: 104 elementos en página
+2026-02-02T14:55:53 INFO        ✅ 6 nuevos, 100 total
+2026-02-02T14:56:00 INFO        Scroll 16: 111 elementos en página
+2026-02-02T14:58:09 INFO        ✅ 7 nuevos, 107 total
+2026-02-02T14:58:15 INFO        Scroll 17: 118 elementos en página
+2026-02-02T15:00:30 INFO        ✅ 7 nuevos, 114 total
+2026-02-02T15:00:35 INFO        Scroll 18: 124 elementos en página
+2026-02-02T15:02:14 INFO        ✅ 6 nuevos, 120 total
+2026-02-02T15:02:19 INFO        Scroll 19: 124 elementos en página
+2026-02-02T15:03:00 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T15:03:05 INFO        Scroll 20: 124 elementos en página
+2026-02-02T15:03:46 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T15:03:51 INFO        Scroll 21: 124 elementos en página
+2026-02-02T15:04:32 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T15:04:37 INFO        Scroll 22: 124 elementos en página
+2026-02-02T15:05:18 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T15:05:25 INFO        Scroll 23: 124 elementos en página
+2026-02-02T15:06:06 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T15:06:06 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T15:06:06 INFO     🔍 [estudio contable][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 120 unique, 1702 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T15:06:06 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-02-02T15:06:06 INFO     📊 112 lugares agregados (Total: 23539)
+2026-02-02T15:06:06 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T15:06:19 INFO     💾 Checkpoint guardado: 23539 empresas TOTALES
+2026-02-02T15:06:19 INFO     Estado guardado: 23539 empresas
+2026-02-02T15:06:26 INFO     ⏳ Esperando 6.7s antes del siguiente rubro...
+2026-02-02T15:06:26 INFO     
+🏷️  Rubro 13/171: contador público
+2026-02-02T15:06:26 INFO     
+🔍 Buscando 'contador público' en segmento 0
+2026-02-02T15:06:26 INFO        URL: https://www.google.com/maps/search/contador+público/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T15:06:45 INFO     📄 Iniciando extracción para rubro: contador público
+2026-02-02T15:06:45 INFO        Scroll 1: 10 elementos en página
+2026-02-02T15:07:45 INFO        ✅ 9 nuevos, 9 total
+2026-02-02T15:07:50 INFO        Scroll 2: 17 elementos en página
+2026-02-02T15:08:43 INFO        ✅ 7 nuevos, 16 total
+2026-02-02T15:08:49 INFO        Scroll 3: 22 elementos en página
+2026-02-02T15:09:28 INFO        ✅ 5 nuevos, 21 total
+2026-02-02T15:09:32 INFO        Scroll 4: 29 elementos en página
+2026-02-02T15:10:17 INFO        ✅ 5 nuevos, 26 total
+2026-02-02T15:10:24 INFO        Scroll 5: 36 elementos en página
+2026-02-02T15:11:21 INFO        ✅ 7 nuevos, 33 total
+2026-02-02T15:11:26 INFO        Scroll 6: 43 elementos en página
+2026-02-02T15:12:28 INFO        ✅ 7 nuevos, 40 total
+2026-02-02T15:12:34 INFO        Scroll 7: 51 elementos en página
+2026-02-02T15:13:57 INFO        ✅ 8 nuevos, 48 total
+2026-02-02T15:14:03 INFO        Scroll 8: 58 elementos en página
+2026-02-02T15:15:25 INFO        ✅ 7 nuevos, 55 total
+2026-02-02T15:15:31 INFO        Scroll 9: 64 elementos en página
+2026-02-02T15:16:48 INFO        ✅ 6 nuevos, 61 total
+2026-02-02T15:16:53 INFO        Scroll 10: 71 elementos en página
+2026-02-02T15:18:18 INFO        ✅ 7 nuevos, 68 total
+2026-02-02T15:18:25 INFO        Scroll 11: 78 elementos en página
+2026-02-02T15:19:47 INFO        ✅ 7 nuevos, 75 total
+2026-02-02T15:19:52 INFO        Scroll 12: 84 elementos en página
+2026-02-02T15:21:17 INFO        ✅ 6 nuevos, 81 total
+2026-02-02T15:21:22 INFO        Scroll 13: 91 elementos en página
+2026-02-02T15:23:04 INFO        ✅ 7 nuevos, 88 total
+2026-02-02T15:23:10 INFO        Scroll 14: 98 elementos en página
+2026-02-02T15:24:41 INFO        ✅ 7 nuevos, 95 total
+2026-02-02T15:24:48 INFO        Scroll 15: 104 elementos en página
+2026-02-02T15:26:20 INFO        ✅ 6 nuevos, 101 total
+2026-02-02T15:26:25 INFO        Scroll 16: 111 elementos en página
+2026-02-02T15:28:06 INFO        ✅ 7 nuevos, 108 total
+2026-02-02T15:28:12 INFO        Scroll 17: 118 elementos en página
+2026-02-02T15:29:59 INFO        ✅ 7 nuevos, 115 total
+2026-02-02T15:30:04 INFO        Scroll 18: 122 elementos en página
+2026-02-02T15:31:08 INFO        ✅ 4 nuevos, 119 total
+2026-02-02T15:31:14 INFO        Scroll 19: 122 elementos en página
+2026-02-02T15:31:55 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T15:32:00 INFO        Scroll 20: 122 elementos en página
+2026-02-02T15:32:40 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T15:32:46 INFO        Scroll 21: 122 elementos en página
+2026-02-02T15:33:27 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T15:33:32 INFO        Scroll 22: 122 elementos en página
+2026-02-02T15:34:13 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T15:34:18 INFO        Scroll 23: 122 elementos en página
+2026-02-02T15:34:58 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T15:34:58 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T15:34:58 INFO     🔍 [contador público][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 119 unique, 1698 duplicate, 119 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T15:34:58 INFO     ✅ Extracción completada: 119 lugares encontrados
+2026-02-02T15:34:58 INFO     📊 72 lugares agregados (Total: 23611)
+2026-02-02T15:34:58 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T15:35:11 INFO     💾 Checkpoint guardado: 23611 empresas TOTALES
+2026-02-02T15:35:11 INFO     Estado guardado: 23611 empresas
+2026-02-02T15:35:19 INFO     ⏳ Esperando 7.5s antes del siguiente rubro...
+2026-02-02T15:35:19 INFO     
+🏷️  Rubro 14/171: auditoría contable
+2026-02-02T15:35:19 INFO     
+🔍 Buscando 'auditoría contable' en segmento 0
+2026-02-02T15:35:19 INFO        URL: https://www.google.com/maps/search/auditoría+contable/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T15:35:38 INFO     📄 Iniciando extracción para rubro: auditoría contable
+2026-02-02T15:35:38 INFO        Scroll 1: 7 elementos en página
+2026-02-02T15:36:40 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T15:36:45 INFO        Scroll 2: 14 elementos en página
+2026-02-02T15:37:31 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T15:37:37 INFO        Scroll 3: 19 elementos en página
+2026-02-02T15:38:28 INFO        ✅ 5 nuevos, 19 total
+2026-02-02T15:38:34 INFO        Scroll 4: 19 elementos en página
+2026-02-02T15:38:41 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T15:38:47 INFO        Scroll 5: 19 elementos en página
+2026-02-02T15:38:54 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T15:38:58 INFO        Scroll 6: 19 elementos en página
+2026-02-02T15:39:05 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T15:39:10 INFO        Scroll 7: 19 elementos en página
+2026-02-02T15:39:17 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T15:39:23 INFO        Scroll 8: 19 elementos en página
+2026-02-02T15:39:29 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T15:39:29 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T15:39:29 INFO     🔍 [auditoría contable][-32.9523|-60.6975][SCROLL: 7]: Search page scraped: 19 unique, 116 duplicate, 19 seen, 7 paginations, 0 outOfLocation.
+2026-02-02T15:39:29 INFO     ✅ Extracción completada: 19 lugares encontrados
+2026-02-02T15:39:29 INFO     📊 4 lugares agregados (Total: 23615)
+2026-02-02T15:39:29 INFO     Estado guardado: 23615 empresas
+2026-02-02T15:39:34 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-02-02T15:39:34 INFO     
+🏷️  Rubro 15/171: asesoría impositiva
+2026-02-02T15:39:34 INFO     
+🔍 Buscando 'asesoría impositiva' en segmento 0
+2026-02-02T15:39:34 INFO        URL: https://www.google.com/maps/search/asesoría+impositiva/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T15:39:53 INFO     📄 Iniciando extracción para rubro: asesoría impositiva
+2026-02-02T15:39:53 INFO        Scroll 1: 10 elementos en página
+2026-02-02T15:41:09 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T15:41:14 INFO        Scroll 2: 17 elementos en página
+2026-02-02T15:42:05 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T15:42:10 INFO        Scroll 3: 27 elementos en página
+2026-02-02T15:43:26 INFO        ✅ 10 nuevos, 27 total
+2026-02-02T15:43:30 INFO        Scroll 4: 34 elementos en página
+2026-02-02T15:44:29 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T15:44:35 INFO        Scroll 5: 40 elementos en página
+2026-02-02T15:45:27 INFO        ✅ 6 nuevos, 40 total
+2026-02-02T15:45:33 INFO        Scroll 6: 47 elementos en página
+2026-02-02T15:46:45 INFO        ✅ 7 nuevos, 47 total
+2026-02-02T15:46:51 INFO        Scroll 7: 54 elementos en página
+2026-02-02T15:48:11 INFO        ✅ 7 nuevos, 54 total
+2026-02-02T15:48:17 INFO        Scroll 8: 59 elementos en página
+2026-02-02T15:49:05 INFO        ✅ 5 nuevos, 59 total
+2026-02-02T15:49:10 INFO        Scroll 9: 59 elementos en página
+2026-02-02T15:49:31 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T15:49:35 INFO        Scroll 10: 59 elementos en página
+2026-02-02T15:49:56 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T15:50:03 INFO        Scroll 11: 59 elementos en página
+2026-02-02T15:50:23 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T15:50:29 INFO        Scroll 12: 59 elementos en página
+2026-02-02T15:50:49 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T15:50:56 INFO        Scroll 13: 59 elementos en página
+2026-02-02T15:51:16 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T15:51:16 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T15:51:16 INFO     🔍 [asesoría impositiva][-32.9523|-60.6975][SCROLL: 12]: Search page scraped: 59 unique, 524 duplicate, 59 seen, 12 paginations, 0 outOfLocation.
+2026-02-02T15:51:16 INFO     ✅ Extracción completada: 59 lugares encontrados
+2026-02-02T15:51:16 INFO     📊 16 lugares agregados (Total: 23631)
+2026-02-02T15:51:16 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T15:51:29 INFO     💾 Checkpoint guardado: 23631 empresas TOTALES
+2026-02-02T15:51:29 INFO     Estado guardado: 23631 empresas
+2026-02-02T15:51:36 INFO     ⏳ Esperando 6.5s antes del siguiente rubro...
+2026-02-02T15:51:36 INFO     
+🏷️  Rubro 16/171: contador independiente
+2026-02-02T15:51:36 INFO     
+🔍 Buscando 'contador independiente' en segmento 0
+2026-02-02T15:51:36 INFO        URL: https://www.google.com/maps/search/contador+independiente/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T15:51:56 INFO     📄 Iniciando extracción para rubro: contador independiente
+2026-02-02T15:51:56 INFO        Scroll 1: 7 elementos en página
+2026-02-02T15:52:42 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T15:52:48 INFO        Scroll 2: 14 elementos en página
+2026-02-02T15:53:45 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T15:53:51 INFO        Scroll 3: 20 elementos en página
+2026-02-02T15:54:58 INFO        ✅ 6 nuevos, 20 total
+2026-02-02T15:55:03 INFO        Scroll 4: 23 elementos en página
+2026-02-02T15:55:29 INFO        ✅ 3 nuevos, 23 total
+2026-02-02T15:55:34 INFO        Scroll 5: 23 elementos en página
+2026-02-02T15:55:42 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T15:55:47 INFO        Scroll 6: 23 elementos en página
+2026-02-02T15:55:56 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T15:56:02 INFO        Scroll 7: 23 elementos en página
+2026-02-02T15:56:10 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T15:56:17 INFO        Scroll 8: 23 elementos en página
+2026-02-02T15:56:25 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T15:56:30 INFO        Scroll 9: 23 elementos en página
+2026-02-02T15:56:39 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T15:56:39 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T15:56:39 INFO     🔍 [contador independiente][-32.9523|-60.6975][SCROLL: 8]: Search page scraped: 23 unique, 156 duplicate, 23 seen, 8 paginations, 0 outOfLocation.
+2026-02-02T15:56:39 INFO     ✅ Extracción completada: 23 lugares encontrados
+2026-02-02T15:56:39 INFO     📊 7 lugares agregados (Total: 23638)
+2026-02-02T15:56:39 INFO     Estado guardado: 23638 empresas
+2026-02-02T15:56:45 INFO     ⏳ Esperando 6.4s antes del siguiente rubro...
+2026-02-02T15:56:45 INFO     
+🏷️  Rubro 17/171: marketing digital
+2026-02-02T15:56:45 INFO     
+🔍 Buscando 'marketing digital' en segmento 0
+2026-02-02T15:56:45 INFO        URL: https://www.google.com/maps/search/marketing+digital/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T15:57:05 INFO     📄 Iniciando extracción para rubro: marketing digital
+2026-02-02T15:57:05 INFO        Scroll 1: 10 elementos en página
+2026-02-02T15:58:16 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T15:58:22 INFO        Scroll 2: 17 elementos en página
+2026-02-02T15:59:18 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T15:59:23 INFO        Scroll 3: 22 elementos en página
+2026-02-02T16:00:04 INFO        ✅ 5 nuevos, 22 total
+2026-02-02T16:00:09 INFO        Scroll 4: 29 elementos en página
+2026-02-02T16:00:44 INFO        ✅ 3 nuevos, 25 total
+2026-02-02T16:00:49 INFO        Scroll 5: 36 elementos en página
+2026-02-02T16:01:53 INFO        ✅ 7 nuevos, 32 total
+2026-02-02T16:01:58 INFO        Scroll 6: 43 elementos en página
+2026-02-02T16:02:59 INFO        ✅ 7 nuevos, 39 total
+2026-02-02T16:03:06 INFO        Scroll 7: 51 elementos en página
+2026-02-02T16:04:26 INFO        ✅ 8 nuevos, 47 total
+2026-02-02T16:04:31 INFO        Scroll 8: 58 elementos en página
+2026-02-02T16:05:40 INFO        ✅ 7 nuevos, 54 total
+2026-02-02T16:05:47 INFO        Scroll 9: 64 elementos en página
+2026-02-02T16:07:00 INFO        ✅ 6 nuevos, 60 total
+2026-02-02T16:07:05 INFO        Scroll 10: 71 elementos en página
+2026-02-02T16:08:39 INFO        ✅ 7 nuevos, 67 total
+2026-02-02T16:08:46 INFO        Scroll 11: 78 elementos en página
+2026-02-02T16:10:03 INFO        ✅ 6 nuevos, 73 total
+2026-02-02T16:10:09 INFO        Scroll 12: 84 elementos en página
+2026-02-02T16:11:25 INFO        ✅ 6 nuevos, 79 total
+2026-02-02T16:11:31 INFO        Scroll 13: 91 elementos en página
+2026-02-02T16:13:23 INFO        ✅ 7 nuevos, 86 total
+2026-02-02T16:13:29 INFO        Scroll 14: 98 elementos en página
+2026-02-02T16:15:05 INFO        ✅ 7 nuevos, 93 total
+2026-02-02T16:15:11 INFO        Scroll 15: 104 elementos en página
+2026-02-02T16:16:43 INFO        ✅ 6 nuevos, 99 total
+2026-02-02T16:16:49 INFO        Scroll 16: 111 elementos en página
+2026-02-02T16:18:47 INFO        ✅ 7 nuevos, 106 total
+2026-02-02T16:18:52 INFO        Scroll 17: 118 elementos en página
+2026-02-02T16:20:38 INFO        ✅ 7 nuevos, 113 total
+2026-02-02T16:20:45 INFO        Scroll 18: 124 elementos en página
+2026-02-02T16:22:16 INFO        ✅ 6 nuevos, 119 total
+2026-02-02T16:22:21 INFO        Scroll 19: 124 elementos en página
+2026-02-02T16:23:02 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T16:23:08 INFO        Scroll 20: 124 elementos en página
+2026-02-02T16:23:49 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T16:23:54 INFO        Scroll 21: 124 elementos en página
+2026-02-02T16:24:36 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T16:24:41 INFO        Scroll 22: 124 elementos en página
+2026-02-02T16:25:23 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T16:25:28 INFO        Scroll 23: 124 elementos en página
+2026-02-02T16:26:10 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T16:26:10 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T16:26:10 INFO     🔍 [marketing digital][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 119 unique, 1710 duplicate, 119 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T16:26:10 INFO     ✅ Extracción completada: 119 lugares encontrados
+2026-02-02T16:26:10 INFO     📊 40 lugares agregados (Total: 23678)
+2026-02-02T16:26:10 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T16:26:23 INFO     💾 Checkpoint guardado: 23678 empresas TOTALES
+2026-02-02T16:26:23 INFO     Estado guardado: 23678 empresas
+2026-02-02T16:26:31 INFO     ⏳ Esperando 7.8s antes del siguiente rubro...
+2026-02-02T16:26:31 INFO     
+🏷️  Rubro 18/171: publicidad y propaganda
+2026-02-02T16:26:31 INFO     
+🔍 Buscando 'publicidad y propaganda' en segmento 0
+2026-02-02T16:26:31 INFO        URL: https://www.google.com/maps/search/publicidad+y+propaganda/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T16:26:51 INFO     📄 Iniciando extracción para rubro: publicidad y propaganda
+2026-02-02T16:26:51 INFO        Scroll 1: 7 elementos en página
+2026-02-02T16:27:48 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T16:27:54 INFO        Scroll 2: 14 elementos en página
+2026-02-02T16:28:40 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T16:28:46 INFO        Scroll 3: 14 elementos en página
+2026-02-02T16:28:51 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T16:28:58 INFO        Scroll 4: 14 elementos en página
+2026-02-02T16:29:03 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T16:29:08 INFO        Scroll 5: 14 elementos en página
+2026-02-02T16:29:13 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T16:29:19 INFO        Scroll 6: 14 elementos en página
+2026-02-02T16:29:24 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T16:29:30 INFO        Scroll 7: 14 elementos en página
+2026-02-02T16:29:35 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T16:29:35 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T16:29:35 INFO     🔍 [publicidad y propaganda][-32.9523|-60.6975][SCROLL: 6]: Search page scraped: 14 unique, 77 duplicate, 14 seen, 6 paginations, 0 outOfLocation.
+2026-02-02T16:29:35 INFO     ✅ Extracción completada: 14 lugares encontrados
+2026-02-02T16:29:35 INFO     📊 4 lugares agregados (Total: 23682)
+2026-02-02T16:29:35 INFO     Estado guardado: 23682 empresas
+2026-02-02T16:29:41 INFO     ⏳ Esperando 5.5s antes del siguiente rubro...
+2026-02-02T16:29:41 INFO     
+🏷️  Rubro 19/171: comunicación integral
+2026-02-02T16:29:41 INFO     
+🔍 Buscando 'comunicación integral' en segmento 0
+2026-02-02T16:29:41 INFO        URL: https://www.google.com/maps/search/comunicación+integral/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T16:30:01 INFO     📄 Iniciando extracción para rubro: comunicación integral
+2026-02-02T16:30:01 INFO        Scroll 1: 5 elementos en página
+2026-02-02T16:30:34 INFO        ✅ 5 nuevos, 5 total
+2026-02-02T16:30:40 INFO        Scroll 2: 5 elementos en página
+2026-02-02T16:30:42 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T16:30:49 INFO        Scroll 3: 5 elementos en página
+2026-02-02T16:30:50 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T16:30:56 INFO        Scroll 4: 5 elementos en página
+2026-02-02T16:30:58 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T16:31:05 INFO        Scroll 5: 5 elementos en página
+2026-02-02T16:31:06 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T16:31:12 INFO        Scroll 6: 5 elementos en página
+2026-02-02T16:31:14 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T16:31:14 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T16:31:14 INFO     🔍 [comunicación integral][-32.9523|-60.6975][SCROLL: 5]: Search page scraped: 5 unique, 25 duplicate, 5 seen, 5 paginations, 0 outOfLocation.
+2026-02-02T16:31:14 INFO     ✅ Extracción completada: 5 lugares encontrados
+2026-02-02T16:31:14 INFO     📊 3 lugares agregados (Total: 23685)
+2026-02-02T16:31:14 INFO     Estado guardado: 23685 empresas
+2026-02-02T16:31:19 INFO     ⏳ Esperando 5.0s antes del siguiente rubro...
+2026-02-02T16:31:19 INFO     
+🏷️  Rubro 20/171: agencias de publicidad
+2026-02-02T16:31:19 INFO     
+🔍 Buscando 'agencias de publicidad' en segmento 0
+2026-02-02T16:31:19 INFO        URL: https://www.google.com/maps/search/agencias+de+publicidad/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T16:31:39 INFO     📄 Iniciando extracción para rubro: agencias de publicidad
+2026-02-02T16:31:39 INFO        Scroll 1: 10 elementos en página
+2026-02-02T16:32:36 INFO        ✅ 9 nuevos, 9 total
+2026-02-02T16:32:42 INFO        Scroll 2: 17 elementos en página
+2026-02-02T16:33:34 INFO        ✅ 7 nuevos, 16 total
+2026-02-02T16:33:39 INFO        Scroll 3: 22 elementos en página
+2026-02-02T16:34:15 INFO        ✅ 5 nuevos, 21 total
+2026-02-02T16:34:21 INFO        Scroll 4: 29 elementos en página
+2026-02-02T16:35:13 INFO        ✅ 6 nuevos, 27 total
+2026-02-02T16:35:19 INFO        Scroll 5: 36 elementos en página
+2026-02-02T16:36:16 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T16:36:21 INFO        Scroll 6: 43 elementos en página
+2026-02-02T16:37:23 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T16:37:29 INFO        Scroll 7: 51 elementos en página
+2026-02-02T16:38:53 INFO        ✅ 8 nuevos, 49 total
+2026-02-02T16:38:58 INFO        Scroll 8: 53 elementos en página
+2026-02-02T16:39:41 INFO        ✅ 2 nuevos, 51 total
+2026-02-02T16:39:48 INFO        Scroll 9: 53 elementos en página
+2026-02-02T16:40:06 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T16:40:12 INFO        Scroll 10: 53 elementos en página
+2026-02-02T16:40:31 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T16:40:37 INFO        Scroll 11: 53 elementos en página
+2026-02-02T16:40:56 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T16:41:03 INFO        Scroll 12: 53 elementos en página
+2026-02-02T16:41:22 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T16:41:26 INFO        Scroll 13: 53 elementos en página
+2026-02-02T16:41:45 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T16:41:45 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T16:41:45 INFO     🔍 [agencias de publicidad][-32.9523|-60.6975][SCROLL: 12]: Search page scraped: 51 unique, 475 duplicate, 51 seen, 12 paginations, 0 outOfLocation.
+2026-02-02T16:41:45 INFO     ✅ Extracción completada: 51 lugares encontrados
+2026-02-02T16:41:45 INFO     📊 16 lugares agregados (Total: 23701)
+2026-02-02T16:41:45 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T16:41:59 INFO     💾 Checkpoint guardado: 23701 empresas TOTALES
+2026-02-02T16:41:59 INFO     Estado guardado: 23701 empresas
+2026-02-02T16:42:05 INFO     ⏳ Esperando 6.4s antes del siguiente rubro...
+2026-02-02T16:42:05 INFO     
+🏷️  Rubro 21/171: desarrollo de software
+2026-02-02T16:42:05 INFO     
+🔍 Buscando 'desarrollo de software' en segmento 0
+2026-02-02T16:42:05 INFO        URL: https://www.google.com/maps/search/desarrollo+de+software/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T16:42:23 INFO     📄 Iniciando extracción para rubro: desarrollo de software
+2026-02-02T16:42:23 INFO        Scroll 1: 7 elementos en página
+2026-02-02T16:43:20 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T16:43:24 INFO        Scroll 2: 14 elementos en página
+2026-02-02T16:44:24 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T16:44:30 INFO        Scroll 3: 21 elementos en página
+2026-02-02T16:45:23 INFO        ✅ 7 nuevos, 21 total
+2026-02-02T16:45:29 INFO        Scroll 4: 29 elementos en página
+2026-02-02T16:46:21 INFO        ✅ 6 nuevos, 27 total
+2026-02-02T16:46:27 INFO        Scroll 5: 36 elementos en página
+2026-02-02T16:47:37 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T16:47:42 INFO        Scroll 6: 43 elementos en página
+2026-02-02T16:48:54 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T16:49:00 INFO        Scroll 7: 51 elementos en página
+2026-02-02T16:50:17 INFO        ✅ 8 nuevos, 49 total
+2026-02-02T16:50:24 INFO        Scroll 8: 58 elementos en página
+2026-02-02T16:51:40 INFO        ✅ 7 nuevos, 56 total
+2026-02-02T16:51:47 INFO        Scroll 9: 64 elementos en página
+2026-02-02T16:53:04 INFO        ✅ 6 nuevos, 62 total
+2026-02-02T16:53:09 INFO        Scroll 10: 71 elementos en página
+2026-02-02T16:54:41 INFO        ✅ 7 nuevos, 69 total
+2026-02-02T16:54:47 INFO        Scroll 11: 78 elementos en página
+2026-02-02T16:56:13 INFO        ✅ 7 nuevos, 76 total
+2026-02-02T16:56:19 INFO        Scroll 12: 84 elementos en página
+2026-02-02T16:57:53 INFO        ✅ 6 nuevos, 82 total
+2026-02-02T16:57:58 INFO        Scroll 13: 91 elementos en página
+2026-02-02T16:59:31 INFO        ✅ 7 nuevos, 89 total
+2026-02-02T16:59:37 INFO        Scroll 14: 98 elementos en página
+2026-02-02T17:01:23 INFO        ✅ 7 nuevos, 96 total
+2026-02-02T17:01:30 INFO        Scroll 15: 104 elementos en página
+2026-02-02T17:03:09 INFO        ✅ 6 nuevos, 102 total
+2026-02-02T17:03:14 INFO        Scroll 16: 111 elementos en página
+2026-02-02T17:05:44 INFO        ✅ 5 nuevos, 107 total
+2026-02-02T17:05:50 INFO        Scroll 17: 118 elementos en página
+2026-02-02T17:07:40 INFO        ✅ 7 nuevos, 114 total
+2026-02-02T17:07:47 INFO        Scroll 18: 124 elementos en página
+2026-02-02T17:09:33 INFO        ✅ 6 nuevos, 120 total
+2026-02-02T17:09:38 INFO        Scroll 19: 124 elementos en página
+2026-02-02T17:10:20 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T17:10:26 INFO        Scroll 20: 124 elementos en página
+2026-02-02T17:11:07 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T17:11:14 INFO        Scroll 21: 124 elementos en página
+2026-02-02T17:11:56 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T17:12:02 INFO        Scroll 22: 124 elementos en página
+2026-02-02T17:12:44 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T17:12:50 INFO        Scroll 23: 124 elementos en página
+2026-02-02T17:13:31 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T17:13:31 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T17:13:31 INFO     🔍 [desarrollo de software][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 120 unique, 1702 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T17:13:31 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-02-02T17:13:31 INFO     📊 59 lugares agregados (Total: 23760)
+2026-02-02T17:13:32 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T17:13:45 INFO     💾 Checkpoint guardado: 23760 empresas TOTALES
+2026-02-02T17:13:45 INFO     Estado guardado: 23760 empresas
+2026-02-02T17:13:52 INFO     ⏳ Esperando 7.4s antes del siguiente rubro...
+2026-02-02T17:13:52 INFO     
+🏷️  Rubro 22/171: empresa de sistemas
+2026-02-02T17:13:52 INFO     
+🔍 Buscando 'empresa de sistemas' en segmento 0
+2026-02-02T17:13:52 INFO        URL: https://www.google.com/maps/search/empresa+de+sistemas/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T17:14:12 INFO     📄 Iniciando extracción para rubro: empresa de sistemas
+2026-02-02T17:14:12 INFO        Scroll 1: 10 elementos en página
+2026-02-02T17:15:17 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T17:15:23 INFO        Scroll 2: 17 elementos en página
+2026-02-02T17:16:14 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T17:16:20 INFO        Scroll 3: 22 elementos en página
+2026-02-02T17:17:08 INFO        ✅ 5 nuevos, 22 total
+2026-02-02T17:17:12 INFO        Scroll 4: 29 elementos en página
+2026-02-02T17:17:57 INFO        ✅ 5 nuevos, 27 total
+2026-02-02T17:18:03 INFO        Scroll 5: 36 elementos en página
+2026-02-02T17:19:14 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T17:19:20 INFO        Scroll 6: 43 elementos en página
+2026-02-02T17:20:23 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T17:20:30 INFO        Scroll 7: 51 elementos en página
+2026-02-02T17:22:11 INFO        ✅ 8 nuevos, 49 total
+2026-02-02T17:22:17 INFO        Scroll 8: 58 elementos en página
+2026-02-02T17:23:47 INFO        ✅ 7 nuevos, 56 total
+2026-02-02T17:23:53 INFO        Scroll 9: 64 elementos en página
+2026-02-02T17:25:15 INFO        ✅ 6 nuevos, 62 total
+2026-02-02T17:25:23 INFO        Scroll 10: 71 elementos en página
+2026-02-02T17:27:22 INFO        ✅ 7 nuevos, 69 total
+2026-02-02T17:27:28 INFO        Scroll 11: 78 elementos en página
+2026-02-02T17:29:29 INFO        ✅ 7 nuevos, 76 total
+2026-02-02T17:29:35 INFO        Scroll 12: 84 elementos en página
+2026-02-02T17:31:58 INFO        ✅ 6 nuevos, 82 total
+2026-02-02T17:32:04 INFO        Scroll 13: 91 elementos en página
+2026-02-02T17:35:53 INFO        ✅ 6 nuevos, 88 total
+2026-02-02T17:35:59 INFO        Scroll 14: 98 elementos en página
+2026-02-02T17:38:29 INFO        ✅ 6 nuevos, 94 total
+2026-02-02T17:38:35 INFO        Scroll 15: 104 elementos en página
+2026-02-02T17:41:51 INFO        ✅ 6 nuevos, 100 total
+2026-02-02T17:42:17 INFO        Scroll 16: 111 elementos en página
+2026-02-02T17:47:06 INFO        ✅ 7 nuevos, 107 total
+2026-02-02T17:47:13 INFO        Scroll 17: 118 elementos en página
+2026-02-02T17:51:37 INFO        ✅ 7 nuevos, 114 total
+2026-02-02T17:51:44 INFO        Scroll 18: 124 elementos en página
+2026-02-02T17:54:11 INFO        ✅ 6 nuevos, 120 total
+2026-02-02T17:54:18 INFO        Scroll 19: 124 elementos en página
+2026-02-02T17:55:02 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T17:55:09 INFO        Scroll 20: 124 elementos en página
+2026-02-02T17:55:52 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T17:55:57 INFO        Scroll 21: 124 elementos en página
+2026-02-02T17:56:45 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T17:56:51 INFO        Scroll 22: 124 elementos en página
+2026-02-02T17:57:34 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T17:57:39 INFO        Scroll 23: 124 elementos en página
+2026-02-02T17:58:24 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T17:58:24 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T17:58:24 INFO     🔍 [empresa de sistemas][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 120 unique, 1709 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T17:58:24 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-02-02T17:58:24 INFO     📊 64 lugares agregados (Total: 23824)
+2026-02-02T17:58:24 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T17:58:39 INFO     💾 Checkpoint guardado: 23824 empresas TOTALES
+2026-02-02T17:58:39 INFO     Estado guardado: 23824 empresas
+2026-02-02T17:58:43 INFO     ⏳ Esperando 4.9s antes del siguiente rubro...
+2026-02-02T17:58:43 INFO     
+🏷️  Rubro 23/171: software a medida
+2026-02-02T17:58:43 INFO     
+🔍 Buscando 'software a medida' en segmento 0
+2026-02-02T17:58:43 INFO        URL: https://www.google.com/maps/search/software+a+medida/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T17:58:50 ERROR    Error en búsqueda de segmento: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-02-02T17:58:50 INFO     Estado guardado: 23824 empresas
+2026-02-02T17:58:58 INFO     ⏳ Esperando 7.3s antes del siguiente rubro...
+2026-02-02T17:58:58 INFO     
+⏸️  PAUSA DETECTADA - Guardando progreso...
+2026-02-02T17:58:58 INFO     Estado guardado: 23824 empresas
+2026-02-02T17:58:58 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp

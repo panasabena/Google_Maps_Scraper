@@ -1,0 +1,2946 @@
+2026-01-29T23:41:42 INFO     
+============================================================
+2026-01-29T23:41:42 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-29T23:41:42 INFO     ============================================================
+2026-01-29T23:41:42 INFO     📍 Ubicaciones: 29 ciudades
+2026-01-29T23:41:42 INFO     🏷️  Rubros: 194 rubros
+2026-01-29T23:41:42 INFO     📐 Grid size: 1x1
+2026-01-29T23:41:42 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-29T23:41:42 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-01-29T23:41:42 INFO     ============================================================
+
+2026-01-29T23:41:42 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-01-29T23:41:44 INFO     ✅ 13575 empresas cargadas desde archivo previo
+2026-01-29T23:41:44 INFO     Estado cargado: 13575 empresas previas
+2026-01-29T23:41:44 INFO     🚀 Inicializando navegador...
+2026-01-29T23:42:31 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-01-29T23:42:32 INFO     ✅ Navegador inicializado correctamente
+2026-01-29T23:42:57 INFO     
+============================================================
+2026-01-29T23:42:57 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-01-29T23:42:57 INFO     ============================================================
+2026-01-29T23:42:57 INFO       1. Buenos Aires, Argentina
+2026-01-29T23:42:57 INFO       2. Córdoba, Argentina
+2026-01-29T23:42:57 INFO       3. Rosario, Argentina
+2026-01-29T23:42:57 INFO       4. Mendoza, Argentina
+2026-01-29T23:42:57 INFO       5. Tucumán, Argentina
+2026-01-29T23:42:57 INFO       6. La Plata, Argentina
+2026-01-29T23:42:57 INFO       7. Mar del Plata, Argentina
+2026-01-29T23:42:57 INFO       8. Salta, Argentina
+2026-01-29T23:42:57 INFO       9. Santa Fe, Argentina
+2026-01-29T23:42:57 INFO       10. Resistencia, Argentina
+2026-01-29T23:42:57 INFO       11. Santiago del Estero, Argentina
+2026-01-29T23:42:57 INFO       12. Corrientes, Argentina
+2026-01-29T23:42:57 INFO       13. Neuquén, Argentina
+2026-01-29T23:42:57 INFO       14. Bahía Blanca, Argentina
+2026-01-29T23:42:57 INFO       15. San Salvador de Jujuy, Argentina
+2026-01-29T23:42:57 INFO       16. Posadas, Argentina
+2026-01-29T23:42:57 INFO       17. Paraná, Argentina
+2026-01-29T23:42:57 INFO       18. San Luis, Argentina
+2026-01-29T23:42:57 INFO       19. Río Gallegos, Argentina
+2026-01-29T23:42:57 INFO       20. Comodoro Rivadavia, Argentina
+2026-01-29T23:42:57 INFO       21. Ushuaia, Argentina
+2026-01-29T23:42:57 INFO       22. Formosa, Argentina
+2026-01-29T23:42:57 INFO       23. Quilmes, Argentina
+2026-01-29T23:42:57 INFO       24. Morón, Argentina
+2026-01-29T23:42:57 INFO       25. San Martín, Argentina
+2026-01-29T23:42:57 INFO       26. Lanús, Argentina
+2026-01-29T23:42:57 INFO       27. Lomas de Zamora, Argentina
+2026-01-29T23:42:57 INFO       28. Tigre, Argentina
+2026-01-29T23:42:57 INFO       29. Pilar, Argentina
+2026-01-29T23:42:57 INFO     
+############################################################
+2026-01-29T23:42:57 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-01-29T23:42:57 INFO     ############################################################
+2026-01-29T23:42:57 INFO     
+============================================================
+2026-01-29T23:42:57 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Buenos Aires, Argentina
+2026-01-29T23:42:57 INFO     ============================================================
+2026-01-29T23:42:57 INFO     📡 Geolocalizando: Buenos Aires, Argentina
+2026-01-29T23:42:59 INFO     ✅ Ubicación encontrada: Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, Argentina
+2026-01-29T23:42:59 INFO        Bounding box: ['-34.7058155', '-34.5265535', '-58.5314504', '-58.3351423']
+2026-01-29T23:42:59 INFO     
+============================================================
+2026-01-29T23:42:59 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Buenos Aires, Argentina
+2026-01-29T23:42:59 INFO     ============================================================
+2026-01-29T23:42:59 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-29T23:42:59 INFO        Segmento 1: Centro (-34.6162, -58.4333)
+2026-01-29T23:42:59 INFO     ✅ Creados 1 segmentos
+2026-01-29T23:42:59 INFO     ✅ Área dividida en 1 segmentos
+2026-01-29T23:42:59 INFO     
+============================================================
+2026-01-29T23:42:59 INFO     🔍 PASO 3: BÚSQUEDA - Buenos Aires, Argentina
+2026-01-29T23:42:59 INFO     ============================================================
+2026-01-29T23:42:59 INFO     Total de búsquedas en Buenos Aires, Argentina: 194
+2026-01-29T23:42:59 INFO     Rubros: 194 rubros configurados
+2026-01-29T23:42:59 INFO     ✅ Todos los rubros ya fueron procesados en Buenos Aires, Argentina
+2026-01-29T23:42:59 INFO     
+############################################################
+2026-01-29T23:42:59 INFO     🌍 UBICACIÓN 2/29: Córdoba, Argentina
+2026-01-29T23:42:59 INFO     ############################################################
+2026-01-29T23:42:59 INFO     
+============================================================
+2026-01-29T23:42:59 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Córdoba, Argentina
+2026-01-29T23:42:59 INFO     ============================================================
+2026-01-29T23:42:59 INFO     📡 Geolocalizando: Córdoba, Argentina
+2026-01-29T23:43:01 INFO     ✅ Ubicación encontrada: Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina
+2026-01-29T23:43:01 INFO        Bounding box: ['-31.5251273', '-31.3083295', '-64.3100961', '-64.0572500']
+2026-01-29T23:43:01 INFO     
+============================================================
+2026-01-29T23:43:01 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Córdoba, Argentina
+2026-01-29T23:43:01 INFO     ============================================================
+2026-01-29T23:43:01 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-29T23:43:01 INFO        Segmento 1: Centro (-31.4167, -64.1837)
+2026-01-29T23:43:01 INFO     ✅ Creados 1 segmentos
+2026-01-29T23:43:01 INFO     ✅ Área dividida en 1 segmentos
+2026-01-29T23:43:01 INFO     
+============================================================
+2026-01-29T23:43:01 INFO     🔍 PASO 3: BÚSQUEDA - Córdoba, Argentina
+2026-01-29T23:43:01 INFO     ============================================================
+2026-01-29T23:43:01 INFO     Total de búsquedas en Córdoba, Argentina: 194
+2026-01-29T23:43:01 INFO     Rubros: 194 rubros configurados
+2026-01-29T23:43:01 INFO     📋 Rubros pendientes en Córdoba, Argentina: 174
+2026-01-29T23:43:01 INFO     
+────────────────────────────────────────────────────────────
+2026-01-29T23:43:01 INFO     📍 Córdoba, Argentina - SEGMENTO 1/1
+2026-01-29T23:43:01 INFO        Centro: (-31.4167284, -64.18367305)
+2026-01-29T23:43:01 INFO     ────────────────────────────────────────────────────────────
+2026-01-29T23:43:01 INFO     
+🏷️  Rubro 1/174: consultoría ingeniería
+2026-01-29T23:43:01 INFO     
+🔍 Buscando 'consultoría ingeniería' en segmento 0
+2026-01-29T23:43:01 INFO        URL: https://www.google.com/maps/search/consultoría+ingeniería/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-29T23:43:31 INFO     📄 Iniciando extracción para rubro: consultoría ingeniería
+2026-01-29T23:43:31 INFO        Scroll 1: 7 elementos en página
+2026-01-29T23:44:50 INFO        ✅ 7 nuevos, 7 total
+2026-01-29T23:44:56 INFO        Scroll 2: 14 elementos en página
+2026-01-29T23:45:18 WARNING     ⚠️  Error extrayendo detalles: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[role='feed']"}
+  (Session info: chrome=144.0.7559.109); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337b0b9b6 <unknown>
+#3 0x585337b0bbf1 <unknown>
+#4 0x585337b574d4 <unknown>
+#5 0x585337b54700 <unknown>
+#6 0x585337afd6a2 <unknown>
+#7 0x585337afe491 <unknown>
+#8 0x585338013479 <unknown>
+#9 0x585338016391 <unknown>
+#10 0x585337fffa89 <unknown>
+#11 0x585338016f4e <unknown>
+#12 0x585337fe6070 <unknown>
+#13 0x58533803aca8 <unknown>
+#14 0x58533803ae78 <unknown>
+#15 0x58533804c828 <unknown>
+#16 0x7bd789494ac3 <unknown>
+
+2026-01-29T23:45:23 INFO        ✅ 3 nuevos, 10 total
+2026-01-29T23:45:27 WARNING  No se encontraron elementos en la página
+2026-01-29T23:45:27 INFO     🔍 [consultoría ingeniería][-31.4167|-64.1837][SCROLL: 2]: Search page scraped: 10 unique, 7 duplicate, 10 seen, 2 paginations, 0 outOfLocation.
+2026-01-29T23:45:27 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-29T23:45:27 INFO     📊 4 lugares agregados (Total: 13579)
+2026-01-29T23:45:27 INFO     Estado guardado: 13579 empresas
+2026-01-29T23:45:32 INFO     ⏳ Esperando 5.7s antes del siguiente rubro...
+2026-01-29T23:45:32 INFO     
+🏷️  Rubro 2/174: ingeniería civil
+2026-01-29T23:45:32 INFO     
+🔍 Buscando 'ingeniería civil' en segmento 0
+2026-01-29T23:45:32 INFO        URL: https://www.google.com/maps/search/ingeniería+civil/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-29T23:45:51 INFO     📄 Iniciando extracción para rubro: ingeniería civil
+2026-01-29T23:45:51 INFO        Scroll 1: 10 elementos en página
+2026-01-29T23:47:29 INFO        ✅ 10 nuevos, 10 total
+2026-01-29T23:47:35 INFO        Scroll 2: 17 elementos en página
+2026-01-29T23:48:36 INFO        ✅ 7 nuevos, 17 total
+2026-01-29T23:48:41 INFO        Scroll 3: 21 elementos en página
+2026-01-29T23:49:16 INFO        ✅ 4 nuevos, 21 total
+2026-01-29T23:49:21 INFO        Scroll 4: 28 elementos en página
+2026-01-29T23:50:18 INFO        ✅ 7 nuevos, 28 total
+2026-01-29T23:50:23 INFO        Scroll 5: 35 elementos en página
+2026-01-29T23:51:26 INFO        ✅ 7 nuevos, 35 total
+2026-01-29T23:51:31 INFO        Scroll 6: 41 elementos en página
+2026-01-29T23:53:30 INFO        ✅ 6 nuevos, 41 total
+2026-01-29T23:53:34 INFO        Scroll 7: 48 elementos en página
+2026-01-29T23:54:45 INFO        ✅ 7 nuevos, 48 total
+2026-01-29T23:54:50 INFO        Scroll 8: 55 elementos en página
+2026-01-29T23:55:56 INFO        ✅ 7 nuevos, 55 total
+2026-01-29T23:56:01 INFO        Scroll 9: 61 elementos en página
+2026-01-29T23:57:21 INFO        ✅ 6 nuevos, 61 total
+2026-01-29T23:57:28 INFO        Scroll 10: 68 elementos en página
+2026-01-29T23:58:48 INFO        ✅ 7 nuevos, 68 total
+2026-01-29T23:58:55 INFO        Scroll 11: 75 elementos en página
+2026-01-30T00:00:17 INFO        ✅ 7 nuevos, 75 total
+2026-01-30T00:00:22 INFO        Scroll 12: 81 elementos en página
+2026-01-30T00:01:54 INFO        ✅ 6 nuevos, 81 total
+2026-01-30T00:02:00 INFO        Scroll 13: 88 elementos en página
+2026-01-30T00:03:25 INFO        ✅ 6 nuevos, 87 total
+2026-01-30T00:03:31 INFO        Scroll 14: 95 elementos en página
+2026-01-30T00:05:02 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T00:05:07 INFO        Scroll 15: 101 elementos en página
+2026-01-30T00:06:38 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T00:06:43 INFO        Scroll 16: 108 elementos en página
+2026-01-30T00:08:22 INFO        ✅ 7 nuevos, 107 total
+2026-01-30T00:08:28 INFO        Scroll 17: 115 elementos en página
+2026-01-30T00:10:03 INFO        ✅ 7 nuevos, 114 total
+2026-01-30T00:10:09 INFO        Scroll 18: 121 elementos en página
+2026-01-30T00:11:49 INFO        ✅ 6 nuevos, 120 total
+2026-01-30T00:11:55 INFO        Scroll 19: 121 elementos en página
+2026-01-30T00:12:36 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T00:12:41 INFO        Scroll 20: 121 elementos en página
+2026-01-30T00:13:22 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T00:13:28 INFO        Scroll 21: 121 elementos en página
+2026-01-30T00:14:09 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T00:14:14 INFO        Scroll 22: 121 elementos en página
+2026-01-30T00:14:55 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T00:15:00 INFO        Scroll 23: 121 elementos en página
+2026-01-30T00:15:42 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T00:15:42 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T00:15:42 INFO     🔍 [ingeniería civil][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 120 unique, 1653 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T00:15:42 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-30T00:15:42 INFO     📊 82 lugares agregados (Total: 13661)
+2026-01-30T00:15:42 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T00:15:49 INFO     💾 Checkpoint guardado: 13661 empresas TOTALES
+2026-01-30T00:15:49 INFO     Estado guardado: 13661 empresas
+2026-01-30T00:15:55 INFO     ⏳ Esperando 5.3s antes del siguiente rubro...
+2026-01-30T00:15:55 INFO     
+🏷️  Rubro 3/174: ingenieros consultores
+2026-01-30T00:15:55 INFO     
+🔍 Buscando 'ingenieros consultores' en segmento 0
+2026-01-30T00:15:55 INFO        URL: https://www.google.com/maps/search/ingenieros+consultores/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T00:16:13 INFO     📄 Iniciando extracción para rubro: ingenieros consultores
+2026-01-30T00:16:13 INFO        Scroll 1: 7 elementos en página
+2026-01-30T00:17:13 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T00:17:18 INFO        Scroll 2: 14 elementos en página
+2026-01-30T00:18:14 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T00:18:21 INFO        Scroll 3: 21 elementos en página
+2026-01-30T00:19:11 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T00:19:17 INFO        Scroll 4: 29 elementos en página
+2026-01-30T00:20:39 INFO        ✅ 8 nuevos, 29 total
+2026-01-30T00:20:44 INFO        Scroll 5: 36 elementos en página
+2026-01-30T00:22:08 INFO        ✅ 7 nuevos, 36 total
+2026-01-30T00:22:14 INFO        Scroll 6: 42 elementos en página
+2026-01-30T00:23:17 INFO        ✅ 6 nuevos, 42 total
+2026-01-30T00:23:24 INFO        Scroll 7: 49 elementos en página
+2026-01-30T00:24:48 INFO        ✅ 7 nuevos, 49 total
+2026-01-30T00:24:53 INFO        Scroll 8: 56 elementos en página
+2026-01-30T00:26:15 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T00:26:21 INFO        Scroll 9: 62 elementos en página
+2026-01-30T00:27:41 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T00:27:46 INFO        Scroll 10: 69 elementos en página
+2026-01-30T00:29:22 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T00:29:27 INFO        Scroll 11: 76 elementos en página
+2026-01-30T00:30:52 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T00:30:59 INFO        Scroll 12: 82 elementos en página
+2026-01-30T00:33:06 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T00:33:11 INFO        Scroll 13: 87 elementos en página
+2026-01-30T00:34:15 INFO        ✅ 4 nuevos, 86 total
+2026-01-30T00:34:20 INFO        Scroll 14: 87 elementos en página
+2026-01-30T00:34:51 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T00:34:57 INFO        Scroll 15: 87 elementos en página
+2026-01-30T00:35:29 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T00:35:36 INFO        Scroll 16: 87 elementos en página
+2026-01-30T00:36:07 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T00:36:12 INFO        Scroll 17: 87 elementos en página
+2026-01-30T00:36:43 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T00:36:49 INFO        Scroll 18: 87 elementos en página
+2026-01-30T00:37:20 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T00:37:20 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T00:37:20 INFO     🔍 [ingenieros consultores][-31.4167|-64.1837][SCROLL: 17]: Search page scraped: 86 unique, 979 duplicate, 86 seen, 17 paginations, 0 outOfLocation.
+2026-01-30T00:37:20 INFO     ✅ Extracción completada: 86 lugares encontrados
+2026-01-30T00:37:20 INFO     📊 69 lugares agregados (Total: 13730)
+2026-01-30T00:37:20 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T00:37:28 INFO     💾 Checkpoint guardado: 13730 empresas TOTALES
+2026-01-30T00:37:28 INFO     Estado guardado: 13730 empresas
+2026-01-30T00:37:35 INFO     ⏳ Esperando 7.1s antes del siguiente rubro...
+2026-01-30T00:37:35 INFO     
+🏷️  Rubro 4/174: proyectos de ingeniería
+2026-01-30T00:37:35 INFO     
+🔍 Buscando 'proyectos de ingeniería' en segmento 0
+2026-01-30T00:37:35 INFO        URL: https://www.google.com/maps/search/proyectos+de+ingeniería/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T00:37:55 INFO     📄 Iniciando extracción para rubro: proyectos de ingeniería
+2026-01-30T00:37:55 INFO        Scroll 1: 10 elementos en página
+2026-01-30T00:39:11 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T00:39:17 INFO        Scroll 2: 17 elementos en página
+2026-01-30T00:40:10 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T00:40:15 INFO        Scroll 3: 21 elementos en página
+2026-01-30T00:41:06 INFO        ✅ 4 nuevos, 21 total
+2026-01-30T00:41:12 INFO        Scroll 4: 28 elementos en página
+2026-01-30T00:42:10 INFO        ✅ 7 nuevos, 28 total
+2026-01-30T00:42:16 INFO        Scroll 5: 35 elementos en página
+2026-01-30T00:43:16 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T00:43:22 INFO        Scroll 6: 41 elementos en página
+2026-01-30T00:44:28 INFO        ✅ 6 nuevos, 41 total
+2026-01-30T00:44:33 INFO        Scroll 7: 48 elementos en página
+2026-01-30T00:45:50 INFO        ✅ 7 nuevos, 48 total
+2026-01-30T00:45:55 INFO        Scroll 8: 55 elementos en página
+2026-01-30T00:47:01 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T00:47:07 INFO        Scroll 9: 61 elementos en página
+2026-01-30T00:48:13 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T00:48:19 INFO        Scroll 10: 68 elementos en página
+2026-01-30T00:49:38 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T00:49:44 INFO        Scroll 11: 75 elementos en página
+2026-01-30T00:50:59 INFO        ✅ 7 nuevos, 75 total
+2026-01-30T00:51:05 INFO        Scroll 12: 81 elementos en página
+2026-01-30T00:52:44 INFO        ✅ 6 nuevos, 81 total
+2026-01-30T00:52:51 INFO        Scroll 13: 88 elementos en página
+2026-01-30T00:54:47 INFO        ✅ 7 nuevos, 88 total
+2026-01-30T00:54:54 INFO        Scroll 14: 95 elementos en página
+2026-01-30T00:56:26 INFO        ✅ 7 nuevos, 95 total
+2026-01-30T00:56:32 INFO        Scroll 15: 101 elementos en página
+2026-01-30T00:58:12 INFO        ✅ 6 nuevos, 101 total
+2026-01-30T00:58:17 INFO        Scroll 16: 108 elementos en página
+2026-01-30T00:59:49 INFO        ✅ 6 nuevos, 107 total
+2026-01-30T00:59:54 INFO        Scroll 17: 115 elementos en página
+2026-01-30T01:01:59 INFO        ✅ 7 nuevos, 114 total
+2026-01-30T01:02:05 INFO        Scroll 18: 121 elementos en página
+2026-01-30T01:03:26 INFO        ✅ 6 nuevos, 120 total
+2026-01-30T01:03:32 INFO        Scroll 19: 121 elementos en página
+2026-01-30T01:04:13 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T01:04:19 INFO        Scroll 20: 121 elementos en página
+2026-01-30T01:05:00 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T01:05:05 INFO        Scroll 21: 121 elementos en página
+2026-01-30T01:05:46 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T01:05:52 INFO        Scroll 22: 121 elementos en página
+2026-01-30T01:06:33 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T01:06:38 INFO        Scroll 23: 121 elementos en página
+2026-01-30T01:07:19 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T01:07:19 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T01:07:19 INFO     🔍 [proyectos de ingeniería][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 120 unique, 1653 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T01:07:19 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-30T01:07:19 INFO     📊 55 lugares agregados (Total: 13785)
+2026-01-30T01:07:19 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T01:07:27 INFO     💾 Checkpoint guardado: 13785 empresas TOTALES
+2026-01-30T01:07:27 INFO     Estado guardado: 13785 empresas
+2026-01-30T01:07:34 INFO     ⏳ Esperando 7.2s antes del siguiente rubro...
+2026-01-30T01:07:34 INFO     
+🏷️  Rubro 5/174: clínica médica
+2026-01-30T01:07:34 INFO     
+🔍 Buscando 'clínica médica' en segmento 0
+2026-01-30T01:07:34 INFO        URL: https://www.google.com/maps/search/clínica+médica/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T01:07:52 INFO     📄 Iniciando extracción para rubro: clínica médica
+2026-01-30T01:07:52 INFO        Scroll 1: 7 elementos en página
+2026-01-30T01:08:38 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T01:08:43 INFO        Scroll 2: 14 elementos en página
+2026-01-30T01:09:27 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T01:09:34 INFO        Scroll 3: 21 elementos en página
+2026-01-30T01:10:37 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T01:10:41 INFO        Scroll 4: 29 elementos en página
+2026-01-30T01:11:34 INFO        ✅ 6 nuevos, 27 total
+2026-01-30T01:11:40 INFO        Scroll 5: 36 elementos en página
+2026-01-30T01:12:38 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T01:12:43 INFO        Scroll 6: 43 elementos en página
+2026-01-30T01:13:44 INFO        ✅ 7 nuevos, 41 total
+2026-01-30T01:13:50 INFO        Scroll 7: 51 elementos en página
+2026-01-30T01:15:35 INFO        ✅ 8 nuevos, 49 total
+2026-01-30T01:15:41 INFO        Scroll 8: 58 elementos en página
+2026-01-30T01:16:49 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T01:16:54 INFO        Scroll 9: 64 elementos en página
+2026-01-30T01:18:00 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T01:18:07 INFO        Scroll 10: 71 elementos en página
+2026-01-30T01:19:26 INFO        ✅ 5 nuevos, 67 total
+2026-01-30T01:19:32 INFO        Scroll 11: 78 elementos en página
+2026-01-30T01:21:01 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T01:21:06 INFO        Scroll 12: 84 elementos en página
+2026-01-30T01:22:30 INFO        ✅ 6 nuevos, 80 total
+2026-01-30T01:22:36 INFO        Scroll 13: 91 elementos en página
+2026-01-30T01:24:21 INFO        ✅ 7 nuevos, 87 total
+2026-01-30T01:24:27 INFO        Scroll 14: 98 elementos en página
+2026-01-30T01:26:24 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T01:26:31 INFO        Scroll 15: 104 elementos en página
+2026-01-30T01:28:04 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T01:28:10 INFO        Scroll 16: 111 elementos en página
+2026-01-30T01:30:11 INFO        ✅ 7 nuevos, 107 total
+2026-01-30T01:30:16 INFO        Scroll 17: 118 elementos en página
+2026-01-30T01:32:07 INFO        ✅ 7 nuevos, 114 total
+2026-01-30T01:32:12 INFO        Scroll 18: 124 elementos en página
+2026-01-30T01:33:33 INFO        ✅ 6 nuevos, 120 total
+2026-01-30T01:33:38 INFO        Scroll 19: 124 elementos en página
+2026-01-30T01:34:21 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T01:34:26 INFO        Scroll 20: 124 elementos en página
+2026-01-30T01:35:09 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T01:35:14 INFO        Scroll 21: 124 elementos en página
+2026-01-30T01:35:57 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T01:36:02 INFO        Scroll 22: 124 elementos en página
+2026-01-30T01:36:45 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T01:36:51 INFO        Scroll 23: 124 elementos en página
+2026-01-30T01:37:34 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T01:37:34 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T01:37:34 INFO     🔍 [clínica médica][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 120 unique, 1702 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T01:37:34 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-30T01:37:34 INFO     📊 120 lugares agregados (Total: 13905)
+2026-01-30T01:37:34 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T01:37:42 INFO     💾 Checkpoint guardado: 13905 empresas TOTALES
+2026-01-30T01:37:42 INFO     Estado guardado: 13905 empresas
+2026-01-30T01:37:48 INFO     ⏳ Esperando 5.6s antes del siguiente rubro...
+2026-01-30T01:37:48 INFO     
+🏷️  Rubro 6/174: consultorio médico
+2026-01-30T01:37:48 INFO     
+🔍 Buscando 'consultorio médico' en segmento 0
+2026-01-30T01:37:48 INFO        URL: https://www.google.com/maps/search/consultorio+médico/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T01:38:07 INFO     📄 Iniciando extracción para rubro: consultorio médico
+2026-01-30T01:38:07 INFO        Scroll 1: 10 elementos en página
+2026-01-30T01:39:19 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T01:39:25 INFO        Scroll 2: 17 elementos en página
+2026-01-30T01:40:19 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T01:40:25 INFO        Scroll 3: 22 elementos en página
+2026-01-30T01:41:07 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T01:41:11 INFO        Scroll 4: 29 elementos en página
+2026-01-30T01:42:00 INFO        ✅ 6 nuevos, 28 total
+2026-01-30T01:42:05 INFO        Scroll 5: 36 elementos en página
+2026-01-30T01:43:26 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T01:43:31 INFO        Scroll 6: 43 elementos en página
+2026-01-30T01:44:41 INFO        ✅ 7 nuevos, 42 total
+2026-01-30T01:44:48 INFO        Scroll 7: 51 elementos en página
+2026-01-30T01:46:02 INFO        ✅ 8 nuevos, 50 total
+2026-01-30T01:46:08 INFO        Scroll 8: 58 elementos en página
+2026-01-30T01:47:30 INFO        ✅ 6 nuevos, 56 total
+2026-01-30T01:47:35 INFO        Scroll 9: 64 elementos en página
+2026-01-30T01:48:42 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T01:48:49 INFO        Scroll 10: 71 elementos en página
+2026-01-30T01:50:21 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T01:50:26 INFO        Scroll 11: 78 elementos en página
+2026-01-30T01:51:58 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T01:52:03 INFO        Scroll 12: 84 elementos en página
+2026-01-30T01:53:20 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T01:53:26 INFO        Scroll 13: 91 elementos en página
+2026-01-30T01:55:21 INFO        ✅ 7 nuevos, 89 total
+2026-01-30T01:55:27 INFO        Scroll 14: 98 elementos en página
+2026-01-30T01:57:22 INFO        ✅ 7 nuevos, 96 total
+2026-01-30T01:57:27 INFO        Scroll 15: 104 elementos en página
+2026-01-30T01:59:06 INFO        ✅ 6 nuevos, 102 total
+2026-01-30T01:59:11 INFO        Scroll 16: 111 elementos en página
+2026-01-30T02:01:04 INFO        ✅ 6 nuevos, 108 total
+2026-01-30T02:01:09 INFO        Scroll 17: 118 elementos en página
+2026-01-30T02:03:00 INFO        ✅ 7 nuevos, 115 total
+2026-01-30T02:03:05 INFO        Scroll 18: 124 elementos en página
+2026-01-30T02:04:32 INFO        ✅ 6 nuevos, 121 total
+2026-01-30T02:04:39 INFO        Scroll 19: 124 elementos en página
+2026-01-30T02:05:22 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T02:05:26 INFO        Scroll 20: 124 elementos en página
+2026-01-30T02:06:09 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T02:06:14 INFO        Scroll 21: 124 elementos en página
+2026-01-30T02:06:57 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T02:07:03 INFO        Scroll 22: 124 elementos en página
+2026-01-30T02:07:47 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T02:07:53 INFO        Scroll 23: 124 elementos en página
+2026-01-30T02:08:36 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T02:08:36 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T02:08:36 INFO     🔍 [consultorio médico][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 121 unique, 1708 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T02:08:36 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-30T02:08:36 INFO     📊 81 lugares agregados (Total: 13986)
+2026-01-30T02:08:36 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T02:08:44 INFO     💾 Checkpoint guardado: 13986 empresas TOTALES
+2026-01-30T02:08:44 INFO     Estado guardado: 13986 empresas
+2026-01-30T02:08:51 INFO     ⏳ Esperando 7.7s antes del siguiente rubro...
+2026-01-30T02:08:51 INFO     
+🏷️  Rubro 7/174: centro de salud
+2026-01-30T02:08:51 INFO     
+🔍 Buscando 'centro de salud' en segmento 0
+2026-01-30T02:08:51 INFO        URL: https://www.google.com/maps/search/centro+de+salud/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T02:09:10 INFO     📄 Iniciando extracción para rubro: centro de salud
+2026-01-30T02:09:10 INFO        Scroll 1: 7 elementos en página
+2026-01-30T02:10:22 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T02:10:28 INFO        Scroll 2: 14 elementos en página
+2026-01-30T02:11:27 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T02:11:33 INFO        Scroll 3: 21 elementos en página
+2026-01-30T02:12:26 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T02:12:32 INFO        Scroll 4: 28 elementos en página
+2026-01-30T02:13:22 INFO        ✅ 6 nuevos, 27 total
+2026-01-30T02:13:26 INFO        Scroll 5: 35 elementos en página
+2026-01-30T02:14:37 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T02:14:43 INFO        Scroll 6: 42 elementos en página
+2026-01-30T02:16:04 INFO        ✅ 7 nuevos, 41 total
+2026-01-30T02:16:09 INFO        Scroll 7: 50 elementos en página
+2026-01-30T02:18:01 INFO        ✅ 8 nuevos, 49 total
+2026-01-30T02:18:08 INFO        Scroll 8: 57 elementos en página
+2026-01-30T02:19:17 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T02:19:22 INFO        Scroll 9: 63 elementos en página
+2026-01-30T02:20:41 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T02:20:46 INFO        Scroll 10: 70 elementos en página
+2026-01-30T02:22:20 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T02:22:24 INFO        Scroll 11: 77 elementos en página
+2026-01-30T02:23:54 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T02:24:00 INFO        Scroll 12: 83 elementos en página
+2026-01-30T02:25:27 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T02:25:34 INFO        Scroll 13: 90 elementos en página
+2026-01-30T02:27:11 INFO        ✅ 6 nuevos, 88 total
+2026-01-30T02:27:16 INFO        Scroll 14: 97 elementos en página
+2026-01-30T02:28:45 INFO        ✅ 7 nuevos, 95 total
+2026-01-30T02:28:50 INFO        Scroll 15: 103 elementos en página
+2026-01-30T02:30:21 INFO        ✅ 6 nuevos, 101 total
+2026-01-30T02:30:27 INFO        Scroll 16: 110 elementos en página
+2026-01-30T02:32:31 INFO        ✅ 7 nuevos, 108 total
+2026-01-30T02:32:37 INFO        Scroll 17: 117 elementos en página
+2026-01-30T02:34:31 INFO        ✅ 7 nuevos, 115 total
+2026-01-30T02:34:36 INFO        Scroll 18: 123 elementos en página
+2026-01-30T02:36:09 INFO        ✅ 6 nuevos, 121 total
+2026-01-30T02:36:13 INFO        Scroll 19: 123 elementos en página
+2026-01-30T02:36:55 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T02:37:00 INFO        Scroll 20: 123 elementos en página
+2026-01-30T02:37:43 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T02:37:49 INFO        Scroll 21: 123 elementos en página
+2026-01-30T02:38:32 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T02:38:37 INFO        Scroll 22: 123 elementos en página
+2026-01-30T02:39:20 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T02:39:24 INFO        Scroll 23: 123 elementos en página
+2026-01-30T02:40:07 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T02:40:07 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T02:40:07 INFO     🔍 [centro de salud][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 121 unique, 1681 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T02:40:07 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-30T02:40:07 INFO     📊 93 lugares agregados (Total: 14079)
+2026-01-30T02:40:07 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T02:40:15 INFO     💾 Checkpoint guardado: 14079 empresas TOTALES
+2026-01-30T02:40:15 INFO     Estado guardado: 14079 empresas
+2026-01-30T02:40:21 INFO     ⏳ Esperando 6.1s antes del siguiente rubro...
+2026-01-30T02:40:21 INFO     
+🏷️  Rubro 8/174: policlínico
+2026-01-30T02:40:21 INFO     
+🔍 Buscando 'policlínico' en segmento 0
+2026-01-30T02:40:21 INFO        URL: https://www.google.com/maps/search/policlínico/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T02:40:42 INFO     📄 Iniciando extracción para rubro: policlínico
+2026-01-30T02:40:42 INFO        Scroll 1: 10 elementos en página
+2026-01-30T02:41:58 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T02:42:04 INFO        Scroll 2: 17 elementos en página
+2026-01-30T02:43:01 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T02:43:07 INFO        Scroll 3: 22 elementos en página
+2026-01-30T02:43:58 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T02:44:03 INFO        Scroll 4: 29 elementos en página
+2026-01-30T02:44:42 INFO        ✅ 4 nuevos, 26 total
+2026-01-30T02:44:48 INFO        Scroll 5: 36 elementos en página
+2026-01-30T02:45:58 INFO        ✅ 7 nuevos, 33 total
+2026-01-30T02:46:04 INFO        Scroll 6: 43 elementos en página
+2026-01-30T02:47:19 INFO        ✅ 7 nuevos, 40 total
+2026-01-30T02:47:26 INFO        Scroll 7: 51 elementos en página
+2026-01-30T02:49:03 INFO        ✅ 8 nuevos, 48 total
+2026-01-30T02:49:10 INFO        Scroll 8: 58 elementos en página
+2026-01-30T02:50:24 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T02:50:30 INFO        Scroll 9: 64 elementos en página
+2026-01-30T02:51:54 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T02:51:59 INFO        Scroll 10: 71 elementos en página
+2026-01-30T02:53:19 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T02:53:25 INFO        Scroll 11: 71 elementos en página
+2026-01-30T02:53:51 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T02:53:57 INFO        Scroll 12: 71 elementos en página
+2026-01-30T02:54:23 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T02:54:30 INFO        Scroll 13: 71 elementos en página
+2026-01-30T02:54:56 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T02:55:01 INFO        Scroll 14: 71 elementos en página
+2026-01-30T02:55:27 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T02:55:33 INFO        Scroll 15: 71 elementos en página
+2026-01-30T02:55:59 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T02:55:59 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T02:55:59 INFO     🔍 [policlínico][-31.4167|-64.1837][SCROLL: 14]: Search page scraped: 68 unique, 688 duplicate, 68 seen, 14 paginations, 0 outOfLocation.
+2026-01-30T02:55:59 INFO     ✅ Extracción completada: 68 lugares encontrados
+2026-01-30T02:55:59 INFO     📊 50 lugares agregados (Total: 14129)
+2026-01-30T02:55:59 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T02:56:08 INFO     💾 Checkpoint guardado: 14129 empresas TOTALES
+2026-01-30T02:56:08 INFO     Estado guardado: 14129 empresas
+2026-01-30T02:56:14 INFO     ⏳ Esperando 6.5s antes del siguiente rubro...
+2026-01-30T02:56:14 INFO     
+🏷️  Rubro 9/174: consultorio particular
+2026-01-30T02:56:14 INFO     
+🔍 Buscando 'consultorio particular' en segmento 0
+2026-01-30T02:56:14 INFO        URL: https://www.google.com/maps/search/consultorio+particular/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T02:56:34 INFO     📄 Iniciando extracción para rubro: consultorio particular
+2026-01-30T02:56:34 INFO        Scroll 1: 7 elementos en página
+2026-01-30T02:57:25 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T02:57:32 INFO        Scroll 2: 14 elementos en página
+2026-01-30T02:58:23 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T02:58:29 INFO        Scroll 3: 21 elementos en página
+2026-01-30T02:59:46 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T02:59:52 INFO        Scroll 4: 29 elementos en página
+2026-01-30T03:00:50 INFO        ✅ 7 nuevos, 28 total
+2026-01-30T03:00:56 INFO        Scroll 5: 36 elementos en página
+2026-01-30T03:01:55 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T03:01:59 INFO        Scroll 6: 42 elementos en página
+2026-01-30T03:03:07 INFO        ✅ 6 nuevos, 41 total
+2026-01-30T03:03:13 INFO        Scroll 7: 49 elementos en página
+2026-01-30T03:04:28 INFO        ✅ 7 nuevos, 48 total
+2026-01-30T03:04:33 INFO        Scroll 8: 56 elementos en página
+2026-01-30T03:06:00 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T03:06:06 INFO        Scroll 9: 62 elementos en página
+2026-01-30T03:07:17 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T03:07:22 INFO        Scroll 10: 69 elementos en página
+2026-01-30T03:09:04 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T03:09:10 INFO        Scroll 11: 76 elementos en página
+2026-01-30T03:10:50 INFO        ✅ 7 nuevos, 75 total
+2026-01-30T03:10:55 INFO        Scroll 12: 82 elementos en página
+2026-01-30T03:12:14 INFO        ✅ 6 nuevos, 81 total
+2026-01-30T03:12:20 INFO        Scroll 13: 89 elementos en página
+2026-01-30T03:14:09 INFO        ✅ 7 nuevos, 88 total
+2026-01-30T03:14:14 INFO        Scroll 14: 96 elementos en página
+2026-01-30T03:15:48 INFO        ✅ 7 nuevos, 95 total
+2026-01-30T03:15:53 INFO        Scroll 15: 102 elementos en página
+2026-01-30T03:17:36 INFO        ✅ 6 nuevos, 101 total
+2026-01-30T03:17:42 INFO        Scroll 16: 109 elementos en página
+2026-01-30T03:19:34 INFO        ✅ 7 nuevos, 108 total
+2026-01-30T03:19:40 INFO        Scroll 17: 116 elementos en página
+2026-01-30T03:21:37 INFO        ✅ 7 nuevos, 115 total
+2026-01-30T03:21:42 INFO        Scroll 18: 122 elementos en página
+2026-01-30T03:23:00 INFO        ✅ 6 nuevos, 121 total
+2026-01-30T03:23:06 INFO        Scroll 19: 122 elementos en página
+2026-01-30T03:23:49 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T03:23:54 INFO        Scroll 20: 122 elementos en página
+2026-01-30T03:24:36 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T03:24:42 INFO        Scroll 21: 122 elementos en página
+2026-01-30T03:25:24 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T03:25:30 INFO        Scroll 22: 122 elementos en página
+2026-01-30T03:26:12 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T03:26:17 INFO        Scroll 23: 122 elementos en página
+2026-01-30T03:26:58 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T03:26:58 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T03:26:58 INFO     🔍 [consultorio particular][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 121 unique, 1666 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T03:26:58 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-30T03:26:58 INFO     📊 56 lugares agregados (Total: 14185)
+2026-01-30T03:26:59 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T03:27:07 INFO     💾 Checkpoint guardado: 14185 empresas TOTALES
+2026-01-30T03:27:07 INFO     Estado guardado: 14185 empresas
+2026-01-30T03:27:12 INFO     ⏳ Esperando 5.1s antes del siguiente rubro...
+2026-01-30T03:27:12 INFO     
+🏷️  Rubro 10/174: estudio jurídico
+2026-01-30T03:27:12 INFO     
+🔍 Buscando 'estudio jurídico' en segmento 0
+2026-01-30T03:27:12 INFO        URL: https://www.google.com/maps/search/estudio+jurídico/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T03:27:32 INFO     📄 Iniciando extracción para rubro: estudio jurídico
+2026-01-30T03:27:32 INFO        Scroll 1: 10 elementos en página
+2026-01-30T03:28:59 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T03:29:05 INFO        Scroll 2: 17 elementos en página
+2026-01-30T03:29:54 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T03:29:59 INFO        Scroll 3: 22 elementos en página
+2026-01-30T03:30:40 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T03:30:47 INFO        Scroll 4: 29 elementos en página
+2026-01-30T03:31:38 INFO        ✅ 6 nuevos, 28 total
+2026-01-30T03:31:45 INFO        Scroll 5: 36 elementos en página
+2026-01-30T03:32:54 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T03:32:59 INFO        Scroll 6: 43 elementos en página
+2026-01-30T03:34:03 INFO        ✅ 7 nuevos, 42 total
+2026-01-30T03:34:10 INFO        Scroll 7: 51 elementos en página
+2026-01-30T03:35:36 INFO        ✅ 8 nuevos, 50 total
+2026-01-30T03:35:42 INFO        Scroll 8: 58 elementos en página
+2026-01-30T03:36:52 INFO        ✅ 7 nuevos, 57 total
+2026-01-30T03:36:58 INFO        Scroll 9: 64 elementos en página
+2026-01-30T03:38:26 INFO        ✅ 5 nuevos, 62 total
+2026-01-30T03:38:33 INFO        Scroll 10: 71 elementos en página
+2026-01-30T03:39:53 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T03:39:57 INFO        Scroll 11: 78 elementos en página
+2026-01-30T03:41:21 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T03:41:26 INFO        Scroll 12: 84 elementos en página
+2026-01-30T03:42:46 INFO        ✅ 5 nuevos, 81 total
+2026-01-30T03:42:53 INFO        Scroll 13: 91 elementos en página
+2026-01-30T03:44:33 INFO        ✅ 6 nuevos, 87 total
+2026-01-30T03:44:38 INFO        Scroll 14: 98 elementos en página
+2026-01-30T03:46:29 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T03:46:34 INFO        Scroll 15: 104 elementos en página
+2026-01-30T03:48:16 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T03:48:22 INFO        Scroll 16: 111 elementos en página
+2026-01-30T03:50:16 INFO        ✅ 6 nuevos, 106 total
+2026-01-30T03:50:21 INFO        Scroll 17: 118 elementos en página
+2026-01-30T03:52:07 INFO        ✅ 7 nuevos, 113 total
+2026-01-30T03:52:13 INFO        Scroll 18: 124 elementos en página
+2026-01-30T03:53:43 INFO        ✅ 6 nuevos, 119 total
+2026-01-30T03:53:49 INFO        Scroll 19: 124 elementos en página
+2026-01-30T03:54:32 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T03:54:36 INFO        Scroll 20: 124 elementos en página
+2026-01-30T03:55:19 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T03:55:25 INFO        Scroll 21: 124 elementos en página
+2026-01-30T03:56:08 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T03:56:14 INFO        Scroll 22: 124 elementos en página
+2026-01-30T03:56:56 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T03:57:01 INFO        Scroll 23: 124 elementos en página
+2026-01-30T03:57:44 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T03:57:44 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T03:57:44 INFO     🔍 [estudio jurídico][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 119 unique, 1710 duplicate, 119 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T03:57:44 INFO     ✅ Extracción completada: 119 lugares encontrados
+2026-01-30T03:57:44 INFO     📊 118 lugares agregados (Total: 14303)
+2026-01-30T03:57:44 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T03:57:52 INFO     💾 Checkpoint guardado: 14303 empresas TOTALES
+2026-01-30T03:57:52 INFO     Estado guardado: 14303 empresas
+2026-01-30T03:57:59 INFO     ⏳ Esperando 6.4s antes del siguiente rubro...
+2026-01-30T03:57:59 INFO     
+🏷️  Rubro 11/174: despacho de abogados
+2026-01-30T03:57:59 INFO     
+🔍 Buscando 'despacho de abogados' en segmento 0
+2026-01-30T03:57:59 INFO        URL: https://www.google.com/maps/search/despacho+de+abogados/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T03:58:19 INFO     📄 Iniciando extracción para rubro: despacho de abogados
+2026-01-30T03:58:19 INFO        Scroll 1: 7 elementos en página
+2026-01-30T03:59:08 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T03:59:13 INFO        Scroll 2: 14 elementos en página
+2026-01-30T04:00:03 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T04:00:08 INFO        Scroll 3: 20 elementos en página
+2026-01-30T04:01:04 INFO        ✅ 6 nuevos, 20 total
+2026-01-30T04:01:10 INFO        Scroll 4: 27 elementos en página
+2026-01-30T04:02:12 INFO        ✅ 7 nuevos, 27 total
+2026-01-30T04:02:17 INFO        Scroll 5: 34 elementos en página
+2026-01-30T04:03:32 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T04:03:38 INFO        Scroll 6: 40 elementos en página
+2026-01-30T04:04:46 INFO        ✅ 6 nuevos, 40 total
+2026-01-30T04:04:51 INFO        Scroll 7: 47 elementos en página
+2026-01-30T04:05:58 INFO        ✅ 7 nuevos, 47 total
+2026-01-30T04:06:03 INFO        Scroll 8: 54 elementos en página
+2026-01-30T04:07:06 INFO        ✅ 7 nuevos, 54 total
+2026-01-30T04:07:12 INFO        Scroll 9: 60 elementos en página
+2026-01-30T04:08:17 INFO        ✅ 6 nuevos, 60 total
+2026-01-30T04:08:23 INFO        Scroll 10: 67 elementos en página
+2026-01-30T04:09:39 INFO        ✅ 7 nuevos, 67 total
+2026-01-30T04:09:45 INFO        Scroll 11: 74 elementos en página
+2026-01-30T04:11:09 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T04:11:15 INFO        Scroll 12: 80 elementos en página
+2026-01-30T04:12:36 INFO        ✅ 6 nuevos, 80 total
+2026-01-30T04:12:42 INFO        Scroll 13: 87 elementos en página
+2026-01-30T04:14:08 INFO        ✅ 7 nuevos, 87 total
+2026-01-30T04:14:14 INFO        Scroll 14: 94 elementos en página
+2026-01-30T04:15:51 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T04:15:55 INFO        Scroll 15: 100 elementos en página
+2026-01-30T04:17:36 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T04:17:42 INFO        Scroll 16: 107 elementos en página
+2026-01-30T04:19:24 INFO        ✅ 7 nuevos, 107 total
+2026-01-30T04:19:30 INFO        Scroll 17: 114 elementos en página
+2026-01-30T04:21:28 INFO        ✅ 7 nuevos, 114 total
+2026-01-30T04:21:34 INFO        Scroll 18: 115 elementos en página
+2026-01-30T04:22:20 INFO        ✅ 1 nuevos, 115 total
+2026-01-30T04:22:26 INFO        Scroll 19: 115 elementos en página
+2026-01-30T04:23:06 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T04:23:11 INFO        Scroll 20: 115 elementos en página
+2026-01-30T04:23:52 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T04:23:57 INFO        Scroll 21: 115 elementos en página
+2026-01-30T04:24:37 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T04:24:43 INFO        Scroll 22: 115 elementos en página
+2026-01-30T04:25:24 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T04:25:30 INFO        Scroll 23: 115 elementos en página
+2026-01-30T04:26:10 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T04:26:10 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T04:26:10 INFO     🔍 [despacho de abogados][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 115 unique, 1601 duplicate, 115 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T04:26:10 INFO     ✅ Extracción completada: 115 lugares encontrados
+2026-01-30T04:26:10 INFO     📊 83 lugares agregados (Total: 14386)
+2026-01-30T04:26:10 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T04:26:18 INFO     💾 Checkpoint guardado: 14386 empresas TOTALES
+2026-01-30T04:26:18 INFO     Estado guardado: 14386 empresas
+2026-01-30T04:26:24 INFO     ⏳ Esperando 6.5s antes del siguiente rubro...
+2026-01-30T04:26:24 INFO     
+🏷️  Rubro 12/174: abogados especializados
+2026-01-30T04:26:24 INFO     
+🔍 Buscando 'abogados especializados' en segmento 0
+2026-01-30T04:26:24 INFO        URL: https://www.google.com/maps/search/abogados+especializados/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T04:26:45 INFO     📄 Iniciando extracción para rubro: abogados especializados
+2026-01-30T04:26:45 INFO        Scroll 1: 10 elementos en página
+2026-01-30T04:27:53 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T04:27:58 INFO        Scroll 2: 17 elementos en página
+2026-01-30T04:28:45 INFO        ✅ 6 nuevos, 16 total
+2026-01-30T04:28:51 INFO        Scroll 3: 22 elementos en página
+2026-01-30T04:29:32 INFO        ✅ 5 nuevos, 21 total
+2026-01-30T04:29:36 INFO        Scroll 4: 29 elementos en página
+2026-01-30T04:30:39 INFO        ✅ 7 nuevos, 28 total
+2026-01-30T04:30:44 INFO        Scroll 5: 36 elementos en página
+2026-01-30T04:31:40 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T04:31:45 INFO        Scroll 6: 42 elementos en página
+2026-01-30T04:32:39 INFO        ✅ 6 nuevos, 41 total
+2026-01-30T04:32:45 INFO        Scroll 7: 49 elementos en página
+2026-01-30T04:33:43 INFO        ✅ 6 nuevos, 47 total
+2026-01-30T04:33:49 INFO        Scroll 8: 56 elementos en página
+2026-01-30T04:35:04 INFO        ✅ 7 nuevos, 54 total
+2026-01-30T04:35:11 INFO        Scroll 9: 62 elementos en página
+2026-01-30T04:36:30 INFO        ✅ 6 nuevos, 60 total
+2026-01-30T04:36:36 INFO        Scroll 10: 69 elementos en página
+2026-01-30T04:38:00 INFO        ✅ 7 nuevos, 67 total
+2026-01-30T04:38:05 INFO        Scroll 11: 76 elementos en página
+2026-01-30T04:39:37 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T04:39:43 INFO        Scroll 12: 78 elementos en página
+2026-01-30T04:40:25 INFO        ✅ 2 nuevos, 76 total
+2026-01-30T04:40:30 INFO        Scroll 13: 78 elementos en página
+2026-01-30T04:40:59 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T04:41:06 INFO        Scroll 14: 78 elementos en página
+2026-01-30T04:41:34 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T04:41:40 INFO        Scroll 15: 78 elementos en página
+2026-01-30T04:42:08 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T04:42:14 INFO        Scroll 16: 78 elementos en página
+2026-01-30T04:42:43 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T04:42:48 INFO        Scroll 17: 78 elementos en página
+2026-01-30T04:43:17 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T04:43:17 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T04:43:17 INFO     🔍 [abogados especializados][-31.4167|-64.1837][SCROLL: 16]: Search page scraped: 76 unique, 860 duplicate, 76 seen, 16 paginations, 0 outOfLocation.
+2026-01-30T04:43:17 INFO     ✅ Extracción completada: 76 lugares encontrados
+2026-01-30T04:43:17 INFO     📊 50 lugares agregados (Total: 14436)
+2026-01-30T04:43:17 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T04:43:25 INFO     💾 Checkpoint guardado: 14436 empresas TOTALES
+2026-01-30T04:43:25 INFO     Estado guardado: 14436 empresas
+2026-01-30T04:43:33 INFO     ⏳ Esperando 7.6s antes del siguiente rubro...
+2026-01-30T04:43:33 INFO     
+🏷️  Rubro 13/174: bufete de abogados
+2026-01-30T04:43:33 INFO     
+🔍 Buscando 'bufete de abogados' en segmento 0
+2026-01-30T04:43:33 INFO        URL: https://www.google.com/maps/search/bufete+de+abogados/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T04:43:53 INFO     📄 Iniciando extracción para rubro: bufete de abogados
+2026-01-30T04:43:53 INFO        Scroll 1: 7 elementos en página
+2026-01-30T04:44:45 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T04:44:50 INFO        Scroll 2: 14 elementos en página
+2026-01-30T04:45:35 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T04:45:41 INFO        Scroll 3: 21 elementos en página
+2026-01-30T04:46:32 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T04:46:37 INFO        Scroll 4: 29 elementos en página
+2026-01-30T04:47:37 INFO        ✅ 7 nuevos, 28 total
+2026-01-30T04:47:42 INFO        Scroll 5: 36 elementos en página
+2026-01-30T04:48:43 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T04:48:48 INFO        Scroll 6: 42 elementos en página
+2026-01-30T04:49:43 INFO        ✅ 6 nuevos, 41 total
+2026-01-30T04:49:48 INFO        Scroll 7: 49 elementos en página
+2026-01-30T04:50:57 INFO        ✅ 7 nuevos, 48 total
+2026-01-30T04:51:02 INFO        Scroll 8: 56 elementos en página
+2026-01-30T04:52:21 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T04:52:27 INFO        Scroll 9: 62 elementos en página
+2026-01-30T04:53:35 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T04:53:41 INFO        Scroll 10: 69 elementos en página
+2026-01-30T04:55:09 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T04:55:14 INFO        Scroll 11: 76 elementos en página
+2026-01-30T04:56:38 INFO        ✅ 7 nuevos, 75 total
+2026-01-30T04:56:44 INFO        Scroll 12: 82 elementos en página
+2026-01-30T04:58:10 INFO        ✅ 6 nuevos, 81 total
+2026-01-30T04:58:15 INFO        Scroll 13: 89 elementos en página
+2026-01-30T05:00:06 INFO        ✅ 7 nuevos, 88 total
+2026-01-30T05:00:11 INFO        Scroll 14: 96 elementos en página
+2026-01-30T05:02:10 INFO        ✅ 7 nuevos, 95 total
+2026-01-30T05:02:16 INFO        Scroll 15: 102 elementos en página
+2026-01-30T05:03:56 INFO        ✅ 6 nuevos, 101 total
+2026-01-30T05:04:03 INFO        Scroll 16: 109 elementos en página
+2026-01-30T05:05:58 INFO        ✅ 7 nuevos, 108 total
+2026-01-30T05:06:04 INFO        Scroll 17: 116 elementos en página
+2026-01-30T05:07:56 INFO        ✅ 7 nuevos, 115 total
+2026-01-30T05:08:02 INFO        Scroll 18: 122 elementos en página
+2026-01-30T05:09:33 INFO        ✅ 6 nuevos, 121 total
+2026-01-30T05:09:40 INFO        Scroll 19: 122 elementos en página
+2026-01-30T05:10:22 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T05:10:27 INFO        Scroll 20: 122 elementos en página
+2026-01-30T05:11:09 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T05:11:15 INFO        Scroll 21: 122 elementos en página
+2026-01-30T05:11:58 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T05:12:03 INFO        Scroll 22: 122 elementos en página
+2026-01-30T05:12:46 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T05:12:51 INFO        Scroll 23: 122 elementos en página
+2026-01-30T05:13:33 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T05:13:33 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T05:13:33 INFO     🔍 [bufete de abogados][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 121 unique, 1666 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T05:13:33 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-30T05:13:33 INFO     📊 76 lugares agregados (Total: 14512)
+2026-01-30T05:13:33 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T05:13:41 INFO     💾 Checkpoint guardado: 14512 empresas TOTALES
+2026-01-30T05:13:41 INFO     Estado guardado: 14512 empresas
+2026-01-30T05:13:47 INFO     ⏳ Esperando 5.2s antes del siguiente rubro...
+2026-01-30T05:13:47 INFO     
+🏷️  Rubro 14/174: asesoría legal
+2026-01-30T05:13:47 INFO     
+🔍 Buscando 'asesoría legal' en segmento 0
+2026-01-30T05:13:47 INFO        URL: https://www.google.com/maps/search/asesoría+legal/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T05:14:04 INFO     📄 Iniciando extracción para rubro: asesoría legal
+2026-01-30T05:14:04 INFO        Scroll 1: 10 elementos en página
+2026-01-30T05:15:18 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T05:15:24 INFO        Scroll 2: 17 elementos en página
+2026-01-30T05:16:19 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T05:16:26 INFO        Scroll 3: 22 elementos en página
+2026-01-30T05:17:02 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T05:17:09 INFO        Scroll 4: 29 elementos en página
+2026-01-30T05:17:51 INFO        ✅ 5 nuevos, 27 total
+2026-01-30T05:17:57 INFO        Scroll 5: 36 elementos en página
+2026-01-30T05:18:56 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T05:19:00 INFO        Scroll 6: 43 elementos en página
+2026-01-30T05:20:02 INFO        ✅ 7 nuevos, 41 total
+2026-01-30T05:20:07 INFO        Scroll 7: 51 elementos en página
+2026-01-30T05:21:35 INFO        ✅ 8 nuevos, 49 total
+2026-01-30T05:21:42 INFO        Scroll 8: 58 elementos en página
+2026-01-30T05:22:51 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T05:22:56 INFO        Scroll 9: 64 elementos en página
+2026-01-30T05:24:19 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T05:24:26 INFO        Scroll 10: 71 elementos en página
+2026-01-30T05:25:58 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T05:26:04 INFO        Scroll 11: 78 elementos en página
+2026-01-30T05:27:42 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T05:27:48 INFO        Scroll 12: 84 elementos en página
+2026-01-30T05:29:14 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T05:29:19 INFO        Scroll 13: 91 elementos en página
+2026-01-30T05:30:53 INFO        ✅ 6 nuevos, 88 total
+2026-01-30T05:30:59 INFO        Scroll 14: 98 elementos en página
+2026-01-30T05:32:35 INFO        ✅ 7 nuevos, 95 total
+2026-01-30T05:32:41 INFO        Scroll 15: 104 elementos en página
+2026-01-30T05:34:17 INFO        ✅ 6 nuevos, 101 total
+2026-01-30T05:34:23 INFO        Scroll 16: 111 elementos en página
+2026-01-30T05:36:12 INFO        ✅ 6 nuevos, 107 total
+2026-01-30T05:36:19 INFO        Scroll 17: 118 elementos en página
+2026-01-30T05:38:22 INFO        ✅ 7 nuevos, 114 total
+2026-01-30T05:38:27 INFO        Scroll 18: 124 elementos en página
+2026-01-30T05:39:44 INFO        ✅ 6 nuevos, 120 total
+2026-01-30T05:39:50 INFO        Scroll 19: 124 elementos en página
+2026-01-30T05:40:33 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T05:40:38 INFO        Scroll 20: 124 elementos en página
+2026-01-30T05:41:20 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T05:41:26 INFO        Scroll 21: 124 elementos en página
+2026-01-30T05:42:09 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T05:42:15 INFO        Scroll 22: 124 elementos en página
+2026-01-30T05:42:57 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T05:43:03 INFO        Scroll 23: 124 elementos en página
+2026-01-30T05:43:46 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T05:43:46 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T05:43:46 INFO     🔍 [asesoría legal][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 120 unique, 1709 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T05:43:46 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-30T05:43:46 INFO     📊 63 lugares agregados (Total: 14575)
+2026-01-30T05:43:46 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T05:43:54 INFO     💾 Checkpoint guardado: 14575 empresas TOTALES
+2026-01-30T05:43:54 INFO     Estado guardado: 14575 empresas
+2026-01-30T05:44:02 INFO     ⏳ Esperando 7.7s antes del siguiente rubro...
+2026-01-30T05:44:02 INFO     
+🏷️  Rubro 15/174: estudio contable
+2026-01-30T05:44:02 INFO     
+🔍 Buscando 'estudio contable' en segmento 0
+2026-01-30T05:44:02 INFO        URL: https://www.google.com/maps/search/estudio+contable/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T05:44:22 INFO     📄 Iniciando extracción para rubro: estudio contable
+2026-01-30T05:44:22 INFO        Scroll 1: 7 elementos en página
+2026-01-30T05:45:07 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T05:45:14 INFO        Scroll 2: 14 elementos en página
+2026-01-30T05:46:03 INFO        ✅ 6 nuevos, 13 total
+2026-01-30T05:46:09 INFO        Scroll 3: 21 elementos en página
+2026-01-30T05:47:11 INFO        ✅ 7 nuevos, 20 total
+2026-01-30T05:47:16 INFO        Scroll 4: 29 elementos en página
+2026-01-30T05:48:07 INFO        ✅ 6 nuevos, 26 total
+2026-01-30T05:48:12 INFO        Scroll 5: 36 elementos en página
+2026-01-30T05:49:08 INFO        ✅ 7 nuevos, 33 total
+2026-01-30T05:49:14 INFO        Scroll 6: 43 elementos en página
+2026-01-30T05:50:18 INFO        ✅ 7 nuevos, 40 total
+2026-01-30T05:50:23 INFO        Scroll 7: 51 elementos en página
+2026-01-30T05:51:36 INFO        ✅ 8 nuevos, 48 total
+2026-01-30T05:51:43 INFO        Scroll 8: 58 elementos en página
+2026-01-30T05:52:49 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T05:52:54 INFO        Scroll 9: 64 elementos en página
+2026-01-30T05:54:06 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T05:54:12 INFO        Scroll 10: 71 elementos en página
+2026-01-30T05:55:42 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T05:55:48 INFO        Scroll 11: 78 elementos en página
+2026-01-30T05:57:29 INFO        ✅ 7 nuevos, 75 total
+2026-01-30T05:57:35 INFO        Scroll 12: 84 elementos en página
+2026-01-30T05:58:58 INFO        ✅ 6 nuevos, 81 total
+2026-01-30T05:59:04 INFO        Scroll 13: 91 elementos en página
+2026-01-30T06:00:46 INFO        ✅ 7 nuevos, 88 total
+2026-01-30T06:00:51 INFO        Scroll 14: 98 elementos en página
+2026-01-30T06:02:57 INFO        ✅ 7 nuevos, 95 total
+2026-01-30T06:03:02 INFO        Scroll 15: 104 elementos en página
+2026-01-30T06:04:40 INFO        ✅ 6 nuevos, 101 total
+2026-01-30T06:04:47 INFO        Scroll 16: 111 elementos en página
+2026-01-30T06:06:43 INFO        ✅ 7 nuevos, 108 total
+2026-01-30T06:06:49 INFO        Scroll 17: 118 elementos en página
+2026-01-30T06:08:49 INFO        ✅ 7 nuevos, 115 total
+2026-01-30T06:08:55 INFO        Scroll 18: 124 elementos en página
+2026-01-30T06:10:24 INFO        ✅ 6 nuevos, 121 total
+2026-01-30T06:10:30 INFO        Scroll 19: 124 elementos en página
+2026-01-30T06:11:12 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T06:11:18 INFO        Scroll 20: 124 elementos en página
+2026-01-30T06:12:00 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T06:12:06 INFO        Scroll 21: 124 elementos en página
+2026-01-30T06:12:49 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T06:12:54 INFO        Scroll 22: 124 elementos en página
+2026-01-30T06:13:37 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T06:13:43 INFO        Scroll 23: 124 elementos en página
+2026-01-30T06:14:26 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T06:14:26 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T06:14:26 INFO     🔍 [estudio contable][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 121 unique, 1701 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T06:14:26 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-30T06:14:26 INFO     📊 115 lugares agregados (Total: 14690)
+2026-01-30T06:14:26 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T06:14:34 INFO     💾 Checkpoint guardado: 14690 empresas TOTALES
+2026-01-30T06:14:34 INFO     Estado guardado: 14690 empresas
+2026-01-30T06:14:41 INFO     ⏳ Esperando 7.0s antes del siguiente rubro...
+2026-01-30T06:14:41 INFO     
+🏷️  Rubro 16/174: contador público
+2026-01-30T06:14:41 INFO     
+🔍 Buscando 'contador público' en segmento 0
+2026-01-30T06:14:41 INFO        URL: https://www.google.com/maps/search/contador+público/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T06:15:01 INFO     📄 Iniciando extracción para rubro: contador público
+2026-01-30T06:15:01 INFO        Scroll 1: 10 elementos en página
+2026-01-30T06:15:56 INFO        ✅ 9 nuevos, 9 total
+2026-01-30T06:16:02 INFO        Scroll 2: 17 elementos en página
+2026-01-30T06:16:51 INFO        ✅ 7 nuevos, 16 total
+2026-01-30T06:16:57 INFO        Scroll 3: 22 elementos en página
+2026-01-30T06:17:36 INFO        ✅ 5 nuevos, 21 total
+2026-01-30T06:17:43 INFO        Scroll 4: 29 elementos en página
+2026-01-30T06:18:31 INFO        ✅ 6 nuevos, 27 total
+2026-01-30T06:18:37 INFO        Scroll 5: 36 elementos en página
+2026-01-30T06:19:35 INFO        ✅ 6 nuevos, 33 total
+2026-01-30T06:19:40 INFO        Scroll 6: 43 elementos en página
+2026-01-30T06:20:39 INFO        ✅ 7 nuevos, 40 total
+2026-01-30T06:20:46 INFO        Scroll 7: 51 elementos en página
+2026-01-30T06:22:04 INFO        ✅ 8 nuevos, 48 total
+2026-01-30T06:22:11 INFO        Scroll 8: 58 elementos en página
+2026-01-30T06:23:24 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T06:23:30 INFO        Scroll 9: 64 elementos en página
+2026-01-30T06:24:38 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T06:24:44 INFO        Scroll 10: 71 elementos en página
+2026-01-30T06:26:07 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T06:26:13 INFO        Scroll 11: 78 elementos en página
+2026-01-30T06:27:48 INFO        ✅ 7 nuevos, 75 total
+2026-01-30T06:27:54 INFO        Scroll 12: 84 elementos en página
+2026-01-30T06:29:12 INFO        ✅ 6 nuevos, 81 total
+2026-01-30T06:29:18 INFO        Scroll 13: 91 elementos en página
+2026-01-30T06:30:45 INFO        ✅ 7 nuevos, 88 total
+2026-01-30T06:30:51 INFO        Scroll 14: 98 elementos en página
+2026-01-30T06:32:36 INFO        ✅ 7 nuevos, 95 total
+2026-01-30T06:32:41 INFO        Scroll 15: 104 elementos en página
+2026-01-30T06:34:13 INFO        ✅ 6 nuevos, 101 total
+2026-01-30T06:34:18 INFO        Scroll 16: 111 elementos en página
+2026-01-30T06:36:04 INFO        ✅ 7 nuevos, 108 total
+2026-01-30T06:36:10 INFO        Scroll 17: 118 elementos en página
+2026-01-30T06:38:18 INFO        ✅ 7 nuevos, 115 total
+2026-01-30T06:38:25 INFO        Scroll 18: 124 elementos en página
+2026-01-30T06:39:41 INFO        ✅ 6 nuevos, 121 total
+2026-01-30T06:39:46 INFO        Scroll 19: 124 elementos en página
+2026-01-30T06:40:29 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T06:40:35 INFO        Scroll 20: 124 elementos en página
+2026-01-30T06:41:17 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T06:41:23 INFO        Scroll 21: 124 elementos en página
+2026-01-30T06:42:06 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T06:42:11 INFO        Scroll 22: 124 elementos en página
+2026-01-30T06:42:53 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T06:42:59 INFO        Scroll 23: 124 elementos en página
+2026-01-30T06:43:41 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T06:43:41 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T06:43:41 INFO     🔍 [contador público][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 121 unique, 1708 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T06:43:41 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-30T06:43:41 INFO     📊 78 lugares agregados (Total: 14768)
+2026-01-30T06:43:41 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T06:43:49 INFO     💾 Checkpoint guardado: 14768 empresas TOTALES
+2026-01-30T06:43:49 INFO     Estado guardado: 14768 empresas
+2026-01-30T06:43:56 INFO     ⏳ Esperando 6.7s antes del siguiente rubro...
+2026-01-30T06:43:56 INFO     
+🏷️  Rubro 17/174: auditoría contable
+2026-01-30T06:43:56 INFO     
+🔍 Buscando 'auditoría contable' en segmento 0
+2026-01-30T06:43:56 INFO        URL: https://www.google.com/maps/search/auditoría+contable/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T06:44:16 INFO     📄 Iniciando extracción para rubro: auditoría contable
+2026-01-30T06:44:16 INFO        Scroll 1: 7 elementos en página
+2026-01-30T06:45:13 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T06:45:18 INFO        Scroll 2: 14 elementos en página
+2026-01-30T06:46:27 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T06:46:33 INFO        Scroll 3: 20 elementos en página
+2026-01-30T06:47:20 INFO        ✅ 6 nuevos, 20 total
+2026-01-30T06:47:27 INFO        Scroll 4: 27 elementos en página
+2026-01-30T06:48:29 INFO        ✅ 7 nuevos, 27 total
+2026-01-30T06:48:35 INFO        Scroll 5: 34 elementos en página
+2026-01-30T06:49:28 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T06:49:34 INFO        Scroll 6: 40 elementos en página
+2026-01-30T06:50:32 INFO        ✅ 6 nuevos, 40 total
+2026-01-30T06:50:37 INFO        Scroll 7: 47 elementos en página
+2026-01-30T06:51:43 INFO        ✅ 7 nuevos, 47 total
+2026-01-30T06:51:48 INFO        Scroll 8: 54 elementos en página
+2026-01-30T06:53:08 INFO        ✅ 7 nuevos, 54 total
+2026-01-30T06:53:14 INFO        Scroll 9: 60 elementos en página
+2026-01-30T06:54:18 INFO        ✅ 6 nuevos, 60 total
+2026-01-30T06:54:25 INFO        Scroll 10: 67 elementos en página
+2026-01-30T06:55:39 INFO        ✅ 7 nuevos, 67 total
+2026-01-30T06:55:45 INFO        Scroll 11: 74 elementos en página
+2026-01-30T06:57:15 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T06:57:21 INFO        Scroll 12: 80 elementos en página
+2026-01-30T06:58:59 INFO        ✅ 6 nuevos, 80 total
+2026-01-30T06:59:04 INFO        Scroll 13: 87 elementos en página
+2026-01-30T07:00:53 INFO        ✅ 7 nuevos, 87 total
+2026-01-30T07:01:00 INFO        Scroll 14: 94 elementos en página
+2026-01-30T07:02:43 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T07:02:48 INFO        Scroll 15: 100 elementos en página
+2026-01-30T07:04:35 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T07:04:41 INFO        Scroll 16: 107 elementos en página
+2026-01-30T07:06:01 INFO        ✅ 4 nuevos, 104 total
+2026-01-30T07:06:07 INFO        Scroll 17: 114 elementos en página
+2026-01-30T07:08:17 INFO        ✅ 7 nuevos, 111 total
+2026-01-30T07:08:22 INFO        Scroll 18: 120 elementos en página
+2026-01-30T07:09:49 INFO        ✅ 6 nuevos, 117 total
+2026-01-30T07:09:56 INFO        Scroll 19: 120 elementos en página
+2026-01-30T07:10:36 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T07:10:42 INFO        Scroll 20: 120 elementos en página
+2026-01-30T07:11:23 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T07:11:29 INFO        Scroll 21: 120 elementos en página
+2026-01-30T07:12:10 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T07:12:16 INFO        Scroll 22: 120 elementos en página
+2026-01-30T07:12:57 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T07:13:03 INFO        Scroll 23: 120 elementos en página
+2026-01-30T07:13:44 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T07:13:44 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T07:13:44 INFO     🔍 [auditoría contable][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 117 unique, 1629 duplicate, 117 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T07:13:44 INFO     ✅ Extracción completada: 117 lugares encontrados
+2026-01-30T07:13:44 INFO     📊 107 lugares agregados (Total: 14875)
+2026-01-30T07:13:44 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T07:13:52 INFO     💾 Checkpoint guardado: 14875 empresas TOTALES
+2026-01-30T07:13:52 INFO     Estado guardado: 14875 empresas
+2026-01-30T07:13:57 INFO     ⏳ Esperando 4.7s antes del siguiente rubro...
+2026-01-30T07:13:57 INFO     
+🏷️  Rubro 18/174: asesoría impositiva
+2026-01-30T07:13:57 INFO     
+🔍 Buscando 'asesoría impositiva' en segmento 0
+2026-01-30T07:13:57 INFO        URL: https://www.google.com/maps/search/asesoría+impositiva/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T07:14:14 INFO     📄 Iniciando extracción para rubro: asesoría impositiva
+2026-01-30T07:14:14 INFO        Scroll 1: 10 elementos en página
+2026-01-30T07:15:31 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T07:15:38 INFO        Scroll 2: 17 elementos en página
+2026-01-30T07:16:28 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T07:16:34 INFO        Scroll 3: 27 elementos en página
+2026-01-30T07:17:55 INFO        ✅ 10 nuevos, 27 total
+2026-01-30T07:18:02 INFO        Scroll 4: 34 elementos en página
+2026-01-30T07:19:10 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T07:19:15 INFO        Scroll 5: 41 elementos en página
+2026-01-30T07:20:21 INFO        ✅ 7 nuevos, 41 total
+2026-01-30T07:20:27 INFO        Scroll 6: 49 elementos en página
+2026-01-30T07:21:39 INFO        ✅ 8 nuevos, 49 total
+2026-01-30T07:21:45 INFO        Scroll 7: 56 elementos en página
+2026-01-30T07:22:50 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T07:22:54 INFO        Scroll 8: 62 elementos en página
+2026-01-30T07:23:56 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T07:24:02 INFO        Scroll 9: 69 elementos en página
+2026-01-30T07:25:31 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T07:25:35 INFO        Scroll 10: 76 elementos en página
+2026-01-30T07:27:08 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T07:27:15 INFO        Scroll 11: 82 elementos en página
+2026-01-30T07:28:28 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T07:28:35 INFO        Scroll 12: 89 elementos en página
+2026-01-30T07:30:10 INFO        ✅ 7 nuevos, 89 total
+2026-01-30T07:30:16 INFO        Scroll 13: 95 elementos en página
+2026-01-30T07:31:25 INFO        ✅ 6 nuevos, 95 total
+2026-01-30T07:31:31 INFO        Scroll 14: 95 elementos en página
+2026-01-30T07:32:04 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T07:32:11 INFO        Scroll 15: 95 elementos en página
+2026-01-30T07:32:44 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T07:32:50 INFO        Scroll 16: 95 elementos en página
+2026-01-30T07:33:24 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T07:33:30 INFO        Scroll 17: 95 elementos en página
+2026-01-30T07:34:04 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T07:34:09 INFO        Scroll 18: 95 elementos en página
+2026-01-30T07:34:42 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T07:34:42 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T07:34:42 INFO     🔍 [asesoría impositiva][-31.4167|-64.1837][SCROLL: 17]: Search page scraped: 95 unique, 1087 duplicate, 95 seen, 17 paginations, 0 outOfLocation.
+2026-01-30T07:34:42 INFO     ✅ Extracción completada: 95 lugares encontrados
+2026-01-30T07:34:42 INFO     📊 57 lugares agregados (Total: 14932)
+2026-01-30T07:34:42 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T07:34:51 INFO     💾 Checkpoint guardado: 14932 empresas TOTALES
+2026-01-30T07:34:51 INFO     Estado guardado: 14932 empresas
+2026-01-30T07:34:56 INFO     ⏳ Esperando 5.4s antes del siguiente rubro...
+2026-01-30T07:34:56 INFO     
+🏷️  Rubro 19/174: contador independiente
+2026-01-30T07:34:56 INFO     
+🔍 Buscando 'contador independiente' en segmento 0
+2026-01-30T07:34:56 INFO        URL: https://www.google.com/maps/search/contador+independiente/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T07:35:15 INFO     📄 Iniciando extracción para rubro: contador independiente
+2026-01-30T07:35:15 INFO        Scroll 1: 7 elementos en página
+2026-01-30T07:36:03 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T07:36:09 INFO        Scroll 2: 14 elementos en página
+2026-01-30T07:36:57 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T07:37:02 INFO        Scroll 3: 16 elementos en página
+2026-01-30T07:37:29 INFO        ✅ 2 nuevos, 16 total
+2026-01-30T07:37:35 INFO        Scroll 4: 16 elementos en página
+2026-01-30T07:37:41 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T07:37:47 INFO        Scroll 5: 16 elementos en página
+2026-01-30T07:37:53 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T07:37:59 INFO        Scroll 6: 16 elementos en página
+2026-01-30T07:38:05 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T07:38:11 INFO        Scroll 7: 16 elementos en página
+2026-01-30T07:38:16 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T07:38:22 INFO        Scroll 8: 16 elementos en página
+2026-01-30T07:38:28 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T07:38:28 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T07:38:28 INFO     🔍 [contador independiente][-31.4167|-64.1837][SCROLL: 7]: Search page scraped: 16 unique, 101 duplicate, 16 seen, 7 paginations, 0 outOfLocation.
+2026-01-30T07:38:28 INFO     ✅ Extracción completada: 16 lugares encontrados
+2026-01-30T07:38:28 INFO     📊 3 lugares agregados (Total: 14935)
+2026-01-30T07:38:28 INFO     Estado guardado: 14935 empresas
+2026-01-30T07:38:35 INFO     ⏳ Esperando 7.3s antes del siguiente rubro...
+2026-01-30T07:38:35 INFO     
+🏷️  Rubro 20/174: marketing digital
+2026-01-30T07:38:35 INFO     
+🔍 Buscando 'marketing digital' en segmento 0
+2026-01-30T07:38:35 INFO        URL: https://www.google.com/maps/search/marketing+digital/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T07:38:54 INFO     📄 Iniciando extracción para rubro: marketing digital
+2026-01-30T07:38:54 INFO        Scroll 1: 10 elementos en página
+2026-01-30T07:40:04 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T07:40:09 INFO        Scroll 2: 17 elementos en página
+2026-01-30T07:41:05 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T07:41:11 INFO        Scroll 3: 27 elementos en página
+2026-01-30T07:42:23 INFO        ✅ 10 nuevos, 27 total
+2026-01-30T07:42:29 INFO        Scroll 4: 34 elementos en página
+2026-01-30T07:43:31 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T07:43:37 INFO        Scroll 5: 40 elementos en página
+2026-01-30T07:44:41 INFO        ✅ 6 nuevos, 40 total
+2026-01-30T07:44:47 INFO        Scroll 6: 47 elementos en página
+2026-01-30T07:45:53 INFO        ✅ 7 nuevos, 47 total
+2026-01-30T07:45:59 INFO        Scroll 7: 54 elementos en página
+2026-01-30T07:47:21 INFO        ✅ 7 nuevos, 54 total
+2026-01-30T07:47:27 INFO        Scroll 8: 60 elementos en página
+2026-01-30T07:48:29 INFO        ✅ 6 nuevos, 60 total
+2026-01-30T07:48:34 INFO        Scroll 9: 67 elementos en página
+2026-01-30T07:49:58 INFO        ✅ 7 nuevos, 67 total
+2026-01-30T07:50:04 INFO        Scroll 10: 74 elementos en página
+2026-01-30T07:51:21 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T07:51:26 INFO        Scroll 11: 80 elementos en página
+2026-01-30T07:52:48 INFO        ✅ 6 nuevos, 80 total
+2026-01-30T07:52:53 INFO        Scroll 12: 87 elementos en página
+2026-01-30T07:54:29 INFO        ✅ 7 nuevos, 87 total
+2026-01-30T07:54:36 INFO        Scroll 13: 94 elementos en página
+2026-01-30T07:56:04 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T07:56:09 INFO        Scroll 14: 100 elementos en página
+2026-01-30T07:57:53 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T07:58:00 INFO        Scroll 15: 107 elementos en página
+2026-01-30T08:00:02 INFO        ✅ 7 nuevos, 107 total
+2026-01-30T08:00:06 INFO        Scroll 16: 114 elementos en página
+2026-01-30T08:02:00 INFO        ✅ 7 nuevos, 114 total
+2026-01-30T08:02:07 INFO        Scroll 17: 120 elementos en página
+2026-01-30T08:03:25 INFO        ✅ 6 nuevos, 120 total
+2026-01-30T08:03:31 INFO        Scroll 18: 120 elementos en página
+2026-01-30T08:04:13 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T08:04:20 INFO        Scroll 19: 120 elementos en página
+2026-01-30T08:05:01 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T08:05:06 INFO        Scroll 20: 120 elementos en página
+2026-01-30T08:05:47 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T08:05:53 INFO        Scroll 21: 120 elementos en página
+2026-01-30T08:06:34 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T08:06:40 INFO        Scroll 22: 120 elementos en página
+2026-01-30T08:07:22 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T08:07:22 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T08:07:22 INFO     🔍 [marketing digital][-31.4167|-64.1837][SCROLL: 21]: Search page scraped: 120 unique, 1612 duplicate, 120 seen, 21 paginations, 0 outOfLocation.
+2026-01-30T08:07:22 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-30T08:07:22 INFO     📊 45 lugares agregados (Total: 14980)
+2026-01-30T08:07:22 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T08:07:30 INFO     💾 Checkpoint guardado: 14980 empresas TOTALES
+2026-01-30T08:07:30 INFO     Estado guardado: 14980 empresas
+2026-01-30T08:07:36 INFO     ⏳ Esperando 5.6s antes del siguiente rubro...
+2026-01-30T08:07:36 INFO     
+🏷️  Rubro 21/174: publicidad y propaganda
+2026-01-30T08:07:36 INFO     
+🔍 Buscando 'publicidad y propaganda' en segmento 0
+2026-01-30T08:07:36 INFO        URL: https://www.google.com/maps/search/publicidad+y+propaganda/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T08:07:56 INFO     📄 Iniciando extracción para rubro: publicidad y propaganda
+2026-01-30T08:07:56 INFO        Scroll 1: 7 elementos en página
+2026-01-30T08:08:51 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T08:08:57 INFO        Scroll 2: 14 elementos en página
+2026-01-30T08:09:45 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T08:09:52 INFO        Scroll 3: 14 elementos en página
+2026-01-30T08:09:57 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T08:10:01 INFO        Scroll 4: 14 elementos en página
+2026-01-30T08:10:07 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T08:10:11 INFO        Scroll 5: 14 elementos en página
+2026-01-30T08:10:16 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T08:10:22 INFO        Scroll 6: 14 elementos en página
+2026-01-30T08:10:27 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T08:10:33 INFO        Scroll 7: 14 elementos en página
+2026-01-30T08:10:38 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T08:10:38 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T08:10:38 INFO     🔍 [publicidad y propaganda][-31.4167|-64.1837][SCROLL: 6]: Search page scraped: 14 unique, 77 duplicate, 14 seen, 6 paginations, 0 outOfLocation.
+2026-01-30T08:10:38 INFO     ✅ Extracción completada: 14 lugares encontrados
+2026-01-30T08:10:38 INFO     📊 12 lugares agregados (Total: 14992)
+2026-01-30T08:10:38 INFO     Estado guardado: 14992 empresas
+2026-01-30T08:10:43 INFO     ⏳ Esperando 4.5s antes del siguiente rubro...
+2026-01-30T08:10:43 INFO     
+🏷️  Rubro 22/174: comunicación integral
+2026-01-30T08:10:43 INFO     
+🔍 Buscando 'comunicación integral' en segmento 0
+2026-01-30T08:10:43 INFO        URL: https://www.google.com/maps/search/comunicación+integral/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T08:11:02 INFO     📄 Iniciando extracción para rubro: comunicación integral
+2026-01-30T08:11:02 INFO        Scroll 1: 10 elementos en página
+2026-01-30T08:12:08 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T08:12:14 INFO        Scroll 2: 17 elementos en página
+2026-01-30T08:13:13 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T08:13:18 INFO        Scroll 3: 27 elementos en página
+2026-01-30T08:14:48 INFO        ✅ 10 nuevos, 27 total
+2026-01-30T08:14:54 INFO        Scroll 4: 34 elementos en página
+2026-01-30T08:15:50 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T08:15:56 INFO        Scroll 5: 40 elementos en página
+2026-01-30T08:16:53 INFO        ✅ 6 nuevos, 40 total
+2026-01-30T08:16:58 INFO        Scroll 6: 45 elementos en página
+2026-01-30T08:17:45 INFO        ✅ 5 nuevos, 45 total
+2026-01-30T08:17:50 INFO        Scroll 7: 45 elementos en página
+2026-01-30T08:18:06 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T08:18:11 INFO        Scroll 8: 45 elementos en página
+2026-01-30T08:18:27 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T08:18:33 INFO        Scroll 9: 45 elementos en página
+2026-01-30T08:18:49 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T08:18:54 INFO        Scroll 10: 45 elementos en página
+2026-01-30T08:19:10 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T08:19:16 INFO        Scroll 11: 45 elementos en página
+2026-01-30T08:19:32 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T08:19:32 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T08:19:32 INFO     🔍 [comunicación integral][-31.4167|-64.1837][SCROLL: 10]: Search page scraped: 45 unique, 353 duplicate, 45 seen, 10 paginations, 0 outOfLocation.
+2026-01-30T08:19:32 INFO     ✅ Extracción completada: 45 lugares encontrados
+2026-01-30T08:19:32 INFO     📊 34 lugares agregados (Total: 15026)
+2026-01-30T08:19:32 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T08:19:41 INFO     💾 Checkpoint guardado: 15026 empresas TOTALES
+2026-01-30T08:19:41 INFO     Estado guardado: 15026 empresas
+2026-01-30T08:19:46 INFO     ⏳ Esperando 5.8s antes del siguiente rubro...
+2026-01-30T08:19:46 INFO     
+🏷️  Rubro 23/174: agencias de publicidad
+2026-01-30T08:19:46 INFO     
+🔍 Buscando 'agencias de publicidad' en segmento 0
+2026-01-30T08:19:46 INFO        URL: https://www.google.com/maps/search/agencias+de+publicidad/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T08:20:04 INFO     📄 Iniciando extracción para rubro: agencias de publicidad
+2026-01-30T08:20:04 INFO        Scroll 1: 7 elementos en página
+2026-01-30T08:20:50 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T08:20:56 INFO        Scroll 2: 14 elementos en página
+2026-01-30T08:21:53 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T08:21:59 INFO        Scroll 3: 21 elementos en página
+2026-01-30T08:23:05 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T08:23:11 INFO        Scroll 4: 29 elementos en página
+2026-01-30T08:23:58 INFO        ✅ 6 nuevos, 27 total
+2026-01-30T08:24:02 INFO        Scroll 5: 36 elementos en página
+2026-01-30T08:25:01 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T08:25:06 INFO        Scroll 6: 43 elementos en página
+2026-01-30T08:26:14 INFO        ✅ 7 nuevos, 41 total
+2026-01-30T08:26:20 INFO        Scroll 7: 51 elementos en página
+2026-01-30T08:27:47 INFO        ✅ 8 nuevos, 49 total
+2026-01-30T08:27:52 INFO        Scroll 8: 58 elementos en página
+2026-01-30T08:29:04 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T08:29:10 INFO        Scroll 9: 64 elementos en página
+2026-01-30T08:30:24 INFO        ✅ 5 nuevos, 61 total
+2026-01-30T08:30:31 INFO        Scroll 10: 71 elementos en página
+2026-01-30T08:33:41 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T08:33:47 INFO        Scroll 11: 78 elementos en página
+2026-01-30T08:36:01 INFO        ✅ 7 nuevos, 75 total
+2026-01-30T08:36:06 INFO        Scroll 12: 84 elementos en página
+2026-01-30T08:37:56 INFO        ✅ 6 nuevos, 81 total
+2026-01-30T08:38:01 INFO        Scroll 13: 91 elementos en página
+2026-01-30T08:40:23 INFO        ✅ 7 nuevos, 88 total
+2026-01-30T08:40:29 INFO        Scroll 14: 95 elementos en página
+2026-01-30T08:41:40 INFO        ✅ 4 nuevos, 92 total
+2026-01-30T08:41:45 INFO        Scroll 15: 95 elementos en página
+2026-01-30T08:42:18 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T08:42:23 INFO        Scroll 16: 95 elementos en página
+2026-01-30T08:42:56 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T08:43:02 INFO        Scroll 17: 95 elementos en página
+2026-01-30T08:43:35 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T08:43:41 INFO        Scroll 18: 95 elementos en página
+2026-01-30T08:44:14 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T08:44:19 INFO        Scroll 19: 95 elementos en página
+2026-01-30T08:44:51 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T08:44:51 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T08:44:51 INFO     🔍 [agencias de publicidad][-31.4167|-64.1837][SCROLL: 18]: Search page scraped: 92 unique, 1125 duplicate, 92 seen, 18 paginations, 0 outOfLocation.
+2026-01-30T08:44:51 INFO     ✅ Extracción completada: 92 lugares encontrados
+2026-01-30T08:44:51 INFO     📊 43 lugares agregados (Total: 15069)
+2026-01-30T08:44:51 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T08:45:00 INFO     💾 Checkpoint guardado: 15069 empresas TOTALES
+2026-01-30T08:45:00 INFO     Estado guardado: 15069 empresas
+2026-01-30T08:45:08 INFO     ⏳ Esperando 7.8s antes del siguiente rubro...
+2026-01-30T08:45:08 INFO     
+🏷️  Rubro 24/174: desarrollo de software
+2026-01-30T08:45:08 INFO     
+🔍 Buscando 'desarrollo de software' en segmento 0
+2026-01-30T08:45:08 INFO        URL: https://www.google.com/maps/search/desarrollo+de+software/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T08:45:27 INFO     📄 Iniciando extracción para rubro: desarrollo de software
+2026-01-30T08:45:27 INFO        Scroll 1: 10 elementos en página
+2026-01-30T08:48:25 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T08:48:31 INFO        Scroll 2: 17 elementos en página
+2026-01-30T08:57:39 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T08:57:43 INFO        Scroll 3: 22 elementos en página
+2026-01-30T09:02:10 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T09:02:15 INFO        Scroll 4: 22 elementos en página
+2026-01-30T09:02:23 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T09:02:28 INFO        Scroll 5: 22 elementos en página
+2026-01-30T09:02:40 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T09:02:45 INFO        Scroll 6: 29 elementos en página
+2026-01-30T09:06:02 INFO        ✅ 6 nuevos, 28 total
+2026-01-30T09:06:07 INFO        Scroll 7: 36 elementos en página
+2026-01-30T09:08:10 INFO        ✅ 4 nuevos, 32 total
+2026-01-30T09:08:16 INFO        Scroll 8: 42 elementos en página
+2026-01-30T09:09:40 INFO        ✅ 6 nuevos, 38 total
+2026-01-30T09:09:45 INFO        Scroll 9: 49 elementos en página
+2026-01-30T09:12:39 INFO        ✅ 7 nuevos, 45 total
+2026-01-30T09:12:45 INFO        Scroll 10: 56 elementos en página
+2026-01-30T09:16:01 INFO        ✅ 7 nuevos, 52 total
+2026-01-30T09:16:06 INFO        Scroll 11: 62 elementos en página
+2026-01-30T09:18:52 INFO        ✅ 6 nuevos, 58 total
+2026-01-30T09:18:58 INFO        Scroll 12: 69 elementos en página
+2026-01-30T09:33:14 INFO        ✅ 7 nuevos, 65 total
+2026-01-30T09:33:21 INFO        Scroll 13: 76 elementos en página
+2026-01-30T09:35:07 INFO        ✅ 7 nuevos, 72 total
+2026-01-30T09:35:14 INFO        Scroll 14: 82 elementos en página
+2026-01-30T09:37:10 INFO        ✅ 6 nuevos, 78 total
+2026-01-30T09:37:17 INFO        Scroll 15: 89 elementos en página
+2026-01-30T09:46:06 INFO        ✅ 7 nuevos, 85 total
+2026-01-30T09:46:12 INFO        Scroll 16: 96 elementos en página
+2026-01-30T09:49:55 INFO        ✅ 7 nuevos, 92 total
+2026-01-30T09:50:02 INFO        Scroll 17: 102 elementos en página
+2026-01-30T09:52:09 INFO        ✅ 6 nuevos, 98 total
+2026-01-30T09:52:20 INFO        Scroll 18: 109 elementos en página
+2026-01-30T09:59:06 INFO        ✅ 6 nuevos, 104 total
+2026-01-30T09:59:12 INFO        Scroll 19: 116 elementos en página
+2026-01-30T10:04:46 INFO        ✅ 7 nuevos, 111 total
+2026-01-30T10:04:52 INFO        Scroll 20: 116 elementos en página
+2026-01-30T10:05:36 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T10:05:42 INFO        Scroll 21: 116 elementos en página
+2026-01-30T10:06:26 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T10:06:31 INFO        Scroll 22: 116 elementos en página
+2026-01-30T10:07:15 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T10:07:22 INFO        Scroll 23: 116 elementos en página
+2026-01-30T10:08:05 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T10:08:10 INFO        Scroll 24: 116 elementos en página
+2026-01-30T10:08:55 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T10:08:55 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T10:08:55 INFO     🔍 [desarrollo de software][-31.4167|-64.1837][SCROLL: 23]: Search page scraped: 111 unique, 1575 duplicate, 111 seen, 23 paginations, 0 outOfLocation.
+2026-01-30T10:08:55 INFO     ✅ Extracción completada: 111 lugares encontrados
+2026-01-30T10:08:55 INFO     📊 68 lugares agregados (Total: 15137)
+2026-01-30T10:08:56 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T10:09:05 INFO     💾 Checkpoint guardado: 15137 empresas TOTALES
+2026-01-30T10:09:05 INFO     Estado guardado: 15137 empresas
+2026-01-30T10:09:12 INFO     ⏳ Esperando 6.4s antes del siguiente rubro...
+2026-01-30T10:09:12 INFO     
+🏷️  Rubro 25/174: empresa de sistemas
+2026-01-30T10:09:12 INFO     
+🔍 Buscando 'empresa de sistemas' en segmento 0
+2026-01-30T10:09:12 INFO        URL: https://www.google.com/maps/search/empresa+de+sistemas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T10:09:32 INFO     📄 Iniciando extracción para rubro: empresa de sistemas
+2026-01-30T10:09:32 INFO        Scroll 1: 7 elementos en página
+2026-01-30T10:09:35 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T10:09:40 INFO        Scroll 2: 7 elementos en página
+2026-01-30T10:09:43 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T10:09:48 INFO        Scroll 3: 7 elementos en página
+2026-01-30T10:09:50 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T10:09:57 INFO        Scroll 4: 7 elementos en página
+2026-01-30T10:09:59 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T10:10:05 INFO        Scroll 5: 7 elementos en página
+2026-01-30T10:10:07 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T10:10:07 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T10:10:07 INFO     🔍 [empresa de sistemas][-31.4167|-64.1837][SCROLL: 4]: Search page scraped: 0 unique, 0 duplicate, 0 seen, 4 paginations, 0 outOfLocation.
+2026-01-30T10:10:07 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-01-30T10:10:07 INFO     Estado guardado: 15137 empresas
+2026-01-30T10:10:13 INFO     ⏳ Esperando 5.4s antes del siguiente rubro...
+2026-01-30T10:10:13 INFO     
+🏷️  Rubro 26/174: software a medida
+2026-01-30T10:10:13 INFO     
+🔍 Buscando 'software a medida' en segmento 0
+2026-01-30T10:10:13 INFO        URL: https://www.google.com/maps/search/software+a+medida/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T10:10:38 INFO     📄 Iniciando extracción para rubro: software a medida
+2026-01-30T10:10:38 INFO        Scroll 1: 10 elementos en página
+2026-01-30T10:14:07 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T10:14:13 INFO        Scroll 2: 10 elementos en página
+2026-01-30T10:14:16 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T10:14:22 INFO        Scroll 3: 10 elementos en página
+2026-01-30T10:14:25 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T10:14:31 INFO        Scroll 4: 10 elementos en página
+2026-01-30T10:14:35 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T10:14:41 INFO        Scroll 5: 10 elementos en página
+2026-01-30T10:14:45 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T10:14:51 INFO        Scroll 6: 10 elementos en página
+2026-01-30T10:14:54 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T10:14:54 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T10:14:54 INFO     🔍 [software a medida][-31.4167|-64.1837][SCROLL: 5]: Search page scraped: 10 unique, 50 duplicate, 10 seen, 5 paginations, 0 outOfLocation.
+2026-01-30T10:14:54 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-30T10:14:54 INFO     📊 1 lugares agregados (Total: 15138)
+2026-01-30T10:14:54 INFO     Estado guardado: 15138 empresas
+2026-01-30T10:15:01 INFO     ⏳ Esperando 6.3s antes del siguiente rubro...
+2026-01-30T10:15:01 INFO     
+🏷️  Rubro 27/174: desarrolladores web
+2026-01-30T10:15:01 INFO     
+🔍 Buscando 'desarrolladores web' en segmento 0
+2026-01-30T10:15:01 INFO        URL: https://www.google.com/maps/search/desarrolladores+web/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T10:15:19 INFO     📄 Iniciando extracción para rubro: desarrolladores web
+2026-01-30T10:15:19 INFO        Scroll 1: 10 elementos en página
+2026-01-30T10:17:02 INFO        ✅ 5 nuevos, 5 total
+2026-01-30T10:17:06 INFO        Scroll 2: 10 elementos en página
+2026-01-30T10:17:35 INFO        ✅ 3 nuevos, 8 total
+2026-01-30T10:17:40 INFO        Scroll 3: 10 elementos en página
+2026-01-30T10:18:10 INFO        ✅ 2 nuevos, 10 total
+2026-01-30T10:18:16 INFO        Scroll 4: 10 elementos en página
+2026-01-30T10:18:19 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T10:18:25 INFO        Scroll 5: 10 elementos en página
+2026-01-30T10:18:28 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T10:18:34 INFO        Scroll 6: 10 elementos en página
+2026-01-30T10:18:38 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T10:18:43 INFO        Scroll 7: 10 elementos en página
+2026-01-30T10:18:46 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T10:18:52 INFO        Scroll 8: 10 elementos en página
+2026-01-30T10:18:55 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T10:18:55 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T10:18:55 INFO     🔍 [desarrolladores web][-31.4167|-64.1837][SCROLL: 7]: Search page scraped: 10 unique, 63 duplicate, 10 seen, 7 paginations, 0 outOfLocation.
+2026-01-30T10:18:55 INFO     ✅ Extracción completada: 10 lugares encontrados
+2026-01-30T10:18:55 INFO     📊 4 lugares agregados (Total: 15142)
+2026-01-30T10:18:55 INFO     Estado guardado: 15142 empresas
+2026-01-30T10:19:01 INFO     ⏳ Esperando 5.6s antes del siguiente rubro...
+2026-01-30T10:19:01 INFO     
+🏷️  Rubro 28/174: aplicaciones móviles
+2026-01-30T10:19:01 INFO     
+🔍 Buscando 'aplicaciones móviles' en segmento 0
+2026-01-30T10:19:01 INFO        URL: https://www.google.com/maps/search/aplicaciones+móviles/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T10:19:22 INFO     📄 Iniciando extracción para rubro: aplicaciones móviles
+2026-01-30T10:19:22 INFO        Scroll 1: 10 elementos en página
+2026-01-30T10:23:06 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T10:23:13 INFO        Scroll 2: 17 elementos en página
+2026-01-30T10:27:59 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T10:28:05 INFO        Scroll 3: 27 elementos en página
+2026-01-30T10:31:48 INFO        ✅ 10 nuevos, 27 total
+2026-01-30T10:31:55 INFO        Scroll 4: 34 elementos en página
+2026-01-30T10:34:07 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T10:34:14 INFO        Scroll 5: 40 elementos en página
+2026-01-30T10:39:13 WARNING  Error extrayendo datos detallados de https://www.google.com/maps/place/JEFA+web/data=!4m7!3m6!1s0x9432997a1b2ad259:0xfea0cf1911936bfb!8m2!3d13.5074!4d-106.6918595!16s%2Fg%2F11kqzs9brg!19sChIJWdIqG3qZMpQR-2uTERnPoP4?authuser=0&hl=es-419&rclk=1: Message: script timeout
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6180 <unknown>
+#2 0x585337b557e1 <unknown>
+#3 0x585337b54700 <unknown>
+#4 0x585337afd6a2 <unknown>
+#5 0x585337afe491 <unknown>
+#6 0x585338013479 <unknown>
+#7 0x585338016391 <unknown>
+#8 0x585337fffa89 <unknown>
+#9 0x585338016f4e <unknown>
+#10 0x585337fe6070 <unknown>
+#11 0x58533803aca8 <unknown>
+#12 0x58533803ae78 <unknown>
+#13 0x58533804c828 <unknown>
+#14 0x7bd789494ac3 <unknown>
+
+2026-01-30T10:39:39 INFO        ✅ 6 nuevos, 40 total
+2026-01-30T10:39:44 INFO        Scroll 6: 47 elementos en página
+2026-01-30T10:41:47 INFO        ✅ 7 nuevos, 47 total
+2026-01-30T10:41:52 INFO        Scroll 7: 54 elementos en página
+2026-01-30T10:43:27 INFO        ✅ 7 nuevos, 54 total
+2026-01-30T10:43:32 INFO        Scroll 8: 60 elementos en página
+2026-01-30T10:44:57 INFO        ✅ 6 nuevos, 60 total
+2026-01-30T10:45:04 INFO        Scroll 9: 67 elementos en página
+2026-01-30T10:54:42 INFO        ✅ 7 nuevos, 67 total
+2026-01-30T10:54:50 INFO        Scroll 10: 74 elementos en página
+2026-01-30T10:58:40 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T10:58:45 INFO        Scroll 11: 80 elementos en página
+2026-01-30T11:04:58 INFO        ✅ 6 nuevos, 80 total
+2026-01-30T11:05:04 INFO        Scroll 12: 85 elementos en página
+2026-01-30T11:09:08 INFO        ✅ 4 nuevos, 84 total
+2026-01-30T11:09:15 INFO        Scroll 13: 85 elementos en página
+2026-01-30T11:09:48 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T11:09:55 INFO        Scroll 14: 85 elementos en página
+2026-01-30T11:10:58 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T11:11:05 INFO        Scroll 15: 85 elementos en página
+2026-01-30T11:12:21 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T11:12:26 INFO        Scroll 16: 85 elementos en página
+2026-01-30T11:12:56 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T11:13:01 INFO        Scroll 17: 85 elementos en página
+2026-01-30T11:13:32 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T11:13:32 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T11:13:32 INFO     🔍 [aplicaciones móviles][-31.4167|-64.1837][SCROLL: 16]: Search page scraped: 84 unique, 936 duplicate, 84 seen, 16 paginations, 0 outOfLocation.
+2026-01-30T11:13:32 INFO     ✅ Extracción completada: 84 lugares encontrados
+2026-01-30T11:13:32 INFO     📊 52 lugares agregados (Total: 15194)
+2026-01-30T11:13:32 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T11:13:41 INFO     💾 Checkpoint guardado: 15194 empresas TOTALES
+2026-01-30T11:13:41 INFO     Estado guardado: 15194 empresas
+2026-01-30T11:13:46 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-01-30T11:13:46 INFO     
+🏷️  Rubro 29/174: empresa de logística
+2026-01-30T11:13:46 INFO     
+🔍 Buscando 'empresa de logística' en segmento 0
+2026-01-30T11:13:46 INFO        URL: https://www.google.com/maps/search/empresa+de+logística/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T11:14:06 INFO     📄 Iniciando extracción para rubro: empresa de logística
+2026-01-30T11:14:06 INFO        Scroll 1: 7 elementos en página
+2026-01-30T11:22:57 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T11:23:02 INFO        Scroll 2: 14 elementos en página
+2026-01-30T11:42:48 WARNING  Error extrayendo datos detallados de https://www.google.com/maps/place/Grupo+THAM+-+Tu+Oficina+de+Comercio+Exterior/data=!4m7!3m6!1s0x943299d635bbd4c1:0xb82e485acfb0671e!8m2!3d-31.3630431!4d-64.211728!16s%2Fg%2F11g0hkswm3!19sChIJwdS7NdaZMpQRHmewz1pILrg?authuser=0&hl=es-419&rclk=1: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T11:47:48 WARNING     ⚠️  Error extrayendo detalles: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T11:57:49 INFO        ✅ 6 nuevos, 13 total
+2026-01-30T12:02:49 WARNING  Error en iteración de scroll: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:02:49 INFO     🔍 [empresa de logística][-31.4167|-64.1837][SCROLL: 1]: Search page scraped: 13 unique, 7 duplicate, 13 seen, 1 paginations, 0 outOfLocation.
+2026-01-30T12:02:49 INFO     ✅ Extracción completada: 13 lugares encontrados
+2026-01-30T12:02:49 INFO     📊 3 lugares agregados (Total: 15197)
+2026-01-30T12:02:49 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:02:57 INFO     ⏳ Esperando 7.7s antes del siguiente rubro...
+2026-01-30T12:02:57 INFO     
+🏷️  Rubro 30/174: transporte de cargas
+2026-01-30T12:02:57 INFO     
+🔍 Buscando 'transporte de cargas' en segmento 0
+2026-01-30T12:02:57 INFO        URL: https://www.google.com/maps/search/transporte+de+cargas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:07:57 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:07:57 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:08:02 INFO     ⏳ Esperando 4.7s antes del siguiente rubro...
+2026-01-30T12:08:02 INFO     
+🏷️  Rubro 31/174: fletes y mudanzas
+2026-01-30T12:08:02 INFO     
+🔍 Buscando 'fletes y mudanzas' en segmento 0
+2026-01-30T12:08:02 INFO        URL: https://www.google.com/maps/search/fletes+y+mudanzas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:13:02 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:13:02 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:13:08 INFO     ⏳ Esperando 5.2s antes del siguiente rubro...
+2026-01-30T12:13:08 INFO     
+🏷️  Rubro 32/174: distribución logística
+2026-01-30T12:13:08 INFO     
+🔍 Buscando 'distribución logística' en segmento 0
+2026-01-30T12:13:08 INFO        URL: https://www.google.com/maps/search/distribución+logística/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:18:08 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:18:08 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:18:15 INFO     ⏳ Esperando 7.0s antes del siguiente rubro...
+2026-01-30T12:18:15 INFO     
+🏷️  Rubro 33/174: empresa de transportes
+2026-01-30T12:18:15 INFO     
+🔍 Buscando 'empresa de transportes' en segmento 0
+2026-01-30T12:18:15 INFO        URL: https://www.google.com/maps/search/empresa+de+transportes/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:23:15 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:23:15 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:23:20 INFO     ⏳ Esperando 4.4s antes del siguiente rubro...
+2026-01-30T12:23:20 INFO     
+🏷️  Rubro 34/174: empresa constructora
+2026-01-30T12:23:20 INFO     
+🔍 Buscando 'empresa constructora' en segmento 0
+2026-01-30T12:23:20 INFO        URL: https://www.google.com/maps/search/empresa+constructora/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:28:20 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:28:20 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:28:27 INFO     ⏳ Esperando 6.6s antes del siguiente rubro...
+2026-01-30T12:28:27 INFO     
+🏷️  Rubro 35/174: construcción civil
+2026-01-30T12:28:27 INFO     
+🔍 Buscando 'construcción civil' en segmento 0
+2026-01-30T12:28:27 INFO        URL: https://www.google.com/maps/search/construcción+civil/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:33:27 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:33:27 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:33:33 INFO     ⏳ Esperando 6.2s antes del siguiente rubro...
+2026-01-30T12:33:33 INFO     
+🏷️  Rubro 36/174: obras y construcciones
+2026-01-30T12:33:33 INFO     
+🔍 Buscando 'obras y construcciones' en segmento 0
+2026-01-30T12:33:33 INFO        URL: https://www.google.com/maps/search/obras+y+construcciones/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:38:33 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:38:34 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:38:38 INFO     ⏳ Esperando 4.7s antes del siguiente rubro...
+2026-01-30T12:38:38 INFO     
+🏷️  Rubro 37/174: constructoras medianas
+2026-01-30T12:38:38 INFO     
+🔍 Buscando 'constructoras medianas' en segmento 0
+2026-01-30T12:38:38 INFO        URL: https://www.google.com/maps/search/constructoras+medianas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:43:39 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:43:39 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:43:44 INFO     ⏳ Esperando 5.2s antes del siguiente rubro...
+2026-01-30T12:43:44 INFO     
+🏷️  Rubro 38/174: empresas de construcción
+2026-01-30T12:43:44 INFO     
+🔍 Buscando 'empresas de construcción' en segmento 0
+2026-01-30T12:43:44 INFO        URL: https://www.google.com/maps/search/empresas+de+construcción/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:48:44 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:48:44 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:48:49 INFO     ⏳ Esperando 4.8s antes del siguiente rubro...
+2026-01-30T12:48:49 INFO     
+🏷️  Rubro 39/174: instituto educativo
+2026-01-30T12:48:49 INFO     
+🔍 Buscando 'instituto educativo' en segmento 0
+2026-01-30T12:48:49 INFO        URL: https://www.google.com/maps/search/instituto+educativo/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:53:49 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:53:49 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:53:55 INFO     ⏳ Esperando 5.4s antes del siguiente rubro...
+2026-01-30T12:53:55 INFO     
+🏷️  Rubro 40/174: centro de capacitación
+2026-01-30T12:53:55 INFO     
+🔍 Buscando 'centro de capacitación' en segmento 0
+2026-01-30T12:53:55 INFO        URL: https://www.google.com/maps/search/centro+de+capacitación/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T12:58:55 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T12:58:55 INFO     Estado guardado: 15197 empresas
+2026-01-30T12:59:01 INFO     ⏳ Esperando 6.1s antes del siguiente rubro...
+2026-01-30T12:59:01 INFO     
+🏷️  Rubro 41/174: academia especializada
+2026-01-30T12:59:01 INFO     
+🔍 Buscando 'academia especializada' en segmento 0
+2026-01-30T12:59:01 INFO        URL: https://www.google.com/maps/search/academia+especializada/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:04:02 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:04:02 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:04:06 INFO     ⏳ Esperando 4.2s antes del siguiente rubro...
+2026-01-30T13:04:06 INFO     
+🏷️  Rubro 42/174: escuela de oficios
+2026-01-30T13:04:06 INFO     
+🔍 Buscando 'escuela de oficios' en segmento 0
+2026-01-30T13:04:06 INFO        URL: https://www.google.com/maps/search/escuela+de+oficios/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:09:06 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:09:06 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:09:13 INFO     ⏳ Esperando 7.2s antes del siguiente rubro...
+2026-01-30T13:09:13 INFO     
+🏷️  Rubro 43/174: centro de formación
+2026-01-30T13:09:13 INFO     
+🔍 Buscando 'centro de formación' en segmento 0
+2026-01-30T13:09:13 INFO        URL: https://www.google.com/maps/search/centro+de+formación/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:14:14 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:14:14 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:14:20 INFO     ⏳ Esperando 6.8s antes del siguiente rubro...
+2026-01-30T13:14:20 INFO     
+🏷️  Rubro 44/174: taller mecánico especializado
+2026-01-30T13:14:21 INFO     
+🔍 Buscando 'taller mecánico especializado' en segmento 0
+2026-01-30T13:14:21 INFO        URL: https://www.google.com/maps/search/taller+mecánico+especializado/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:19:21 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:19:21 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:19:27 INFO     ⏳ Esperando 6.5s antes del siguiente rubro...
+2026-01-30T13:19:27 INFO     
+🏷️  Rubro 45/174: mecánica industrial
+2026-01-30T13:19:27 INFO     
+🔍 Buscando 'mecánica industrial' en segmento 0
+2026-01-30T13:19:27 INFO        URL: https://www.google.com/maps/search/mecánica+industrial/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:24:28 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:24:28 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:24:35 INFO     ⏳ Esperando 6.8s antes del siguiente rubro...
+2026-01-30T13:24:35 INFO     
+🏷️  Rubro 46/174: mantenimiento de maquinaria
+2026-01-30T13:24:35 INFO     
+🔍 Buscando 'mantenimiento de maquinaria' en segmento 0
+2026-01-30T13:24:35 INFO        URL: https://www.google.com/maps/search/mantenimiento+de+maquinaria/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:29:35 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:29:35 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:29:39 INFO     ⏳ Esperando 4.1s antes del siguiente rubro...
+2026-01-30T13:29:39 INFO     
+🏷️  Rubro 47/174: reparaciones mecánicas
+2026-01-30T13:29:39 INFO     
+🔍 Buscando 'reparaciones mecánicas' en segmento 0
+2026-01-30T13:29:39 INFO        URL: https://www.google.com/maps/search/reparaciones+mecánicas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:34:39 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:34:39 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:34:45 INFO     ⏳ Esperando 5.1s antes del siguiente rubro...
+2026-01-30T13:34:45 INFO     
+🏷️  Rubro 48/174: taller de maquinaria
+2026-01-30T13:34:45 INFO     
+🔍 Buscando 'taller de maquinaria' en segmento 0
+2026-01-30T13:34:45 INFO        URL: https://www.google.com/maps/search/taller+de+maquinaria/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:39:45 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:39:45 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:39:50 INFO     ⏳ Esperando 4.7s antes del siguiente rubro...
+2026-01-30T13:39:50 INFO     
+🏷️  Rubro 49/174: mantenimiento industrial
+2026-01-30T13:39:50 INFO     
+🔍 Buscando 'mantenimiento industrial' en segmento 0
+2026-01-30T13:39:50 INFO        URL: https://www.google.com/maps/search/mantenimiento+industrial/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:44:50 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:44:50 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:44:57 INFO     ⏳ Esperando 7.1s antes del siguiente rubro...
+2026-01-30T13:44:57 INFO     
+🏷️  Rubro 50/174: servicios industriales
+2026-01-30T13:44:57 INFO     
+🔍 Buscando 'servicios industriales' en segmento 0
+2026-01-30T13:44:57 INFO        URL: https://www.google.com/maps/search/servicios+industriales/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:49:57 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:49:57 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:50:03 INFO     ⏳ Esperando 5.9s antes del siguiente rubro...
+2026-01-30T13:50:03 INFO     
+🏷️  Rubro 51/174: mantenimiento predictivo
+2026-01-30T13:50:03 INFO     
+🔍 Buscando 'mantenimiento predictivo' en segmento 0
+2026-01-30T13:50:03 INFO        URL: https://www.google.com/maps/search/mantenimiento+predictivo/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T13:55:04 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T13:55:04 INFO     Estado guardado: 15197 empresas
+2026-01-30T13:55:10 INFO     ⏳ Esperando 6.7s antes del siguiente rubro...
+2026-01-30T13:55:10 INFO     
+🏷️  Rubro 52/174: empresas de mantenimiento
+2026-01-30T13:55:10 INFO     
+🔍 Buscando 'empresas de mantenimiento' en segmento 0
+2026-01-30T13:55:10 INFO        URL: https://www.google.com/maps/search/empresas+de+mantenimiento/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:00:11 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:00:11 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:00:18 INFO     ⏳ Esperando 7.2s antes del siguiente rubro...
+2026-01-30T14:00:18 INFO     
+🏷️  Rubro 53/174: servicios técnicos industriales
+2026-01-30T14:00:18 INFO     
+🔍 Buscando 'servicios técnicos industriales' en segmento 0
+2026-01-30T14:00:18 INFO        URL: https://www.google.com/maps/search/servicios+técnicos+industriales/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:05:18 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:05:18 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:05:24 INFO     ⏳ Esperando 5.5s antes del siguiente rubro...
+2026-01-30T14:05:24 INFO     
+🏷️  Rubro 54/174: agencias de viajes corporativas
+2026-01-30T14:05:24 INFO     
+🔍 Buscando 'agencias de viajes corporativas' en segmento 0
+2026-01-30T14:05:24 INFO        URL: https://www.google.com/maps/search/agencias+de+viajes+corporativas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:10:24 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:10:24 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:10:29 INFO     ⏳ Esperando 4.5s antes del siguiente rubro...
+2026-01-30T14:10:29 INFO     
+🏷️  Rubro 55/174: viajes de empresa
+2026-01-30T14:10:29 INFO     
+🔍 Buscando 'viajes de empresa' en segmento 0
+2026-01-30T14:10:29 INFO        URL: https://www.google.com/maps/search/viajes+de+empresa/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:15:29 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:15:29 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:15:33 INFO     ⏳ Esperando 4.4s antes del siguiente rubro...
+2026-01-30T14:15:33 INFO     
+🏷️  Rubro 56/174: turismo empresarial
+2026-01-30T14:15:33 INFO     
+🔍 Buscando 'turismo empresarial' en segmento 0
+2026-01-30T14:15:33 INFO        URL: https://www.google.com/maps/search/turismo+empresarial/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:20:34 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:20:34 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:20:39 INFO     ⏳ Esperando 5.1s antes del siguiente rubro...
+2026-01-30T14:20:39 INFO     
+🏷️  Rubro 57/174: agencias de viaje
+2026-01-30T14:20:39 INFO     
+🔍 Buscando 'agencias de viaje' en segmento 0
+2026-01-30T14:20:39 INFO        URL: https://www.google.com/maps/search/agencias+de+viaje/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:25:59 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:25:59 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:26:05 INFO     ⏳ Esperando 6.1s antes del siguiente rubro...
+2026-01-30T14:26:05 INFO     
+🏷️  Rubro 58/174: estudio de arquitectura
+2026-01-30T14:26:05 INFO     
+🔍 Buscando 'estudio de arquitectura' en segmento 0
+2026-01-30T14:26:05 INFO        URL: https://www.google.com/maps/search/estudio+de+arquitectura/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:31:05 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:31:05 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:31:09 INFO     ⏳ Esperando 4.1s antes del siguiente rubro...
+2026-01-30T14:31:09 INFO     
+🏷️  Rubro 59/174: arquitectos independientes
+2026-01-30T14:31:09 INFO     
+🔍 Buscando 'arquitectos independientes' en segmento 0
+2026-01-30T14:31:09 INFO        URL: https://www.google.com/maps/search/arquitectos+independientes/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:36:09 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:36:09 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:36:16 INFO     ⏳ Esperando 6.1s antes del siguiente rubro...
+2026-01-30T14:36:16 INFO     
+🏷️  Rubro 60/174: proyectos arquitectónicos
+2026-01-30T14:36:16 INFO     
+🔍 Buscando 'proyectos arquitectónicos' en segmento 0
+2026-01-30T14:36:16 INFO        URL: https://www.google.com/maps/search/proyectos+arquitectónicos/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:41:16 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:41:16 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:41:23 INFO     ⏳ Esperando 6.8s antes del siguiente rubro...
+2026-01-30T14:41:23 INFO     
+🏷️  Rubro 61/174: diseño arquitectónico
+2026-01-30T14:41:23 INFO     
+🔍 Buscando 'diseño arquitectónico' en segmento 0
+2026-01-30T14:41:23 INFO        URL: https://www.google.com/maps/search/diseño+arquitectónico/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:46:23 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:46:23 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:46:30 INFO     ⏳ Esperando 6.6s antes del siguiente rubro...
+2026-01-30T14:46:30 INFO     
+🏷️  Rubro 62/174: energías renovables
+2026-01-30T14:46:30 INFO     
+🔍 Buscando 'energías renovables' en segmento 0
+2026-01-30T14:46:30 INFO        URL: https://www.google.com/maps/search/energías+renovables/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:51:31 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:51:31 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:51:37 INFO     ⏳ Esperando 5.6s antes del siguiente rubro...
+2026-01-30T14:51:37 INFO     
+🏷️  Rubro 63/174: paneles solares
+2026-01-30T14:51:37 INFO     
+🔍 Buscando 'paneles solares' en segmento 0
+2026-01-30T14:51:37 INFO        URL: https://www.google.com/maps/search/paneles+solares/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T14:56:39 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T14:56:39 INFO     Estado guardado: 15197 empresas
+2026-01-30T14:56:44 INFO     ⏳ Esperando 5.6s antes del siguiente rubro...
+2026-01-30T14:56:44 INFO     
+🏷️  Rubro 64/174: energía solar
+2026-01-30T14:56:44 INFO     
+🔍 Buscando 'energía solar' en segmento 0
+2026-01-30T14:56:44 INFO        URL: https://www.google.com/maps/search/energía+solar/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T15:01:45 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T15:01:45 INFO     Estado guardado: 15197 empresas
+2026-01-30T15:01:52 INFO     ⏳ Esperando 7.0s antes del siguiente rubro...
+2026-01-30T15:01:52 INFO     
+🏷️  Rubro 65/174: instalaciones solares
+2026-01-30T15:01:52 INFO     
+🔍 Buscando 'instalaciones solares' en segmento 0
+2026-01-30T15:01:52 INFO        URL: https://www.google.com/maps/search/instalaciones+solares/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T15:06:53 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T15:06:53 INFO     Estado guardado: 15197 empresas
+2026-01-30T15:06:58 INFO     ⏳ Esperando 4.7s antes del siguiente rubro...
+2026-01-30T15:06:58 INFO     
+🏷️  Rubro 66/174: energías sustentables
+2026-01-30T15:06:58 INFO     
+🔍 Buscando 'energías sustentables' en segmento 0
+2026-01-30T15:06:58 INFO        URL: https://www.google.com/maps/search/energías+sustentables/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T15:12:00 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T15:12:00 INFO     Estado guardado: 15197 empresas
+2026-01-30T15:12:05 INFO     ⏳ Esperando 4.8s antes del siguiente rubro...
+2026-01-30T15:12:05 INFO     
+🏷️  Rubro 67/174: laboratorio de análisis
+2026-01-30T15:12:05 INFO     
+🔍 Buscando 'laboratorio de análisis' en segmento 0
+2026-01-30T15:12:05 INFO        URL: https://www.google.com/maps/search/laboratorio+de+análisis/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T15:23:35 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T15:24:10 INFO     Estado guardado: 15197 empresas
+2026-01-30T15:25:55 INFO     ⏳ Esperando 6.5s antes del siguiente rubro...
+2026-01-30T15:26:03 INFO     
+🏷️  Rubro 68/174: análisis clínicos
+2026-01-30T15:26:20 INFO     
+🔍 Buscando 'análisis clínicos' en segmento 0
+2026-01-30T15:28:46 INFO        URL: https://www.google.com/maps/search/análisis+clínicos/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T15:43:57 ERROR    Error en búsqueda de segmento: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x58533804d4ba <unknown>
+#1 0x585337ab6492 <unknown>
+#2 0x585337a9db47 <unknown>
+#3 0x585337a9d756 <unknown>
+#4 0x585337a9b271 <unknown>
+#5 0x585337a9bbff <unknown>
+#6 0x585337aab150 <unknown>
+#7 0x585337ac5147 <unknown>
+#8 0x585337acc34b <unknown>
+#9 0x585337a9c369 <unknown>
+#10 0x585337ac4eda <unknown>
+#11 0x585337b545c2 <unknown>
+#12 0x585337afd6a2 <unknown>
+#13 0x585337afe491 <unknown>
+#14 0x585338013479 <unknown>
+#15 0x585338016391 <unknown>
+#16 0x585337fffa89 <unknown>
+#17 0x585338016f4e <unknown>
+#18 0x585337fe6070 <unknown>
+#19 0x58533803aca8 <unknown>
+#20 0x58533803ae78 <unknown>
+#21 0x58533804c828 <unknown>
+#22 0x7bd789494ac3 <unknown>
+
+2026-01-30T15:44:13 INFO     Estado guardado: 15197 empresas
+2026-01-30T15:46:07 INFO     ⏳ Esperando 5.3s antes del siguiente rubro...
+2026-01-30T15:46:18 INFO     
+🏷️  Rubro 69/174: laboratorio químico
+2026-01-30T15:46:55 INFO     
+🔍 Buscando 'laboratorio químico' en segmento 0
+2026-01-30T15:47:15 INFO        URL: https://www.google.com/maps/search/laboratorio+químico/@-31.4167284,-64.18367305,11z?hl=es-419
