@@ -1,0 +1,1238 @@
+2026-01-30T16:09:20 INFO     
+============================================================
+2026-01-30T16:09:20 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-30T16:09:20 INFO     ============================================================
+2026-01-30T16:09:20 INFO     📍 Ubicaciones: 29 ciudades
+2026-01-30T16:09:20 INFO     🏷️  Rubros: 194 rubros
+2026-01-30T16:09:20 INFO     📐 Grid size: 1x1
+2026-01-30T16:09:20 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-30T16:09:20 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-01-30T16:09:20 INFO     ============================================================
+
+2026-01-30T16:09:20 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-01-30T16:09:22 INFO     ✅ 15194 empresas cargadas desde archivo previo
+2026-01-30T16:09:22 INFO     Estado cargado: 15197 empresas previas
+2026-01-30T16:09:22 INFO     🚀 Inicializando navegador...
+2026-01-30T16:09:34 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-01-30T16:09:35 INFO     ✅ Navegador inicializado correctamente
+2026-01-30T16:09:38 INFO     
+============================================================
+2026-01-30T16:09:38 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-01-30T16:09:38 INFO     ============================================================
+2026-01-30T16:09:38 INFO       1. Buenos Aires, Argentina
+2026-01-30T16:09:38 INFO       2. Córdoba, Argentina
+2026-01-30T16:09:38 INFO       3. Rosario, Argentina
+2026-01-30T16:09:38 INFO       4. Mendoza, Argentina
+2026-01-30T16:09:38 INFO       5. Tucumán, Argentina
+2026-01-30T16:09:38 INFO       6. La Plata, Argentina
+2026-01-30T16:09:38 INFO       7. Mar del Plata, Argentina
+2026-01-30T16:09:38 INFO       8. Salta, Argentina
+2026-01-30T16:09:38 INFO       9. Santa Fe, Argentina
+2026-01-30T16:09:38 INFO       10. Resistencia, Argentina
+2026-01-30T16:09:38 INFO       11. Santiago del Estero, Argentina
+2026-01-30T16:09:38 INFO       12. Corrientes, Argentina
+2026-01-30T16:09:38 INFO       13. Neuquén, Argentina
+2026-01-30T16:09:38 INFO       14. Bahía Blanca, Argentina
+2026-01-30T16:09:38 INFO       15. San Salvador de Jujuy, Argentina
+2026-01-30T16:09:38 INFO       16. Posadas, Argentina
+2026-01-30T16:09:38 INFO       17. Paraná, Argentina
+2026-01-30T16:09:38 INFO       18. San Luis, Argentina
+2026-01-30T16:09:38 INFO       19. Río Gallegos, Argentina
+2026-01-30T16:09:38 INFO       20. Comodoro Rivadavia, Argentina
+2026-01-30T16:09:38 INFO       21. Ushuaia, Argentina
+2026-01-30T16:09:38 INFO       22. Formosa, Argentina
+2026-01-30T16:09:38 INFO       23. Quilmes, Argentina
+2026-01-30T16:09:38 INFO       24. Morón, Argentina
+2026-01-30T16:09:38 INFO       25. San Martín, Argentina
+2026-01-30T16:09:38 INFO       26. Lanús, Argentina
+2026-01-30T16:09:38 INFO       27. Lomas de Zamora, Argentina
+2026-01-30T16:09:38 INFO       28. Tigre, Argentina
+2026-01-30T16:09:38 INFO       29. Pilar, Argentina
+2026-01-30T16:09:38 INFO     
+############################################################
+2026-01-30T16:09:38 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-01-30T16:09:38 INFO     ############################################################
+2026-01-30T16:09:38 INFO     ⏭️  Buenos Aires, Argentina ya fue completada previamente
+2026-01-30T16:09:38 INFO     
+############################################################
+2026-01-30T16:09:38 INFO     🌍 UBICACIÓN 2/29: Córdoba, Argentina
+2026-01-30T16:09:38 INFO     ############################################################
+2026-01-30T16:09:38 INFO     
+============================================================
+2026-01-30T16:09:38 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Córdoba, Argentina
+2026-01-30T16:09:38 INFO     ============================================================
+2026-01-30T16:09:38 INFO     📡 Geolocalizando: Córdoba, Argentina
+2026-01-30T16:09:39 INFO     ✅ Ubicación encontrada: Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina
+2026-01-30T16:09:39 INFO        Bounding box: ['-31.5251273', '-31.3083295', '-64.3100961', '-64.0572500']
+2026-01-30T16:09:39 INFO     
+============================================================
+2026-01-30T16:09:39 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Córdoba, Argentina
+2026-01-30T16:09:39 INFO     ============================================================
+2026-01-30T16:09:39 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-30T16:09:39 INFO        Segmento 1: Centro (-31.4167, -64.1837)
+2026-01-30T16:09:39 INFO     ✅ Creados 1 segmentos
+2026-01-30T16:09:39 INFO     ✅ Área dividida en 1 segmentos
+2026-01-30T16:09:39 INFO     
+============================================================
+2026-01-30T16:09:39 INFO     🔍 PASO 3: BÚSQUEDA - Córdoba, Argentina
+2026-01-30T16:09:39 INFO     ============================================================
+2026-01-30T16:09:39 INFO     Total de búsquedas en Córdoba, Argentina: 194
+2026-01-30T16:09:39 INFO     Rubros: 194 rubros configurados
+2026-01-30T16:09:39 INFO     📋 Rubros pendientes en Córdoba, Argentina: 146
+2026-01-30T16:09:39 INFO     
+────────────────────────────────────────────────────────────
+2026-01-30T16:09:39 INFO     📍 Córdoba, Argentina - SEGMENTO 1/1
+2026-01-30T16:09:39 INFO        Centro: (-31.4167284, -64.18367305)
+2026-01-30T16:09:39 INFO     ────────────────────────────────────────────────────────────
+2026-01-30T16:09:39 INFO     
+🏷️  Rubro 1/146: empresa de logística
+2026-01-30T16:09:39 INFO     
+🔍 Buscando 'empresa de logística' en segmento 0
+2026-01-30T16:09:39 INFO        URL: https://www.google.com/maps/search/empresa+de+logística/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T16:10:01 INFO     📄 Iniciando extracción para rubro: empresa de logística
+2026-01-30T16:10:02 INFO        Scroll 1: 10 elementos en página
+2026-01-30T16:11:22 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T16:11:27 INFO        Scroll 2: 17 elementos en página
+2026-01-30T16:12:21 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T16:12:27 INFO        Scroll 3: 22 elementos en página
+2026-01-30T16:13:11 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T16:13:17 INFO        Scroll 4: 29 elementos en página
+2026-01-30T16:14:04 INFO        ✅ 5 nuevos, 27 total
+2026-01-30T16:14:10 INFO        Scroll 5: 36 elementos en página
+2026-01-30T16:15:29 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T16:15:33 INFO        Scroll 6: 36 elementos en página
+2026-01-30T16:15:54 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T16:16:00 INFO        Scroll 7: 44 elementos en página
+2026-01-30T16:17:24 INFO        ✅ 8 nuevos, 42 total
+2026-01-30T16:17:30 INFO        Scroll 8: 51 elementos en página
+2026-01-30T16:18:50 INFO        ✅ 7 nuevos, 49 total
+2026-01-30T16:18:55 INFO        Scroll 9: 58 elementos en página
+2026-01-30T16:20:16 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T16:20:23 INFO        Scroll 10: 64 elementos en página
+2026-01-30T16:21:46 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T16:21:52 INFO        Scroll 11: 71 elementos en página
+2026-01-30T16:23:37 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T16:23:43 INFO        Scroll 12: 78 elementos en página
+2026-01-30T16:25:22 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T16:25:28 INFO        Scroll 13: 84 elementos en página
+2026-01-30T16:27:07 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T16:27:13 INFO        Scroll 14: 91 elementos en página
+2026-01-30T16:29:08 INFO        ✅ 7 nuevos, 89 total
+2026-01-30T16:29:14 INFO        Scroll 15: 98 elementos en página
+2026-01-30T16:31:30 INFO        ✅ 7 nuevos, 96 total
+2026-01-30T16:31:36 INFO        Scroll 16: 104 elementos en página
+2026-01-30T16:33:21 INFO        ✅ 6 nuevos, 102 total
+2026-01-30T16:33:27 INFO        Scroll 17: 111 elementos en página
+2026-01-30T16:35:49 INFO        ✅ 7 nuevos, 109 total
+2026-01-30T16:35:54 INFO        Scroll 18: 118 elementos en página
+2026-01-30T16:37:58 INFO        ✅ 7 nuevos, 116 total
+2026-01-30T16:38:04 INFO        Scroll 19: 124 elementos en página
+2026-01-30T16:39:35 INFO        ✅ 6 nuevos, 122 total
+2026-01-30T16:39:40 INFO        Scroll 20: 124 elementos en página
+2026-01-30T16:40:24 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T16:40:29 INFO        Scroll 21: 124 elementos en página
+2026-01-30T16:41:12 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T16:41:19 INFO        Scroll 22: 124 elementos en página
+2026-01-30T16:42:03 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T16:42:08 INFO        Scroll 23: 124 elementos en página
+2026-01-30T16:42:52 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T16:42:59 INFO        Scroll 24: 124 elementos en página
+2026-01-30T16:43:43 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T16:43:43 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T16:43:43 INFO     🔍 [empresa de logística][-31.4167|-64.1837][SCROLL: 23]: Search page scraped: 122 unique, 1744 duplicate, 122 seen, 23 paginations, 0 outOfLocation.
+2026-01-30T16:43:43 INFO     ✅ Extracción completada: 122 lugares encontrados
+2026-01-30T16:43:43 INFO     📊 31 lugares agregados (Total: 15225)
+2026-01-30T16:43:43 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T16:43:52 INFO     💾 Checkpoint guardado: 15225 empresas TOTALES
+2026-01-30T16:43:52 INFO     Estado guardado: 15225 empresas
+2026-01-30T16:43:59 INFO     ⏳ Esperando 7.6s antes del siguiente rubro...
+2026-01-30T16:43:59 INFO     
+🏷️  Rubro 2/146: transporte de cargas
+2026-01-30T16:43:59 INFO     
+🔍 Buscando 'transporte de cargas' en segmento 0
+2026-01-30T16:43:59 INFO        URL: https://www.google.com/maps/search/transporte+de+cargas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T16:44:19 INFO     📄 Iniciando extracción para rubro: transporte de cargas
+2026-01-30T16:44:19 INFO        Scroll 1: 7 elementos en página
+2026-01-30T16:45:08 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T16:45:13 INFO        Scroll 2: 14 elementos en página
+2026-01-30T16:46:06 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T16:46:11 INFO        Scroll 3: 21 elementos en página
+2026-01-30T16:47:05 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T16:47:10 INFO        Scroll 4: 21 elementos en página
+2026-01-30T16:47:18 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T16:47:24 INFO        Scroll 5: 22 elementos en página
+2026-01-30T16:47:49 INFO        ✅ 1 nuevos, 22 total
+2026-01-30T16:47:55 INFO        Scroll 6: 29 elementos en página
+2026-01-30T16:48:53 INFO        ✅ 5 nuevos, 27 total
+2026-01-30T16:48:59 INFO        Scroll 7: 36 elementos en página
+2026-01-30T16:49:56 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T16:50:01 INFO        Scroll 8: 43 elementos en página
+2026-01-30T16:51:13 INFO        ✅ 7 nuevos, 41 total
+2026-01-30T16:51:19 INFO        Scroll 9: 51 elementos en página
+2026-01-30T16:52:33 INFO        ✅ 7 nuevos, 48 total
+2026-01-30T16:52:38 INFO        Scroll 10: 58 elementos en página
+2026-01-30T16:54:44 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T16:54:49 INFO        Scroll 11: 64 elementos en página
+2026-01-30T16:55:55 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T16:56:00 INFO        Scroll 12: 71 elementos en página
+2026-01-30T16:57:37 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T16:57:42 INFO        Scroll 13: 78 elementos en página
+2026-01-30T16:59:23 INFO        ✅ 7 nuevos, 75 total
+2026-01-30T16:59:29 INFO        Scroll 14: 84 elementos en página
+2026-01-30T17:00:49 INFO        ✅ 6 nuevos, 81 total
+2026-01-30T17:00:55 INFO        Scroll 15: 91 elementos en página
+2026-01-30T17:02:49 INFO        ✅ 6 nuevos, 87 total
+2026-01-30T17:02:54 INFO        Scroll 16: 98 elementos en página
+2026-01-30T17:04:16 INFO        ✅ 2 nuevos, 89 total
+2026-01-30T17:04:20 INFO        Scroll 17: 104 elementos en página
+2026-01-30T17:05:50 INFO        ✅ 4 nuevos, 93 total
+2026-01-30T17:05:54 INFO        Scroll 18: 111 elementos en página
+2026-01-30T17:07:45 INFO        ✅ 4 nuevos, 97 total
+2026-01-30T17:07:51 INFO        Scroll 19: 118 elementos en página
+2026-01-30T17:09:53 INFO        ✅ 7 nuevos, 104 total
+2026-01-30T17:09:58 INFO        Scroll 20: 124 elementos en página
+2026-01-30T17:11:17 INFO        ✅ 6 nuevos, 110 total
+2026-01-30T17:11:22 INFO        Scroll 21: 124 elementos en página
+2026-01-30T17:12:05 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T17:12:10 INFO        Scroll 22: 124 elementos en página
+2026-01-30T17:12:53 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T17:12:59 INFO        Scroll 23: 124 elementos en página
+2026-01-30T17:13:42 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T17:13:49 INFO        Scroll 24: 124 elementos en página
+2026-01-30T17:14:33 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T17:14:39 INFO        Scroll 25: 124 elementos en página
+2026-01-30T17:15:22 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T17:15:22 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T17:15:22 INFO     🔍 [transporte de cargas][-31.4167|-64.1837][SCROLL: 24]: Search page scraped: 110 unique, 1755 duplicate, 110 seen, 24 paginations, 0 outOfLocation.
+2026-01-30T17:15:22 INFO     ✅ Extracción completada: 110 lugares encontrados
+2026-01-30T17:15:22 INFO     📊 44 lugares agregados (Total: 15269)
+2026-01-30T17:15:22 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T17:15:31 INFO     💾 Checkpoint guardado: 15269 empresas TOTALES
+2026-01-30T17:15:31 INFO     Estado guardado: 15269 empresas
+2026-01-30T17:15:38 INFO     ⏳ Esperando 6.6s antes del siguiente rubro...
+2026-01-30T17:15:38 INFO     
+🏷️  Rubro 3/146: fletes y mudanzas
+2026-01-30T17:15:38 INFO     
+🔍 Buscando 'fletes y mudanzas' en segmento 0
+2026-01-30T17:15:38 INFO        URL: https://www.google.com/maps/search/fletes+y+mudanzas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T17:15:58 INFO     📄 Iniciando extracción para rubro: fletes y mudanzas
+2026-01-30T17:15:58 INFO        Scroll 1: 10 elementos en página
+2026-01-30T17:17:07 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T17:17:13 INFO        Scroll 2: 17 elementos en página
+2026-01-30T17:17:59 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T17:18:04 INFO        Scroll 3: 20 elementos en página
+2026-01-30T17:18:34 INFO        ✅ 3 nuevos, 20 total
+2026-01-30T17:18:40 INFO        Scroll 4: 27 elementos en página
+2026-01-30T17:19:36 INFO        ✅ 7 nuevos, 27 total
+2026-01-30T17:19:41 INFO        Scroll 5: 34 elementos en página
+2026-01-30T17:20:42 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T17:20:48 INFO        Scroll 6: 40 elementos en página
+2026-01-30T17:21:41 INFO        ✅ 6 nuevos, 40 total
+2026-01-30T17:21:48 INFO        Scroll 7: 47 elementos en página
+2026-01-30T17:22:53 INFO        ✅ 7 nuevos, 47 total
+2026-01-30T17:22:58 INFO        Scroll 8: 54 elementos en página
+2026-01-30T17:24:08 INFO        ✅ 7 nuevos, 54 total
+2026-01-30T17:24:13 INFO        Scroll 9: 60 elementos en página
+2026-01-30T17:25:16 INFO        ✅ 6 nuevos, 60 total
+2026-01-30T17:25:21 INFO        Scroll 10: 67 elementos en página
+2026-01-30T17:27:00 INFO        ✅ 7 nuevos, 67 total
+2026-01-30T17:27:06 INFO        Scroll 11: 74 elementos en página
+2026-01-30T17:28:29 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T17:28:35 INFO        Scroll 12: 80 elementos en página
+2026-01-30T17:30:00 INFO        ✅ 6 nuevos, 80 total
+2026-01-30T17:30:05 INFO        Scroll 13: 87 elementos en página
+2026-01-30T17:31:37 INFO        ✅ 7 nuevos, 87 total
+2026-01-30T17:31:43 INFO        Scroll 14: 94 elementos en página
+2026-01-30T17:33:09 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T17:33:15 INFO        Scroll 15: 100 elementos en página
+2026-01-30T17:34:45 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T17:34:50 INFO        Scroll 16: 107 elementos en página
+2026-01-30T17:36:40 INFO        ✅ 7 nuevos, 107 total
+2026-01-30T17:36:45 INFO        Scroll 17: 114 elementos en página
+2026-01-30T17:38:27 INFO        ✅ 7 nuevos, 114 total
+2026-01-30T17:38:32 INFO        Scroll 18: 120 elementos en página
+2026-01-30T17:40:01 INFO        ✅ 6 nuevos, 120 total
+2026-01-30T17:40:07 INFO        Scroll 19: 120 elementos en página
+2026-01-30T17:40:48 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T17:40:54 INFO        Scroll 20: 120 elementos en página
+2026-01-30T17:41:36 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T17:41:42 INFO        Scroll 21: 120 elementos en página
+2026-01-30T17:42:24 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T17:42:28 INFO        Scroll 22: 120 elementos en página
+2026-01-30T17:43:10 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T17:43:15 INFO        Scroll 23: 120 elementos en página
+2026-01-30T17:43:58 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T17:43:58 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T17:43:58 INFO     🔍 [fletes y mudanzas][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 120 unique, 1632 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T17:43:58 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-30T17:43:58 INFO     📊 9 lugares agregados (Total: 15278)
+2026-01-30T17:43:58 INFO     Estado guardado: 15278 empresas
+2026-01-30T17:44:02 INFO     ⏳ Esperando 4.3s antes del siguiente rubro...
+2026-01-30T17:44:02 INFO     
+🏷️  Rubro 4/146: distribución logística
+2026-01-30T17:44:02 INFO     
+🔍 Buscando 'distribución logística' en segmento 0
+2026-01-30T17:44:02 INFO        URL: https://www.google.com/maps/search/distribución+logística/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T17:44:21 INFO     📄 Iniciando extracción para rubro: distribución logística
+2026-01-30T17:44:21 INFO        Scroll 1: 7 elementos en página
+2026-01-30T17:45:10 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T17:45:16 INFO        Scroll 2: 14 elementos en página
+2026-01-30T17:46:43 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T17:46:50 INFO        Scroll 3: 21 elementos en página
+2026-01-30T17:48:10 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T17:48:16 INFO        Scroll 4: 29 elementos en página
+2026-01-30T17:49:25 INFO        ✅ 6 nuevos, 27 total
+2026-01-30T17:49:30 INFO        Scroll 5: 36 elementos en página
+2026-01-30T17:50:36 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T17:50:42 INFO        Scroll 6: 40 elementos en página
+2026-01-30T17:51:28 INFO        ✅ 4 nuevos, 38 total
+2026-01-30T17:51:33 INFO        Scroll 7: 40 elementos en página
+2026-01-30T17:51:47 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T17:51:53 INFO        Scroll 8: 40 elementos en página
+2026-01-30T17:52:08 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T17:52:13 INFO        Scroll 9: 40 elementos en página
+2026-01-30T17:52:28 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T17:52:35 INFO        Scroll 10: 40 elementos en página
+2026-01-30T17:52:49 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T17:52:55 INFO        Scroll 11: 40 elementos en página
+2026-01-30T17:53:09 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T17:53:09 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T17:53:09 INFO     🔍 [distribución logística][-31.4167|-64.1837][SCROLL: 10]: Search page scraped: 38 unique, 309 duplicate, 38 seen, 10 paginations, 0 outOfLocation.
+2026-01-30T17:53:09 INFO     ✅ Extracción completada: 38 lugares encontrados
+2026-01-30T17:53:09 INFO     📊 15 lugares agregados (Total: 15293)
+2026-01-30T17:53:09 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T17:53:18 INFO     💾 Checkpoint guardado: 15293 empresas TOTALES
+2026-01-30T17:53:18 INFO     Estado guardado: 15293 empresas
+2026-01-30T17:53:24 INFO     ⏳ Esperando 5.8s antes del siguiente rubro...
+2026-01-30T17:53:24 INFO     
+🏷️  Rubro 5/146: empresa de transportes
+2026-01-30T17:53:24 INFO     
+🔍 Buscando 'empresa de transportes' en segmento 0
+2026-01-30T17:53:24 INFO        URL: https://www.google.com/maps/search/empresa+de+transportes/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T17:53:41 INFO     📄 Iniciando extracción para rubro: empresa de transportes
+2026-01-30T17:53:41 INFO        Scroll 1: 10 elementos en página
+2026-01-30T17:54:47 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T17:54:52 INFO        Scroll 2: 17 elementos en página
+2026-01-30T17:55:41 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T17:55:47 INFO        Scroll 3: 22 elementos en página
+2026-01-30T17:56:36 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T17:56:41 INFO        Scroll 4: 29 elementos en página
+2026-01-30T17:57:44 INFO        ✅ 6 nuevos, 28 total
+2026-01-30T17:57:49 INFO        Scroll 5: 36 elementos en página
+2026-01-30T17:58:48 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T17:58:53 INFO        Scroll 6: 43 elementos en página
+2026-01-30T18:00:03 INFO        ✅ 7 nuevos, 42 total
+2026-01-30T18:00:08 INFO        Scroll 7: 51 elementos en página
+2026-01-30T18:01:16 INFO        ✅ 6 nuevos, 48 total
+2026-01-30T18:01:21 INFO        Scroll 8: 58 elementos en página
+2026-01-30T18:02:42 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T18:02:48 INFO        Scroll 9: 64 elementos en página
+2026-01-30T18:03:55 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T18:04:02 INFO        Scroll 10: 71 elementos en página
+2026-01-30T18:05:12 INFO        ✅ 5 nuevos, 66 total
+2026-01-30T18:05:17 INFO        Scroll 11: 78 elementos en página
+2026-01-30T18:06:51 INFO        ✅ 7 nuevos, 73 total
+2026-01-30T18:06:56 INFO        Scroll 12: 84 elementos en página
+2026-01-30T18:08:19 INFO        ✅ 6 nuevos, 79 total
+2026-01-30T18:08:25 INFO        Scroll 13: 91 elementos en página
+2026-01-30T18:10:11 INFO        ✅ 7 nuevos, 86 total
+2026-01-30T18:10:17 INFO        Scroll 14: 98 elementos en página
+2026-01-30T18:12:02 INFO        ✅ 7 nuevos, 93 total
+2026-01-30T18:12:07 INFO        Scroll 15: 104 elementos en página
+2026-01-30T18:13:46 INFO        ✅ 6 nuevos, 99 total
+2026-01-30T18:13:53 INFO        Scroll 16: 111 elementos en página
+2026-01-30T18:16:06 INFO        ✅ 7 nuevos, 106 total
+2026-01-30T18:16:12 INFO        Scroll 17: 118 elementos en página
+2026-01-30T18:18:04 INFO        ✅ 7 nuevos, 113 total
+2026-01-30T18:18:10 INFO        Scroll 18: 124 elementos en página
+2026-01-30T18:19:38 INFO        ✅ 6 nuevos, 119 total
+2026-01-30T18:19:44 INFO        Scroll 19: 124 elementos en página
+2026-01-30T18:20:27 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T18:20:34 INFO        Scroll 20: 124 elementos en página
+2026-01-30T18:21:16 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T18:21:22 INFO        Scroll 21: 124 elementos en página
+2026-01-30T18:22:05 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T18:22:11 INFO        Scroll 22: 124 elementos en página
+2026-01-30T18:22:54 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T18:23:00 INFO        Scroll 23: 124 elementos en página
+2026-01-30T18:23:43 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T18:23:43 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T18:23:43 INFO     🔍 [empresa de transportes][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 119 unique, 1710 duplicate, 119 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T18:23:43 INFO     ✅ Extracción completada: 119 lugares encontrados
+2026-01-30T18:23:43 INFO     📊 29 lugares agregados (Total: 15322)
+2026-01-30T18:23:43 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T18:23:52 INFO     💾 Checkpoint guardado: 15322 empresas TOTALES
+2026-01-30T18:23:52 INFO     Estado guardado: 15322 empresas
+2026-01-30T18:23:59 INFO     ⏳ Esperando 7.7s antes del siguiente rubro...
+2026-01-30T18:23:59 INFO     
+🏷️  Rubro 6/146: empresa constructora
+2026-01-30T18:23:59 INFO     
+🔍 Buscando 'empresa constructora' en segmento 0
+2026-01-30T18:23:59 INFO        URL: https://www.google.com/maps/search/empresa+constructora/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T18:24:18 INFO     📄 Iniciando extracción para rubro: empresa constructora
+2026-01-30T18:24:19 INFO        Scroll 1: 7 elementos en página
+2026-01-30T18:25:03 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T18:25:10 INFO        Scroll 2: 14 elementos en página
+2026-01-30T18:25:55 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T18:25:59 INFO        Scroll 3: 21 elementos en página
+2026-01-30T18:26:50 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T18:26:55 INFO        Scroll 4: 29 elementos en página
+2026-01-30T18:27:55 INFO        ✅ 7 nuevos, 28 total
+2026-01-30T18:28:01 INFO        Scroll 5: 36 elementos en página
+2026-01-30T18:29:15 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T18:29:20 INFO        Scroll 6: 43 elementos en página
+2026-01-30T18:30:25 INFO        ✅ 7 nuevos, 42 total
+2026-01-30T18:30:31 INFO        Scroll 7: 51 elementos en página
+2026-01-30T18:31:39 INFO        ✅ 7 nuevos, 49 total
+2026-01-30T18:31:46 INFO        Scroll 8: 58 elementos en página
+2026-01-30T18:32:57 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T18:33:03 INFO        Scroll 9: 64 elementos en página
+2026-01-30T18:34:17 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T18:34:22 INFO        Scroll 10: 71 elementos en página
+2026-01-30T18:35:42 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T18:35:47 INFO        Scroll 11: 78 elementos en página
+2026-01-30T18:37:12 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T18:37:18 INFO        Scroll 12: 84 elementos en página
+2026-01-30T18:38:34 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T18:38:40 INFO        Scroll 13: 91 elementos en página
+2026-01-30T18:40:13 INFO        ✅ 7 nuevos, 89 total
+2026-01-30T18:40:19 INFO        Scroll 14: 98 elementos en página
+2026-01-30T18:41:52 INFO        ✅ 7 nuevos, 96 total
+2026-01-30T18:41:58 INFO        Scroll 15: 104 elementos en página
+2026-01-30T18:43:42 INFO        ✅ 6 nuevos, 102 total
+2026-01-30T18:43:48 INFO        Scroll 16: 111 elementos en página
+2026-01-30T18:45:53 INFO        ✅ 7 nuevos, 109 total
+2026-01-30T18:45:58 INFO        Scroll 17: 118 elementos en página
+2026-01-30T18:48:00 INFO        ✅ 7 nuevos, 116 total
+2026-01-30T18:48:05 INFO        Scroll 18: 124 elementos en página
+2026-01-30T18:49:23 INFO        ✅ 6 nuevos, 122 total
+2026-01-30T18:49:29 INFO        Scroll 19: 124 elementos en página
+2026-01-30T18:50:13 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T18:50:19 INFO        Scroll 20: 124 elementos en página
+2026-01-30T18:51:02 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T18:51:07 INFO        Scroll 21: 124 elementos en página
+2026-01-30T18:51:50 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T18:51:57 INFO        Scroll 22: 124 elementos en página
+2026-01-30T18:52:40 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T18:52:46 INFO        Scroll 23: 124 elementos en página
+2026-01-30T18:53:30 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T18:53:30 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T18:53:30 INFO     🔍 [empresa constructora][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 122 unique, 1700 duplicate, 122 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T18:53:30 INFO     ✅ Extracción completada: 122 lugares encontrados
+2026-01-30T18:53:30 INFO     📊 94 lugares agregados (Total: 15416)
+2026-01-30T18:53:30 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T18:53:39 INFO     💾 Checkpoint guardado: 15416 empresas TOTALES
+2026-01-30T18:53:39 INFO     Estado guardado: 15416 empresas
+2026-01-30T18:53:45 INFO     ⏳ Esperando 6.1s antes del siguiente rubro...
+2026-01-30T18:53:45 INFO     
+🏷️  Rubro 7/146: construcción civil
+2026-01-30T18:53:45 INFO     
+🔍 Buscando 'construcción civil' en segmento 0
+2026-01-30T18:53:45 INFO        URL: https://www.google.com/maps/search/construcción+civil/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T18:54:03 INFO     📄 Iniciando extracción para rubro: construcción civil
+2026-01-30T18:54:03 INFO        Scroll 1: 10 elementos en página
+2026-01-30T18:55:09 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T18:55:13 INFO        Scroll 2: 17 elementos en página
+2026-01-30T18:56:14 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T18:56:19 INFO        Scroll 3: 22 elementos en página
+2026-01-30T18:56:57 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T18:57:02 INFO        Scroll 4: 29 elementos en página
+2026-01-30T18:57:49 INFO        ✅ 4 nuevos, 26 total
+2026-01-30T18:57:54 INFO        Scroll 5: 36 elementos en página
+2026-01-30T18:58:54 INFO        ✅ 7 nuevos, 33 total
+2026-01-30T18:59:00 INFO        Scroll 6: 43 elementos en página
+2026-01-30T18:59:58 INFO        ✅ 7 nuevos, 40 total
+2026-01-30T19:00:04 INFO        Scroll 7: 51 elementos en página
+2026-01-30T19:01:18 INFO        ✅ 8 nuevos, 48 total
+2026-01-30T19:01:24 INFO        Scroll 8: 58 elementos en página
+2026-01-30T19:02:28 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T19:02:34 INFO        Scroll 9: 64 elementos en página
+2026-01-30T19:03:42 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T19:03:47 INFO        Scroll 10: 71 elementos en página
+2026-01-30T19:05:16 INFO        ✅ 6 nuevos, 67 total
+2026-01-30T19:05:23 INFO        Scroll 11: 78 elementos en página
+2026-01-30T19:06:49 INFO        ✅ 6 nuevos, 73 total
+2026-01-30T19:06:54 INFO        Scroll 12: 84 elementos en página
+2026-01-30T19:08:18 INFO        ✅ 5 nuevos, 78 total
+2026-01-30T19:08:23 INFO        Scroll 13: 91 elementos en página
+2026-01-30T19:10:09 INFO        ✅ 7 nuevos, 85 total
+2026-01-30T19:10:15 INFO        Scroll 14: 98 elementos en página
+2026-01-30T19:11:50 INFO        ✅ 7 nuevos, 92 total
+2026-01-30T19:11:56 INFO        Scroll 15: 104 elementos en página
+2026-01-30T19:13:21 INFO        ✅ 6 nuevos, 98 total
+2026-01-30T19:13:27 INFO        Scroll 16: 111 elementos en página
+2026-01-30T19:15:23 INFO        ✅ 7 nuevos, 105 total
+2026-01-30T19:15:28 INFO        Scroll 17: 118 elementos en página
+2026-01-30T19:17:24 INFO        ✅ 7 nuevos, 112 total
+2026-01-30T19:17:30 INFO        Scroll 18: 124 elementos en página
+2026-01-30T19:18:52 INFO        ✅ 6 nuevos, 118 total
+2026-01-30T19:18:57 INFO        Scroll 19: 124 elementos en página
+2026-01-30T19:19:40 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T19:19:44 INFO        Scroll 20: 124 elementos en página
+2026-01-30T19:20:28 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T19:20:34 INFO        Scroll 21: 124 elementos en página
+2026-01-30T19:21:16 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T19:21:22 INFO        Scroll 22: 124 elementos en página
+2026-01-30T19:22:06 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T19:22:11 INFO        Scroll 23: 124 elementos en página
+2026-01-30T19:22:54 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T19:22:54 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T19:22:54 INFO     🔍 [construcción civil][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 118 unique, 1711 duplicate, 118 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T19:22:54 INFO     ✅ Extracción completada: 118 lugares encontrados
+2026-01-30T19:22:54 INFO     📊 44 lugares agregados (Total: 15460)
+2026-01-30T19:22:54 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T19:23:03 INFO     💾 Checkpoint guardado: 15460 empresas TOTALES
+2026-01-30T19:23:03 INFO     Estado guardado: 15460 empresas
+2026-01-30T19:23:11 INFO     ⏳ Esperando 7.6s antes del siguiente rubro...
+2026-01-30T19:23:11 INFO     
+🏷️  Rubro 8/146: obras y construcciones
+2026-01-30T19:23:11 INFO     
+🔍 Buscando 'obras y construcciones' en segmento 0
+2026-01-30T19:23:11 INFO        URL: https://www.google.com/maps/search/obras+y+construcciones/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T19:23:28 INFO     📄 Iniciando extracción para rubro: obras y construcciones
+2026-01-30T19:23:28 INFO        Scroll 1: 7 elementos en página
+2026-01-30T19:24:14 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T19:24:20 INFO        Scroll 2: 14 elementos en página
+2026-01-30T19:25:19 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T19:25:24 INFO        Scroll 3: 21 elementos en página
+2026-01-30T19:26:15 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T19:26:21 INFO        Scroll 4: 29 elementos en página
+2026-01-30T19:27:23 INFO        ✅ 8 nuevos, 29 total
+2026-01-30T19:27:28 INFO        Scroll 5: 36 elementos en página
+2026-01-30T19:28:19 INFO        ✅ 6 nuevos, 35 total
+2026-01-30T19:28:24 INFO        Scroll 6: 42 elementos en página
+2026-01-30T19:29:17 INFO        ✅ 6 nuevos, 41 total
+2026-01-30T19:29:23 INFO        Scroll 7: 49 elementos en página
+2026-01-30T19:30:37 INFO        ✅ 7 nuevos, 48 total
+2026-01-30T19:30:44 INFO        Scroll 8: 56 elementos en página
+2026-01-30T19:32:02 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T19:32:09 INFO        Scroll 9: 62 elementos en página
+2026-01-30T19:33:52 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T19:33:57 INFO        Scroll 10: 69 elementos en página
+2026-01-30T19:35:29 INFO        ✅ 6 nuevos, 67 total
+2026-01-30T19:35:35 INFO        Scroll 11: 76 elementos en página
+2026-01-30T19:37:01 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T19:37:06 INFO        Scroll 12: 82 elementos en página
+2026-01-30T19:38:35 INFO        ✅ 6 nuevos, 80 total
+2026-01-30T19:38:41 INFO        Scroll 13: 89 elementos en página
+2026-01-30T19:40:17 INFO        ✅ 7 nuevos, 87 total
+2026-01-30T19:40:22 INFO        Scroll 14: 96 elementos en página
+2026-01-30T19:41:58 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T19:42:04 INFO        Scroll 15: 102 elementos en página
+2026-01-30T19:44:17 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T19:44:22 INFO        Scroll 16: 109 elementos en página
+2026-01-30T19:46:01 INFO        ✅ 6 nuevos, 106 total
+2026-01-30T19:46:06 INFO        Scroll 17: 116 elementos en página
+2026-01-30T19:47:51 INFO        ✅ 7 nuevos, 113 total
+2026-01-30T19:47:56 INFO        Scroll 18: 122 elementos en página
+2026-01-30T19:49:27 INFO        ✅ 6 nuevos, 119 total
+2026-01-30T19:49:32 INFO        Scroll 19: 122 elementos en página
+2026-01-30T19:50:16 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T19:50:20 INFO        Scroll 20: 122 elementos en página
+2026-01-30T19:51:02 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T19:51:08 INFO        Scroll 21: 122 elementos en página
+2026-01-30T19:51:51 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T19:51:56 INFO        Scroll 22: 122 elementos en página
+2026-01-30T19:52:38 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T19:52:45 INFO        Scroll 23: 122 elementos en página
+2026-01-30T19:53:27 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T19:53:27 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T19:53:27 INFO     🔍 [obras y construcciones][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 119 unique, 1668 duplicate, 119 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T19:53:27 INFO     ✅ Extracción completada: 119 lugares encontrados
+2026-01-30T19:53:27 INFO     📊 56 lugares agregados (Total: 15516)
+2026-01-30T19:53:27 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T19:53:36 INFO     💾 Checkpoint guardado: 15516 empresas TOTALES
+2026-01-30T19:53:36 INFO     Estado guardado: 15516 empresas
+2026-01-30T19:53:42 INFO     ⏳ Esperando 6.1s antes del siguiente rubro...
+2026-01-30T19:53:42 INFO     
+🏷️  Rubro 9/146: constructoras medianas
+2026-01-30T19:53:42 INFO     
+🔍 Buscando 'constructoras medianas' en segmento 0
+2026-01-30T19:53:42 INFO        URL: https://www.google.com/maps/search/constructoras+medianas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T19:54:01 INFO     📄 Iniciando extracción para rubro: constructoras medianas
+2026-01-30T19:54:01 INFO        Scroll 1: 10 elementos en página
+2026-01-30T19:55:06 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T19:55:12 INFO        Scroll 2: 17 elementos en página
+2026-01-30T19:56:00 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T19:56:06 INFO        Scroll 3: 22 elementos en página
+2026-01-30T19:56:45 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T19:56:49 INFO        Scroll 4: 29 elementos en página
+2026-01-30T19:57:37 INFO        ✅ 5 nuevos, 27 total
+2026-01-30T19:57:44 INFO        Scroll 5: 36 elementos en página
+2026-01-30T19:58:54 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T19:58:59 INFO        Scroll 6: 43 elementos en página
+2026-01-30T20:00:02 INFO        ✅ 7 nuevos, 41 total
+2026-01-30T20:00:07 INFO        Scroll 7: 51 elementos en página
+2026-01-30T20:01:38 INFO        ✅ 7 nuevos, 48 total
+2026-01-30T20:01:43 INFO        Scroll 8: 58 elementos en página
+2026-01-30T20:03:04 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T20:03:09 INFO        Scroll 9: 64 elementos en página
+2026-01-30T20:04:23 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T20:04:29 INFO        Scroll 10: 71 elementos en página
+2026-01-30T20:05:56 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T20:06:02 INFO        Scroll 11: 74 elementos en página
+2026-01-30T20:06:47 INFO        ✅ 3 nuevos, 71 total
+2026-01-30T20:06:53 INFO        Scroll 12: 74 elementos en página
+2026-01-30T20:07:22 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T20:07:27 INFO        Scroll 13: 74 elementos en página
+2026-01-30T20:07:55 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T20:08:01 INFO        Scroll 14: 74 elementos en página
+2026-01-30T20:08:30 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T20:08:36 INFO        Scroll 15: 74 elementos en página
+2026-01-30T20:09:04 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T20:09:11 INFO        Scroll 16: 74 elementos en página
+2026-01-30T20:09:39 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T20:09:39 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T20:09:39 INFO     🔍 [constructoras medianas][-31.4167|-64.1837][SCROLL: 15]: Search page scraped: 71 unique, 774 duplicate, 71 seen, 15 paginations, 0 outOfLocation.
+2026-01-30T20:09:39 INFO     ✅ Extracción completada: 71 lugares encontrados
+2026-01-30T20:09:39 INFO     📊 16 lugares agregados (Total: 15532)
+2026-01-30T20:09:39 INFO     Estado guardado: 15532 empresas
+2026-01-30T20:09:45 INFO     ⏳ Esperando 6.7s antes del siguiente rubro...
+2026-01-30T20:09:45 INFO     
+🏷️  Rubro 10/146: empresas de construcción
+2026-01-30T20:09:45 INFO     
+🔍 Buscando 'empresas de construcción' en segmento 0
+2026-01-30T20:09:45 INFO        URL: https://www.google.com/maps/search/empresas+de+construcción/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T20:10:04 INFO     📄 Iniciando extracción para rubro: empresas de construcción
+2026-01-30T20:10:04 INFO        Scroll 1: 7 elementos en página
+2026-01-30T20:10:47 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T20:10:53 INFO        Scroll 2: 14 elementos en página
+2026-01-30T20:11:43 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T20:11:48 INFO        Scroll 3: 20 elementos en página
+2026-01-30T20:12:34 INFO        ✅ 6 nuevos, 20 total
+2026-01-30T20:12:40 INFO        Scroll 4: 27 elementos en página
+2026-01-30T20:13:48 INFO        ✅ 7 nuevos, 27 total
+2026-01-30T20:13:53 INFO        Scroll 5: 34 elementos en página
+2026-01-30T20:14:55 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T20:15:02 INFO        Scroll 6: 41 elementos en página
+2026-01-30T20:15:56 INFO        ✅ 6 nuevos, 40 total
+2026-01-30T20:16:02 INFO        Scroll 7: 49 elementos en página
+2026-01-30T20:17:16 INFO        ✅ 8 nuevos, 48 total
+2026-01-30T20:17:23 INFO        Scroll 8: 56 elementos en página
+2026-01-30T20:18:30 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T20:18:36 INFO        Scroll 9: 62 elementos en página
+2026-01-30T20:19:44 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T20:19:50 INFO        Scroll 10: 69 elementos en página
+2026-01-30T20:21:12 INFO        ✅ 7 nuevos, 68 total
+2026-01-30T20:21:17 INFO        Scroll 11: 76 elementos en página
+2026-01-30T20:22:53 INFO        ✅ 7 nuevos, 75 total
+2026-01-30T20:23:00 INFO        Scroll 12: 82 elementos en página
+2026-01-30T20:24:20 INFO        ✅ 6 nuevos, 81 total
+2026-01-30T20:24:25 INFO        Scroll 13: 89 elementos en página
+2026-01-30T20:25:54 INFO        ✅ 7 nuevos, 88 total
+2026-01-30T20:26:00 INFO        Scroll 14: 96 elementos en página
+2026-01-30T20:27:43 INFO        ✅ 7 nuevos, 95 total
+2026-01-30T20:27:48 INFO        Scroll 15: 102 elementos en página
+2026-01-30T20:29:36 INFO        ✅ 6 nuevos, 101 total
+2026-01-30T20:29:43 INFO        Scroll 16: 109 elementos en página
+2026-01-30T20:31:34 INFO        ✅ 7 nuevos, 108 total
+2026-01-30T20:31:41 INFO        Scroll 17: 116 elementos en página
+2026-01-30T20:33:47 INFO        ✅ 7 nuevos, 115 total
+2026-01-30T20:33:53 INFO        Scroll 18: 122 elementos en página
+2026-01-30T20:35:26 INFO        ✅ 6 nuevos, 121 total
+2026-01-30T20:35:30 INFO        Scroll 19: 122 elementos en página
+2026-01-30T20:36:13 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T20:36:19 INFO        Scroll 20: 122 elementos en página
+2026-01-30T20:37:03 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T20:37:08 INFO        Scroll 21: 122 elementos en página
+2026-01-30T20:37:50 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T20:37:55 INFO        Scroll 22: 122 elementos en página
+2026-01-30T20:38:39 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T20:38:46 INFO        Scroll 23: 122 elementos en página
+2026-01-30T20:39:29 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T20:39:29 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T20:39:29 INFO     🔍 [empresas de construcción][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 121 unique, 1660 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T20:39:29 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-30T20:39:29 INFO     📊 26 lugares agregados (Total: 15558)
+2026-01-30T20:39:29 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T20:39:37 INFO     💾 Checkpoint guardado: 15558 empresas TOTALES
+2026-01-30T20:39:37 INFO     Estado guardado: 15558 empresas
+2026-01-30T20:39:43 INFO     ⏳ Esperando 5.4s antes del siguiente rubro...
+2026-01-30T20:39:43 INFO     
+🏷️  Rubro 11/146: instituto educativo
+2026-01-30T20:39:43 INFO     
+🔍 Buscando 'instituto educativo' en segmento 0
+2026-01-30T20:39:43 INFO        URL: https://www.google.com/maps/search/instituto+educativo/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T20:40:02 INFO     📄 Iniciando extracción para rubro: instituto educativo
+2026-01-30T20:40:02 INFO        Scroll 1: 10 elementos en página
+2026-01-30T20:41:21 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T20:41:27 INFO        Scroll 2: 17 elementos en página
+2026-01-30T20:42:24 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T20:42:31 INFO        Scroll 3: 22 elementos en página
+2026-01-30T20:43:15 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T20:43:21 INFO        Scroll 4: 29 elementos en página
+2026-01-30T20:44:05 INFO        ✅ 5 nuevos, 27 total
+2026-01-30T20:44:10 INFO        Scroll 5: 36 elementos en página
+2026-01-30T20:45:25 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T20:45:30 INFO        Scroll 6: 43 elementos en página
+2026-01-30T20:46:34 INFO        ✅ 7 nuevos, 41 total
+2026-01-30T20:46:39 INFO        Scroll 7: 51 elementos en página
+2026-01-30T20:47:50 INFO        ✅ 8 nuevos, 49 total
+2026-01-30T20:47:56 INFO        Scroll 8: 58 elementos en página
+2026-01-30T20:49:11 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T20:49:16 INFO        Scroll 9: 64 elementos en página
+2026-01-30T20:50:20 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T20:50:26 INFO        Scroll 10: 71 elementos en página
+2026-01-30T20:52:19 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T20:52:24 INFO        Scroll 11: 78 elementos en página
+2026-01-30T20:54:06 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T20:54:12 INFO        Scroll 12: 84 elementos en página
+2026-01-30T20:55:50 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T20:55:57 INFO        Scroll 13: 91 elementos en página
+2026-01-30T20:57:25 INFO        ✅ 7 nuevos, 89 total
+2026-01-30T20:57:30 INFO        Scroll 14: 98 elementos en página
+2026-01-30T20:58:59 INFO        ✅ 7 nuevos, 96 total
+2026-01-30T20:59:05 INFO        Scroll 15: 104 elementos en página
+2026-01-30T21:00:35 INFO        ✅ 6 nuevos, 102 total
+2026-01-30T21:00:39 INFO        Scroll 16: 111 elementos en página
+2026-01-30T21:02:35 INFO        ✅ 7 nuevos, 109 total
+2026-01-30T21:02:41 INFO        Scroll 17: 118 elementos en página
+2026-01-30T21:04:40 INFO        ✅ 6 nuevos, 115 total
+2026-01-30T21:04:45 INFO        Scroll 18: 124 elementos en página
+2026-01-30T21:06:14 INFO        ✅ 6 nuevos, 121 total
+2026-01-30T21:06:19 INFO        Scroll 19: 124 elementos en página
+2026-01-30T21:07:03 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T21:07:07 INFO        Scroll 20: 124 elementos en página
+2026-01-30T21:07:50 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T21:07:57 INFO        Scroll 21: 124 elementos en página
+2026-01-30T21:08:40 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T21:08:44 INFO        Scroll 22: 124 elementos en página
+2026-01-30T21:09:27 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T21:09:33 INFO        Scroll 23: 124 elementos en página
+2026-01-30T21:10:16 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T21:10:16 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T21:10:16 INFO     🔍 [instituto educativo][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 121 unique, 1708 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T21:10:16 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-30T21:10:16 INFO     📊 117 lugares agregados (Total: 15675)
+2026-01-30T21:10:16 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T21:10:25 INFO     💾 Checkpoint guardado: 15675 empresas TOTALES
+2026-01-30T21:10:25 INFO     Estado guardado: 15675 empresas
+2026-01-30T21:10:30 INFO     ⏳ Esperando 4.3s antes del siguiente rubro...
+2026-01-30T21:10:30 INFO     
+🏷️  Rubro 12/146: centro de capacitación
+2026-01-30T21:10:30 INFO     
+🔍 Buscando 'centro de capacitación' en segmento 0
+2026-01-30T21:10:30 INFO        URL: https://www.google.com/maps/search/centro+de+capacitación/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T21:10:50 INFO     📄 Iniciando extracción para rubro: centro de capacitación
+2026-01-30T21:10:50 INFO        Scroll 1: 7 elementos en página
+2026-01-30T21:11:36 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T21:11:41 INFO        Scroll 2: 14 elementos en página
+2026-01-30T21:12:30 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T21:12:37 INFO        Scroll 3: 21 elementos en página
+2026-01-30T21:13:30 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T21:13:35 INFO        Scroll 4: 29 elementos en página
+2026-01-30T21:14:49 INFO        ✅ 8 nuevos, 29 total
+2026-01-30T21:14:54 INFO        Scroll 5: 36 elementos en página
+2026-01-30T21:15:57 INFO        ✅ 7 nuevos, 36 total
+2026-01-30T21:16:02 INFO        Scroll 6: 42 elementos en página
+2026-01-30T21:17:15 INFO        ✅ 6 nuevos, 42 total
+2026-01-30T21:17:20 INFO        Scroll 7: 49 elementos en página
+2026-01-30T21:18:26 INFO        ✅ 7 nuevos, 49 total
+2026-01-30T21:18:33 INFO        Scroll 8: 56 elementos en página
+2026-01-30T21:19:56 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T21:20:00 INFO        Scroll 9: 62 elementos en página
+2026-01-30T21:21:06 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T21:21:12 INFO        Scroll 10: 69 elementos en página
+2026-01-30T21:22:38 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T21:22:42 INFO        Scroll 11: 76 elementos en página
+2026-01-30T21:24:04 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T21:24:09 INFO        Scroll 12: 82 elementos en página
+2026-01-30T21:25:25 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T21:25:32 INFO        Scroll 13: 89 elementos en página
+2026-01-30T21:27:23 INFO        ✅ 7 nuevos, 89 total
+2026-01-30T21:27:29 INFO        Scroll 14: 96 elementos en página
+2026-01-30T21:29:15 INFO        ✅ 7 nuevos, 96 total
+2026-01-30T21:29:21 INFO        Scroll 15: 102 elementos en página
+2026-01-30T21:31:09 INFO        ✅ 6 nuevos, 102 total
+2026-01-30T21:31:15 INFO        Scroll 16: 109 elementos en página
+2026-01-30T21:33:17 INFO        ✅ 7 nuevos, 109 total
+2026-01-30T21:33:22 INFO        Scroll 17: 116 elementos en página
+2026-01-30T21:35:04 INFO        ✅ 7 nuevos, 116 total
+2026-01-30T21:35:11 INFO        Scroll 18: 122 elementos en página
+2026-01-30T21:36:41 INFO        ✅ 6 nuevos, 122 total
+2026-01-30T21:36:47 INFO        Scroll 19: 122 elementos en página
+2026-01-30T21:37:30 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T21:37:36 INFO        Scroll 20: 122 elementos en página
+2026-01-30T21:38:18 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T21:38:23 INFO        Scroll 21: 122 elementos en página
+2026-01-30T21:39:06 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T21:39:11 INFO        Scroll 22: 122 elementos en página
+2026-01-30T21:39:55 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T21:40:00 INFO        Scroll 23: 122 elementos en página
+2026-01-30T21:40:43 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T21:40:43 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T21:40:43 INFO     🔍 [centro de capacitación][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 122 unique, 1665 duplicate, 122 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T21:40:43 INFO     ✅ Extracción completada: 122 lugares encontrados
+2026-01-30T21:40:43 INFO     📊 112 lugares agregados (Total: 15787)
+2026-01-30T21:40:43 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T21:40:52 INFO     💾 Checkpoint guardado: 15787 empresas TOTALES
+2026-01-30T21:40:52 INFO     Estado guardado: 15787 empresas
+2026-01-30T21:40:58 INFO     ⏳ Esperando 5.5s antes del siguiente rubro...
+2026-01-30T21:40:58 INFO     
+🏷️  Rubro 13/146: academia especializada
+2026-01-30T21:40:58 INFO     
+🔍 Buscando 'academia especializada' en segmento 0
+2026-01-30T21:40:58 INFO        URL: https://www.google.com/maps/search/academia+especializada/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T21:41:16 INFO     📄 Iniciando extracción para rubro: academia especializada
+2026-01-30T21:41:16 INFO        Scroll 1: 10 elementos en página
+2026-01-30T21:42:22 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T21:42:29 INFO        Scroll 2: 17 elementos en página
+2026-01-30T21:43:18 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T21:43:23 INFO        Scroll 3: 20 elementos en página
+2026-01-30T21:43:53 INFO        ✅ 3 nuevos, 20 total
+2026-01-30T21:43:58 INFO        Scroll 4: 24 elementos en página
+2026-01-30T21:44:32 INFO        ✅ 4 nuevos, 24 total
+2026-01-30T21:44:39 INFO        Scroll 5: 24 elementos en página
+2026-01-30T21:44:47 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T21:44:53 INFO        Scroll 6: 24 elementos en página
+2026-01-30T21:45:02 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T21:45:07 INFO        Scroll 7: 24 elementos en página
+2026-01-30T21:45:16 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T21:45:21 INFO        Scroll 8: 24 elementos en página
+2026-01-30T21:45:30 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T21:45:36 INFO        Scroll 9: 24 elementos en página
+2026-01-30T21:45:45 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T21:45:45 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T21:45:45 INFO     🔍 [academia especializada][-31.4167|-64.1837][SCROLL: 8]: Search page scraped: 24 unique, 167 duplicate, 24 seen, 8 paginations, 0 outOfLocation.
+2026-01-30T21:45:45 INFO     ✅ Extracción completada: 24 lugares encontrados
+2026-01-30T21:45:45 INFO     📊 19 lugares agregados (Total: 15806)
+2026-01-30T21:45:45 INFO     Estado guardado: 15806 empresas
+2026-01-30T21:45:50 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-01-30T21:45:50 INFO     
+🏷️  Rubro 14/146: escuela de oficios
+2026-01-30T21:45:50 INFO     
+🔍 Buscando 'escuela de oficios' en segmento 0
+2026-01-30T21:45:50 INFO        URL: https://www.google.com/maps/search/escuela+de+oficios/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T21:46:10 INFO     📄 Iniciando extracción para rubro: escuela de oficios
+2026-01-30T21:46:10 INFO        Scroll 1: 10 elementos en página
+2026-01-30T21:47:30 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T21:47:35 INFO        Scroll 2: 17 elementos en página
+2026-01-30T21:48:28 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T21:48:32 INFO        Scroll 3: 23 elementos en página
+2026-01-30T21:49:20 INFO        ✅ 6 nuevos, 23 total
+2026-01-30T21:49:27 INFO        Scroll 4: 23 elementos en página
+2026-01-30T21:49:36 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T21:49:42 INFO        Scroll 5: 23 elementos en página
+2026-01-30T21:49:50 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T21:49:55 INFO        Scroll 6: 23 elementos en página
+2026-01-30T21:50:04 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T21:50:09 INFO        Scroll 7: 23 elementos en página
+2026-01-30T21:50:18 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T21:50:24 INFO        Scroll 8: 23 elementos en página
+2026-01-30T21:50:32 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T21:50:32 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T21:50:32 INFO     🔍 [escuela de oficios][-31.4167|-64.1837][SCROLL: 7]: Search page scraped: 23 unique, 142 duplicate, 23 seen, 7 paginations, 0 outOfLocation.
+2026-01-30T21:50:32 INFO     ✅ Extracción completada: 23 lugares encontrados
+2026-01-30T21:50:32 INFO     📊 14 lugares agregados (Total: 15820)
+2026-01-30T21:50:32 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T21:50:41 INFO     💾 Checkpoint guardado: 15820 empresas TOTALES
+2026-01-30T21:50:41 INFO     Estado guardado: 15820 empresas
+2026-01-30T21:50:48 INFO     ⏳ Esperando 6.3s antes del siguiente rubro...
+2026-01-30T21:50:48 INFO     
+🏷️  Rubro 15/146: centro de formación
+2026-01-30T21:50:48 INFO     
+🔍 Buscando 'centro de formación' en segmento 0
+2026-01-30T21:50:48 INFO        URL: https://www.google.com/maps/search/centro+de+formación/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T21:51:06 INFO     📄 Iniciando extracción para rubro: centro de formación
+2026-01-30T21:51:06 INFO        Scroll 1: 7 elementos en página
+2026-01-30T21:51:52 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T21:51:58 INFO        Scroll 2: 14 elementos en página
+2026-01-30T21:52:44 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T21:52:50 INFO        Scroll 3: 20 elementos en página
+2026-01-30T21:53:34 INFO        ✅ 6 nuevos, 20 total
+2026-01-30T21:53:39 INFO        Scroll 4: 27 elementos en página
+2026-01-30T21:54:39 INFO        ✅ 7 nuevos, 27 total
+2026-01-30T21:54:44 INFO        Scroll 5: 34 elementos en página
+2026-01-30T21:56:04 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T21:56:09 INFO        Scroll 6: 41 elementos en página
+2026-01-30T21:57:35 INFO        ✅ 7 nuevos, 41 total
+2026-01-30T21:57:41 INFO        Scroll 7: 49 elementos en página
+2026-01-30T21:59:02 INFO        ✅ 7 nuevos, 48 total
+2026-01-30T21:59:07 INFO        Scroll 8: 56 elementos en página
+2026-01-30T22:00:33 INFO        ✅ 7 nuevos, 55 total
+2026-01-30T22:00:39 INFO        Scroll 9: 62 elementos en página
+2026-01-30T22:01:53 INFO        ✅ 6 nuevos, 61 total
+2026-01-30T22:01:58 INFO        Scroll 10: 69 elementos en página
+2026-01-30T22:03:11 INFO        ✅ 6 nuevos, 67 total
+2026-01-30T22:03:17 INFO        Scroll 11: 76 elementos en página
+2026-01-30T22:04:40 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T22:04:46 INFO        Scroll 12: 82 elementos en página
+2026-01-30T22:06:05 INFO        ✅ 6 nuevos, 80 total
+2026-01-30T22:06:11 INFO        Scroll 13: 89 elementos en página
+2026-01-30T22:07:43 INFO        ✅ 7 nuevos, 87 total
+2026-01-30T22:07:49 INFO        Scroll 14: 96 elementos en página
+2026-01-30T22:09:18 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T22:09:24 INFO        Scroll 15: 102 elementos en página
+2026-01-30T22:11:10 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T22:11:17 INFO        Scroll 16: 109 elementos en página
+2026-01-30T22:13:26 INFO        ✅ 7 nuevos, 107 total
+2026-01-30T22:13:33 INFO        Scroll 17: 116 elementos en página
+2026-01-30T22:15:28 INFO        ✅ 7 nuevos, 114 total
+2026-01-30T22:15:33 INFO        Scroll 18: 122 elementos en página
+2026-01-30T22:16:59 INFO        ✅ 6 nuevos, 120 total
+2026-01-30T22:17:06 INFO        Scroll 19: 122 elementos en página
+2026-01-30T22:17:49 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T22:17:55 INFO        Scroll 20: 122 elementos en página
+2026-01-30T22:18:39 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T22:18:43 INFO        Scroll 21: 122 elementos en página
+2026-01-30T22:19:26 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T22:19:31 INFO        Scroll 22: 122 elementos en página
+2026-01-30T22:20:14 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T22:20:20 INFO        Scroll 23: 122 elementos en página
+2026-01-30T22:21:02 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T22:21:02 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T22:21:02 INFO     🔍 [centro de formación][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 120 unique, 1661 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T22:21:02 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-30T22:21:02 INFO     📊 47 lugares agregados (Total: 15867)
+2026-01-30T22:21:02 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T22:21:11 INFO     💾 Checkpoint guardado: 15867 empresas TOTALES
+2026-01-30T22:21:11 INFO     Estado guardado: 15867 empresas
+2026-01-30T22:21:16 INFO     ⏳ Esperando 4.9s antes del siguiente rubro...
+2026-01-30T22:21:16 INFO     
+🏷️  Rubro 16/146: taller mecánico especializado
+2026-01-30T22:21:16 INFO     
+🔍 Buscando 'taller mecánico especializado' en segmento 0
+2026-01-30T22:21:16 INFO        URL: https://www.google.com/maps/search/taller+mecánico+especializado/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T22:21:35 INFO     📄 Iniciando extracción para rubro: taller mecánico especializado
+2026-01-30T22:21:35 INFO        Scroll 1: 10 elementos en página
+2026-01-30T22:23:03 INFO        ✅ 10 nuevos, 10 total
+2026-01-30T22:23:09 INFO        Scroll 2: 17 elementos en página
+2026-01-30T22:24:19 INFO        ✅ 7 nuevos, 17 total
+2026-01-30T22:24:24 INFO        Scroll 3: 22 elementos en página
+2026-01-30T22:25:04 INFO        ✅ 5 nuevos, 22 total
+2026-01-30T22:25:11 INFO        Scroll 4: 29 elementos en página
+2026-01-30T22:26:02 INFO        ✅ 6 nuevos, 28 total
+2026-01-30T22:26:07 INFO        Scroll 5: 36 elementos en página
+2026-01-30T22:27:22 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T22:27:28 INFO        Scroll 6: 43 elementos en página
+2026-01-30T22:28:43 INFO        ✅ 7 nuevos, 42 total
+2026-01-30T22:28:49 INFO        Scroll 7: 51 elementos en página
+2026-01-30T22:30:02 INFO        ✅ 7 nuevos, 49 total
+2026-01-30T22:30:09 INFO        Scroll 8: 58 elementos en página
+2026-01-30T22:31:37 INFO        ✅ 7 nuevos, 56 total
+2026-01-30T22:31:42 INFO        Scroll 9: 64 elementos en página
+2026-01-30T22:32:47 INFO        ✅ 6 nuevos, 62 total
+2026-01-30T22:32:54 INFO        Scroll 10: 71 elementos en página
+2026-01-30T22:35:00 INFO        ✅ 7 nuevos, 69 total
+2026-01-30T22:35:05 INFO        Scroll 11: 78 elementos en página
+2026-01-30T22:36:34 INFO        ✅ 7 nuevos, 76 total
+2026-01-30T22:36:40 INFO        Scroll 12: 84 elementos en página
+2026-01-30T22:38:17 INFO        ✅ 6 nuevos, 82 total
+2026-01-30T22:38:23 INFO        Scroll 13: 91 elementos en página
+2026-01-30T22:39:58 INFO        ✅ 7 nuevos, 89 total
+2026-01-30T22:40:05 INFO        Scroll 14: 98 elementos en página
+2026-01-30T22:41:58 INFO        ✅ 7 nuevos, 96 total
+2026-01-30T22:42:04 INFO        Scroll 15: 104 elementos en página
+2026-01-30T22:43:40 INFO        ✅ 6 nuevos, 102 total
+2026-01-30T22:43:46 INFO        Scroll 16: 111 elementos en página
+2026-01-30T22:45:33 INFO        ✅ 6 nuevos, 108 total
+2026-01-30T22:45:39 INFO        Scroll 17: 118 elementos en página
+2026-01-30T22:47:29 INFO        ✅ 7 nuevos, 115 total
+2026-01-30T22:47:36 INFO        Scroll 18: 124 elementos en página
+2026-01-30T22:48:56 INFO        ✅ 6 nuevos, 121 total
+2026-01-30T22:49:02 INFO        Scroll 19: 124 elementos en página
+2026-01-30T22:49:46 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T22:49:53 INFO        Scroll 20: 124 elementos en página
+2026-01-30T22:50:37 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T22:50:41 INFO        Scroll 21: 124 elementos en página
+2026-01-30T22:51:26 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T22:51:32 INFO        Scroll 22: 124 elementos en página
+2026-01-30T22:52:15 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T22:52:20 INFO        Scroll 23: 124 elementos en página
+2026-01-30T22:53:05 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T22:53:05 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T22:53:05 INFO     🔍 [taller mecánico especializado][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 121 unique, 1708 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T22:53:05 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-30T22:53:05 INFO     📊 121 lugares agregados (Total: 15988)
+2026-01-30T22:53:05 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T22:53:14 INFO     💾 Checkpoint guardado: 15988 empresas TOTALES
+2026-01-30T22:53:14 INFO     Estado guardado: 15988 empresas
+2026-01-30T22:53:20 INFO     ⏳ Esperando 6.1s antes del siguiente rubro...
+2026-01-30T22:53:20 INFO     
+🏷️  Rubro 17/146: mecánica industrial
+2026-01-30T22:53:20 INFO     
+🔍 Buscando 'mecánica industrial' en segmento 0
+2026-01-30T22:53:20 INFO        URL: https://www.google.com/maps/search/mecánica+industrial/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T22:53:39 INFO     📄 Iniciando extracción para rubro: mecánica industrial
+2026-01-30T22:53:39 INFO        Scroll 1: 7 elementos en página
+2026-01-30T22:54:33 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T22:54:39 INFO        Scroll 2: 14 elementos en página
+2026-01-30T22:55:55 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T22:56:00 INFO        Scroll 3: 20 elementos en página
+2026-01-30T22:56:48 INFO        ✅ 6 nuevos, 20 total
+2026-01-30T22:56:52 INFO        Scroll 4: 27 elementos en página
+2026-01-30T22:58:10 INFO        ✅ 7 nuevos, 27 total
+2026-01-30T22:58:16 INFO        Scroll 5: 34 elementos en página
+2026-01-30T22:59:24 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T22:59:29 INFO        Scroll 6: 40 elementos en página
+2026-01-30T23:00:40 INFO        ✅ 6 nuevos, 40 total
+2026-01-30T23:00:46 INFO        Scroll 7: 47 elementos en página
+2026-01-30T23:01:58 INFO        ✅ 7 nuevos, 47 total
+2026-01-30T23:02:03 INFO        Scroll 8: 54 elementos en página
+2026-01-30T23:03:28 INFO        ✅ 7 nuevos, 54 total
+2026-01-30T23:03:33 INFO        Scroll 9: 60 elementos en página
+2026-01-30T23:04:53 INFO        ✅ 6 nuevos, 60 total
+2026-01-30T23:04:59 INFO        Scroll 10: 61 elementos en página
+2026-01-30T23:05:27 INFO        ✅ 1 nuevos, 61 total
+2026-01-30T23:05:32 INFO        Scroll 11: 61 elementos en página
+2026-01-30T23:05:54 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T23:06:00 INFO        Scroll 12: 61 elementos en página
+2026-01-30T23:06:23 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T23:06:28 INFO        Scroll 13: 61 elementos en página
+2026-01-30T23:06:51 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T23:06:56 INFO        Scroll 14: 61 elementos en página
+2026-01-30T23:07:18 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T23:07:23 INFO        Scroll 15: 61 elementos en página
+2026-01-30T23:07:46 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T23:07:46 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T23:07:46 INFO     🔍 [mecánica industrial][-31.4167|-64.1837][SCROLL: 14]: Search page scraped: 61 unique, 608 duplicate, 61 seen, 14 paginations, 0 outOfLocation.
+2026-01-30T23:07:46 INFO     ✅ Extracción completada: 61 lugares encontrados
+2026-01-30T23:07:46 INFO     📊 49 lugares agregados (Total: 16037)
+2026-01-30T23:07:46 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T23:07:55 INFO     💾 Checkpoint guardado: 16037 empresas TOTALES
+2026-01-30T23:07:55 INFO     Estado guardado: 16037 empresas
+2026-01-30T23:08:00 INFO     ⏳ Esperando 5.2s antes del siguiente rubro...
+2026-01-30T23:08:00 INFO     
+🏷️  Rubro 18/146: mantenimiento de maquinaria
+2026-01-30T23:08:00 INFO     
+🔍 Buscando 'mantenimiento de maquinaria' en segmento 0
+2026-01-30T23:08:00 INFO        URL: https://www.google.com/maps/search/mantenimiento+de+maquinaria/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T23:08:19 INFO     📄 Iniciando extracción para rubro: mantenimiento de maquinaria
+2026-01-30T23:08:19 INFO        Scroll 1: 10 elementos en página
+2026-01-30T23:09:13 INFO        ✅ 8 nuevos, 8 total
+2026-01-30T23:09:19 INFO        Scroll 2: 17 elementos en página
+2026-01-30T23:10:30 INFO        ✅ 7 nuevos, 15 total
+2026-01-30T23:10:36 INFO        Scroll 3: 22 elementos en página
+2026-01-30T23:11:14 INFO        ✅ 5 nuevos, 20 total
+2026-01-30T23:11:19 INFO        Scroll 4: 29 elementos en página
+2026-01-30T23:12:17 INFO        ✅ 7 nuevos, 27 total
+2026-01-30T23:12:23 INFO        Scroll 5: 36 elementos en página
+2026-01-30T23:13:31 INFO        ✅ 7 nuevos, 34 total
+2026-01-30T23:13:36 INFO        Scroll 6: 42 elementos en página
+2026-01-30T23:14:32 INFO        ✅ 6 nuevos, 40 total
+2026-01-30T23:14:38 INFO        Scroll 7: 49 elementos en página
+2026-01-30T23:15:55 INFO        ✅ 7 nuevos, 47 total
+2026-01-30T23:16:01 INFO        Scroll 8: 56 elementos en página
+2026-01-30T23:17:10 INFO        ✅ 7 nuevos, 54 total
+2026-01-30T23:17:15 INFO        Scroll 9: 62 elementos en página
+2026-01-30T23:18:19 INFO        ✅ 6 nuevos, 60 total
+2026-01-30T23:18:23 INFO        Scroll 10: 69 elementos en página
+2026-01-30T23:19:51 INFO        ✅ 7 nuevos, 67 total
+2026-01-30T23:19:57 INFO        Scroll 11: 76 elementos en página
+2026-01-30T23:21:17 INFO        ✅ 7 nuevos, 74 total
+2026-01-30T23:21:24 INFO        Scroll 12: 82 elementos en página
+2026-01-30T23:22:55 INFO        ✅ 6 nuevos, 80 total
+2026-01-30T23:23:00 INFO        Scroll 13: 89 elementos en página
+2026-01-30T23:24:38 INFO        ✅ 7 nuevos, 87 total
+2026-01-30T23:24:44 INFO        Scroll 14: 96 elementos en página
+2026-01-30T23:26:15 INFO        ✅ 7 nuevos, 94 total
+2026-01-30T23:26:20 INFO        Scroll 15: 102 elementos en página
+2026-01-30T23:28:01 INFO        ✅ 6 nuevos, 100 total
+2026-01-30T23:28:07 INFO        Scroll 16: 109 elementos en página
+2026-01-30T23:29:59 INFO        ✅ 7 nuevos, 107 total
+2026-01-30T23:30:04 INFO        Scroll 17: 116 elementos en página
+2026-01-30T23:31:51 INFO        ✅ 7 nuevos, 114 total
+2026-01-30T23:31:58 INFO        Scroll 18: 122 elementos en página
+2026-01-30T23:33:18 INFO        ✅ 6 nuevos, 120 total
+2026-01-30T23:33:23 INFO        Scroll 19: 122 elementos en página
+2026-01-30T23:34:06 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T23:34:12 INFO        Scroll 20: 122 elementos en página
+2026-01-30T23:34:56 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T23:35:01 INFO        Scroll 21: 122 elementos en página
+2026-01-30T23:35:44 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T23:35:49 INFO        Scroll 22: 122 elementos en página
+2026-01-30T23:36:32 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T23:36:38 INFO        Scroll 23: 122 elementos en página
+2026-01-30T23:37:21 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-30T23:37:21 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-30T23:37:21 INFO     🔍 [mantenimiento de maquinaria][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 120 unique, 1674 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-01-30T23:37:21 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-01-30T23:37:21 INFO     📊 111 lugares agregados (Total: 16148)
+2026-01-30T23:37:21 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-30T23:37:30 INFO     💾 Checkpoint guardado: 16148 empresas TOTALES
+2026-01-30T23:37:30 INFO     Estado guardado: 16148 empresas
+2026-01-30T23:37:36 INFO     ⏳ Esperando 6.3s antes del siguiente rubro...
+2026-01-30T23:37:36 INFO     
+🏷️  Rubro 19/146: reparaciones mecánicas
+2026-01-30T23:37:36 INFO     
+🔍 Buscando 'reparaciones mecánicas' en segmento 0
+2026-01-30T23:37:36 INFO        URL: https://www.google.com/maps/search/reparaciones+mecánicas/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T23:37:56 INFO     📄 Iniciando extracción para rubro: reparaciones mecánicas
+2026-01-30T23:37:56 INFO        Scroll 1: 7 elementos en página
+2026-01-30T23:38:53 INFO        ✅ 7 nuevos, 7 total
+2026-01-30T23:39:00 INFO        Scroll 2: 14 elementos en página
+2026-01-30T23:39:49 INFO        ✅ 7 nuevos, 14 total
+2026-01-30T23:39:54 INFO        Scroll 3: 21 elementos en página
+2026-01-30T23:41:03 INFO        ✅ 7 nuevos, 21 total
+2026-01-30T23:41:08 INFO        Scroll 4: 29 elementos en página
+2026-01-30T23:42:22 INFO        ✅ 7 nuevos, 28 total
+2026-01-30T23:42:28 INFO        Scroll 5: 36 elementos en página
+2026-01-30T23:43:39 INFO        ✅ 7 nuevos, 35 total
+2026-01-30T23:43:45 INFO        Scroll 6: 43 elementos en página
+2026-01-30T23:44:41 INFO        ✅ 7 nuevos, 42 total
+2026-01-30T23:44:46 INFO        Scroll 7: 51 elementos en página
+2026-01-30T23:46:23 INFO        ✅ 8 nuevos, 50 total
+2026-01-30T23:46:30 INFO        Scroll 8: 58 elementos en página
+2026-01-30T23:47:47 INFO        ✅ 7 nuevos, 57 total
+2026-01-30T23:47:52 INFO        Scroll 9: 64 elementos en página
+2026-01-30T23:48:56 INFO        ✅ 6 nuevos, 63 total
+2026-01-30T23:49:02 INFO        Scroll 10: 71 elementos en página
+2026-01-30T23:50:26 INFO        ✅ 7 nuevos, 70 total
+2026-01-30T23:50:32 INFO        Scroll 11: 78 elementos en página
+2026-01-30T23:52:02 INFO        ✅ 7 nuevos, 77 total
+2026-01-30T23:52:08 INFO        Scroll 12: 84 elementos en página
+2026-01-30T23:53:32 INFO        ✅ 6 nuevos, 83 total
+2026-01-30T23:53:38 INFO        Scroll 13: 91 elementos en página
+2026-01-30T23:55:20 INFO        ✅ 6 nuevos, 89 total
+2026-01-30T23:55:27 INFO        Scroll 14: 98 elementos en página
+2026-01-30T23:57:11 INFO        ✅ 7 nuevos, 96 total
+2026-01-30T23:57:17 INFO        Scroll 15: 104 elementos en página
+2026-01-30T23:58:59 INFO        ✅ 6 nuevos, 102 total
+2026-01-30T23:59:05 INFO        Scroll 16: 111 elementos en página
+2026-01-31T00:01:06 INFO        ✅ 7 nuevos, 109 total
+2026-01-31T00:01:13 INFO        Scroll 17: 118 elementos en página
+2026-01-31T00:03:07 INFO        ✅ 7 nuevos, 116 total
+2026-01-31T00:03:13 INFO        Scroll 18: 124 elementos en página
+2026-01-31T00:04:52 INFO        ✅ 6 nuevos, 122 total
+2026-01-31T00:04:58 INFO        Scroll 19: 124 elementos en página
+2026-01-31T00:05:42 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-31T00:05:47 INFO        Scroll 20: 124 elementos en página
+2026-01-31T00:06:31 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-31T00:06:36 INFO        Scroll 21: 124 elementos en página
+2026-01-31T00:07:20 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-31T00:07:25 INFO        Scroll 22: 124 elementos en página
+2026-01-31T00:08:09 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-31T00:08:14 INFO        Scroll 23: 124 elementos en página
+2026-01-31T00:08:52 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-31T00:08:52 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-31T00:08:52 INFO     🔍 [reparaciones mecánicas][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 122 unique, 1700 duplicate, 122 seen, 22 paginations, 0 outOfLocation.
+2026-01-31T00:08:52 INFO     ✅ Extracción completada: 122 lugares encontrados
+2026-01-31T00:08:52 INFO     📊 67 lugares agregados (Total: 16215)
+2026-01-31T00:08:52 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-31T00:09:02 INFO     💾 Checkpoint guardado: 16215 empresas TOTALES
+2026-01-31T00:09:02 INFO     Estado guardado: 16215 empresas
+2026-01-31T00:09:09 INFO     ⏳ Esperando 6.9s antes del siguiente rubro...
+2026-01-31T00:09:09 INFO     
+🏷️  Rubro 20/146: taller de maquinaria
+2026-01-31T00:09:09 INFO     
+🔍 Buscando 'taller de maquinaria' en segmento 0
+2026-01-31T00:09:09 INFO        URL: https://www.google.com/maps/search/taller+de+maquinaria/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-31T00:09:28 INFO     📄 Iniciando extracción para rubro: taller de maquinaria
+2026-01-31T00:09:29 INFO        Scroll 1: 10 elementos en página
+2026-01-31T00:10:40 INFO        ✅ 9 nuevos, 9 total
+2026-01-31T00:10:46 INFO        Scroll 2: 17 elementos en página
+2026-01-31T00:11:56 INFO        ✅ 7 nuevos, 16 total
+2026-01-31T00:12:01 INFO        Scroll 3: 22 elementos en página
+2026-01-31T00:12:48 INFO        ✅ 5 nuevos, 21 total
+2026-01-31T00:12:54 INFO        Scroll 4: 29 elementos en página
+2026-01-31T00:14:18 INFO        ✅ 6 nuevos, 27 total
+2026-01-31T00:14:23 INFO        Scroll 5: 36 elementos en página
+2026-01-31T00:15:33 INFO        ✅ 7 nuevos, 34 total
+2026-01-31T00:15:39 INFO        Scroll 6: 43 elementos en página
+2026-01-31T00:16:51 INFO        ✅ 7 nuevos, 41 total
+2026-01-31T00:16:57 INFO        Scroll 7: 51 elementos en página
+2026-01-31T00:18:20 INFO        ✅ 8 nuevos, 49 total
+2026-01-31T00:18:27 INFO        Scroll 8: 58 elementos en página
+2026-01-31T00:19:48 INFO        ✅ 7 nuevos, 56 total
+2026-01-31T00:19:55 INFO        Scroll 9: 64 elementos en página
+2026-01-31T00:21:00 INFO        ✅ 6 nuevos, 62 total
+2026-01-31T00:21:06 INFO        Scroll 10: 71 elementos en página
+2026-01-31T00:22:39 INFO        ✅ 7 nuevos, 69 total
+2026-01-31T00:22:45 INFO        Scroll 11: 78 elementos en página
+2026-01-31T00:24:06 INFO        ✅ 7 nuevos, 76 total
+2026-01-31T00:24:10 INFO        Scroll 12: 84 elementos en página
+2026-01-31T00:25:36 INFO        ✅ 6 nuevos, 82 total
+2026-01-31T00:25:41 INFO        Scroll 13: 91 elementos en página
+2026-01-31T00:27:23 INFO        ✅ 7 nuevos, 89 total
+2026-01-31T00:27:28 INFO        Scroll 14: 98 elementos en página
+2026-01-31T00:29:03 INFO        ✅ 7 nuevos, 96 total
+2026-01-31T00:29:08 INFO        Scroll 15: 104 elementos en página
+2026-01-31T00:30:37 INFO        ✅ 6 nuevos, 102 total
+2026-01-31T00:30:43 INFO        Scroll 16: 111 elementos en página
+2026-01-31T00:32:38 INFO        ✅ 7 nuevos, 109 total
+2026-01-31T00:32:43 INFO        Scroll 17: 118 elementos en página
+2026-01-31T00:34:28 INFO        ✅ 7 nuevos, 116 total
+2026-01-31T00:34:33 INFO        Scroll 18: 124 elementos en página
+2026-01-31T00:35:54 INFO        ✅ 6 nuevos, 122 total
+2026-01-31T00:36:01 INFO        Scroll 19: 124 elementos en página
+2026-01-31T00:36:44 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-31T00:36:50 INFO        Scroll 20: 124 elementos en página
+2026-01-31T00:37:34 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-31T00:37:40 INFO        Scroll 21: 124 elementos en página
+2026-01-31T00:38:23 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-31T00:38:29 INFO        Scroll 22: 124 elementos en página
+2026-01-31T00:39:12 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-31T00:39:19 INFO        Scroll 23: 124 elementos en página
+2026-01-31T00:40:03 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-31T00:40:03 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-31T00:40:03 INFO     🔍 [taller de maquinaria][-31.4167|-64.1837][SCROLL: 22]: Search page scraped: 122 unique, 1707 duplicate, 122 seen, 22 paginations, 0 outOfLocation.
+2026-01-31T00:40:03 INFO     ✅ Extracción completada: 122 lugares encontrados
+2026-01-31T00:40:03 INFO     📊 77 lugares agregados (Total: 16292)
+2026-01-31T00:40:03 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-31T00:40:13 INFO     💾 Checkpoint guardado: 16292 empresas TOTALES
+2026-01-31T00:40:13 INFO     Estado guardado: 16292 empresas
+2026-01-31T00:40:19 INFO     ⏳ Esperando 6.2s antes del siguiente rubro...
+2026-01-31T00:40:19 INFO     
+🏷️  Rubro 21/146: mantenimiento industrial
+2026-01-31T00:40:19 INFO     
+🔍 Buscando 'mantenimiento industrial' en segmento 0
+2026-01-31T00:40:19 INFO        URL: https://www.google.com/maps/search/mantenimiento+industrial/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-31T00:40:38 INFO     📄 Iniciando extracción para rubro: mantenimiento industrial
+2026-01-31T00:40:38 INFO        Scroll 1: 7 elementos en página
+2026-01-31T00:41:20 INFO        ✅ 6 nuevos, 6 total
+2026-01-31T00:41:26 INFO        Scroll 2: 14 elementos en página
+2026-01-31T00:42:16 INFO        ✅ 7 nuevos, 13 total
+2026-01-31T00:42:21 INFO        Scroll 3: 21 elementos en página
+2026-01-31T00:43:13 INFO        ✅ 7 nuevos, 20 total
+2026-01-31T00:43:18 INFO        Scroll 4: 29 elementos en página
+2026-01-31T00:44:23 INFO        ✅ 8 nuevos, 28 total
+2026-01-31T00:44:29 INFO        Scroll 5: 36 elementos en página
+2026-01-31T00:45:32 INFO        ✅ 7 nuevos, 35 total
+2026-01-31T00:45:38 INFO        Scroll 6: 42 elementos en página
+2026-01-31T00:46:49 INFO        ✅ 6 nuevos, 41 total
+2026-01-31T00:46:54 INFO        Scroll 7: 49 elementos en página
+2026-01-31T00:47:57 INFO        ✅ 7 nuevos, 48 total
+2026-01-31T00:48:02 INFO        Scroll 8: 56 elementos en página
+2026-01-31T00:49:09 INFO        ✅ 7 nuevos, 55 total
+2026-01-31T00:49:15 INFO        Scroll 9: 62 elementos en página
+2026-01-31T00:50:20 INFO        ✅ 6 nuevos, 61 total
+2026-01-31T00:50:26 INFO        Scroll 10: 69 elementos en página
+2026-01-31T00:51:46 INFO        ✅ 7 nuevos, 68 total
+2026-01-31T00:51:52 INFO        Scroll 11: 76 elementos en página
+2026-01-31T00:53:47 INFO        ✅ 7 nuevos, 75 total
+2026-01-31T00:53:52 INFO        Scroll 12: 89 elementos en página
+2026-01-31T00:56:10 INFO        ✅ 13 nuevos, 88 total
+2026-01-31T00:56:15 INFO        Scroll 13: 96 elementos en página
+2026-01-31T00:58:06 INFO        ✅ 7 nuevos, 95 total
+2026-01-31T00:58:12 INFO        Scroll 14: 102 elementos en página
+2026-01-31T00:59:50 INFO        ✅ 6 nuevos, 101 total
+2026-01-31T00:59:57 INFO        Scroll 15: 109 elementos en página
+2026-01-31T01:01:39 INFO        ✅ 7 nuevos, 108 total
+2026-01-31T01:01:45 INFO        Scroll 16: 116 elementos en página
+2026-01-31T01:03:30 INFO        ✅ 7 nuevos, 115 total
+2026-01-31T01:03:36 INFO        Scroll 17: 122 elementos en página
+2026-01-31T01:04:59 INFO        ✅ 6 nuevos, 121 total
+2026-01-31T01:05:05 INFO        Scroll 18: 122 elementos en página
+2026-01-31T01:05:49 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-31T01:05:54 INFO        Scroll 19: 122 elementos en página
+2026-01-31T01:06:38 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-31T01:06:44 INFO        Scroll 20: 122 elementos en página
+2026-01-31T01:07:27 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-31T01:07:32 INFO        Scroll 21: 122 elementos en página
+2026-01-31T01:08:15 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-31T01:08:19 INFO        Scroll 22: 122 elementos en página
+2026-01-31T01:09:02 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-01-31T01:09:02 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-01-31T01:09:02 INFO     🔍 [mantenimiento industrial][-31.4167|-64.1837][SCROLL: 21]: Search page scraped: 121 unique, 1584 duplicate, 121 seen, 21 paginations, 0 outOfLocation.
+2026-01-31T01:09:02 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-01-31T01:09:02 INFO     📊 82 lugares agregados (Total: 16374)
+2026-01-31T01:09:02 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-01-31T01:09:11 INFO     💾 Checkpoint guardado: 16374 empresas TOTALES
+2026-01-31T01:09:11 INFO     Estado guardado: 16374 empresas
+2026-01-31T01:09:18 INFO     ⏳ Esperando 6.6s antes del siguiente rubro...
+2026-01-31T01:09:18 INFO     
+🏷️  Rubro 22/146: servicios industriales
+2026-01-31T01:09:18 INFO     
+🔍 Buscando 'servicios industriales' en segmento 0
+2026-01-31T01:09:18 INFO        URL: https://www.google.com/maps/search/servicios+industriales/@-31.4167284,-64.18367305,11z?hl=es-419

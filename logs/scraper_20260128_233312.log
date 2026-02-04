@@ -1,0 +1,43 @@
+2026-01-28T23:33:12 INFO     
+============================================================
+2026-01-28T23:33:12 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-28T23:33:12 INFO     ============================================================
+2026-01-28T23:33:12 INFO     📍 Ubicaciones: 29 ciudades
+2026-01-28T23:33:12 INFO     🏷️  Rubros: 194 rubros
+2026-01-28T23:33:12 INFO     📐 Grid size: 1x1
+2026-01-28T23:33:12 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-28T23:33:12 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-01-28T23:33:12 INFO     ============================================================
+
+2026-01-28T23:33:12 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-01-28T23:33:13 INFO     ✅ 10053 empresas cargadas desde archivo previo
+2026-01-28T23:33:13 INFO     Estado cargado: 10053 empresas previas
+2026-01-28T23:33:13 INFO     🚀 Inicializando navegador...
+2026-01-28T23:33:22 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-01-28T23:33:22 ERROR    ❌ Error inicializando navegador: Message: session not created: cannot connect to chrome at 127.0.0.1:35617
+from session not created: This version of ChromeDriver only supports Chrome version 145
+Current browser version is 144.0.7559.109
+Stacktrace:
+#0 0x5ac25be69f1a <unknown>
+#1 0x5ac25b87e922 <unknown>
+#2 0x5ac25b8c2c1f <unknown>
+#3 0x5ac25b8c19e0 <unknown>
+#4 0x5ac25b8b69e1 <unknown>
+#5 0x5ac25b908b16 <unknown>
+#6 0x5ac25b9081fc <unknown>
+#7 0x5ac25b8c5adf <unknown>
+#8 0x5ac25b8c68a1 <unknown>
+#9 0x5ac25be2f119 <unknown>
+#10 0x5ac25be32021 <unknown>
+#11 0x5ac25be1c069 <unknown>
+#12 0x5ac25be32bde <unknown>
+#13 0x5ac25be024f0 <unknown>
+#14 0x5ac25be56aa8 <unknown>
+#15 0x5ac25be56c78 <unknown>
+#16 0x5ac25be68563 <unknown>
+#17 0x754f8b294ac3 <unknown>
+
+2026-01-28T23:33:22 ERROR    No se pudo inicializar el navegador
+2026-01-28T23:33:22 INFO     
+⏸️  Script pausado - ejecuta nuevamente para reanudar

@@ -1,0 +1,138 @@
+2026-02-02T17:59:26 INFO     
+============================================================
+2026-02-02T17:59:26 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-02-02T17:59:26 INFO     ============================================================
+2026-02-02T17:59:26 INFO     📍 Ubicaciones: 29 ciudades
+2026-02-02T17:59:26 INFO     🏷️  Rubros: 194 rubros
+2026-02-02T17:59:26 INFO     📐 Grid size: 1x1
+2026-02-02T17:59:26 INFO     💾 Checkpoint cada: 20 empresas
+2026-02-02T17:59:26 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-02-02T17:59:26 INFO     ============================================================
+
+2026-02-02T17:59:26 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-02-02T17:59:28 INFO     ✅ 23824 empresas cargadas desde archivo previo
+2026-02-02T17:59:28 INFO     Estado cargado: 23824 empresas previas
+2026-02-02T17:59:28 INFO     🚀 Inicializando navegador...
+2026-02-02T17:59:36 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-02-02T17:59:38 INFO     ✅ Navegador inicializado correctamente
+2026-02-02T17:59:41 INFO     
+============================================================
+2026-02-02T17:59:41 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-02-02T17:59:41 INFO     ============================================================
+2026-02-02T17:59:41 INFO       1. Buenos Aires, Argentina
+2026-02-02T17:59:41 INFO       2. Córdoba, Argentina
+2026-02-02T17:59:41 INFO       3. Rosario, Argentina
+2026-02-02T17:59:41 INFO       4. Mendoza, Argentina
+2026-02-02T17:59:41 INFO       5. Tucumán, Argentina
+2026-02-02T17:59:41 INFO       6. La Plata, Argentina
+2026-02-02T17:59:41 INFO       7. Mar del Plata, Argentina
+2026-02-02T17:59:41 INFO       8. Salta, Argentina
+2026-02-02T17:59:41 INFO       9. Santa Fe, Argentina
+2026-02-02T17:59:41 INFO       10. Resistencia, Argentina
+2026-02-02T17:59:41 INFO       11. Santiago del Estero, Argentina
+2026-02-02T17:59:41 INFO       12. Corrientes, Argentina
+2026-02-02T17:59:41 INFO       13. Neuquén, Argentina
+2026-02-02T17:59:41 INFO       14. Bahía Blanca, Argentina
+2026-02-02T17:59:41 INFO       15. San Salvador de Jujuy, Argentina
+2026-02-02T17:59:41 INFO       16. Posadas, Argentina
+2026-02-02T17:59:41 INFO       17. Paraná, Argentina
+2026-02-02T17:59:41 INFO       18. San Luis, Argentina
+2026-02-02T17:59:41 INFO       19. Río Gallegos, Argentina
+2026-02-02T17:59:41 INFO       20. Comodoro Rivadavia, Argentina
+2026-02-02T17:59:41 INFO       21. Ushuaia, Argentina
+2026-02-02T17:59:41 INFO       22. Formosa, Argentina
+2026-02-02T17:59:41 INFO       23. Quilmes, Argentina
+2026-02-02T17:59:41 INFO       24. Morón, Argentina
+2026-02-02T17:59:41 INFO       25. San Martín, Argentina
+2026-02-02T17:59:41 INFO       26. Lanús, Argentina
+2026-02-02T17:59:41 INFO       27. Lomas de Zamora, Argentina
+2026-02-02T17:59:41 INFO       28. Tigre, Argentina
+2026-02-02T17:59:41 INFO       29. Pilar, Argentina
+2026-02-02T17:59:41 INFO     
+############################################################
+2026-02-02T17:59:41 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-02-02T17:59:41 INFO     ############################################################
+2026-02-02T17:59:41 INFO     ⏭️  Buenos Aires, Argentina ya fue completada previamente
+2026-02-02T17:59:41 INFO     
+############################################################
+2026-02-02T17:59:41 INFO     🌍 UBICACIÓN 2/29: Córdoba, Argentina
+2026-02-02T17:59:41 INFO     ############################################################
+2026-02-02T17:59:41 INFO     ⏭️  Córdoba, Argentina ya fue completada previamente
+2026-02-02T17:59:41 INFO     
+############################################################
+2026-02-02T17:59:41 INFO     🌍 UBICACIÓN 3/29: Rosario, Argentina
+2026-02-02T17:59:41 INFO     ############################################################
+2026-02-02T17:59:41 INFO     
+============================================================
+2026-02-02T17:59:41 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Rosario, Argentina
+2026-02-02T17:59:41 INFO     ============================================================
+2026-02-02T17:59:41 INFO     📡 Geolocalizando: Rosario, Argentina
+2026-02-02T17:59:43 INFO     ✅ Ubicación encontrada: Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina
+2026-02-02T17:59:43 INFO        Bounding box: ['-33.0348662', '-32.8696461', '-60.7832623', '-60.6116695']
+2026-02-02T17:59:43 INFO     
+============================================================
+2026-02-02T17:59:43 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Rosario, Argentina
+2026-02-02T17:59:43 INFO     ============================================================
+2026-02-02T17:59:43 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-02-02T17:59:43 INFO        Segmento 1: Centro (-32.9523, -60.6975)
+2026-02-02T17:59:43 INFO     ✅ Creados 1 segmentos
+2026-02-02T17:59:43 INFO     ✅ Área dividida en 1 segmentos
+2026-02-02T17:59:43 INFO     
+============================================================
+2026-02-02T17:59:43 INFO     🔍 PASO 3: BÚSQUEDA - Rosario, Argentina
+2026-02-02T17:59:43 INFO     ============================================================
+2026-02-02T17:59:43 INFO     Total de búsquedas en Rosario, Argentina: 194
+2026-02-02T17:59:43 INFO     Rubros: 194 rubros configurados
+2026-02-02T17:59:43 INFO     📋 Rubros pendientes en Rosario, Argentina: 148
+2026-02-02T17:59:43 INFO     
+────────────────────────────────────────────────────────────
+2026-02-02T17:59:43 INFO     📍 Rosario, Argentina - SEGMENTO 1/1
+2026-02-02T17:59:43 INFO        Centro: (-32.952256150000004, -60.697465900000005)
+2026-02-02T17:59:43 INFO     ────────────────────────────────────────────────────────────
+2026-02-02T17:59:43 INFO     
+🏷️  Rubro 1/148: desarrolladores web
+2026-02-02T17:59:43 INFO     
+🔍 Buscando 'desarrolladores web' en segmento 0
+2026-02-02T17:59:43 INFO        URL: https://www.google.com/maps/search/desarrolladores+web/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T18:00:04 INFO     📄 Iniciando extracción para rubro: desarrolladores web
+2026-02-02T18:00:04 INFO        Scroll 1: 7 elementos en página
+2026-02-02T18:00:06 WARNING  Error extrayendo datos detallados de https://www.google.com/maps/place/WES+AGENCIA/data=!4m7!3m6!1s0x95b7abdc63b230a5:0x8376dbc9ea281cd3!8m2!3d-32.937809!4d-60.666811!16s%2Fg%2F11y3j5qq12!19sChIJpTCyY9yrt5UR0xwo6snbdoM?authuser=0&hl=es-419&rclk=1: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/back
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/back
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/back
+2026-02-02T18:00:06 WARNING     ⚠️  Error extrayendo detalles: HTTPConnectionPool(host='localhost', port=54359): Max retries exceeded with url: /session/9b83009e0a50484c0a02dcafcec3e20a/back (Caused by NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/back
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/back
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/back
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.22/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.22/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.22/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.23/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.23/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.23/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.24/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.24/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.24/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.25/element
+2026-02-02T18:00:06 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.25/element
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.25/element
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.26/element
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.26/element
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.26/element
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.27/element
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.27/element
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element/f.0CAF2BF0D54F9BEDB817DBF814749418.d.A16F608F554B84DD35ECFDAED4DA0D3B.e.27/element
+2026-02-02T18:00:07 INFO        ✅ 1 nuevos, 1 total
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element
+2026-02-02T18:00:07 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused")': /session/9b83009e0a50484c0a02dcafcec3e20a/element
+2026-02-02T18:00:07 WARNING  Error en iteración de scroll: HTTPConnectionPool(host='localhost', port=54359): Max retries exceeded with url: /session/9b83009e0a50484c0a02dcafcec3e20a/element (Caused by NewConnectionError("HTTPConnection(host='localhost', port=54359): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-02-02T18:00:07 INFO     🔍 [desarrolladores web][-32.9523|-60.6975][SCROLL: 0]: Search page scraped: 1 unique, 0 duplicate, 1 seen, 0 paginations, 0 outOfLocation.
+2026-02-02T18:00:07 INFO     ✅ Extracción completada: 1 lugares encontrados
+2026-02-02T18:00:07 INFO     Estado guardado: 23824 empresas
+2026-02-02T18:00:13 INFO     ⏳ Esperando 6.4s antes del siguiente rubro...
+2026-02-02T18:00:13 INFO     
+⏸️  PAUSA DETECTADA - Guardando progreso...
+2026-02-02T18:00:13 INFO     Estado guardado: 23824 empresas
+2026-02-02T18:00:13 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp

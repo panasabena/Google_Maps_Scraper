@@ -1,0 +1,104 @@
+2026-01-30T16:02:44 INFO     
+============================================================
+2026-01-30T16:02:44 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-01-30T16:02:44 INFO     ============================================================
+2026-01-30T16:02:44 INFO     📍 Ubicaciones: 29 ciudades
+2026-01-30T16:02:44 INFO     🏷️  Rubros: 194 rubros
+2026-01-30T16:02:44 INFO     📐 Grid size: 1x1
+2026-01-30T16:02:44 INFO     💾 Checkpoint cada: 20 empresas
+2026-01-30T16:02:44 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-01-30T16:02:44 INFO     ============================================================
+
+2026-01-30T16:02:44 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-01-30T16:02:45 INFO     ✅ 15194 empresas cargadas desde archivo previo
+2026-01-30T16:02:45 INFO     Estado cargado: 15197 empresas previas
+2026-01-30T16:02:45 INFO     🚀 Inicializando navegador...
+2026-01-30T16:02:54 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-01-30T16:02:57 INFO     ✅ Navegador inicializado correctamente
+2026-01-30T16:03:00 INFO     
+============================================================
+2026-01-30T16:03:00 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-01-30T16:03:00 INFO     ============================================================
+2026-01-30T16:03:00 INFO       1. Buenos Aires, Argentina
+2026-01-30T16:03:00 INFO       2. Córdoba, Argentina
+2026-01-30T16:03:00 INFO       3. Rosario, Argentina
+2026-01-30T16:03:00 INFO       4. Mendoza, Argentina
+2026-01-30T16:03:00 INFO       5. Tucumán, Argentina
+2026-01-30T16:03:00 INFO       6. La Plata, Argentina
+2026-01-30T16:03:00 INFO       7. Mar del Plata, Argentina
+2026-01-30T16:03:00 INFO       8. Salta, Argentina
+2026-01-30T16:03:00 INFO       9. Santa Fe, Argentina
+2026-01-30T16:03:00 INFO       10. Resistencia, Argentina
+2026-01-30T16:03:00 INFO       11. Santiago del Estero, Argentina
+2026-01-30T16:03:00 INFO       12. Corrientes, Argentina
+2026-01-30T16:03:00 INFO       13. Neuquén, Argentina
+2026-01-30T16:03:00 INFO       14. Bahía Blanca, Argentina
+2026-01-30T16:03:00 INFO       15. San Salvador de Jujuy, Argentina
+2026-01-30T16:03:00 INFO       16. Posadas, Argentina
+2026-01-30T16:03:00 INFO       17. Paraná, Argentina
+2026-01-30T16:03:00 INFO       18. San Luis, Argentina
+2026-01-30T16:03:00 INFO       19. Río Gallegos, Argentina
+2026-01-30T16:03:00 INFO       20. Comodoro Rivadavia, Argentina
+2026-01-30T16:03:00 INFO       21. Ushuaia, Argentina
+2026-01-30T16:03:00 INFO       22. Formosa, Argentina
+2026-01-30T16:03:00 INFO       23. Quilmes, Argentina
+2026-01-30T16:03:00 INFO       24. Morón, Argentina
+2026-01-30T16:03:00 INFO       25. San Martín, Argentina
+2026-01-30T16:03:00 INFO       26. Lanús, Argentina
+2026-01-30T16:03:00 INFO       27. Lomas de Zamora, Argentina
+2026-01-30T16:03:00 INFO       28. Tigre, Argentina
+2026-01-30T16:03:00 INFO       29. Pilar, Argentina
+2026-01-30T16:03:00 INFO     
+############################################################
+2026-01-30T16:03:00 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-01-30T16:03:00 INFO     ############################################################
+2026-01-30T16:03:00 INFO     ⏭️  Buenos Aires, Argentina ya fue completada previamente
+2026-01-30T16:03:00 INFO     
+############################################################
+2026-01-30T16:03:00 INFO     🌍 UBICACIÓN 2/29: Córdoba, Argentina
+2026-01-30T16:03:00 INFO     ############################################################
+2026-01-30T16:03:00 INFO     
+============================================================
+2026-01-30T16:03:00 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Córdoba, Argentina
+2026-01-30T16:03:00 INFO     ============================================================
+2026-01-30T16:03:00 INFO     📡 Geolocalizando: Córdoba, Argentina
+2026-01-30T16:03:02 INFO     ✅ Ubicación encontrada: Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina
+2026-01-30T16:03:02 INFO        Bounding box: ['-31.5251273', '-31.3083295', '-64.3100961', '-64.0572500']
+2026-01-30T16:03:02 INFO     
+============================================================
+2026-01-30T16:03:02 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Córdoba, Argentina
+2026-01-30T16:03:02 INFO     ============================================================
+2026-01-30T16:03:02 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-01-30T16:03:02 INFO        Segmento 1: Centro (-31.4167, -64.1837)
+2026-01-30T16:03:02 INFO     ✅ Creados 1 segmentos
+2026-01-30T16:03:02 INFO     ✅ Área dividida en 1 segmentos
+2026-01-30T16:03:02 INFO     
+============================================================
+2026-01-30T16:03:02 INFO     🔍 PASO 3: BÚSQUEDA - Córdoba, Argentina
+2026-01-30T16:03:02 INFO     ============================================================
+2026-01-30T16:03:02 INFO     Total de búsquedas en Córdoba, Argentina: 194
+2026-01-30T16:03:02 INFO     Rubros: 194 rubros configurados
+2026-01-30T16:03:02 INFO     📋 Rubros pendientes en Córdoba, Argentina: 106
+2026-01-30T16:03:02 INFO     
+────────────────────────────────────────────────────────────
+2026-01-30T16:03:02 INFO     📍 Córdoba, Argentina - SEGMENTO 1/1
+2026-01-30T16:03:02 INFO        Centro: (-31.4167284, -64.18367305)
+2026-01-30T16:03:02 INFO     ────────────────────────────────────────────────────────────
+2026-01-30T16:03:02 INFO     
+🏷️  Rubro 1/106: laboratorio químico
+2026-01-30T16:03:02 INFO     
+🔍 Buscando 'laboratorio químico' en segmento 0
+2026-01-30T16:03:02 INFO        URL: https://www.google.com/maps/search/laboratorio+químico/@-31.4167284,-64.18367305,11z?hl=es-419
+2026-01-30T16:03:24 INFO     📄 Iniciando extracción para rubro: laboratorio químico
+2026-01-30T16:03:24 INFO        Scroll 1: 7 elementos en página
+2026-01-30T16:04:13 INFO        ✅ 6 nuevos, 6 total
+2026-01-30T16:04:19 INFO        Scroll 2: 7 elementos en página
+2026-01-30T16:04:21 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-01-30T16:04:27 INFO        Scroll 3: 7 elementos en página
+2026-01-30T16:04:30 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-01-30T16:04:35 INFO        Scroll 4: 7 elementos en página
+2026-01-30T16:04:37 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-01-30T16:04:43 INFO        Scroll 5: 7 elementos en página
+2026-01-30T16:04:46 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-01-30T16:04:52 INFO        Scroll 6: 14 elementos en página

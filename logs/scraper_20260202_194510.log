@@ -1,0 +1,407 @@
+2026-02-02T19:45:10 INFO     
+============================================================
+2026-02-02T19:45:10 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-02-02T19:45:10 INFO     ============================================================
+2026-02-02T19:45:10 INFO     📍 Ubicaciones: 29 ciudades
+2026-02-02T19:45:10 INFO     🏷️  Rubros: 194 rubros
+2026-02-02T19:45:10 INFO     📐 Grid size: 1x1
+2026-02-02T19:45:10 INFO     💾 Checkpoint cada: 20 empresas
+2026-02-02T19:45:10 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-02-02T19:45:10 INFO     ============================================================
+
+2026-02-02T19:45:10 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-02-02T19:45:13 INFO     ✅ 23978 empresas cargadas desde archivo previo
+2026-02-02T19:45:13 INFO     Estado cargado: 23978 empresas previas
+2026-02-02T19:45:13 INFO     🚀 Inicializando navegador...
+2026-02-02T19:46:52 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-02-02T19:46:53 INFO     ✅ Navegador inicializado correctamente
+2026-02-02T19:47:21 INFO     
+============================================================
+2026-02-02T19:47:21 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-02-02T19:47:21 INFO     ============================================================
+2026-02-02T19:47:21 INFO       1. Buenos Aires, Argentina
+2026-02-02T19:47:21 INFO       2. Córdoba, Argentina
+2026-02-02T19:47:21 INFO       3. Rosario, Argentina
+2026-02-02T19:47:21 INFO       4. Mendoza, Argentina
+2026-02-02T19:47:21 INFO       5. Tucumán, Argentina
+2026-02-02T19:47:21 INFO       6. La Plata, Argentina
+2026-02-02T19:47:21 INFO       7. Mar del Plata, Argentina
+2026-02-02T19:47:21 INFO       8. Salta, Argentina
+2026-02-02T19:47:21 INFO       9. Santa Fe, Argentina
+2026-02-02T19:47:21 INFO       10. Resistencia, Argentina
+2026-02-02T19:47:21 INFO       11. Santiago del Estero, Argentina
+2026-02-02T19:47:21 INFO       12. Corrientes, Argentina
+2026-02-02T19:47:21 INFO       13. Neuquén, Argentina
+2026-02-02T19:47:21 INFO       14. Bahía Blanca, Argentina
+2026-02-02T19:47:21 INFO       15. San Salvador de Jujuy, Argentina
+2026-02-02T19:47:21 INFO       16. Posadas, Argentina
+2026-02-02T19:47:21 INFO       17. Paraná, Argentina
+2026-02-02T19:47:21 INFO       18. San Luis, Argentina
+2026-02-02T19:47:21 INFO       19. Río Gallegos, Argentina
+2026-02-02T19:47:21 INFO       20. Comodoro Rivadavia, Argentina
+2026-02-02T19:47:21 INFO       21. Ushuaia, Argentina
+2026-02-02T19:47:21 INFO       22. Formosa, Argentina
+2026-02-02T19:47:21 INFO       23. Quilmes, Argentina
+2026-02-02T19:47:21 INFO       24. Morón, Argentina
+2026-02-02T19:47:21 INFO       25. San Martín, Argentina
+2026-02-02T19:47:21 INFO       26. Lanús, Argentina
+2026-02-02T19:47:21 INFO       27. Lomas de Zamora, Argentina
+2026-02-02T19:47:21 INFO       28. Tigre, Argentina
+2026-02-02T19:47:21 INFO       29. Pilar, Argentina
+2026-02-02T19:47:21 INFO     
+############################################################
+2026-02-02T19:47:21 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-02-02T19:47:21 INFO     ############################################################
+2026-02-02T19:47:21 INFO     ⏭️  Buenos Aires, Argentina ya fue completada previamente
+2026-02-02T19:47:21 INFO     
+############################################################
+2026-02-02T19:47:21 INFO     🌍 UBICACIÓN 2/29: Córdoba, Argentina
+2026-02-02T19:47:21 INFO     ############################################################
+2026-02-02T19:47:21 INFO     ⏭️  Córdoba, Argentina ya fue completada previamente
+2026-02-02T19:47:21 INFO     
+############################################################
+2026-02-02T19:47:21 INFO     🌍 UBICACIÓN 3/29: Rosario, Argentina
+2026-02-02T19:47:21 INFO     ############################################################
+2026-02-02T19:47:21 INFO     
+============================================================
+2026-02-02T19:47:21 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Rosario, Argentina
+2026-02-02T19:47:21 INFO     ============================================================
+2026-02-02T19:47:21 INFO     📡 Geolocalizando: Rosario, Argentina
+2026-02-02T19:47:32 INFO     ✅ Ubicación encontrada: Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina
+2026-02-02T19:47:32 INFO        Bounding box: ['-33.0348662', '-32.8696461', '-60.7832623', '-60.6116695']
+2026-02-02T19:47:32 INFO     
+============================================================
+2026-02-02T19:47:32 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Rosario, Argentina
+2026-02-02T19:47:32 INFO     ============================================================
+2026-02-02T19:47:32 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-02-02T19:47:32 INFO        Segmento 1: Centro (-32.9523, -60.6975)
+2026-02-02T19:47:32 INFO     ✅ Creados 1 segmentos
+2026-02-02T19:47:32 INFO     ✅ Área dividida en 1 segmentos
+2026-02-02T19:47:32 INFO     
+============================================================
+2026-02-02T19:47:32 INFO     🔍 PASO 3: BÚSQUEDA - Rosario, Argentina
+2026-02-02T19:47:32 INFO     ============================================================
+2026-02-02T19:47:32 INFO     Total de búsquedas en Rosario, Argentina: 194
+2026-02-02T19:47:32 INFO     Rubros: 194 rubros configurados
+2026-02-02T19:47:32 INFO     📋 Rubros pendientes en Rosario, Argentina: 146
+2026-02-02T19:47:32 INFO     
+────────────────────────────────────────────────────────────
+2026-02-02T19:47:32 INFO     📍 Rosario, Argentina - SEGMENTO 1/1
+2026-02-02T19:47:32 INFO        Centro: (-32.952256150000004, -60.697465900000005)
+2026-02-02T19:47:32 INFO     ────────────────────────────────────────────────────────────
+2026-02-02T19:47:32 INFO     
+🏷️  Rubro 1/146: empresa de logística
+2026-02-02T19:47:32 INFO     
+🔍 Buscando 'empresa de logística' en segmento 0
+2026-02-02T19:47:32 INFO        URL: https://www.google.com/maps/search/empresa+de+logística/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T19:51:31 INFO     📄 Iniciando extracción para rubro: empresa de logística
+2026-02-02T19:51:31 INFO        Scroll 1: 7 elementos en página
+2026-02-02T19:52:23 INFO        ✅ 2 nuevos, 2 total
+2026-02-02T19:52:28 INFO        Scroll 2: 7 elementos en página
+2026-02-02T19:53:41 INFO        ✅ 5 nuevos, 7 total
+2026-02-02T19:53:45 INFO        Scroll 3: 14 elementos en página
+2026-02-02T19:53:58 INFO        ✅ 1 nuevos, 8 total
+2026-02-02T19:54:03 INFO        Scroll 4: 10 elementos en página
+2026-02-02T19:54:24 INFO        ✅ 2 nuevos, 10 total
+2026-02-02T19:54:30 INFO        Scroll 5: 17 elementos en página
+2026-02-02T19:55:16 INFO        ✅ 3 nuevos, 13 total
+2026-02-02T19:55:20 INFO        Scroll 6: 7 elementos en página
+2026-02-02T19:55:23 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T19:55:29 INFO        Scroll 7: 14 elementos en página
+2026-02-02T19:55:44 INFO        ✅ 1 nuevos, 14 total
+2026-02-02T19:55:50 INFO        Scroll 8: 21 elementos en página
+2026-02-02T19:57:27 INFO        ✅ 7 nuevos, 21 total
+2026-02-02T19:57:32 INFO        Scroll 9: 29 elementos en página
+2026-02-02T19:58:51 INFO        ✅ 6 nuevos, 27 total
+2026-02-02T19:58:57 INFO        Scroll 10: 36 elementos en página
+2026-02-02T19:59:57 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T20:00:02 INFO        Scroll 11: 43 elementos en página
+2026-02-02T20:01:02 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T20:01:07 INFO        Scroll 12: 51 elementos en página
+2026-02-02T20:02:45 INFO        ✅ 8 nuevos, 49 total
+2026-02-02T20:02:52 INFO        Scroll 13: 58 elementos en página
+2026-02-02T20:04:03 INFO        ✅ 7 nuevos, 56 total
+2026-02-02T20:04:08 INFO        Scroll 14: 64 elementos en página
+2026-02-02T20:05:23 INFO        ✅ 6 nuevos, 62 total
+2026-02-02T20:05:30 INFO        Scroll 15: 71 elementos en página
+2026-02-02T20:06:54 INFO        ✅ 7 nuevos, 69 total
+2026-02-02T20:06:59 INFO        Scroll 16: 78 elementos en página
+2026-02-02T20:08:29 INFO        ✅ 7 nuevos, 76 total
+2026-02-02T20:08:34 INFO        Scroll 17: 84 elementos en página
+2026-02-02T20:09:59 INFO        ✅ 6 nuevos, 82 total
+2026-02-02T20:10:05 INFO        Scroll 18: 91 elementos en página
+2026-02-02T20:12:08 INFO        ✅ 7 nuevos, 89 total
+2026-02-02T20:12:15 INFO        Scroll 19: 98 elementos en página
+2026-02-02T20:14:26 INFO        ✅ 7 nuevos, 96 total
+2026-02-02T20:14:31 INFO        Scroll 20: 104 elementos en página
+2026-02-02T20:16:29 INFO        ✅ 6 nuevos, 102 total
+2026-02-02T20:16:36 INFO        Scroll 21: 111 elementos en página
+2026-02-02T20:18:40 INFO        ✅ 7 nuevos, 109 total
+2026-02-02T20:18:46 INFO        Scroll 22: 118 elementos en página
+2026-02-02T20:21:05 INFO        ✅ 7 nuevos, 116 total
+2026-02-02T20:21:11 INFO        Scroll 23: 124 elementos en página
+2026-02-02T20:22:35 INFO        ✅ 6 nuevos, 122 total
+2026-02-02T20:22:40 INFO        Scroll 24: 124 elementos en página
+2026-02-02T20:23:25 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T20:23:30 INFO        Scroll 25: 124 elementos en página
+2026-02-02T20:24:14 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T20:24:19 INFO        Scroll 26: 124 elementos en página
+2026-02-02T20:25:03 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T20:25:10 INFO        Scroll 27: 124 elementos en página
+2026-02-02T20:25:53 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T20:25:58 INFO        Scroll 28: 124 elementos en página
+2026-02-02T20:26:42 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T20:26:42 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T20:26:42 INFO     🔍 [empresa de logística][-32.9523|-60.6975][SCROLL: 27]: Search page scraped: 122 unique, 1740 duplicate, 122 seen, 27 paginations, 0 outOfLocation.
+2026-02-02T20:26:42 INFO     ✅ Extracción completada: 122 lugares encontrados
+2026-02-02T20:26:42 INFO     📊 40 lugares agregados (Total: 24018)
+2026-02-02T20:26:42 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T20:26:56 INFO     💾 Checkpoint guardado: 24018 empresas TOTALES
+2026-02-02T20:26:56 INFO     Estado guardado: 24018 empresas
+2026-02-02T20:27:02 INFO     ⏳ Esperando 6.1s antes del siguiente rubro...
+2026-02-02T20:27:02 INFO     
+🏷️  Rubro 2/146: transporte de cargas
+2026-02-02T20:27:02 INFO     
+🔍 Buscando 'transporte de cargas' en segmento 0
+2026-02-02T20:27:02 INFO        URL: https://www.google.com/maps/search/transporte+de+cargas/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T20:27:22 INFO     📄 Iniciando extracción para rubro: transporte de cargas
+2026-02-02T20:27:22 INFO        Scroll 1: 10 elementos en página
+2026-02-02T20:28:24 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T20:28:29 INFO        Scroll 2: 17 elementos en página
+2026-02-02T20:29:20 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T20:29:26 INFO        Scroll 3: 22 elementos en página
+2026-02-02T20:30:17 INFO        ✅ 5 nuevos, 22 total
+2026-02-02T20:30:22 INFO        Scroll 4: 29 elementos en página
+2026-02-02T20:31:07 INFO        ✅ 5 nuevos, 27 total
+2026-02-02T20:31:12 INFO        Scroll 5: 36 elementos en página
+2026-02-02T20:32:11 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T20:32:17 INFO        Scroll 6: 43 elementos en página
+2026-02-02T20:33:39 INFO        ✅ 7 nuevos, 41 total
+2026-02-02T20:33:45 INFO        Scroll 7: 51 elementos en página
+2026-02-02T20:35:15 INFO        ✅ 8 nuevos, 49 total
+2026-02-02T20:35:21 INFO        Scroll 8: 58 elementos en página
+2026-02-02T20:36:40 INFO        ✅ 7 nuevos, 56 total
+2026-02-02T20:36:46 INFO        Scroll 9: 64 elementos en página
+2026-02-02T20:37:53 INFO        ✅ 6 nuevos, 62 total
+2026-02-02T20:37:59 INFO        Scroll 10: 71 elementos en página
+2026-02-02T20:39:17 INFO        ✅ 7 nuevos, 69 total
+2026-02-02T20:39:23 INFO        Scroll 11: 78 elementos en página
+2026-02-02T20:40:55 INFO        ✅ 7 nuevos, 76 total
+2026-02-02T20:41:00 INFO        Scroll 12: 84 elementos en página
+2026-02-02T20:42:24 INFO        ✅ 6 nuevos, 82 total
+2026-02-02T20:42:31 INFO        Scroll 13: 91 elementos en página
+2026-02-02T20:44:15 INFO        ✅ 6 nuevos, 88 total
+2026-02-02T20:44:20 INFO        Scroll 14: 98 elementos en página
+2026-02-02T20:46:02 INFO        ✅ 7 nuevos, 95 total
+2026-02-02T20:46:07 INFO        Scroll 15: 104 elementos en página
+2026-02-02T20:47:57 INFO        ✅ 6 nuevos, 101 total
+2026-02-02T20:48:04 INFO        Scroll 16: 111 elementos en página
+2026-02-02T20:50:09 INFO        ✅ 7 nuevos, 108 total
+2026-02-02T20:50:14 INFO        Scroll 17: 118 elementos en página
+2026-02-02T20:52:07 INFO        ✅ 7 nuevos, 115 total
+2026-02-02T20:52:12 INFO        Scroll 18: 124 elementos en página
+2026-02-02T20:53:33 INFO        ✅ 6 nuevos, 121 total
+2026-02-02T20:53:38 INFO        Scroll 19: 124 elementos en página
+2026-02-02T20:54:21 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T20:54:25 INFO        Scroll 20: 124 elementos en página
+2026-02-02T20:55:09 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T20:55:16 INFO        Scroll 21: 124 elementos en página
+2026-02-02T20:55:59 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T20:56:05 INFO        Scroll 22: 124 elementos en página
+2026-02-02T20:56:49 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T20:56:55 INFO        Scroll 23: 124 elementos en página
+2026-02-02T20:57:39 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T20:57:39 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T20:57:39 INFO     🔍 [transporte de cargas][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1708 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T20:57:39 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-02T20:57:39 INFO     📊 46 lugares agregados (Total: 24064)
+2026-02-02T20:57:39 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T20:57:52 INFO     💾 Checkpoint guardado: 24064 empresas TOTALES
+2026-02-02T20:57:52 INFO     Estado guardado: 24064 empresas
+2026-02-02T20:57:57 INFO     ⏳ Esperando 4.3s antes del siguiente rubro...
+2026-02-02T20:57:57 INFO     
+🏷️  Rubro 3/146: fletes y mudanzas
+2026-02-02T20:57:57 INFO     
+🔍 Buscando 'fletes y mudanzas' en segmento 0
+2026-02-02T20:57:57 INFO        URL: https://www.google.com/maps/search/fletes+y+mudanzas/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T20:58:15 INFO     📄 Iniciando extracción para rubro: fletes y mudanzas
+2026-02-02T20:58:15 INFO        Scroll 1: 7 elementos en página
+2026-02-02T20:59:02 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T20:59:07 INFO        Scroll 2: 14 elementos en página
+2026-02-02T20:59:55 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T21:00:00 INFO        Scroll 3: 21 elementos en página
+2026-02-02T21:00:45 INFO        ✅ 6 nuevos, 20 total
+2026-02-02T21:00:51 INFO        Scroll 4: 28 elementos en página
+2026-02-02T21:01:38 INFO        ✅ 6 nuevos, 26 total
+2026-02-02T21:01:43 INFO        Scroll 5: 35 elementos en página
+2026-02-02T21:02:40 INFO        ✅ 7 nuevos, 33 total
+2026-02-02T21:02:45 INFO        Scroll 6: 42 elementos en página
+2026-02-02T21:04:06 INFO        ✅ 7 nuevos, 40 total
+2026-02-02T21:04:12 INFO        Scroll 7: 49 elementos en página
+2026-02-02T21:05:15 INFO        ✅ 7 nuevos, 47 total
+2026-02-02T21:05:21 INFO        Scroll 8: 56 elementos en página
+2026-02-02T21:06:30 INFO        ✅ 7 nuevos, 54 total
+2026-02-02T21:06:36 INFO        Scroll 9: 62 elementos en página
+2026-02-02T21:07:48 INFO        ✅ 6 nuevos, 60 total
+2026-02-02T21:07:54 INFO        Scroll 10: 69 elementos en página
+2026-02-02T21:09:11 INFO        ✅ 7 nuevos, 67 total
+2026-02-02T21:09:18 INFO        Scroll 11: 76 elementos en página
+2026-02-02T21:10:43 INFO        ✅ 7 nuevos, 74 total
+2026-02-02T21:10:48 INFO        Scroll 12: 82 elementos en página
+2026-02-02T21:12:27 INFO        ✅ 6 nuevos, 80 total
+2026-02-02T21:12:33 INFO        Scroll 13: 89 elementos en página
+2026-02-02T21:14:24 INFO        ✅ 7 nuevos, 87 total
+2026-02-02T21:14:30 INFO        Scroll 14: 96 elementos en página
+2026-02-02T21:16:16 INFO        ✅ 7 nuevos, 94 total
+2026-02-02T21:16:21 INFO        Scroll 15: 102 elementos en página
+2026-02-02T21:17:51 INFO        ✅ 6 nuevos, 100 total
+2026-02-02T21:17:56 INFO        Scroll 16: 109 elementos en página
+2026-02-02T21:19:46 INFO        ✅ 7 nuevos, 107 total
+2026-02-02T21:19:53 INFO        Scroll 17: 116 elementos en página
+2026-02-02T21:21:48 INFO        ✅ 7 nuevos, 114 total
+2026-02-02T21:21:53 INFO        Scroll 18: 122 elementos en página
+2026-02-02T21:23:22 INFO        ✅ 6 nuevos, 120 total
+2026-02-02T21:23:29 INFO        Scroll 19: 122 elementos en página
+2026-02-02T21:24:12 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T21:24:18 INFO        Scroll 20: 122 elementos en página
+2026-02-02T21:25:01 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T21:25:07 INFO        Scroll 21: 122 elementos en página
+2026-02-02T21:25:49 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T21:25:54 INFO        Scroll 22: 122 elementos en página
+2026-02-02T21:26:38 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T21:26:42 INFO        Scroll 23: 122 elementos en página
+2026-02-02T21:27:25 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T21:27:25 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T21:27:25 INFO     🔍 [fletes y mudanzas][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 120 unique, 1665 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T21:27:25 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-02-02T21:27:25 INFO     📊 12 lugares agregados (Total: 24076)
+2026-02-02T21:27:25 INFO     Estado guardado: 24076 empresas
+2026-02-02T21:27:30 INFO     ⏳ Esperando 4.5s antes del siguiente rubro...
+2026-02-02T21:27:30 INFO     
+🏷️  Rubro 4/146: distribución logística
+2026-02-02T21:27:30 INFO     
+🔍 Buscando 'distribución logística' en segmento 0
+2026-02-02T21:27:30 INFO        URL: https://www.google.com/maps/search/distribución+logística/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T21:27:48 INFO     📄 Iniciando extracción para rubro: distribución logística
+2026-02-02T21:27:48 INFO        Scroll 1: 10 elementos en página
+2026-02-02T21:29:22 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T21:29:28 INFO        Scroll 2: 17 elementos en página
+2026-02-02T21:30:27 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T21:30:34 INFO        Scroll 3: 20 elementos en página
+2026-02-02T21:31:01 INFO        ✅ 3 nuevos, 20 total
+2026-02-02T21:31:06 INFO        Scroll 4: 27 elementos en página
+2026-02-02T21:32:06 INFO        ✅ 7 nuevos, 27 total
+2026-02-02T21:32:12 INFO        Scroll 5: 34 elementos en página
+2026-02-02T21:33:12 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T21:33:18 INFO        Scroll 6: 40 elementos en página
+2026-02-02T21:34:28 INFO        ✅ 6 nuevos, 40 total
+2026-02-02T21:34:35 INFO        Scroll 7: 47 elementos en página
+2026-02-02T21:35:51 INFO        ✅ 7 nuevos, 47 total
+2026-02-02T21:35:56 INFO        Scroll 8: 54 elementos en página
+2026-02-02T21:37:31 INFO        ✅ 7 nuevos, 54 total
+2026-02-02T21:37:37 INFO        Scroll 9: 60 elementos en página
+2026-02-02T21:39:11 INFO        ✅ 6 nuevos, 60 total
+2026-02-02T21:39:17 INFO        Scroll 10: 67 elementos en página
+2026-02-02T21:41:14 INFO        ✅ 7 nuevos, 67 total
+2026-02-02T21:41:21 INFO        Scroll 11: 74 elementos en página
+2026-02-02T21:43:37 INFO        ✅ 7 nuevos, 74 total
+2026-02-02T21:43:41 INFO        Scroll 12: 80 elementos en página
+2026-02-02T21:45:17 INFO        ✅ 6 nuevos, 80 total
+2026-02-02T21:45:22 INFO        Scroll 13: 87 elementos en página
+2026-02-02T21:47:07 INFO        ✅ 7 nuevos, 87 total
+2026-02-02T21:47:12 INFO        Scroll 14: 87 elementos en página
+2026-02-02T21:47:45 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T21:47:51 INFO        Scroll 15: 87 elementos en página
+2026-02-02T21:48:23 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T21:48:29 INFO        Scroll 16: 87 elementos en página
+2026-02-02T21:49:01 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T21:49:08 INFO        Scroll 17: 87 elementos en página
+2026-02-02T21:49:40 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T21:49:46 INFO        Scroll 18: 87 elementos en página
+2026-02-02T21:50:19 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T21:50:19 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T21:50:19 INFO     🔍 [distribución logística][-32.9523|-60.6975][SCROLL: 17]: Search page scraped: 87 unique, 965 duplicate, 87 seen, 17 paginations, 0 outOfLocation.
+2026-02-02T21:50:19 INFO     ✅ Extracción completada: 87 lugares encontrados
+2026-02-02T21:50:19 INFO     📊 35 lugares agregados (Total: 24111)
+2026-02-02T21:50:19 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-02T21:50:32 INFO     💾 Checkpoint guardado: 24111 empresas TOTALES
+2026-02-02T21:50:32 INFO     Estado guardado: 24111 empresas
+2026-02-02T21:50:39 INFO     ⏳ Esperando 6.7s antes del siguiente rubro...
+2026-02-02T21:50:39 INFO     
+🏷️  Rubro 5/146: empresa de transportes
+2026-02-02T21:50:39 INFO     
+🔍 Buscando 'empresa de transportes' en segmento 0
+2026-02-02T21:50:39 INFO        URL: https://www.google.com/maps/search/empresa+de+transportes/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T21:50:57 INFO     📄 Iniciando extracción para rubro: empresa de transportes
+2026-02-02T21:50:57 INFO        Scroll 1: 7 elementos en página
+2026-02-02T21:51:45 INFO        ✅ 7 nuevos, 7 total
+2026-02-02T21:51:51 INFO        Scroll 2: 14 elementos en página
+2026-02-02T21:52:46 INFO        ✅ 7 nuevos, 14 total
+2026-02-02T21:52:51 INFO        Scroll 3: 20 elementos en página
+2026-02-02T21:53:42 INFO        ✅ 6 nuevos, 20 total
+2026-02-02T21:53:47 INFO        Scroll 4: 27 elementos en página
+2026-02-02T21:55:12 INFO        ✅ 7 nuevos, 27 total
+2026-02-02T21:55:18 INFO        Scroll 5: 34 elementos en página
+2026-02-02T21:56:23 INFO        ✅ 7 nuevos, 34 total
+2026-02-02T21:56:29 INFO        Scroll 6: 40 elementos en página
+2026-02-02T21:57:19 INFO        ✅ 6 nuevos, 40 total
+2026-02-02T21:57:25 INFO        Scroll 7: 47 elementos en página
+2026-02-02T21:58:30 INFO        ✅ 7 nuevos, 47 total
+2026-02-02T21:58:35 INFO        Scroll 8: 54 elementos en página
+2026-02-02T21:59:42 INFO        ✅ 7 nuevos, 54 total
+2026-02-02T21:59:48 INFO        Scroll 9: 60 elementos en página
+2026-02-02T22:00:57 INFO        ✅ 6 nuevos, 60 total
+2026-02-02T22:01:02 INFO        Scroll 10: 67 elementos en página
+2026-02-02T22:02:34 INFO        ✅ 7 nuevos, 67 total
+2026-02-02T22:02:40 INFO        Scroll 11: 74 elementos en página
+2026-02-02T22:03:57 INFO        ✅ 7 nuevos, 74 total
+2026-02-02T22:04:03 INFO        Scroll 12: 80 elementos en página
+2026-02-02T22:05:28 INFO        ✅ 6 nuevos, 80 total
+2026-02-02T22:05:34 INFO        Scroll 13: 87 elementos en página
+2026-02-02T22:07:18 INFO        ✅ 6 nuevos, 86 total
+2026-02-02T22:07:24 INFO        Scroll 14: 94 elementos en página
+2026-02-02T22:09:25 INFO        ✅ 7 nuevos, 93 total
+2026-02-02T22:09:31 INFO        Scroll 15: 100 elementos en página
+2026-02-02T22:11:19 INFO        ✅ 6 nuevos, 99 total
+2026-02-02T22:11:24 INFO        Scroll 16: 107 elementos en página
+2026-02-02T22:13:27 INFO        ✅ 7 nuevos, 106 total
+2026-02-02T22:13:33 INFO        Scroll 17: 114 elementos en página
+2026-02-02T22:15:30 INFO        ✅ 7 nuevos, 113 total
+2026-02-02T22:15:37 INFO        Scroll 18: 120 elementos en página
+2026-02-02T22:17:06 INFO        ✅ 6 nuevos, 119 total
+2026-02-02T22:17:12 INFO        Scroll 19: 120 elementos en página
+2026-02-02T22:17:54 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-02T22:17:59 INFO        Scroll 20: 120 elementos en página
+2026-02-02T22:18:40 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-02T22:18:46 INFO        Scroll 21: 120 elementos en página
+2026-02-02T22:19:27 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-02T22:19:32 INFO        Scroll 22: 120 elementos en página
+2026-02-02T22:20:13 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-02T22:20:19 INFO        Scroll 23: 120 elementos en página
+2026-02-02T22:21:00 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-02T22:21:00 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-02T22:21:00 INFO     🔍 [empresa de transportes][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 119 unique, 1627 duplicate, 119 seen, 22 paginations, 0 outOfLocation.
+2026-02-02T22:21:00 INFO     ✅ Extracción completada: 119 lugares encontrados
+2026-02-02T22:21:00 INFO     📊 10 lugares agregados (Total: 24121)
+2026-02-02T22:21:00 INFO     Estado guardado: 24121 empresas
+2026-02-02T22:21:06 INFO     ⏳ Esperando 6.2s antes del siguiente rubro...
+2026-02-02T22:21:06 INFO     
+🏷️  Rubro 6/146: empresa constructora
+2026-02-02T22:21:06 INFO     
+🔍 Buscando 'empresa constructora' en segmento 0
+2026-02-02T22:21:06 INFO        URL: https://www.google.com/maps/search/empresa+constructora/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-02T22:21:25 INFO     📄 Iniciando extracción para rubro: empresa constructora
+2026-02-02T22:21:25 INFO        Scroll 1: 10 elementos en página
+2026-02-02T22:22:36 INFO        ✅ 10 nuevos, 10 total
+2026-02-02T22:22:42 INFO        Scroll 2: 17 elementos en página
+2026-02-02T22:24:08 INFO        ✅ 7 nuevos, 17 total
+2026-02-02T22:24:13 INFO        Scroll 3: 21 elementos en página
+2026-02-02T22:24:45 INFO        ✅ 4 nuevos, 21 total
+2026-02-02T22:24:51 INFO        Scroll 4: 28 elementos en página
+2026-02-02T22:26:05 INFO        ✅ 7 nuevos, 28 total
+2026-02-02T22:26:11 INFO        Scroll 5: 35 elementos en página
+2026-02-02T22:27:14 INFO        ✅ 7 nuevos, 35 total
+2026-02-02T22:27:21 INFO        Scroll 6: 42 elementos en página
+2026-02-02T22:28:28 INFO        ✅ 7 nuevos, 42 total
+2026-02-02T22:28:35 INFO        Scroll 7: 49 elementos en página

@@ -1,0 +1,1836 @@
+2026-02-03T12:43:51 INFO     
+============================================================
+2026-02-03T12:43:51 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-02-03T12:43:51 INFO     ============================================================
+2026-02-03T12:43:51 INFO     📍 Ubicaciones: 29 ciudades
+2026-02-03T12:43:51 INFO     🏷️  Rubros: 194 rubros
+2026-02-03T12:43:51 INFO     📐 Grid size: 1x1
+2026-02-03T12:43:51 INFO     💾 Checkpoint cada: 20 empresas
+2026-02-03T12:43:51 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-02-03T12:43:51 INFO     ============================================================
+
+2026-02-03T12:43:51 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-02-03T12:43:53 INFO     ✅ 25603 empresas cargadas desde archivo previo
+2026-02-03T12:43:53 INFO     Estado cargado: 25603 empresas previas
+2026-02-03T12:43:53 INFO     🚀 Inicializando navegador...
+2026-02-03T12:44:18 INFO     patching driver executable /home/alfredo/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-02-03T12:44:20 INFO     ✅ Navegador inicializado correctamente
+2026-02-03T12:44:29 INFO     
+============================================================
+2026-02-03T12:44:29 INFO     🌎 UBICACIONES A PROCESAR: 29
+2026-02-03T12:44:29 INFO     ============================================================
+2026-02-03T12:44:29 INFO       1. Buenos Aires, Argentina
+2026-02-03T12:44:29 INFO       2. Córdoba, Argentina
+2026-02-03T12:44:29 INFO       3. Rosario, Argentina
+2026-02-03T12:44:29 INFO       4. Mendoza, Argentina
+2026-02-03T12:44:29 INFO       5. Tucumán, Argentina
+2026-02-03T12:44:29 INFO       6. La Plata, Argentina
+2026-02-03T12:44:29 INFO       7. Mar del Plata, Argentina
+2026-02-03T12:44:29 INFO       8. Salta, Argentina
+2026-02-03T12:44:29 INFO       9. Santa Fe, Argentina
+2026-02-03T12:44:29 INFO       10. Resistencia, Argentina
+2026-02-03T12:44:29 INFO       11. Santiago del Estero, Argentina
+2026-02-03T12:44:29 INFO       12. Corrientes, Argentina
+2026-02-03T12:44:29 INFO       13. Neuquén, Argentina
+2026-02-03T12:44:29 INFO       14. Bahía Blanca, Argentina
+2026-02-03T12:44:29 INFO       15. San Salvador de Jujuy, Argentina
+2026-02-03T12:44:29 INFO       16. Posadas, Argentina
+2026-02-03T12:44:29 INFO       17. Paraná, Argentina
+2026-02-03T12:44:29 INFO       18. San Luis, Argentina
+2026-02-03T12:44:29 INFO       19. Río Gallegos, Argentina
+2026-02-03T12:44:29 INFO       20. Comodoro Rivadavia, Argentina
+2026-02-03T12:44:29 INFO       21. Ushuaia, Argentina
+2026-02-03T12:44:29 INFO       22. Formosa, Argentina
+2026-02-03T12:44:29 INFO       23. Quilmes, Argentina
+2026-02-03T12:44:29 INFO       24. Morón, Argentina
+2026-02-03T12:44:29 INFO       25. San Martín, Argentina
+2026-02-03T12:44:29 INFO       26. Lanús, Argentina
+2026-02-03T12:44:29 INFO       27. Lomas de Zamora, Argentina
+2026-02-03T12:44:29 INFO       28. Tigre, Argentina
+2026-02-03T12:44:29 INFO       29. Pilar, Argentina
+2026-02-03T12:44:29 INFO     
+############################################################
+2026-02-03T12:44:29 INFO     🌍 UBICACIÓN 1/29: Buenos Aires, Argentina
+2026-02-03T12:44:29 INFO     ############################################################
+2026-02-03T12:44:29 INFO     ⏭️  Buenos Aires, Argentina ya fue completada previamente
+2026-02-03T12:44:29 INFO     
+############################################################
+2026-02-03T12:44:29 INFO     🌍 UBICACIÓN 2/29: Córdoba, Argentina
+2026-02-03T12:44:29 INFO     ############################################################
+2026-02-03T12:44:29 INFO     ⏭️  Córdoba, Argentina ya fue completada previamente
+2026-02-03T12:44:29 INFO     
+############################################################
+2026-02-03T12:44:29 INFO     🌍 UBICACIÓN 3/29: Rosario, Argentina
+2026-02-03T12:44:29 INFO     ############################################################
+2026-02-03T12:44:29 INFO     
+============================================================
+2026-02-03T12:44:29 INFO     📍 PASO 1: GEOLOCALIZACIÓN - Rosario, Argentina
+2026-02-03T12:44:29 INFO     ============================================================
+2026-02-03T12:44:29 INFO     📡 Geolocalizando: Rosario, Argentina
+2026-02-03T12:44:32 INFO     ✅ Ubicación encontrada: Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina
+2026-02-03T12:44:32 INFO        Bounding box: ['-33.0348662', '-32.8696461', '-60.7832623', '-60.6116695']
+2026-02-03T12:44:32 INFO     
+============================================================
+2026-02-03T12:44:32 INFO     📐 PASO 2: DIVISIÓN EN SEGMENTOS - Rosario, Argentina
+2026-02-03T12:44:32 INFO     ============================================================
+2026-02-03T12:44:32 INFO     📐 Dividiendo área en cuadrícula de 1x1
+2026-02-03T12:44:32 INFO        Segmento 1: Centro (-32.9523, -60.6975)
+2026-02-03T12:44:32 INFO     ✅ Creados 1 segmentos
+2026-02-03T12:44:32 INFO     ✅ Área dividida en 1 segmentos
+2026-02-03T12:44:32 INFO     
+============================================================
+2026-02-03T12:44:32 INFO     🔍 PASO 3: BÚSQUEDA - Rosario, Argentina
+2026-02-03T12:44:32 INFO     ============================================================
+2026-02-03T12:44:32 INFO     Total de búsquedas en Rosario, Argentina: 194
+2026-02-03T12:44:32 INFO     Rubros: 194 rubros configurados
+2026-02-03T12:44:32 INFO     📋 Rubros pendientes en Rosario, Argentina: 107
+2026-02-03T12:44:32 INFO     
+────────────────────────────────────────────────────────────
+2026-02-03T12:44:32 INFO     📍 Rosario, Argentina - SEGMENTO 1/1
+2026-02-03T12:44:32 INFO        Centro: (-32.952256150000004, -60.697465900000005)
+2026-02-03T12:44:32 INFO     ────────────────────────────────────────────────────────────
+2026-02-03T12:44:32 INFO     
+🏷️  Rubro 1/107: análisis clínicos
+2026-02-03T12:44:32 INFO     
+🔍 Buscando 'análisis clínicos' en segmento 0
+2026-02-03T12:44:32 INFO        URL: https://www.google.com/maps/search/análisis+clínicos/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T12:44:54 INFO     📄 Iniciando extracción para rubro: análisis clínicos
+2026-02-03T12:44:54 INFO        Scroll 1: 7 elementos en página
+2026-02-03T12:46:38 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T12:46:42 INFO        Scroll 2: 7 elementos en página
+2026-02-03T12:46:45 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T12:46:50 INFO        Scroll 3: 14 elementos en página
+2026-02-03T12:48:21 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T12:48:27 INFO        Scroll 4: 21 elementos en página
+2026-02-03T12:49:36 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T12:49:42 INFO        Scroll 5: 22 elementos en página
+2026-02-03T12:50:11 INFO        ✅ 1 nuevos, 22 total
+2026-02-03T12:50:15 INFO        Scroll 6: 10 elementos en página
+2026-02-03T12:50:18 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T12:50:23 INFO        Scroll 7: 17 elementos en página
+2026-02-03T12:50:30 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T12:50:35 INFO        Scroll 8: 22 elementos en página
+2026-02-03T12:50:45 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T12:50:51 INFO        Scroll 9: 29 elementos en página
+2026-02-03T12:51:41 INFO        ✅ 5 nuevos, 27 total
+2026-02-03T12:51:47 INFO        Scroll 10: 36 elementos en página
+2026-02-03T12:52:42 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T12:52:49 INFO        Scroll 11: 43 elementos en página
+2026-02-03T12:53:57 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T12:54:03 INFO        Scroll 12: 51 elementos en página
+2026-02-03T12:55:17 INFO        ✅ 8 nuevos, 49 total
+2026-02-03T12:55:23 INFO        Scroll 13: 58 elementos en página
+2026-02-03T12:56:42 INFO        ✅ 7 nuevos, 56 total
+2026-02-03T12:56:47 INFO        Scroll 14: 64 elementos en página
+2026-02-03T12:57:57 INFO        ✅ 6 nuevos, 62 total
+2026-02-03T12:58:03 INFO        Scroll 15: 71 elementos en página
+2026-02-03T12:59:35 INFO        ✅ 7 nuevos, 69 total
+2026-02-03T12:59:40 INFO        Scroll 16: 78 elementos en página
+2026-02-03T13:01:47 INFO        ✅ 7 nuevos, 76 total
+2026-02-03T13:01:53 INFO        Scroll 17: 84 elementos en página
+2026-02-03T13:03:43 INFO        ✅ 6 nuevos, 82 total
+2026-02-03T13:03:49 INFO        Scroll 18: 91 elementos en página
+2026-02-03T13:05:27 INFO        ✅ 6 nuevos, 88 total
+2026-02-03T13:05:32 INFO        Scroll 19: 98 elementos en página
+2026-02-03T13:07:21 INFO        ✅ 7 nuevos, 95 total
+2026-02-03T13:07:27 INFO        Scroll 20: 104 elementos en página
+2026-02-03T13:09:46 INFO        ✅ 6 nuevos, 101 total
+2026-02-03T13:09:52 INFO        Scroll 21: 111 elementos en página
+2026-02-03T13:12:08 INFO        ✅ 7 nuevos, 108 total
+2026-02-03T13:12:14 INFO        Scroll 22: 118 elementos en página
+2026-02-03T13:14:13 INFO        ✅ 7 nuevos, 115 total
+2026-02-03T13:14:18 INFO        Scroll 23: 124 elementos en página
+2026-02-03T13:16:01 INFO        ✅ 6 nuevos, 121 total
+2026-02-03T13:16:05 INFO        Scroll 24: 124 elementos en página
+2026-02-03T13:16:47 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T13:16:53 INFO        Scroll 25: 124 elementos en página
+2026-02-03T13:17:35 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T13:17:40 INFO        Scroll 26: 124 elementos en página
+2026-02-03T13:18:22 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T13:18:26 INFO        Scroll 27: 124 elementos en página
+2026-02-03T13:19:08 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T13:19:13 INFO        Scroll 28: 124 elementos en página
+2026-02-03T13:19:55 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T13:19:55 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T13:19:55 INFO     🔍 [análisis clínicos][-32.9523|-60.6975][SCROLL: 27]: Search page scraped: 121 unique, 1779 duplicate, 121 seen, 27 paginations, 0 outOfLocation.
+2026-02-03T13:19:55 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-03T13:19:55 INFO     📊 68 lugares agregados (Total: 25671)
+2026-02-03T13:19:55 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T13:20:10 INFO     💾 Checkpoint guardado: 25671 empresas TOTALES
+2026-02-03T13:20:10 INFO     Estado guardado: 25671 empresas
+2026-02-03T13:20:14 INFO     ⏳ Esperando 4.1s antes del siguiente rubro...
+2026-02-03T13:20:14 INFO     
+🏷️  Rubro 2/107: laboratorio químico
+2026-02-03T13:20:14 INFO     
+🔍 Buscando 'laboratorio químico' en segmento 0
+2026-02-03T13:20:14 INFO        URL: https://www.google.com/maps/search/laboratorio+químico/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T13:20:33 INFO     📄 Iniciando extracción para rubro: laboratorio químico
+2026-02-03T13:20:33 INFO        Scroll 1: 7 elementos en página
+2026-02-03T13:21:43 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T13:21:48 INFO        Scroll 2: 14 elementos en página
+2026-02-03T13:23:05 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T13:23:09 INFO        Scroll 3: 20 elementos en página
+2026-02-03T13:24:07 INFO        ✅ 6 nuevos, 20 total
+2026-02-03T13:24:13 INFO        Scroll 4: 27 elementos en página
+2026-02-03T13:25:27 INFO        ✅ 7 nuevos, 27 total
+2026-02-03T13:25:33 INFO        Scroll 5: 34 elementos en página
+2026-02-03T13:26:47 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T13:26:54 INFO        Scroll 6: 40 elementos en página
+2026-02-03T13:27:58 INFO        ✅ 6 nuevos, 40 total
+2026-02-03T13:28:04 INFO        Scroll 7: 47 elementos en página
+2026-02-03T13:29:33 INFO        ✅ 7 nuevos, 47 total
+2026-02-03T13:29:39 INFO        Scroll 8: 54 elementos en página
+2026-02-03T13:31:27 INFO        ✅ 7 nuevos, 54 total
+2026-02-03T13:31:32 INFO        Scroll 9: 60 elementos en página
+2026-02-03T13:32:41 INFO        ✅ 6 nuevos, 60 total
+2026-02-03T13:32:46 INFO        Scroll 10: 67 elementos en página
+2026-02-03T13:34:30 INFO        ✅ 6 nuevos, 66 total
+2026-02-03T13:34:35 INFO        Scroll 11: 74 elementos en página
+2026-02-03T13:36:10 INFO        ✅ 7 nuevos, 73 total
+2026-02-03T13:36:16 INFO        Scroll 12: 80 elementos en página
+2026-02-03T13:37:43 INFO        ✅ 6 nuevos, 79 total
+2026-02-03T13:37:49 INFO        Scroll 13: 87 elementos en página
+2026-02-03T13:39:30 INFO        ✅ 7 nuevos, 86 total
+2026-02-03T13:39:35 INFO        Scroll 14: 94 elementos en página
+2026-02-03T13:41:08 INFO        ✅ 7 nuevos, 93 total
+2026-02-03T13:41:13 INFO        Scroll 15: 100 elementos en página
+2026-02-03T13:43:08 INFO        ✅ 6 nuevos, 99 total
+2026-02-03T13:43:13 INFO        Scroll 16: 107 elementos en página
+2026-02-03T13:45:00 INFO        ✅ 6 nuevos, 105 total
+2026-02-03T13:45:07 INFO        Scroll 17: 114 elementos en página
+2026-02-03T13:46:44 INFO        ✅ 7 nuevos, 112 total
+2026-02-03T13:46:50 INFO        Scroll 18: 120 elementos en página
+2026-02-03T13:48:18 INFO        ✅ 6 nuevos, 118 total
+2026-02-03T13:48:24 INFO        Scroll 19: 120 elementos en página
+2026-02-03T13:49:04 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T13:49:10 INFO        Scroll 20: 120 elementos en página
+2026-02-03T13:49:51 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T13:49:57 INFO        Scroll 21: 120 elementos en página
+2026-02-03T13:50:38 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T13:50:44 INFO        Scroll 22: 120 elementos en página
+2026-02-03T13:51:24 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T13:51:30 INFO        Scroll 23: 120 elementos en página
+2026-02-03T13:52:10 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T13:52:10 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T13:52:10 INFO     🔍 [laboratorio químico][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 118 unique, 1628 duplicate, 118 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T13:52:10 INFO     ✅ Extracción completada: 118 lugares encontrados
+2026-02-03T13:52:10 INFO     📊 48 lugares agregados (Total: 25719)
+2026-02-03T13:52:11 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T13:52:25 INFO     💾 Checkpoint guardado: 25719 empresas TOTALES
+2026-02-03T13:52:25 INFO     Estado guardado: 25719 empresas
+2026-02-03T13:52:31 INFO     ⏳ Esperando 6.5s antes del siguiente rubro...
+2026-02-03T13:52:31 INFO     
+🏷️  Rubro 3/107: análisis de suelos
+2026-02-03T13:52:31 INFO     
+🔍 Buscando 'análisis de suelos' en segmento 0
+2026-02-03T13:52:31 INFO        URL: https://www.google.com/maps/search/análisis+de+suelos/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T13:52:49 INFO     📄 Iniciando extracción para rubro: análisis de suelos
+2026-02-03T13:52:49 INFO        Scroll 1: 10 elementos en página
+2026-02-03T13:54:06 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T13:54:12 INFO        Scroll 2: 16 elementos en página
+2026-02-03T13:55:05 INFO        ✅ 6 nuevos, 16 total
+2026-02-03T13:55:11 INFO        Scroll 3: 16 elementos en página
+2026-02-03T13:55:16 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T13:55:22 INFO        Scroll 4: 16 elementos en página
+2026-02-03T13:55:28 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T13:55:33 INFO        Scroll 5: 16 elementos en página
+2026-02-03T13:55:39 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T13:55:44 INFO        Scroll 6: 16 elementos en página
+2026-02-03T13:55:49 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T13:55:54 INFO        Scroll 7: 16 elementos en página
+2026-02-03T13:56:00 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T13:56:00 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T13:56:00 INFO     🔍 [análisis de suelos][-32.9523|-60.6975][SCROLL: 6]: Search page scraped: 16 unique, 90 duplicate, 16 seen, 6 paginations, 0 outOfLocation.
+2026-02-03T13:56:00 INFO     ✅ Extracción completada: 16 lugares encontrados
+2026-02-03T13:56:00 INFO     📊 4 lugares agregados (Total: 25723)
+2026-02-03T13:56:00 INFO     Estado guardado: 25723 empresas
+2026-02-03T13:56:05 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-02-03T13:56:05 INFO     
+🏷️  Rubro 4/107: laboratorios especializados
+2026-02-03T13:56:05 INFO     
+🔍 Buscando 'laboratorios especializados' en segmento 0
+2026-02-03T13:56:05 INFO        URL: https://www.google.com/maps/search/laboratorios+especializados/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T13:56:24 INFO     📄 Iniciando extracción para rubro: laboratorios especializados
+2026-02-03T13:56:24 INFO        Scroll 1: 10 elementos en página
+2026-02-03T13:57:29 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T13:57:34 INFO        Scroll 2: 17 elementos en página
+2026-02-03T13:58:40 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T13:58:46 INFO        Scroll 3: 21 elementos en página
+2026-02-03T13:59:16 INFO        ✅ 4 nuevos, 21 total
+2026-02-03T13:59:22 INFO        Scroll 4: 28 elementos en página
+2026-02-03T14:00:15 INFO        ✅ 7 nuevos, 28 total
+2026-02-03T14:00:20 INFO        Scroll 5: 35 elementos en página
+2026-02-03T14:01:29 INFO        ✅ 7 nuevos, 35 total
+2026-02-03T14:01:33 INFO        Scroll 6: 41 elementos en página
+2026-02-03T14:02:25 INFO        ✅ 6 nuevos, 41 total
+2026-02-03T14:02:31 INFO        Scroll 7: 48 elementos en página
+2026-02-03T14:03:36 INFO        ✅ 6 nuevos, 47 total
+2026-02-03T14:03:41 INFO        Scroll 8: 55 elementos en página
+2026-02-03T14:04:47 INFO        ✅ 7 nuevos, 54 total
+2026-02-03T14:04:53 INFO        Scroll 9: 61 elementos en página
+2026-02-03T14:05:54 INFO        ✅ 6 nuevos, 60 total
+2026-02-03T14:06:00 INFO        Scroll 10: 68 elementos en página
+2026-02-03T14:07:15 INFO        ✅ 7 nuevos, 67 total
+2026-02-03T14:07:21 INFO        Scroll 11: 75 elementos en página
+2026-02-03T14:08:44 INFO        ✅ 7 nuevos, 74 total
+2026-02-03T14:08:49 INFO        Scroll 12: 81 elementos en página
+2026-02-03T14:10:20 INFO        ✅ 6 nuevos, 80 total
+2026-02-03T14:10:26 INFO        Scroll 13: 88 elementos en página
+2026-02-03T14:11:51 INFO        ✅ 7 nuevos, 87 total
+2026-02-03T14:11:57 INFO        Scroll 14: 95 elementos en página
+2026-02-03T14:13:35 INFO        ✅ 7 nuevos, 94 total
+2026-02-03T14:13:40 INFO        Scroll 15: 101 elementos en página
+2026-02-03T14:15:24 INFO        ✅ 6 nuevos, 100 total
+2026-02-03T14:15:30 INFO        Scroll 16: 108 elementos en página
+2026-02-03T14:17:21 INFO        ✅ 7 nuevos, 107 total
+2026-02-03T14:17:26 INFO        Scroll 17: 115 elementos en página
+2026-02-03T14:19:10 INFO        ✅ 7 nuevos, 114 total
+2026-02-03T14:19:16 INFO        Scroll 18: 121 elementos en página
+2026-02-03T14:21:01 INFO        ✅ 6 nuevos, 120 total
+2026-02-03T14:21:06 INFO        Scroll 19: 121 elementos en página
+2026-02-03T14:21:47 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T14:21:53 INFO        Scroll 20: 121 elementos en página
+2026-02-03T14:22:35 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T14:22:41 INFO        Scroll 21: 121 elementos en página
+2026-02-03T14:23:22 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T14:23:29 INFO        Scroll 22: 121 elementos en página
+2026-02-03T14:24:10 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T14:24:16 INFO        Scroll 23: 121 elementos en página
+2026-02-03T14:24:57 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T14:24:57 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T14:24:57 INFO     🔍 [laboratorios especializados][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 120 unique, 1653 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T14:24:57 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-02-03T14:24:57 INFO     📊 44 lugares agregados (Total: 25767)
+2026-02-03T14:24:57 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T14:25:11 INFO     💾 Checkpoint guardado: 25767 empresas TOTALES
+2026-02-03T14:25:11 INFO     Estado guardado: 25767 empresas
+2026-02-03T14:25:18 INFO     ⏳ Esperando 7.1s antes del siguiente rubro...
+2026-02-03T14:25:18 INFO     
+🏷️  Rubro 5/107: empresas de seguridad
+2026-02-03T14:25:18 INFO     
+🔍 Buscando 'empresas de seguridad' en segmento 0
+2026-02-03T14:25:18 INFO        URL: https://www.google.com/maps/search/empresas+de+seguridad/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T14:25:37 INFO     📄 Iniciando extracción para rubro: empresas de seguridad
+2026-02-03T14:25:37 INFO        Scroll 1: 7 elementos en página
+2026-02-03T14:26:23 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T14:26:28 INFO        Scroll 2: 14 elementos en página
+2026-02-03T14:27:16 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T14:27:22 INFO        Scroll 3: 21 elementos en página
+2026-02-03T14:28:17 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T14:28:24 INFO        Scroll 4: 29 elementos en página
+2026-02-03T14:29:15 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T14:29:21 INFO        Scroll 5: 36 elementos en página
+2026-02-03T14:30:31 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T14:30:36 INFO        Scroll 6: 43 elementos en página
+2026-02-03T14:31:59 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T14:32:06 INFO        Scroll 7: 51 elementos en página
+2026-02-03T14:33:38 INFO        ✅ 8 nuevos, 49 total
+2026-02-03T14:33:44 INFO        Scroll 8: 58 elementos en página
+2026-02-03T14:35:00 INFO        ✅ 7 nuevos, 56 total
+2026-02-03T14:35:05 INFO        Scroll 9: 64 elementos en página
+2026-02-03T14:36:24 INFO        ✅ 6 nuevos, 62 total
+2026-02-03T14:36:30 INFO        Scroll 10: 71 elementos en página
+2026-02-03T14:37:58 INFO        ✅ 7 nuevos, 69 total
+2026-02-03T14:38:03 INFO        Scroll 11: 78 elementos en página
+2026-02-03T14:39:46 INFO        ✅ 7 nuevos, 76 total
+2026-02-03T14:39:52 INFO        Scroll 12: 84 elementos en página
+2026-02-03T14:41:12 INFO        ✅ 6 nuevos, 82 total
+2026-02-03T14:41:19 INFO        Scroll 13: 91 elementos en página
+2026-02-03T14:42:45 INFO        ✅ 7 nuevos, 89 total
+2026-02-03T14:42:52 INFO        Scroll 14: 91 elementos en página
+2026-02-03T14:43:25 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T14:43:31 INFO        Scroll 15: 91 elementos en página
+2026-02-03T14:44:02 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T14:44:08 INFO        Scroll 16: 91 elementos en página
+2026-02-03T14:44:40 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T14:44:47 INFO        Scroll 17: 91 elementos en página
+2026-02-03T14:45:18 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T14:45:23 INFO        Scroll 18: 91 elementos en página
+2026-02-03T14:45:56 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T14:45:56 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T14:45:56 INFO     🔍 [empresas de seguridad][-32.9523|-60.6975][SCROLL: 17]: Search page scraped: 89 unique, 1013 duplicate, 89 seen, 17 paginations, 0 outOfLocation.
+2026-02-03T14:45:56 INFO     ✅ Extracción completada: 89 lugares encontrados
+2026-02-03T14:45:56 INFO     📊 56 lugares agregados (Total: 25823)
+2026-02-03T14:45:56 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T14:46:10 INFO     💾 Checkpoint guardado: 25823 empresas TOTALES
+2026-02-03T14:46:10 INFO     Estado guardado: 25823 empresas
+2026-02-03T14:46:16 INFO     ⏳ Esperando 6.0s antes del siguiente rubro...
+2026-02-03T14:46:16 INFO     
+🏷️  Rubro 6/107: vigilancia y seguridad
+2026-02-03T14:46:16 INFO     
+🔍 Buscando 'vigilancia y seguridad' en segmento 0
+2026-02-03T14:46:16 INFO        URL: https://www.google.com/maps/search/vigilancia+y+seguridad/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T14:46:36 INFO     📄 Iniciando extracción para rubro: vigilancia y seguridad
+2026-02-03T14:46:36 INFO        Scroll 1: 10 elementos en página
+2026-02-03T14:47:54 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T14:47:59 INFO        Scroll 2: 17 elementos en página
+2026-02-03T14:48:51 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T14:48:57 INFO        Scroll 3: 22 elementos en página
+2026-02-03T14:49:39 INFO        ✅ 5 nuevos, 22 total
+2026-02-03T14:49:46 INFO        Scroll 4: 29 elementos en página
+2026-02-03T14:50:29 INFO        ✅ 5 nuevos, 27 total
+2026-02-03T14:50:35 INFO        Scroll 5: 36 elementos en página
+2026-02-03T14:51:45 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T14:51:50 INFO        Scroll 6: 43 elementos en página
+2026-02-03T14:53:10 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T14:53:15 INFO        Scroll 7: 51 elementos en página
+2026-02-03T14:55:16 INFO        ✅ 8 nuevos, 49 total
+2026-02-03T14:55:22 INFO        Scroll 8: 58 elementos en página
+2026-02-03T14:56:32 INFO        ✅ 7 nuevos, 56 total
+2026-02-03T14:56:38 INFO        Scroll 9: 64 elementos en página
+2026-02-03T14:57:41 INFO        ✅ 6 nuevos, 62 total
+2026-02-03T14:57:46 INFO        Scroll 10: 71 elementos en página
+2026-02-03T14:59:14 INFO        ✅ 7 nuevos, 69 total
+2026-02-03T14:59:19 INFO        Scroll 11: 78 elementos en página
+2026-02-03T15:00:38 INFO        ✅ 6 nuevos, 75 total
+2026-02-03T15:00:43 INFO        Scroll 12: 84 elementos en página
+2026-02-03T15:02:20 INFO        ✅ 6 nuevos, 81 total
+2026-02-03T15:02:25 INFO        Scroll 13: 91 elementos en página
+2026-02-03T15:04:07 INFO        ✅ 7 nuevos, 88 total
+2026-02-03T15:04:12 INFO        Scroll 14: 93 elementos en página
+2026-02-03T15:05:03 INFO        ✅ 2 nuevos, 90 total
+2026-02-03T15:05:08 INFO        Scroll 15: 93 elementos en página
+2026-02-03T15:05:41 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T15:05:46 INFO        Scroll 16: 93 elementos en página
+2026-02-03T15:06:19 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T15:06:24 INFO        Scroll 17: 93 elementos en página
+2026-02-03T15:06:57 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T15:07:03 INFO        Scroll 18: 93 elementos en página
+2026-02-03T15:07:35 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T15:07:40 INFO        Scroll 19: 93 elementos en página
+2026-02-03T15:08:13 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T15:08:13 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T15:08:13 INFO     🔍 [vigilancia y seguridad][-32.9523|-60.6975][SCROLL: 18]: Search page scraped: 90 unique, 1122 duplicate, 90 seen, 18 paginations, 0 outOfLocation.
+2026-02-03T15:08:13 INFO     ✅ Extracción completada: 90 lugares encontrados
+2026-02-03T15:08:13 INFO     📊 32 lugares agregados (Total: 25855)
+2026-02-03T15:08:13 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T15:08:27 INFO     💾 Checkpoint guardado: 25855 empresas TOTALES
+2026-02-03T15:08:27 INFO     Estado guardado: 25855 empresas
+2026-02-03T15:08:32 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-02-03T15:08:32 INFO     
+🏷️  Rubro 7/107: seguridad privada
+2026-02-03T15:08:32 INFO     
+🔍 Buscando 'seguridad privada' en segmento 0
+2026-02-03T15:08:32 INFO        URL: https://www.google.com/maps/search/seguridad+privada/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T15:08:50 INFO     📄 Iniciando extracción para rubro: seguridad privada
+2026-02-03T15:08:50 INFO        Scroll 1: 7 elementos en página
+2026-02-03T15:09:41 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T15:09:47 INFO        Scroll 2: 14 elementos en página
+2026-02-03T15:10:35 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T15:10:41 INFO        Scroll 3: 21 elementos en página
+2026-02-03T15:11:36 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T15:11:42 INFO        Scroll 4: 28 elementos en página
+2026-02-03T15:12:59 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T15:13:06 INFO        Scroll 5: 35 elementos en página
+2026-02-03T15:14:07 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T15:14:14 INFO        Scroll 6: 42 elementos en página
+2026-02-03T15:15:15 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T15:15:22 INFO        Scroll 7: 49 elementos en página
+2026-02-03T15:16:26 INFO        ✅ 7 nuevos, 48 total
+2026-02-03T15:16:32 INFO        Scroll 8: 56 elementos en página
+2026-02-03T15:17:49 INFO        ✅ 7 nuevos, 55 total
+2026-02-03T15:17:55 INFO        Scroll 9: 62 elementos en página
+2026-02-03T15:19:32 INFO        ✅ 6 nuevos, 61 total
+2026-02-03T15:19:38 INFO        Scroll 10: 69 elementos en página
+2026-02-03T15:21:31 INFO        ✅ 7 nuevos, 68 total
+2026-02-03T15:21:37 INFO        Scroll 11: 76 elementos en página
+2026-02-03T15:23:11 INFO        ✅ 7 nuevos, 75 total
+2026-02-03T15:23:16 INFO        Scroll 12: 82 elementos en página
+2026-02-03T15:24:35 INFO        ✅ 6 nuevos, 81 total
+2026-02-03T15:24:40 INFO        Scroll 13: 89 elementos en página
+2026-02-03T15:26:29 INFO        ✅ 7 nuevos, 88 total
+2026-02-03T15:26:34 INFO        Scroll 14: 96 elementos en página
+2026-02-03T15:28:13 INFO        ✅ 7 nuevos, 95 total
+2026-02-03T15:28:19 INFO        Scroll 15: 102 elementos en página
+2026-02-03T15:30:00 INFO        ✅ 6 nuevos, 101 total
+2026-02-03T15:30:06 INFO        Scroll 16: 109 elementos en página
+2026-02-03T15:32:14 INFO        ✅ 7 nuevos, 108 total
+2026-02-03T15:32:19 INFO        Scroll 17: 116 elementos en página
+2026-02-03T15:34:08 INFO        ✅ 7 nuevos, 115 total
+2026-02-03T15:34:15 INFO        Scroll 18: 122 elementos en página
+2026-02-03T15:35:41 INFO        ✅ 6 nuevos, 121 total
+2026-02-03T15:35:46 INFO        Scroll 19: 122 elementos en página
+2026-02-03T15:36:29 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T15:36:35 INFO        Scroll 20: 122 elementos en página
+2026-02-03T15:37:16 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T15:37:22 INFO        Scroll 21: 122 elementos en página
+2026-02-03T15:38:04 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T15:38:09 INFO        Scroll 22: 122 elementos en página
+2026-02-03T15:38:50 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T15:38:56 INFO        Scroll 23: 122 elementos en página
+2026-02-03T15:39:38 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T15:39:38 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T15:39:38 INFO     🔍 [seguridad privada][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1664 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T15:39:38 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-03T15:39:38 INFO     📊 35 lugares agregados (Total: 25890)
+2026-02-03T15:39:38 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T15:39:52 INFO     💾 Checkpoint guardado: 25890 empresas TOTALES
+2026-02-03T15:39:52 INFO     Estado guardado: 25890 empresas
+2026-02-03T15:39:59 INFO     ⏳ Esperando 7.4s antes del siguiente rubro...
+2026-02-03T15:39:59 INFO     
+🏷️  Rubro 8/107: monitoreo de alarmas
+2026-02-03T15:39:59 INFO     
+🔍 Buscando 'monitoreo de alarmas' en segmento 0
+2026-02-03T15:39:59 INFO        URL: https://www.google.com/maps/search/monitoreo+de+alarmas/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T15:40:20 INFO     📄 Iniciando extracción para rubro: monitoreo de alarmas
+2026-02-03T15:40:20 INFO        Scroll 1: 10 elementos en página
+2026-02-03T15:41:20 INFO        ✅ 9 nuevos, 9 total
+2026-02-03T15:41:26 INFO        Scroll 2: 17 elementos en página
+2026-02-03T15:42:20 INFO        ✅ 7 nuevos, 16 total
+2026-02-03T15:42:26 INFO        Scroll 3: 22 elementos en página
+2026-02-03T15:43:05 INFO        ✅ 5 nuevos, 21 total
+2026-02-03T15:43:11 INFO        Scroll 4: 29 elementos en página
+2026-02-03T15:43:54 INFO        ✅ 5 nuevos, 26 total
+2026-02-03T15:44:00 INFO        Scroll 5: 36 elementos en página
+2026-02-03T15:45:20 INFO        ✅ 7 nuevos, 33 total
+2026-02-03T15:45:24 INFO        Scroll 6: 43 elementos en página
+2026-02-03T15:46:39 INFO        ✅ 7 nuevos, 40 total
+2026-02-03T15:46:46 INFO        Scroll 7: 51 elementos en página
+2026-02-03T15:48:06 INFO        ✅ 8 nuevos, 48 total
+2026-02-03T15:48:12 INFO        Scroll 8: 58 elementos en página
+2026-02-03T15:49:25 INFO        ✅ 7 nuevos, 55 total
+2026-02-03T15:49:30 INFO        Scroll 9: 64 elementos en página
+2026-02-03T15:50:47 INFO        ✅ 6 nuevos, 61 total
+2026-02-03T15:50:53 INFO        Scroll 10: 71 elementos en página
+2026-02-03T15:52:21 INFO        ✅ 7 nuevos, 68 total
+2026-02-03T15:52:26 INFO        Scroll 11: 78 elementos en página
+2026-02-03T15:54:01 INFO        ✅ 7 nuevos, 75 total
+2026-02-03T15:54:06 INFO        Scroll 12: 84 elementos en página
+2026-02-03T15:55:32 INFO        ✅ 6 nuevos, 81 total
+2026-02-03T15:55:37 INFO        Scroll 13: 91 elementos en página
+2026-02-03T15:57:09 INFO        ✅ 7 nuevos, 88 total
+2026-02-03T15:57:14 INFO        Scroll 14: 98 elementos en página
+2026-02-03T15:58:54 INFO        ✅ 7 nuevos, 95 total
+2026-02-03T15:58:58 INFO        Scroll 15: 104 elementos en página
+2026-02-03T16:00:28 INFO        ✅ 6 nuevos, 101 total
+2026-02-03T16:00:34 INFO        Scroll 16: 111 elementos en página
+2026-02-03T16:02:19 INFO        ✅ 6 nuevos, 107 total
+2026-02-03T16:02:24 INFO        Scroll 17: 118 elementos en página
+2026-02-03T16:04:13 INFO        ✅ 7 nuevos, 114 total
+2026-02-03T16:04:18 INFO        Scroll 18: 124 elementos en página
+2026-02-03T16:05:35 INFO        ✅ 6 nuevos, 120 total
+2026-02-03T16:05:42 INFO        Scroll 19: 124 elementos en página
+2026-02-03T16:06:24 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T16:06:31 INFO        Scroll 20: 124 elementos en página
+2026-02-03T16:07:13 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T16:07:19 INFO        Scroll 21: 124 elementos en página
+2026-02-03T16:08:01 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T16:08:06 INFO        Scroll 22: 124 elementos en página
+2026-02-03T16:08:48 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T16:08:54 INFO        Scroll 23: 124 elementos en página
+2026-02-03T16:09:36 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T16:09:36 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T16:09:36 INFO     🔍 [monitoreo de alarmas][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 120 unique, 1709 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T16:09:36 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-02-03T16:09:36 INFO     📊 38 lugares agregados (Total: 25928)
+2026-02-03T16:09:36 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T16:09:51 INFO     💾 Checkpoint guardado: 25928 empresas TOTALES
+2026-02-03T16:09:51 INFO     Estado guardado: 25928 empresas
+2026-02-03T16:09:55 INFO     ⏳ Esperando 4.4s antes del siguiente rubro...
+2026-02-03T16:09:55 INFO     
+🏷️  Rubro 9/107: consultoría ambiental
+2026-02-03T16:09:55 INFO     
+🔍 Buscando 'consultoría ambiental' en segmento 0
+2026-02-03T16:09:55 INFO        URL: https://www.google.com/maps/search/consultoría+ambiental/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T16:10:14 INFO     📄 Iniciando extracción para rubro: consultoría ambiental
+2026-02-03T16:10:14 INFO        Scroll 1: 7 elementos en página
+2026-02-03T16:10:58 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T16:11:04 INFO        Scroll 2: 14 elementos en página
+2026-02-03T16:11:53 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T16:11:58 INFO        Scroll 3: 20 elementos en página
+2026-02-03T16:12:55 INFO        ✅ 6 nuevos, 20 total
+2026-02-03T16:12:59 INFO        Scroll 4: 20 elementos en página
+2026-02-03T16:13:07 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T16:13:12 INFO        Scroll 5: 20 elementos en página
+2026-02-03T16:13:19 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T16:13:24 INFO        Scroll 6: 20 elementos en página
+2026-02-03T16:13:31 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T16:13:37 INFO        Scroll 7: 20 elementos en página
+2026-02-03T16:13:44 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T16:13:50 INFO        Scroll 8: 20 elementos en página
+2026-02-03T16:13:57 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T16:13:57 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T16:13:57 INFO     🔍 [consultoría ambiental][-32.9523|-60.6975][SCROLL: 7]: Search page scraped: 20 unique, 121 duplicate, 20 seen, 7 paginations, 0 outOfLocation.
+2026-02-03T16:13:57 INFO     ✅ Extracción completada: 20 lugares encontrados
+2026-02-03T16:13:57 INFO     📊 1 lugares agregados (Total: 25929)
+2026-02-03T16:13:57 INFO     Estado guardado: 25929 empresas
+2026-02-03T16:14:02 INFO     ⏳ Esperando 5.4s antes del siguiente rubro...
+2026-02-03T16:14:02 INFO     
+🏷️  Rubro 10/107: estudios ambientales
+2026-02-03T16:14:02 INFO     
+🔍 Buscando 'estudios ambientales' en segmento 0
+2026-02-03T16:14:02 INFO        URL: https://www.google.com/maps/search/estudios+ambientales/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T16:14:36 ERROR    Timeout esperando resultados para estudios ambientales
+2026-02-03T16:14:36 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-02-03T16:14:36 INFO     Estado guardado: 25929 empresas
+2026-02-03T16:14:43 INFO     ⏳ Esperando 6.6s antes del siguiente rubro...
+2026-02-03T16:14:43 INFO     
+🏷️  Rubro 11/107: impacto ambiental
+2026-02-03T16:14:43 INFO     
+🔍 Buscando 'impacto ambiental' en segmento 0
+2026-02-03T16:14:43 INFO        URL: https://www.google.com/maps/search/impacto+ambiental/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T16:15:01 INFO     📄 Iniciando extracción para rubro: impacto ambiental
+2026-02-03T16:15:01 INFO        Scroll 1: 10 elementos en página
+2026-02-03T16:16:25 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T16:16:31 INFO        Scroll 2: 15 elementos en página
+2026-02-03T16:17:25 INFO        ✅ 5 nuevos, 15 total
+2026-02-03T16:17:31 INFO        Scroll 3: 15 elementos en página
+2026-02-03T16:17:36 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T16:17:43 INFO        Scroll 4: 15 elementos en página
+2026-02-03T16:17:49 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T16:17:55 INFO        Scroll 5: 15 elementos en página
+2026-02-03T16:18:00 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T16:18:05 INFO        Scroll 6: 15 elementos en página
+2026-02-03T16:18:10 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T16:18:15 INFO        Scroll 7: 15 elementos en página
+2026-02-03T16:18:20 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T16:18:20 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T16:18:20 INFO     🔍 [impacto ambiental][-32.9523|-60.6975][SCROLL: 6]: Search page scraped: 15 unique, 85 duplicate, 15 seen, 6 paginations, 0 outOfLocation.
+2026-02-03T16:18:20 INFO     ✅ Extracción completada: 15 lugares encontrados
+2026-02-03T16:18:20 INFO     📊 4 lugares agregados (Total: 25933)
+2026-02-03T16:18:20 INFO     Estado guardado: 25933 empresas
+2026-02-03T16:18:26 INFO     ⏳ Esperando 5.8s antes del siguiente rubro...
+2026-02-03T16:18:26 INFO     
+🏷️  Rubro 12/107: consultores ambientales
+2026-02-03T16:18:26 INFO     
+🔍 Buscando 'consultores ambientales' en segmento 0
+2026-02-03T16:18:26 INFO        URL: https://www.google.com/maps/search/consultores+ambientales/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T16:18:44 INFO     📄 Iniciando extracción para rubro: consultores ambientales
+2026-02-03T16:18:44 INFO        Scroll 1: 8 elementos en página
+2026-02-03T16:19:48 INFO        ✅ 8 nuevos, 8 total
+2026-02-03T16:19:53 INFO        Scroll 2: 8 elementos en página
+2026-02-03T16:19:56 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T16:20:02 INFO        Scroll 3: 8 elementos en página
+2026-02-03T16:20:05 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T16:20:11 INFO        Scroll 4: 8 elementos en página
+2026-02-03T16:20:14 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T16:20:19 INFO        Scroll 5: 8 elementos en página
+2026-02-03T16:20:22 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T16:20:28 INFO        Scroll 6: 8 elementos en página
+2026-02-03T16:20:31 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T16:20:31 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T16:20:31 INFO     🔍 [consultores ambientales][-32.9523|-60.6975][SCROLL: 5]: Search page scraped: 8 unique, 40 duplicate, 8 seen, 5 paginations, 0 outOfLocation.
+2026-02-03T16:20:31 INFO     ✅ Extracción completada: 8 lugares encontrados
+2026-02-03T16:20:31 INFO     📊 1 lugares agregados (Total: 25934)
+2026-02-03T16:20:31 INFO     Estado guardado: 25934 empresas
+2026-02-03T16:20:35 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-02-03T16:20:35 INFO     
+🏷️  Rubro 13/107: catering empresarial
+2026-02-03T16:20:35 INFO     
+🔍 Buscando 'catering empresarial' en segmento 0
+2026-02-03T16:20:35 INFO        URL: https://www.google.com/maps/search/catering+empresarial/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T16:20:54 INFO     📄 Iniciando extracción para rubro: catering empresarial
+2026-02-03T16:20:54 INFO        Scroll 1: 10 elementos en página
+2026-02-03T16:22:01 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T16:22:06 INFO        Scroll 2: 17 elementos en página
+2026-02-03T16:22:58 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T16:23:04 INFO        Scroll 3: 22 elementos en página
+2026-02-03T16:23:49 INFO        ✅ 4 nuevos, 21 total
+2026-02-03T16:23:56 INFO        Scroll 4: 29 elementos en página
+2026-02-03T16:24:56 INFO        ✅ 7 nuevos, 28 total
+2026-02-03T16:25:00 INFO        Scroll 5: 36 elementos en página
+2026-02-03T16:26:03 INFO        ✅ 7 nuevos, 35 total
+2026-02-03T16:26:10 INFO        Scroll 6: 42 elementos en página
+2026-02-03T16:27:10 INFO        ✅ 6 nuevos, 41 total
+2026-02-03T16:27:16 INFO        Scroll 7: 49 elementos en página
+2026-02-03T16:28:27 INFO        ✅ 7 nuevos, 48 total
+2026-02-03T16:28:33 INFO        Scroll 8: 56 elementos en página
+2026-02-03T16:29:40 INFO        ✅ 7 nuevos, 55 total
+2026-02-03T16:29:46 INFO        Scroll 9: 62 elementos en página
+2026-02-03T16:30:52 INFO        ✅ 6 nuevos, 61 total
+2026-02-03T16:30:57 INFO        Scroll 10: 69 elementos en página
+2026-02-03T16:32:18 INFO        ✅ 7 nuevos, 68 total
+2026-02-03T16:32:23 INFO        Scroll 11: 76 elementos en página
+2026-02-03T16:33:48 INFO        ✅ 7 nuevos, 75 total
+2026-02-03T16:33:54 INFO        Scroll 12: 82 elementos en página
+2026-02-03T16:35:15 INFO        ✅ 6 nuevos, 81 total
+2026-02-03T16:35:21 INFO        Scroll 13: 89 elementos en página
+2026-02-03T16:37:25 INFO        ✅ 7 nuevos, 88 total
+2026-02-03T16:37:30 INFO        Scroll 14: 96 elementos en página
+2026-02-03T16:38:59 INFO        ✅ 7 nuevos, 95 total
+2026-02-03T16:39:06 INFO        Scroll 15: 102 elementos en página
+2026-02-03T16:40:57 INFO        ✅ 6 nuevos, 101 total
+2026-02-03T16:41:03 INFO        Scroll 16: 109 elementos en página
+2026-02-03T16:42:51 INFO        ✅ 7 nuevos, 108 total
+2026-02-03T16:42:57 INFO        Scroll 17: 115 elementos en página
+2026-02-03T16:44:15 INFO        ✅ 6 nuevos, 114 total
+2026-02-03T16:44:19 INFO        Scroll 18: 115 elementos en página
+2026-02-03T16:44:59 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T16:45:06 INFO        Scroll 19: 115 elementos en página
+2026-02-03T16:45:45 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T16:45:51 INFO        Scroll 20: 115 elementos en página
+2026-02-03T16:46:31 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T16:46:37 INFO        Scroll 21: 115 elementos en página
+2026-02-03T16:47:17 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T16:47:23 INFO        Scroll 22: 115 elementos en página
+2026-02-03T16:48:02 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T16:48:02 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T16:48:02 INFO     🔍 [catering empresarial][-32.9523|-60.6975][SCROLL: 21]: Search page scraped: 114 unique, 1522 duplicate, 114 seen, 21 paginations, 0 outOfLocation.
+2026-02-03T16:48:02 INFO     ✅ Extracción completada: 114 lugares encontrados
+2026-02-03T16:48:02 INFO     📊 54 lugares agregados (Total: 25988)
+2026-02-03T16:48:02 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T16:48:16 INFO     💾 Checkpoint guardado: 25988 empresas TOTALES
+2026-02-03T16:48:16 INFO     Estado guardado: 25988 empresas
+2026-02-03T16:48:21 INFO     ⏳ Esperando 5.1s antes del siguiente rubro...
+2026-02-03T16:48:21 INFO     
+🏷️  Rubro 14/107: servicios de catering
+2026-02-03T16:48:21 INFO     
+🔍 Buscando 'servicios de catering' en segmento 0
+2026-02-03T16:48:21 INFO        URL: https://www.google.com/maps/search/servicios+de+catering/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T16:48:42 INFO     📄 Iniciando extracción para rubro: servicios de catering
+2026-02-03T16:48:42 INFO        Scroll 1: 7 elementos en página
+2026-02-03T16:49:28 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T16:49:34 INFO        Scroll 2: 14 elementos en página
+2026-02-03T16:50:24 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T16:50:30 INFO        Scroll 3: 21 elementos en página
+2026-02-03T16:51:20 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T16:51:26 INFO        Scroll 4: 28 elementos en página
+2026-02-03T16:52:17 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T16:52:23 INFO        Scroll 5: 35 elementos en página
+2026-02-03T16:53:21 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T16:53:26 INFO        Scroll 6: 42 elementos en página
+2026-02-03T16:54:27 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T16:54:32 INFO        Scroll 7: 49 elementos en página
+2026-02-03T16:55:38 INFO        ✅ 7 nuevos, 48 total
+2026-02-03T16:55:44 INFO        Scroll 8: 56 elementos en página
+2026-02-03T16:57:07 INFO        ✅ 7 nuevos, 55 total
+2026-02-03T16:57:13 INFO        Scroll 9: 62 elementos en página
+2026-02-03T16:58:19 INFO        ✅ 6 nuevos, 61 total
+2026-02-03T16:58:25 INFO        Scroll 10: 69 elementos en página
+2026-02-03T16:59:41 INFO        ✅ 7 nuevos, 68 total
+2026-02-03T16:59:46 INFO        Scroll 11: 76 elementos en página
+2026-02-03T17:01:16 INFO        ✅ 7 nuevos, 75 total
+2026-02-03T17:01:21 INFO        Scroll 12: 82 elementos en página
+2026-02-03T17:02:44 INFO        ✅ 6 nuevos, 81 total
+2026-02-03T17:02:50 INFO        Scroll 13: 89 elementos en página
+2026-02-03T17:04:14 INFO        ✅ 7 nuevos, 88 total
+2026-02-03T17:04:19 INFO        Scroll 14: 96 elementos en página
+2026-02-03T17:06:08 INFO        ✅ 7 nuevos, 95 total
+2026-02-03T17:06:13 INFO        Scroll 15: 102 elementos en página
+2026-02-03T17:07:52 INFO        ✅ 6 nuevos, 101 total
+2026-02-03T17:07:57 INFO        Scroll 16: 109 elementos en página
+2026-02-03T17:09:46 INFO        ✅ 7 nuevos, 108 total
+2026-02-03T17:09:51 INFO        Scroll 17: 116 elementos en página
+2026-02-03T17:11:45 INFO        ✅ 7 nuevos, 115 total
+2026-02-03T17:11:51 INFO        Scroll 18: 122 elementos en página
+2026-02-03T17:13:06 INFO        ✅ 6 nuevos, 121 total
+2026-02-03T17:13:11 INFO        Scroll 19: 122 elementos en página
+2026-02-03T17:13:52 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T17:13:57 INFO        Scroll 20: 122 elementos en página
+2026-02-03T17:14:38 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T17:14:43 INFO        Scroll 21: 122 elementos en página
+2026-02-03T17:15:25 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T17:15:31 INFO        Scroll 22: 122 elementos en página
+2026-02-03T17:16:12 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T17:16:18 INFO        Scroll 23: 122 elementos en página
+2026-02-03T17:17:00 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T17:17:00 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T17:17:00 INFO     🔍 [servicios de catering][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1664 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T17:17:00 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-03T17:17:00 INFO     📊 105 lugares agregados (Total: 26093)
+2026-02-03T17:17:00 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T17:17:14 INFO     💾 Checkpoint guardado: 26093 empresas TOTALES
+2026-02-03T17:17:14 INFO     Estado guardado: 26093 empresas
+2026-02-03T17:17:21 INFO     ⏳ Esperando 7.2s antes del siguiente rubro...
+2026-02-03T17:17:21 INFO     
+🏷️  Rubro 15/107: viandas empresariales
+2026-02-03T17:17:21 INFO     
+🔍 Buscando 'viandas empresariales' en segmento 0
+2026-02-03T17:17:21 INFO        URL: https://www.google.com/maps/search/viandas+empresariales/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T17:17:41 INFO     📄 Iniciando extracción para rubro: viandas empresariales
+2026-02-03T17:17:41 INFO        Scroll 1: 10 elementos en página
+2026-02-03T17:18:49 INFO        ✅ 9 nuevos, 9 total
+2026-02-03T17:18:54 INFO        Scroll 2: 17 elementos en página
+2026-02-03T17:19:55 INFO        ✅ 7 nuevos, 16 total
+2026-02-03T17:20:01 INFO        Scroll 3: 22 elementos en página
+2026-02-03T17:20:44 INFO        ✅ 5 nuevos, 21 total
+2026-02-03T17:20:49 INFO        Scroll 4: 29 elementos en página
+2026-02-03T17:21:54 INFO        ✅ 7 nuevos, 28 total
+2026-02-03T17:22:00 INFO        Scroll 5: 29 elementos en página
+2026-02-03T17:22:11 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T17:22:16 INFO        Scroll 6: 29 elementos en página
+2026-02-03T17:22:27 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T17:22:32 INFO        Scroll 7: 29 elementos en página
+2026-02-03T17:22:43 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T17:22:49 INFO        Scroll 8: 29 elementos en página
+2026-02-03T17:22:59 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T17:23:04 INFO        Scroll 9: 29 elementos en página
+2026-02-03T17:23:15 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T17:23:15 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T17:23:15 INFO     🔍 [viandas empresariales][-32.9523|-60.6975][SCROLL: 8]: Search page scraped: 28 unique, 195 duplicate, 28 seen, 8 paginations, 0 outOfLocation.
+2026-02-03T17:23:15 INFO     ✅ Extracción completada: 28 lugares encontrados
+2026-02-03T17:23:15 INFO     📊 7 lugares agregados (Total: 26100)
+2026-02-03T17:23:15 INFO     Estado guardado: 26100 empresas
+2026-02-03T17:23:20 INFO     ⏳ Esperando 5.2s antes del siguiente rubro...
+2026-02-03T17:23:20 INFO     
+🏷️  Rubro 16/107: catering para empresas
+2026-02-03T17:23:20 INFO     
+🔍 Buscando 'catering para empresas' en segmento 0
+2026-02-03T17:23:20 INFO        URL: https://www.google.com/maps/search/catering+para+empresas/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T17:23:38 INFO     📄 Iniciando extracción para rubro: catering para empresas
+2026-02-03T17:23:38 INFO        Scroll 1: 7 elementos en página
+2026-02-03T17:24:28 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T17:24:33 INFO        Scroll 2: 14 elementos en página
+2026-02-03T17:25:20 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T17:25:25 INFO        Scroll 3: 21 elementos en página
+2026-02-03T17:26:21 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T17:26:28 INFO        Scroll 4: 28 elementos en página
+2026-02-03T17:27:10 INFO        ✅ 5 nuevos, 26 total
+2026-02-03T17:27:17 INFO        Scroll 5: 35 elementos en página
+2026-02-03T17:28:20 INFO        ✅ 7 nuevos, 33 total
+2026-02-03T17:28:27 INFO        Scroll 6: 42 elementos en página
+2026-02-03T17:29:39 INFO        ✅ 7 nuevos, 40 total
+2026-02-03T17:29:45 INFO        Scroll 7: 49 elementos en página
+2026-02-03T17:30:54 INFO        ✅ 7 nuevos, 47 total
+2026-02-03T17:31:00 INFO        Scroll 8: 56 elementos en página
+2026-02-03T17:32:10 INFO        ✅ 7 nuevos, 54 total
+2026-02-03T17:32:16 INFO        Scroll 9: 62 elementos en página
+2026-02-03T17:33:23 INFO        ✅ 6 nuevos, 60 total
+2026-02-03T17:33:29 INFO        Scroll 10: 69 elementos en página
+2026-02-03T17:34:56 INFO        ✅ 7 nuevos, 67 total
+2026-02-03T17:35:02 INFO        Scroll 11: 76 elementos en página
+2026-02-03T17:36:23 INFO        ✅ 7 nuevos, 74 total
+2026-02-03T17:36:30 INFO        Scroll 12: 82 elementos en página
+2026-02-03T17:37:57 INFO        ✅ 6 nuevos, 80 total
+2026-02-03T17:38:03 INFO        Scroll 13: 89 elementos en página
+2026-02-03T17:39:47 INFO        ✅ 7 nuevos, 87 total
+2026-02-03T17:39:54 INFO        Scroll 14: 96 elementos en página
+2026-02-03T17:41:30 INFO        ✅ 7 nuevos, 94 total
+2026-02-03T17:41:37 INFO        Scroll 15: 102 elementos en página
+2026-02-03T17:43:06 INFO        ✅ 6 nuevos, 100 total
+2026-02-03T17:43:11 INFO        Scroll 16: 109 elementos en página
+2026-02-03T17:45:43 INFO        ✅ 7 nuevos, 107 total
+2026-02-03T17:45:50 INFO        Scroll 17: 116 elementos en página
+2026-02-03T17:47:42 INFO        ✅ 7 nuevos, 114 total
+2026-02-03T17:47:48 INFO        Scroll 18: 117 elementos en página
+2026-02-03T17:48:36 INFO        ✅ 1 nuevos, 115 total
+2026-02-03T17:48:41 INFO        Scroll 19: 117 elementos en página
+2026-02-03T17:49:21 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T17:49:26 INFO        Scroll 20: 117 elementos en página
+2026-02-03T17:50:07 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T17:50:12 INFO        Scroll 21: 117 elementos en página
+2026-02-03T17:50:52 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T17:50:57 INFO        Scroll 22: 117 elementos en página
+2026-02-03T17:51:38 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T17:51:42 INFO        Scroll 23: 117 elementos en página
+2026-02-03T17:52:23 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T17:52:23 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T17:52:23 INFO     🔍 [catering para empresas][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 115 unique, 1640 duplicate, 115 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T17:52:23 INFO     ✅ Extracción completada: 115 lugares encontrados
+2026-02-03T17:52:23 INFO     📊 29 lugares agregados (Total: 26129)
+2026-02-03T17:52:23 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T17:52:37 INFO     💾 Checkpoint guardado: 26129 empresas TOTALES
+2026-02-03T17:52:38 INFO     Estado guardado: 26129 empresas
+2026-02-03T17:52:44 INFO     ⏳ Esperando 6.2s antes del siguiente rubro...
+2026-02-03T17:52:44 INFO     
+🏷️  Rubro 17/107: administración de consorcios
+2026-02-03T17:52:44 INFO     
+🔍 Buscando 'administración de consorcios' en segmento 0
+2026-02-03T17:52:44 INFO        URL: https://www.google.com/maps/search/administración+de+consorcios/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T17:53:02 INFO     📄 Iniciando extracción para rubro: administración de consorcios
+2026-02-03T17:53:02 INFO        Scroll 1: 10 elementos en página
+2026-02-03T17:54:18 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T17:54:24 INFO        Scroll 2: 17 elementos en página
+2026-02-03T17:55:28 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T17:55:34 INFO        Scroll 3: 21 elementos en página
+2026-02-03T17:56:06 INFO        ✅ 4 nuevos, 21 total
+2026-02-03T17:56:12 INFO        Scroll 4: 28 elementos en página
+2026-02-03T17:57:10 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T17:57:16 INFO        Scroll 5: 31 elementos en página
+2026-02-03T17:57:44 INFO        ✅ 3 nuevos, 30 total
+2026-02-03T17:57:50 INFO        Scroll 6: 31 elementos en página
+2026-02-03T17:58:02 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T17:58:07 INFO        Scroll 7: 31 elementos en página
+2026-02-03T17:58:18 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T17:58:22 INFO        Scroll 8: 31 elementos en página
+2026-02-03T17:58:33 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T17:58:38 INFO        Scroll 9: 31 elementos en página
+2026-02-03T17:58:49 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T17:58:55 INFO        Scroll 10: 31 elementos en página
+2026-02-03T17:59:06 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T17:59:06 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T17:59:06 INFO     🔍 [administración de consorcios][-32.9523|-60.6975][SCROLL: 9]: Search page scraped: 30 unique, 232 duplicate, 30 seen, 9 paginations, 0 outOfLocation.
+2026-02-03T17:59:06 INFO     ✅ Extracción completada: 30 lugares encontrados
+2026-02-03T17:59:06 INFO     📊 22 lugares agregados (Total: 26151)
+2026-02-03T17:59:06 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T17:59:20 INFO     💾 Checkpoint guardado: 26151 empresas TOTALES
+2026-02-03T17:59:20 INFO     Estado guardado: 26151 empresas
+2026-02-03T17:59:25 INFO     ⏳ Esperando 4.8s antes del siguiente rubro...
+2026-02-03T17:59:25 INFO     
+🏷️  Rubro 18/107: gerencias de condominios
+2026-02-03T17:59:25 INFO     
+🔍 Buscando 'gerencias de condominios' en segmento 0
+2026-02-03T17:59:25 INFO        URL: https://www.google.com/maps/search/gerencias+de+condominios/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T18:00:03 ERROR    Timeout esperando resultados para gerencias de condominios
+2026-02-03T18:00:03 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-02-03T18:00:03 INFO     Estado guardado: 26151 empresas
+2026-02-03T18:00:10 INFO     ⏳ Esperando 6.8s antes del siguiente rubro...
+2026-02-03T18:00:10 INFO     
+🏷️  Rubro 19/107: administradoras de edificios
+2026-02-03T18:00:10 INFO     
+🔍 Buscando 'administradoras de edificios' en segmento 0
+2026-02-03T18:00:10 INFO        URL: https://www.google.com/maps/search/administradoras+de+edificios/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T18:00:35 INFO     📄 Iniciando extracción para rubro: administradoras de edificios
+2026-02-03T18:00:35 INFO        Scroll 1: 10 elementos en página
+2026-02-03T18:01:42 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T18:01:47 INFO        Scroll 2: 17 elementos en página
+2026-02-03T18:02:43 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T18:02:50 INFO        Scroll 3: 20 elementos en página
+2026-02-03T18:03:16 INFO        ✅ 3 nuevos, 20 total
+2026-02-03T18:03:21 INFO        Scroll 4: 27 elementos en página
+2026-02-03T18:04:13 INFO        ✅ 7 nuevos, 27 total
+2026-02-03T18:04:18 INFO        Scroll 5: 28 elementos en página
+2026-02-03T18:04:34 INFO        ✅ 1 nuevos, 28 total
+2026-02-03T18:04:41 INFO        Scroll 6: 28 elementos en página
+2026-02-03T18:04:51 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T18:04:56 INFO        Scroll 7: 28 elementos en página
+2026-02-03T18:05:06 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T18:05:11 INFO        Scroll 8: 28 elementos en página
+2026-02-03T18:05:21 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T18:05:27 INFO        Scroll 9: 28 elementos en página
+2026-02-03T18:05:37 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T18:05:43 INFO        Scroll 10: 28 elementos en página
+2026-02-03T18:05:53 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T18:05:53 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T18:05:53 INFO     🔍 [administradoras de edificios][-32.9523|-60.6975][SCROLL: 9]: Search page scraped: 28 unique, 214 duplicate, 28 seen, 9 paginations, 0 outOfLocation.
+2026-02-03T18:05:53 INFO     ✅ Extracción completada: 28 lugares encontrados
+2026-02-03T18:05:53 INFO     📊 1 lugares agregados (Total: 26152)
+2026-02-03T18:05:53 INFO     Estado guardado: 26152 empresas
+2026-02-03T18:05:58 INFO     ⏳ Esperando 4.8s antes del siguiente rubro...
+2026-02-03T18:05:58 INFO     
+🏷️  Rubro 20/107: consorcios y administración
+2026-02-03T18:05:58 INFO     
+🔍 Buscando 'consorcios y administración' en segmento 0
+2026-02-03T18:05:58 INFO        URL: https://www.google.com/maps/search/consorcios+y+administración/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T18:06:17 INFO     📄 Iniciando extracción para rubro: consorcios y administración
+2026-02-03T18:06:18 INFO        Scroll 1: 7 elementos en página
+2026-02-03T18:07:03 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T18:07:09 INFO        Scroll 2: 14 elementos en página
+2026-02-03T18:08:08 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T18:08:15 INFO        Scroll 3: 21 elementos en página
+2026-02-03T18:09:24 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T18:09:29 INFO        Scroll 4: 28 elementos en página
+2026-02-03T18:10:21 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T18:10:27 INFO        Scroll 5: 28 elementos en página
+2026-02-03T18:10:37 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T18:10:43 INFO        Scroll 6: 28 elementos en página
+2026-02-03T18:10:53 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T18:10:59 INFO        Scroll 7: 28 elementos en página
+2026-02-03T18:11:09 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T18:11:15 INFO        Scroll 8: 28 elementos en página
+2026-02-03T18:11:25 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T18:11:30 INFO        Scroll 9: 28 elementos en página
+2026-02-03T18:11:40 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T18:11:40 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T18:11:40 INFO     🔍 [consorcios y administración][-32.9523|-60.6975][SCROLL: 8]: Search page scraped: 27 unique, 183 duplicate, 27 seen, 8 paginations, 0 outOfLocation.
+2026-02-03T18:11:40 INFO     ✅ Extracción completada: 27 lugares encontrados
+2026-02-03T18:11:40 INFO     📊 3 lugares agregados (Total: 26155)
+2026-02-03T18:11:40 INFO     Estado guardado: 26155 empresas
+2026-02-03T18:11:45 INFO     ⏳ Esperando 5.0s antes del siguiente rubro...
+2026-02-03T18:11:45 INFO     
+🏷️  Rubro 21/107: diseño web
+2026-02-03T18:11:45 INFO     
+🔍 Buscando 'diseño web' en segmento 0
+2026-02-03T18:11:45 INFO        URL: https://www.google.com/maps/search/diseño+web/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T18:12:05 INFO     📄 Iniciando extracción para rubro: diseño web
+2026-02-03T18:12:05 INFO        Scroll 1: 10 elementos en página
+2026-02-03T18:13:08 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T18:13:13 INFO        Scroll 2: 17 elementos en página
+2026-02-03T18:14:13 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T18:14:20 INFO        Scroll 3: 22 elementos en página
+2026-02-03T18:15:06 INFO        ✅ 5 nuevos, 22 total
+2026-02-03T18:15:11 INFO        Scroll 4: 29 elementos en página
+2026-02-03T18:16:01 INFO        ✅ 5 nuevos, 27 total
+2026-02-03T18:16:06 INFO        Scroll 5: 36 elementos en página
+2026-02-03T18:17:05 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T18:17:10 INFO        Scroll 6: 43 elementos en página
+2026-02-03T18:18:06 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T18:18:12 INFO        Scroll 7: 51 elementos en página
+2026-02-03T18:19:31 INFO        ✅ 8 nuevos, 49 total
+2026-02-03T18:19:36 INFO        Scroll 8: 58 elementos en página
+2026-02-03T18:20:50 INFO        ✅ 7 nuevos, 56 total
+2026-02-03T18:20:55 INFO        Scroll 9: 64 elementos en página
+2026-02-03T18:22:22 INFO        ✅ 6 nuevos, 62 total
+2026-02-03T18:22:30 INFO        Scroll 10: 71 elementos en página
+2026-02-03T18:23:49 INFO        ✅ 7 nuevos, 69 total
+2026-02-03T18:23:55 INFO        Scroll 11: 78 elementos en página
+2026-02-03T18:25:21 INFO        ✅ 7 nuevos, 76 total
+2026-02-03T18:25:27 INFO        Scroll 12: 84 elementos en página
+2026-02-03T18:26:49 INFO        ✅ 6 nuevos, 82 total
+2026-02-03T18:26:54 INFO        Scroll 13: 91 elementos en página
+2026-02-03T18:28:47 INFO        ✅ 7 nuevos, 89 total
+2026-02-03T18:28:53 INFO        Scroll 14: 98 elementos en página
+2026-02-03T18:30:47 INFO        ✅ 7 nuevos, 96 total
+2026-02-03T18:30:52 INFO        Scroll 15: 104 elementos en página
+2026-02-03T18:32:22 INFO        ✅ 6 nuevos, 102 total
+2026-02-03T18:32:29 INFO        Scroll 16: 111 elementos en página
+2026-02-03T18:34:35 INFO        ✅ 7 nuevos, 109 total
+2026-02-03T18:34:40 INFO        Scroll 17: 118 elementos en página
+2026-02-03T18:36:24 INFO        ✅ 6 nuevos, 115 total
+2026-02-03T18:36:31 INFO        Scroll 18: 124 elementos en página
+2026-02-03T18:38:00 INFO        ✅ 6 nuevos, 121 total
+2026-02-03T18:38:06 INFO        Scroll 19: 124 elementos en página
+2026-02-03T18:38:48 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T18:38:54 INFO        Scroll 20: 124 elementos en página
+2026-02-03T18:39:36 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T18:39:41 INFO        Scroll 21: 124 elementos en página
+2026-02-03T18:40:23 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T18:40:29 INFO        Scroll 22: 124 elementos en página
+2026-02-03T18:41:11 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T18:41:16 INFO        Scroll 23: 124 elementos en página
+2026-02-03T18:41:58 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T18:41:58 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T18:41:58 INFO     🔍 [diseño web][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1708 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T18:41:58 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-03T18:41:58 INFO     📊 40 lugares agregados (Total: 26195)
+2026-02-03T18:41:58 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T18:42:12 INFO     💾 Checkpoint guardado: 26195 empresas TOTALES
+2026-02-03T18:42:12 INFO     Estado guardado: 26195 empresas
+2026-02-03T18:42:19 INFO     ⏳ Esperando 6.6s antes del siguiente rubro...
+2026-02-03T18:42:19 INFO     
+🏷️  Rubro 22/107: estudio de diseño
+2026-02-03T18:42:19 INFO     
+🔍 Buscando 'estudio de diseño' en segmento 0
+2026-02-03T18:42:19 INFO        URL: https://www.google.com/maps/search/estudio+de+diseño/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T18:42:38 INFO     📄 Iniciando extracción para rubro: estudio de diseño
+2026-02-03T18:42:38 INFO        Scroll 1: 7 elementos en página
+2026-02-03T18:43:19 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T18:43:26 INFO        Scroll 2: 14 elementos en página
+2026-02-03T18:44:21 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T18:44:27 INFO        Scroll 3: 21 elementos en página
+2026-02-03T18:45:45 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T18:45:51 INFO        Scroll 4: 29 elementos en página
+2026-02-03T18:46:59 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T18:47:05 INFO        Scroll 5: 36 elementos en página
+2026-02-03T18:48:22 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T18:48:27 INFO        Scroll 6: 43 elementos en página
+2026-02-03T18:49:45 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T18:49:52 INFO        Scroll 7: 51 elementos en página
+2026-02-03T18:51:05 INFO        ✅ 8 nuevos, 49 total
+2026-02-03T18:51:10 INFO        Scroll 8: 58 elementos en página
+2026-02-03T18:52:24 INFO        ✅ 7 nuevos, 56 total
+2026-02-03T18:52:30 INFO        Scroll 9: 64 elementos en página
+2026-02-03T18:53:40 INFO        ✅ 6 nuevos, 62 total
+2026-02-03T18:53:47 INFO        Scroll 10: 71 elementos en página
+2026-02-03T18:55:14 INFO        ✅ 7 nuevos, 69 total
+2026-02-03T18:55:19 INFO        Scroll 11: 78 elementos en página
+2026-02-03T18:56:44 INFO        ✅ 7 nuevos, 76 total
+2026-02-03T18:56:50 INFO        Scroll 12: 84 elementos en página
+2026-02-03T18:58:17 INFO        ✅ 6 nuevos, 82 total
+2026-02-03T18:58:23 INFO        Scroll 13: 91 elementos en página
+2026-02-03T19:00:06 INFO        ✅ 7 nuevos, 89 total
+2026-02-03T19:00:13 INFO        Scroll 14: 98 elementos en página
+2026-02-03T19:01:45 INFO        ✅ 7 nuevos, 96 total
+2026-02-03T19:01:51 INFO        Scroll 15: 104 elementos en página
+2026-02-03T19:03:21 INFO        ✅ 6 nuevos, 102 total
+2026-02-03T19:03:27 INFO        Scroll 16: 111 elementos en página
+2026-02-03T19:05:59 INFO        ✅ 7 nuevos, 109 total
+2026-02-03T19:06:05 INFO        Scroll 17: 118 elementos en página
+2026-02-03T19:07:54 INFO        ✅ 6 nuevos, 115 total
+2026-02-03T19:07:59 INFO        Scroll 18: 124 elementos en página
+2026-02-03T19:09:13 INFO        ✅ 6 nuevos, 121 total
+2026-02-03T19:09:19 INFO        Scroll 19: 124 elementos en página
+2026-02-03T19:10:01 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T19:10:06 INFO        Scroll 20: 124 elementos en página
+2026-02-03T19:10:48 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T19:10:54 INFO        Scroll 21: 124 elementos en página
+2026-02-03T19:11:36 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T19:11:42 INFO        Scroll 22: 124 elementos en página
+2026-02-03T19:12:24 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T19:12:31 INFO        Scroll 23: 124 elementos en página
+2026-02-03T19:13:13 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T19:13:13 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T19:13:13 INFO     🔍 [estudio de diseño][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1701 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T19:13:13 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-03T19:13:13 INFO     📊 41 lugares agregados (Total: 26236)
+2026-02-03T19:13:13 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T19:13:27 INFO     💾 Checkpoint guardado: 26236 empresas TOTALES
+2026-02-03T19:13:27 INFO     Estado guardado: 26236 empresas
+2026-02-03T19:13:33 INFO     ⏳ Esperando 5.2s antes del siguiente rubro...
+2026-02-03T19:13:33 INFO     
+🏷️  Rubro 23/107: diseñadores gráficos
+2026-02-03T19:13:33 INFO     
+🔍 Buscando 'diseñadores gráficos' en segmento 0
+2026-02-03T19:13:33 INFO        URL: https://www.google.com/maps/search/diseñadores+gráficos/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T19:13:52 INFO     📄 Iniciando extracción para rubro: diseñadores gráficos
+2026-02-03T19:13:52 INFO        Scroll 1: 5 elementos en página
+2026-02-03T19:14:28 INFO        ✅ 5 nuevos, 5 total
+2026-02-03T19:14:34 INFO        Scroll 2: 5 elementos en página
+2026-02-03T19:14:35 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T19:14:41 INFO        Scroll 3: 5 elementos en página
+2026-02-03T19:14:43 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T19:14:48 INFO        Scroll 4: 5 elementos en página
+2026-02-03T19:14:49 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T19:14:55 INFO        Scroll 5: 5 elementos en página
+2026-02-03T19:14:57 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T19:15:03 INFO        Scroll 6: 5 elementos en página
+2026-02-03T19:15:05 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T19:15:05 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T19:15:05 INFO     🔍 [diseñadores gráficos][-32.9523|-60.6975][SCROLL: 5]: Search page scraped: 5 unique, 25 duplicate, 5 seen, 5 paginations, 0 outOfLocation.
+2026-02-03T19:15:05 INFO     ✅ Extracción completada: 5 lugares encontrados
+2026-02-03T19:15:05 INFO     Estado guardado: 26236 empresas
+2026-02-03T19:15:10 INFO     ⏳ Esperando 4.7s antes del siguiente rubro...
+2026-02-03T19:15:10 INFO     
+🏷️  Rubro 24/107: agencias de diseño
+2026-02-03T19:15:10 INFO     
+🔍 Buscando 'agencias de diseño' en segmento 0
+2026-02-03T19:15:10 INFO        URL: https://www.google.com/maps/search/agencias+de+diseño/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T19:15:29 INFO     📄 Iniciando extracción para rubro: agencias de diseño
+2026-02-03T19:15:29 INFO        Scroll 1: 10 elementos en página
+2026-02-03T19:16:24 INFO        ✅ 9 nuevos, 9 total
+2026-02-03T19:16:30 INFO        Scroll 2: 17 elementos en página
+2026-02-03T19:17:27 INFO        ✅ 7 nuevos, 16 total
+2026-02-03T19:17:33 INFO        Scroll 3: 22 elementos en página
+2026-02-03T19:18:11 INFO        ✅ 5 nuevos, 21 total
+2026-02-03T19:18:17 INFO        Scroll 4: 29 elementos en página
+2026-02-03T19:19:03 INFO        ✅ 5 nuevos, 26 total
+2026-02-03T19:19:09 INFO        Scroll 5: 36 elementos en página
+2026-02-03T19:20:29 INFO        ✅ 7 nuevos, 33 total
+2026-02-03T19:20:34 INFO        Scroll 6: 43 elementos en página
+2026-02-03T19:21:45 INFO        ✅ 7 nuevos, 40 total
+2026-02-03T19:21:52 INFO        Scroll 7: 51 elementos en página
+2026-02-03T19:23:08 INFO        ✅ 8 nuevos, 48 total
+2026-02-03T19:23:14 INFO        Scroll 8: 58 elementos en página
+2026-02-03T19:24:37 INFO        ✅ 7 nuevos, 55 total
+2026-02-03T19:24:43 INFO        Scroll 9: 64 elementos en página
+2026-02-03T19:25:59 INFO        ✅ 6 nuevos, 61 total
+2026-02-03T19:26:05 INFO        Scroll 10: 71 elementos en página
+2026-02-03T19:27:36 INFO        ✅ 7 nuevos, 68 total
+2026-02-03T19:27:41 INFO        Scroll 11: 78 elementos en página
+2026-02-03T19:29:27 INFO        ✅ 7 nuevos, 75 total
+2026-02-03T19:29:32 INFO        Scroll 12: 84 elementos en página
+2026-02-03T19:31:00 INFO        ✅ 6 nuevos, 81 total
+2026-02-03T19:31:05 INFO        Scroll 13: 91 elementos en página
+2026-02-03T19:32:50 INFO        ✅ 7 nuevos, 88 total
+2026-02-03T19:32:56 INFO        Scroll 14: 98 elementos en página
+2026-02-03T19:34:50 INFO        ✅ 7 nuevos, 95 total
+2026-02-03T19:34:56 INFO        Scroll 15: 104 elementos en página
+2026-02-03T19:36:33 INFO        ✅ 6 nuevos, 101 total
+2026-02-03T19:36:39 INFO        Scroll 16: 111 elementos en página
+2026-02-03T19:38:35 INFO        ✅ 7 nuevos, 108 total
+2026-02-03T19:38:41 INFO        Scroll 17: 118 elementos en página
+2026-02-03T19:40:34 INFO        ✅ 7 nuevos, 115 total
+2026-02-03T19:40:39 INFO        Scroll 18: 124 elementos en página
+2026-02-03T19:41:56 INFO        ✅ 6 nuevos, 121 total
+2026-02-03T19:42:00 INFO        Scroll 19: 124 elementos en página
+2026-02-03T19:42:43 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T19:42:49 INFO        Scroll 20: 124 elementos en página
+2026-02-03T19:43:32 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T19:43:37 INFO        Scroll 21: 124 elementos en página
+2026-02-03T19:44:20 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T19:44:27 INFO        Scroll 22: 124 elementos en página
+2026-02-03T19:45:11 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T19:45:16 INFO        Scroll 23: 124 elementos en página
+2026-02-03T19:45:59 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T19:45:59 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T19:45:59 INFO     🔍 [agencias de diseño][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1708 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T19:45:59 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-03T19:45:59 INFO     📊 22 lugares agregados (Total: 26258)
+2026-02-03T19:45:59 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T19:46:13 INFO     💾 Checkpoint guardado: 26258 empresas TOTALES
+2026-02-03T19:46:13 INFO     Estado guardado: 26258 empresas
+2026-02-03T19:46:19 INFO     ⏳ Esperando 5.6s antes del siguiente rubro...
+2026-02-03T19:46:19 INFO     
+🏷️  Rubro 25/107: limpieza comercial
+2026-02-03T19:46:19 INFO     
+🔍 Buscando 'limpieza comercial' en segmento 0
+2026-02-03T19:46:19 INFO        URL: https://www.google.com/maps/search/limpieza+comercial/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T19:46:39 INFO     📄 Iniciando extracción para rubro: limpieza comercial
+2026-02-03T19:46:39 INFO        Scroll 1: 7 elementos en página
+2026-02-03T19:47:35 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T19:47:41 INFO        Scroll 2: 14 elementos en página
+2026-02-03T19:48:37 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T19:48:42 INFO        Scroll 3: 21 elementos en página
+2026-02-03T19:49:44 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T19:49:48 INFO        Scroll 4: 29 elementos en página
+2026-02-03T19:50:38 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T19:50:44 INFO        Scroll 5: 36 elementos en página
+2026-02-03T19:51:46 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T19:51:51 INFO        Scroll 6: 43 elementos en página
+2026-02-03T19:53:06 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T19:53:10 INFO        Scroll 7: 45 elementos en página
+2026-02-03T19:53:36 INFO        ✅ 2 nuevos, 43 total
+2026-02-03T19:53:42 INFO        Scroll 8: 45 elementos en página
+2026-02-03T19:53:59 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T19:54:05 INFO        Scroll 9: 45 elementos en página
+2026-02-03T19:54:21 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T19:54:26 INFO        Scroll 10: 45 elementos en página
+2026-02-03T19:54:42 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T19:54:47 INFO        Scroll 11: 45 elementos en página
+2026-02-03T19:55:04 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T19:55:09 INFO        Scroll 12: 45 elementos en página
+2026-02-03T19:55:25 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T19:55:25 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T19:55:25 INFO     🔍 [limpieza comercial][-32.9523|-60.6975][SCROLL: 11]: Search page scraped: 43 unique, 377 duplicate, 43 seen, 11 paginations, 0 outOfLocation.
+2026-02-03T19:55:25 INFO     ✅ Extracción completada: 43 lugares encontrados
+2026-02-03T19:55:25 INFO     📊 35 lugares agregados (Total: 26293)
+2026-02-03T19:55:25 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T19:55:40 INFO     💾 Checkpoint guardado: 26293 empresas TOTALES
+2026-02-03T19:55:40 INFO     Estado guardado: 26293 empresas
+2026-02-03T19:55:47 INFO     ⏳ Esperando 6.8s antes del siguiente rubro...
+2026-02-03T19:55:47 INFO     
+🏷️  Rubro 26/107: empresas de limpieza
+2026-02-03T19:55:47 INFO     
+🔍 Buscando 'empresas de limpieza' en segmento 0
+2026-02-03T19:55:47 INFO        URL: https://www.google.com/maps/search/empresas+de+limpieza/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T19:56:06 INFO     📄 Iniciando extracción para rubro: empresas de limpieza
+2026-02-03T19:56:06 INFO        Scroll 1: 10 elementos en página
+2026-02-03T19:57:23 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T19:57:28 INFO        Scroll 2: 17 elementos en página
+2026-02-03T19:58:16 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T19:58:22 INFO        Scroll 3: 22 elementos en página
+2026-02-03T19:59:00 INFO        ✅ 5 nuevos, 22 total
+2026-02-03T19:59:07 INFO        Scroll 4: 29 elementos en página
+2026-02-03T19:59:50 INFO        ✅ 5 nuevos, 27 total
+2026-02-03T19:59:56 INFO        Scroll 5: 36 elementos en página
+2026-02-03T20:00:57 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T20:01:02 INFO        Scroll 6: 43 elementos en página
+2026-02-03T20:02:17 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T20:02:22 INFO        Scroll 7: 51 elementos en página
+2026-02-03T20:03:25 INFO        ✅ 7 nuevos, 48 total
+2026-02-03T20:03:31 INFO        Scroll 8: 58 elementos en página
+2026-02-03T20:04:40 INFO        ✅ 7 nuevos, 55 total
+2026-02-03T20:04:45 INFO        Scroll 9: 64 elementos en página
+2026-02-03T20:05:49 INFO        ✅ 6 nuevos, 61 total
+2026-02-03T20:05:55 INFO        Scroll 10: 71 elementos en página
+2026-02-03T20:07:28 INFO        ✅ 7 nuevos, 68 total
+2026-02-03T20:07:33 INFO        Scroll 11: 78 elementos en página
+2026-02-03T20:09:05 INFO        ✅ 7 nuevos, 75 total
+2026-02-03T20:09:10 INFO        Scroll 12: 84 elementos en página
+2026-02-03T20:10:27 INFO        ✅ 6 nuevos, 81 total
+2026-02-03T20:10:34 INFO        Scroll 13: 91 elementos en página
+2026-02-03T20:12:16 INFO        ✅ 7 nuevos, 88 total
+2026-02-03T20:12:21 INFO        Scroll 14: 98 elementos en página
+2026-02-03T20:13:53 INFO        ✅ 7 nuevos, 95 total
+2026-02-03T20:13:59 INFO        Scroll 15: 104 elementos en página
+2026-02-03T20:15:50 INFO        ✅ 6 nuevos, 101 total
+2026-02-03T20:15:57 INFO        Scroll 16: 111 elementos en página
+2026-02-03T20:17:47 INFO        ✅ 7 nuevos, 108 total
+2026-02-03T20:17:52 INFO        Scroll 17: 118 elementos en página
+2026-02-03T20:19:52 INFO        ✅ 7 nuevos, 115 total
+2026-02-03T20:19:57 INFO        Scroll 18: 124 elementos en página
+2026-02-03T20:21:15 INFO        ✅ 6 nuevos, 121 total
+2026-02-03T20:21:20 INFO        Scroll 19: 124 elementos en página
+2026-02-03T20:22:02 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T20:22:08 INFO        Scroll 20: 124 elementos en página
+2026-02-03T20:22:50 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T20:22:56 INFO        Scroll 21: 124 elementos en página
+2026-02-03T20:23:39 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T20:23:44 INFO        Scroll 22: 124 elementos en página
+2026-02-03T20:24:26 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T20:24:31 INFO        Scroll 23: 124 elementos en página
+2026-02-03T20:25:13 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T20:25:13 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T20:25:13 INFO     🔍 [empresas de limpieza][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1708 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T20:25:13 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-03T20:25:13 INFO     📊 87 lugares agregados (Total: 26380)
+2026-02-03T20:25:13 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T20:25:28 INFO     💾 Checkpoint guardado: 26380 empresas TOTALES
+2026-02-03T20:25:28 INFO     Estado guardado: 26380 empresas
+2026-02-03T20:25:36 INFO     ⏳ Esperando 7.9s antes del siguiente rubro...
+2026-02-03T20:25:36 INFO     
+🏷️  Rubro 27/107: servicios de limpieza
+2026-02-03T20:25:36 INFO     
+🔍 Buscando 'servicios de limpieza' en segmento 0
+2026-02-03T20:25:36 INFO        URL: https://www.google.com/maps/search/servicios+de+limpieza/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T20:26:15 ERROR    Timeout esperando resultados para servicios de limpieza
+2026-02-03T20:26:15 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-02-03T20:26:15 INFO     Estado guardado: 26380 empresas
+2026-02-03T20:26:20 INFO     ⏳ Esperando 5.8s antes del siguiente rubro...
+2026-02-03T20:26:20 INFO     
+🏷️  Rubro 28/107: limpieza de oficinas
+2026-02-03T20:26:20 INFO     
+🔍 Buscando 'limpieza de oficinas' en segmento 0
+2026-02-03T20:26:20 INFO        URL: https://www.google.com/maps/search/limpieza+de+oficinas/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T20:26:55 ERROR    Timeout esperando resultados para limpieza de oficinas
+2026-02-03T20:26:55 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-02-03T20:26:55 INFO     Estado guardado: 26380 empresas
+2026-02-03T20:27:00 INFO     ⏳ Esperando 4.6s antes del siguiente rubro...
+2026-02-03T20:27:00 INFO     
+🏷️  Rubro 29/107: limpieza empresarial
+2026-02-03T20:27:00 INFO     
+🔍 Buscando 'limpieza empresarial' en segmento 0
+2026-02-03T20:27:00 INFO        URL: https://www.google.com/maps/search/limpieza+empresarial/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T20:27:37 ERROR    Timeout esperando resultados para limpieza empresarial
+2026-02-03T20:27:37 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-02-03T20:27:37 INFO     Estado guardado: 26380 empresas
+2026-02-03T20:27:41 INFO     ⏳ Esperando 4.1s antes del siguiente rubro...
+2026-02-03T20:27:41 INFO     
+🏷️  Rubro 30/107: gimnasios
+2026-02-03T20:27:41 INFO     
+🔍 Buscando 'gimnasios' en segmento 0
+2026-02-03T20:27:41 INFO        URL: https://www.google.com/maps/search/gimnasios/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T20:28:44 ERROR    Timeout esperando resultados para gimnasios
+2026-02-03T20:28:44 INFO     ✅ Extracción completada: 0 lugares encontrados
+2026-02-03T20:28:44 INFO     Estado guardado: 26380 empresas
+2026-02-03T20:28:51 INFO     ⏳ Esperando 6.3s antes del siguiente rubro...
+2026-02-03T20:28:51 INFO     
+🏷️  Rubro 31/107: centros de entrenamiento
+2026-02-03T20:28:51 INFO     
+🔍 Buscando 'centros de entrenamiento' en segmento 0
+2026-02-03T20:28:51 INFO        URL: https://www.google.com/maps/search/centros+de+entrenamiento/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T20:29:11 INFO     📄 Iniciando extracción para rubro: centros de entrenamiento
+2026-02-03T20:29:11 INFO        Scroll 1: 7 elementos en página
+2026-02-03T20:30:06 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T20:30:11 INFO        Scroll 2: 14 elementos en página
+2026-02-03T20:31:14 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T20:31:19 INFO        Scroll 3: 21 elementos en página
+2026-02-03T20:32:18 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T20:32:25 INFO        Scroll 4: 28 elementos en página
+2026-02-03T20:33:18 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T20:33:23 INFO        Scroll 5: 35 elementos en página
+2026-02-03T20:34:21 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T20:34:27 INFO        Scroll 6: 42 elementos en página
+2026-02-03T20:35:20 INFO        ✅ 6 nuevos, 40 total
+2026-02-03T20:35:25 INFO        Scroll 7: 49 elementos en página
+2026-02-03T20:36:31 INFO        ✅ 7 nuevos, 47 total
+2026-02-03T20:36:36 INFO        Scroll 8: 56 elementos en página
+2026-02-03T20:37:52 INFO        ✅ 7 nuevos, 54 total
+2026-02-03T20:37:58 INFO        Scroll 9: 62 elementos en página
+2026-02-03T20:39:10 INFO        ✅ 6 nuevos, 60 total
+2026-02-03T20:39:15 INFO        Scroll 10: 69 elementos en página
+2026-02-03T20:40:50 INFO        ✅ 7 nuevos, 67 total
+2026-02-03T20:40:55 INFO        Scroll 11: 76 elementos en página
+2026-02-03T20:42:19 INFO        ✅ 7 nuevos, 74 total
+2026-02-03T20:42:25 INFO        Scroll 12: 82 elementos en página
+2026-02-03T20:44:03 INFO        ✅ 6 nuevos, 80 total
+2026-02-03T20:44:08 INFO        Scroll 13: 89 elementos en página
+2026-02-03T20:45:56 INFO        ✅ 7 nuevos, 87 total
+2026-02-03T20:46:03 INFO        Scroll 14: 96 elementos en página
+2026-02-03T20:47:54 INFO        ✅ 7 nuevos, 94 total
+2026-02-03T20:48:01 INFO        Scroll 15: 102 elementos en página
+2026-02-03T20:49:36 INFO        ✅ 6 nuevos, 100 total
+2026-02-03T20:49:42 INFO        Scroll 16: 109 elementos en página
+2026-02-03T20:51:50 INFO        ✅ 7 nuevos, 107 total
+2026-02-03T20:51:55 INFO        Scroll 17: 116 elementos en página
+2026-02-03T20:53:49 INFO        ✅ 7 nuevos, 114 total
+2026-02-03T20:53:54 INFO        Scroll 18: 122 elementos en página
+2026-02-03T20:55:09 INFO        ✅ 6 nuevos, 120 total
+2026-02-03T20:55:14 INFO        Scroll 19: 122 elementos en página
+2026-02-03T20:55:57 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T20:56:04 INFO        Scroll 20: 122 elementos en página
+2026-02-03T20:56:46 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T20:56:51 INFO        Scroll 21: 122 elementos en página
+2026-02-03T20:57:34 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T20:57:40 INFO        Scroll 22: 122 elementos en página
+2026-02-03T20:58:22 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T20:58:27 INFO        Scroll 23: 122 elementos en página
+2026-02-03T20:59:09 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T20:59:09 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T20:59:09 INFO     🔍 [centros de entrenamiento][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 120 unique, 1665 duplicate, 120 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T20:59:09 INFO     ✅ Extracción completada: 120 lugares encontrados
+2026-02-03T20:59:09 INFO     📊 118 lugares agregados (Total: 26498)
+2026-02-03T20:59:09 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T20:59:24 INFO     💾 Checkpoint guardado: 26498 empresas TOTALES
+2026-02-03T20:59:24 INFO     Estado guardado: 26498 empresas
+2026-02-03T20:59:32 INFO     ⏳ Esperando 7.8s antes del siguiente rubro...
+2026-02-03T20:59:32 INFO     
+🏷️  Rubro 32/107: entrenadores personales
+2026-02-03T20:59:32 INFO     
+🔍 Buscando 'entrenadores personales' en segmento 0
+2026-02-03T20:59:32 INFO        URL: https://www.google.com/maps/search/entrenadores+personales/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T20:59:53 INFO     📄 Iniciando extracción para rubro: entrenadores personales
+2026-02-03T20:59:54 INFO        Scroll 1: 10 elementos en página
+2026-02-03T21:01:07 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T21:01:12 INFO        Scroll 2: 17 elementos en página
+2026-02-03T21:01:55 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T21:02:01 INFO        Scroll 3: 21 elementos en página
+2026-02-03T21:02:35 INFO        ✅ 4 nuevos, 21 total
+2026-02-03T21:02:41 INFO        Scroll 4: 28 elementos en página
+2026-02-03T21:03:49 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T21:03:55 INFO        Scroll 5: 35 elementos en página
+2026-02-03T21:04:53 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T21:05:00 INFO        Scroll 6: 41 elementos en página
+2026-02-03T21:05:48 INFO        ✅ 6 nuevos, 40 total
+2026-02-03T21:05:53 INFO        Scroll 7: 48 elementos en página
+2026-02-03T21:07:01 INFO        ✅ 7 nuevos, 47 total
+2026-02-03T21:07:06 INFO        Scroll 8: 55 elementos en página
+2026-02-03T21:08:18 INFO        ✅ 7 nuevos, 54 total
+2026-02-03T21:08:24 INFO        Scroll 9: 61 elementos en página
+2026-02-03T21:09:31 INFO        ✅ 6 nuevos, 60 total
+2026-02-03T21:09:37 INFO        Scroll 10: 68 elementos en página
+2026-02-03T21:10:57 INFO        ✅ 7 nuevos, 67 total
+2026-02-03T21:11:03 INFO        Scroll 11: 75 elementos en página
+2026-02-03T21:12:21 INFO        ✅ 7 nuevos, 74 total
+2026-02-03T21:12:26 INFO        Scroll 12: 81 elementos en página
+2026-02-03T21:13:59 INFO        ✅ 6 nuevos, 80 total
+2026-02-03T21:14:05 INFO        Scroll 13: 88 elementos en página
+2026-02-03T21:15:39 INFO        ✅ 7 nuevos, 87 total
+2026-02-03T21:15:43 INFO        Scroll 14: 95 elementos en página
+2026-02-03T21:17:24 INFO        ✅ 7 nuevos, 94 total
+2026-02-03T21:17:29 INFO        Scroll 15: 101 elementos en página
+2026-02-03T21:19:02 INFO        ✅ 6 nuevos, 100 total
+2026-02-03T21:19:08 INFO        Scroll 16: 103 elementos en página
+2026-02-03T21:20:05 INFO        ✅ 2 nuevos, 102 total
+2026-02-03T21:20:11 INFO        Scroll 17: 103 elementos en página
+2026-02-03T21:20:47 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T21:20:52 INFO        Scroll 18: 103 elementos en página
+2026-02-03T21:21:27 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T21:21:33 INFO        Scroll 19: 103 elementos en página
+2026-02-03T21:22:09 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T21:22:14 INFO        Scroll 20: 103 elementos en página
+2026-02-03T21:22:50 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T21:22:55 INFO        Scroll 21: 103 elementos en página
+2026-02-03T21:23:31 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T21:23:31 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T21:23:31 INFO     🔍 [entrenadores personales][-32.9523|-60.6975][SCROLL: 20]: Search page scraped: 102 unique, 1340 duplicate, 102 seen, 20 paginations, 0 outOfLocation.
+2026-02-03T21:23:31 INFO     ✅ Extracción completada: 102 lugares encontrados
+2026-02-03T21:23:31 INFO     📊 32 lugares agregados (Total: 26530)
+2026-02-03T21:23:31 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T21:23:45 INFO     💾 Checkpoint guardado: 26530 empresas TOTALES
+2026-02-03T21:23:45 INFO     Estado guardado: 26530 empresas
+2026-02-03T21:23:52 INFO     ⏳ Esperando 6.9s antes del siguiente rubro...
+2026-02-03T21:23:52 INFO     
+🏷️  Rubro 33/107: fitness center
+2026-02-03T21:23:52 INFO     
+🔍 Buscando 'fitness center' en segmento 0
+2026-02-03T21:23:52 INFO        URL: https://www.google.com/maps/search/fitness+center/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T21:24:12 INFO     📄 Iniciando extracción para rubro: fitness center
+2026-02-03T21:24:12 INFO        Scroll 1: 5 elementos en página
+2026-02-03T21:25:03 INFO        ✅ 5 nuevos, 5 total
+2026-02-03T21:25:08 INFO        Scroll 2: 10 elementos en página
+2026-02-03T21:25:44 INFO        ✅ 5 nuevos, 10 total
+2026-02-03T21:25:50 INFO        Scroll 3: 15 elementos en página
+2026-02-03T21:26:27 INFO        ✅ 5 nuevos, 15 total
+2026-02-03T21:26:33 INFO        Scroll 4: 20 elementos en página
+2026-02-03T21:27:31 INFO        ✅ 5 nuevos, 20 total
+2026-02-03T21:27:37 INFO        Scroll 5: 26 elementos en página
+2026-02-03T21:28:26 INFO        ✅ 5 nuevos, 25 total
+2026-02-03T21:28:33 INFO        Scroll 6: 31 elementos en página
+2026-02-03T21:29:30 INFO        ✅ 5 nuevos, 30 total
+2026-02-03T21:29:35 INFO        Scroll 7: 36 elementos en página
+2026-02-03T21:30:22 INFO        ✅ 5 nuevos, 35 total
+2026-02-03T21:30:28 INFO        Scroll 8: 41 elementos en página
+2026-02-03T21:31:45 INFO        ✅ 5 nuevos, 40 total
+2026-02-03T21:31:52 INFO        Scroll 9: 47 elementos en página
+2026-02-03T21:32:56 INFO        ✅ 6 nuevos, 46 total
+2026-02-03T21:33:03 INFO        Scroll 10: 52 elementos en página
+2026-02-03T21:33:55 INFO        ✅ 4 nuevos, 50 total
+2026-02-03T21:33:59 INFO        Scroll 11: 57 elementos en página
+2026-02-03T21:35:01 INFO        ✅ 3 nuevos, 53 total
+2026-02-03T21:35:06 INFO        Scroll 12: 62 elementos en página
+2026-02-03T21:36:16 INFO        ✅ 5 nuevos, 58 total
+2026-02-03T21:36:21 INFO        Scroll 13: 67 elementos en página
+2026-02-03T21:37:28 INFO        ✅ 5 nuevos, 63 total
+2026-02-03T21:37:33 INFO        Scroll 14: 72 elementos en página
+2026-02-03T21:39:01 INFO        ✅ 5 nuevos, 68 total
+2026-02-03T21:39:07 INFO        Scroll 15: 77 elementos en página
+2026-02-03T21:40:19 INFO        ✅ 5 nuevos, 73 total
+2026-02-03T21:40:25 INFO        Scroll 16: 82 elementos en página
+2026-02-03T21:41:42 INFO        ✅ 5 nuevos, 78 total
+2026-02-03T21:41:48 INFO        Scroll 17: 87 elementos en página
+2026-02-03T21:43:22 INFO        ✅ 5 nuevos, 83 total
+2026-02-03T21:43:27 INFO        Scroll 18: 92 elementos en página
+2026-02-03T21:45:11 INFO        ✅ 5 nuevos, 88 total
+2026-02-03T21:45:16 INFO        Scroll 19: 97 elementos en página
+2026-02-03T21:46:48 INFO        ✅ 5 nuevos, 93 total
+2026-02-03T21:46:54 INFO        Scroll 20: 102 elementos en página
+2026-02-03T21:48:19 INFO        ✅ 5 nuevos, 98 total
+2026-02-03T21:48:24 INFO        Scroll 21: 107 elementos en página
+2026-02-03T21:50:10 INFO        ✅ 5 nuevos, 103 total
+2026-02-03T21:50:16 INFO        Scroll 22: 112 elementos en página
+2026-02-03T21:52:16 INFO        ✅ 5 nuevos, 108 total
+2026-02-03T21:52:21 INFO        Scroll 23: 117 elementos en página
+2026-02-03T21:53:59 INFO        ✅ 5 nuevos, 113 total
+2026-02-03T21:54:05 INFO        Scroll 24: 122 elementos en página
+2026-02-03T21:55:23 INFO        ✅ 5 nuevos, 118 total
+2026-02-03T21:55:30 INFO        Scroll 25: 122 elementos en página
+2026-02-03T21:56:12 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T21:56:17 INFO        Scroll 26: 122 elementos en página
+2026-02-03T21:56:59 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T21:57:05 INFO        Scroll 27: 122 elementos en página
+2026-02-03T21:57:47 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T21:57:53 INFO        Scroll 28: 122 elementos en página
+2026-02-03T21:58:34 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T21:58:41 INFO        Scroll 29: 122 elementos en página
+2026-02-03T21:59:23 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T21:59:23 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T21:59:23 INFO     🔍 [fitness center][-32.9523|-60.6975][SCROLL: 28]: Search page scraped: 118 unique, 2028 duplicate, 118 seen, 28 paginations, 0 outOfLocation.
+2026-02-03T21:59:23 INFO     ✅ Extracción completada: 118 lugares encontrados
+2026-02-03T21:59:23 INFO     📊 66 lugares agregados (Total: 26596)
+2026-02-03T21:59:23 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T21:59:37 INFO     💾 Checkpoint guardado: 26596 empresas TOTALES
+2026-02-03T21:59:37 INFO     Estado guardado: 26596 empresas
+2026-02-03T21:59:43 INFO     ⏳ Esperando 5.9s antes del siguiente rubro...
+2026-02-03T21:59:43 INFO     
+🏷️  Rubro 34/107: gymnasio
+2026-02-03T21:59:43 INFO     
+🔍 Buscando 'gymnasio' en segmento 0
+2026-02-03T21:59:43 INFO        URL: https://www.google.com/maps/search/gymnasio/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T22:00:03 INFO     📄 Iniciando extracción para rubro: gymnasio
+2026-02-03T22:00:03 INFO        Scroll 1: 10 elementos en página
+2026-02-03T22:01:31 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T22:01:37 INFO        Scroll 2: 15 elementos en página
+2026-02-03T22:02:12 INFO        ✅ 5 nuevos, 15 total
+2026-02-03T22:02:17 INFO        Scroll 3: 20 elementos en página
+2026-02-03T22:02:59 INFO        ✅ 5 nuevos, 20 total
+2026-02-03T22:03:05 INFO        Scroll 4: 26 elementos en página
+2026-02-03T22:03:42 INFO        ✅ 4 nuevos, 24 total
+2026-02-03T22:03:47 INFO        Scroll 5: 31 elementos en página
+2026-02-03T22:04:31 INFO        ✅ 3 nuevos, 27 total
+2026-02-03T22:04:37 INFO        Scroll 6: 36 elementos en página
+2026-02-03T22:05:25 INFO        ✅ 4 nuevos, 31 total
+2026-02-03T22:05:29 INFO        Scroll 7: 41 elementos en página
+2026-02-03T22:06:36 INFO        ✅ 5 nuevos, 36 total
+2026-02-03T22:06:43 INFO        Scroll 8: 48 elementos en página
+2026-02-03T22:08:05 INFO        ✅ 7 nuevos, 43 total
+2026-02-03T22:08:11 INFO        Scroll 9: 53 elementos en página
+2026-02-03T22:08:56 INFO        ✅ 3 nuevos, 46 total
+2026-02-03T22:09:01 INFO        Scroll 10: 58 elementos en página
+2026-02-03T22:09:54 INFO        ✅ 3 nuevos, 49 total
+2026-02-03T22:10:00 INFO        Scroll 11: 63 elementos en página
+2026-02-03T22:11:09 INFO        ✅ 4 nuevos, 53 total
+2026-02-03T22:11:16 INFO        Scroll 12: 68 elementos en página
+2026-02-03T22:12:34 INFO        ✅ 4 nuevos, 57 total
+2026-02-03T22:12:40 INFO        Scroll 13: 73 elementos en página
+2026-02-03T22:13:49 INFO        ✅ 4 nuevos, 61 total
+2026-02-03T22:13:55 INFO        Scroll 14: 78 elementos en página
+2026-02-03T22:15:27 INFO        ✅ 4 nuevos, 65 total
+2026-02-03T22:15:33 INFO        Scroll 15: 83 elementos en página
+2026-02-03T22:17:05 INFO        ✅ 4 nuevos, 69 total
+2026-02-03T22:17:12 INFO        Scroll 16: 88 elementos en página
+2026-02-03T22:18:28 INFO        ✅ 4 nuevos, 73 total
+2026-02-03T22:18:34 INFO        Scroll 17: 93 elementos en página
+2026-02-03T22:19:51 INFO        ✅ 5 nuevos, 78 total
+2026-02-03T22:19:56 INFO        Scroll 18: 98 elementos en página
+2026-02-03T22:21:27 INFO        ✅ 5 nuevos, 83 total
+2026-02-03T22:21:33 INFO        Scroll 19: 103 elementos en página
+2026-02-03T22:23:13 INFO        ✅ 5 nuevos, 88 total
+2026-02-03T22:23:19 INFO        Scroll 20: 108 elementos en página
+2026-02-03T22:24:55 INFO        ✅ 5 nuevos, 93 total
+2026-02-03T22:25:02 INFO        Scroll 21: 113 elementos en página
+2026-02-03T22:26:53 INFO        ✅ 5 nuevos, 98 total
+2026-02-03T22:26:59 INFO        Scroll 22: 118 elementos en página
+2026-02-03T22:28:42 INFO        ✅ 5 nuevos, 103 total
+2026-02-03T22:28:48 INFO        Scroll 23: 123 elementos en página
+2026-02-03T22:30:05 INFO        ✅ 5 nuevos, 108 total
+2026-02-03T22:30:11 INFO        Scroll 24: 123 elementos en página
+2026-02-03T22:30:53 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T22:31:00 INFO        Scroll 25: 123 elementos en página
+2026-02-03T22:31:41 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T22:31:48 INFO        Scroll 26: 123 elementos en página
+2026-02-03T22:32:30 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T22:32:36 INFO        Scroll 27: 123 elementos en página
+2026-02-03T22:33:18 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T22:33:23 INFO        Scroll 28: 123 elementos en página
+2026-02-03T22:34:04 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T22:34:04 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T22:34:04 INFO     🔍 [gymnasio][-32.9523|-60.6975][SCROLL: 27]: Search page scraped: 108 unique, 2054 duplicate, 108 seen, 27 paginations, 0 outOfLocation.
+2026-02-03T22:34:04 INFO     ✅ Extracción completada: 108 lugares encontrados
+2026-02-03T22:34:04 INFO     📊 41 lugares agregados (Total: 26637)
+2026-02-03T22:34:05 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T22:34:19 INFO     💾 Checkpoint guardado: 26637 empresas TOTALES
+2026-02-03T22:34:19 INFO     Estado guardado: 26637 empresas
+2026-02-03T22:34:23 INFO     ⏳ Esperando 4.3s antes del siguiente rubro...
+2026-02-03T22:34:23 INFO     
+🏷️  Rubro 35/107: productora audiovisual
+2026-02-03T22:34:23 INFO     
+🔍 Buscando 'productora audiovisual' en segmento 0
+2026-02-03T22:34:23 INFO        URL: https://www.google.com/maps/search/productora+audiovisual/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T22:34:44 INFO     📄 Iniciando extracción para rubro: productora audiovisual
+2026-02-03T22:34:44 INFO        Scroll 1: 7 elementos en página
+2026-02-03T22:35:28 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T22:35:32 INFO        Scroll 2: 14 elementos en página
+2026-02-03T22:36:21 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T22:36:28 INFO        Scroll 3: 21 elementos en página
+2026-02-03T22:37:31 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T22:37:37 INFO        Scroll 4: 28 elementos en página
+2026-02-03T22:38:47 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T22:38:53 INFO        Scroll 5: 28 elementos en página
+2026-02-03T22:39:04 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T22:39:08 INFO        Scroll 6: 28 elementos en página
+2026-02-03T22:39:18 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T22:39:24 INFO        Scroll 7: 28 elementos en página
+2026-02-03T22:39:34 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T22:39:39 INFO        Scroll 8: 28 elementos en página
+2026-02-03T22:39:49 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T22:39:54 INFO        Scroll 9: 28 elementos en página
+2026-02-03T22:40:04 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T22:40:04 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T22:40:04 INFO     🔍 [productora audiovisual][-32.9523|-60.6975][SCROLL: 8]: Search page scraped: 27 unique, 183 duplicate, 27 seen, 8 paginations, 0 outOfLocation.
+2026-02-03T22:40:04 INFO     ✅ Extracción completada: 27 lugares encontrados
+2026-02-03T22:40:04 INFO     📊 25 lugares agregados (Total: 26662)
+2026-02-03T22:40:04 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T22:40:19 INFO     💾 Checkpoint guardado: 26662 empresas TOTALES
+2026-02-03T22:40:19 INFO     Estado guardado: 26662 empresas
+2026-02-03T22:40:24 INFO     ⏳ Esperando 4.8s antes del siguiente rubro...
+2026-02-03T22:40:24 INFO     
+🏷️  Rubro 36/107: producción de videos
+2026-02-03T22:40:24 INFO     
+🔍 Buscando 'producción de videos' en segmento 0
+2026-02-03T22:40:24 INFO        URL: https://www.google.com/maps/search/producción+de+videos/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T22:40:44 INFO     📄 Iniciando extracción para rubro: producción de videos
+2026-02-03T22:40:44 INFO        Scroll 1: 10 elementos en página
+2026-02-03T22:41:50 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T22:41:56 INFO        Scroll 2: 17 elementos en página
+2026-02-03T22:42:55 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T22:42:59 INFO        Scroll 3: 21 elementos en página
+2026-02-03T22:43:32 INFO        ✅ 4 nuevos, 21 total
+2026-02-03T22:43:37 INFO        Scroll 4: 28 elementos en página
+2026-02-03T22:44:26 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T22:44:32 INFO        Scroll 5: 35 elementos en página
+2026-02-03T22:45:29 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T22:45:35 INFO        Scroll 6: 42 elementos en página
+2026-02-03T22:46:45 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T22:46:51 INFO        Scroll 7: 49 elementos en página
+2026-02-03T22:48:03 INFO        ✅ 7 nuevos, 48 total
+2026-02-03T22:48:10 INFO        Scroll 8: 56 elementos en página
+2026-02-03T22:49:28 INFO        ✅ 7 nuevos, 55 total
+2026-02-03T22:49:34 INFO        Scroll 9: 57 elementos en página
+2026-02-03T22:50:01 INFO        ✅ 1 nuevos, 56 total
+2026-02-03T22:50:06 INFO        Scroll 10: 57 elementos en página
+2026-02-03T22:50:27 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T22:50:33 INFO        Scroll 11: 57 elementos en página
+2026-02-03T22:50:53 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T22:50:59 INFO        Scroll 12: 57 elementos en página
+2026-02-03T22:51:20 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T22:51:26 INFO        Scroll 13: 57 elementos en página
+2026-02-03T22:51:46 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T22:51:52 INFO        Scroll 14: 57 elementos en página
+2026-02-03T22:52:12 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T22:52:12 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T22:52:12 INFO     🔍 [producción de videos][-32.9523|-60.6975][SCROLL: 13]: Search page scraped: 56 unique, 544 duplicate, 56 seen, 13 paginations, 0 outOfLocation.
+2026-02-03T22:52:12 INFO     ✅ Extracción completada: 56 lugares encontrados
+2026-02-03T22:52:12 INFO     📊 38 lugares agregados (Total: 26700)
+2026-02-03T22:52:12 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T22:52:26 INFO     💾 Checkpoint guardado: 26700 empresas TOTALES
+2026-02-03T22:52:26 INFO     Estado guardado: 26700 empresas
+2026-02-03T22:52:34 INFO     ⏳ Esperando 7.8s antes del siguiente rubro...
+2026-02-03T22:52:34 INFO     
+🏷️  Rubro 37/107: empresas de video
+2026-02-03T22:52:34 INFO     
+🔍 Buscando 'empresas de video' en segmento 0
+2026-02-03T22:52:34 INFO        URL: https://www.google.com/maps/search/empresas+de+video/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T22:52:53 INFO     📄 Iniciando extracción para rubro: empresas de video
+2026-02-03T22:52:53 INFO        Scroll 1: 7 elementos en página
+2026-02-03T22:53:36 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T22:53:42 INFO        Scroll 2: 14 elementos en página
+2026-02-03T22:54:32 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T22:54:38 INFO        Scroll 3: 21 elementos en página
+2026-02-03T22:55:36 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T22:55:43 INFO        Scroll 4: 28 elementos en página
+2026-02-03T22:56:33 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T22:56:38 INFO        Scroll 5: 35 elementos en página
+2026-02-03T22:57:56 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T22:58:01 INFO        Scroll 6: 42 elementos en página
+2026-02-03T22:59:09 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T22:59:14 INFO        Scroll 7: 49 elementos en página
+2026-02-03T23:00:21 INFO        ✅ 7 nuevos, 48 total
+2026-02-03T23:00:26 INFO        Scroll 8: 56 elementos en página
+2026-02-03T23:01:43 INFO        ✅ 7 nuevos, 55 total
+2026-02-03T23:01:47 INFO        Scroll 9: 62 elementos en página
+2026-02-03T23:02:50 INFO        ✅ 6 nuevos, 61 total
+2026-02-03T23:02:57 INFO        Scroll 10: 69 elementos en página
+2026-02-03T23:04:23 INFO        ✅ 7 nuevos, 68 total
+2026-02-03T23:04:29 INFO        Scroll 11: 76 elementos en página
+2026-02-03T23:05:51 INFO        ✅ 7 nuevos, 75 total
+2026-02-03T23:05:58 INFO        Scroll 12: 82 elementos en página
+2026-02-03T23:07:09 INFO        ✅ 6 nuevos, 81 total
+2026-02-03T23:07:15 INFO        Scroll 13: 89 elementos en página
+2026-02-03T23:08:50 INFO        ✅ 7 nuevos, 88 total
+2026-02-03T23:08:56 INFO        Scroll 14: 96 elementos en página
+2026-02-03T23:10:26 INFO        ✅ 7 nuevos, 95 total
+2026-02-03T23:10:32 INFO        Scroll 15: 102 elementos en página
+2026-02-03T23:12:33 INFO        ✅ 6 nuevos, 101 total
+2026-02-03T23:12:39 INFO        Scroll 16: 109 elementos en página
+2026-02-03T23:14:18 INFO        ✅ 7 nuevos, 108 total
+2026-02-03T23:14:25 INFO        Scroll 17: 116 elementos en página
+2026-02-03T23:16:35 INFO        ✅ 7 nuevos, 115 total
+2026-02-03T23:16:41 INFO        Scroll 18: 122 elementos en página
+2026-02-03T23:18:00 INFO        ✅ 6 nuevos, 121 total
+2026-02-03T23:18:06 INFO        Scroll 19: 122 elementos en página
+2026-02-03T23:18:47 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T23:18:53 INFO        Scroll 20: 122 elementos en página
+2026-02-03T23:19:35 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T23:19:40 INFO        Scroll 21: 122 elementos en página
+2026-02-03T23:20:21 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T23:20:27 INFO        Scroll 22: 122 elementos en página
+2026-02-03T23:21:09 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T23:21:14 INFO        Scroll 23: 122 elementos en página
+2026-02-03T23:21:55 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T23:21:55 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T23:21:55 INFO     🔍 [empresas de video][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 121 unique, 1664 duplicate, 121 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T23:21:55 INFO     ✅ Extracción completada: 121 lugares encontrados
+2026-02-03T23:21:55 INFO     📊 58 lugares agregados (Total: 26758)
+2026-02-03T23:21:55 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T23:22:10 INFO     💾 Checkpoint guardado: 26758 empresas TOTALES
+2026-02-03T23:22:10 INFO     Estado guardado: 26758 empresas
+2026-02-03T23:22:15 INFO     ⏳ Esperando 4.8s antes del siguiente rubro...
+2026-02-03T23:22:15 INFO     
+🏷️  Rubro 38/107: producciones audiovisuales
+2026-02-03T23:22:15 INFO     
+🔍 Buscando 'producciones audiovisuales' en segmento 0
+2026-02-03T23:22:15 INFO        URL: https://www.google.com/maps/search/producciones+audiovisuales/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T23:22:34 INFO     📄 Iniciando extracción para rubro: producciones audiovisuales
+2026-02-03T23:22:34 INFO        Scroll 1: 10 elementos en página
+2026-02-03T23:23:41 INFO        ✅ 10 nuevos, 10 total
+2026-02-03T23:23:46 INFO        Scroll 2: 17 elementos en página
+2026-02-03T23:24:50 INFO        ✅ 7 nuevos, 17 total
+2026-02-03T23:24:57 INFO        Scroll 3: 21 elementos en página
+2026-02-03T23:25:31 INFO        ✅ 4 nuevos, 21 total
+2026-02-03T23:25:37 INFO        Scroll 4: 28 elementos en página
+2026-02-03T23:26:35 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T23:26:41 INFO        Scroll 5: 35 elementos en página
+2026-02-03T23:27:36 INFO        ✅ 7 nuevos, 34 total
+2026-02-03T23:27:40 INFO        Scroll 6: 42 elementos en página
+2026-02-03T23:28:44 INFO        ✅ 7 nuevos, 41 total
+2026-02-03T23:28:49 INFO        Scroll 7: 50 elementos en página
+2026-02-03T23:30:13 INFO        ✅ 8 nuevos, 49 total
+2026-02-03T23:30:18 INFO        Scroll 8: 57 elementos en página
+2026-02-03T23:31:32 INFO        ✅ 7 nuevos, 56 total
+2026-02-03T23:31:39 INFO        Scroll 9: 63 elementos en página
+2026-02-03T23:32:53 INFO        ✅ 6 nuevos, 62 total
+2026-02-03T23:32:58 INFO        Scroll 10: 70 elementos en página
+2026-02-03T23:34:17 INFO        ✅ 7 nuevos, 69 total
+2026-02-03T23:34:23 INFO        Scroll 11: 77 elementos en página
+2026-02-03T23:35:59 INFO        ✅ 7 nuevos, 76 total
+2026-02-03T23:36:04 INFO        Scroll 12: 83 elementos en página
+2026-02-03T23:37:25 INFO        ✅ 6 nuevos, 82 total
+2026-02-03T23:37:31 INFO        Scroll 13: 90 elementos en página
+2026-02-03T23:39:06 INFO        ✅ 7 nuevos, 89 total
+2026-02-03T23:39:12 INFO        Scroll 14: 97 elementos en página
+2026-02-03T23:40:55 INFO        ✅ 7 nuevos, 96 total
+2026-02-03T23:41:00 INFO        Scroll 15: 103 elementos en página
+2026-02-03T23:42:40 INFO        ✅ 6 nuevos, 102 total
+2026-02-03T23:42:44 INFO        Scroll 16: 110 elementos en página
+2026-02-03T23:44:49 INFO        ✅ 7 nuevos, 109 total
+2026-02-03T23:44:55 INFO        Scroll 17: 117 elementos en página
+2026-02-03T23:46:50 INFO        ✅ 7 nuevos, 116 total
+2026-02-03T23:46:56 INFO        Scroll 18: 123 elementos en página
+2026-02-03T23:48:14 INFO        ✅ 6 nuevos, 122 total
+2026-02-03T23:48:19 INFO        Scroll 19: 123 elementos en página
+2026-02-03T23:49:02 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-03T23:49:09 INFO        Scroll 20: 123 elementos en página
+2026-02-03T23:49:50 INFO        ⚠️  Sin nuevos elementos (2/5)
+2026-02-03T23:49:56 INFO        Scroll 21: 123 elementos en página
+2026-02-03T23:50:37 INFO        ⚠️  Sin nuevos elementos (3/5)
+2026-02-03T23:50:42 INFO        Scroll 22: 123 elementos en página
+2026-02-03T23:51:24 INFO        ⚠️  Sin nuevos elementos (4/5)
+2026-02-03T23:51:29 INFO        Scroll 23: 123 elementos en página
+2026-02-03T23:52:10 INFO        ⚠️  Sin nuevos elementos (5/5)
+2026-02-03T23:52:10 INFO        🛑 Sin nuevos elementos después de múltiples scrolls
+2026-02-03T23:52:10 INFO     🔍 [producciones audiovisuales][-32.9523|-60.6975][SCROLL: 22]: Search page scraped: 122 unique, 1686 duplicate, 122 seen, 22 paginations, 0 outOfLocation.
+2026-02-03T23:52:10 INFO     ✅ Extracción completada: 122 lugares encontrados
+2026-02-03T23:52:10 INFO     📊 46 lugares agregados (Total: 26804)
+2026-02-03T23:52:10 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-03T23:52:25 INFO     💾 Checkpoint guardado: 26804 empresas TOTALES
+2026-02-03T23:52:25 INFO     Estado guardado: 26804 empresas
+2026-02-03T23:52:33 INFO     ⏳ Esperando 7.7s antes del siguiente rubro...
+2026-02-03T23:52:33 INFO     
+🏷️  Rubro 39/107: instalaciones eléctricas
+2026-02-03T23:52:33 INFO     
+🔍 Buscando 'instalaciones eléctricas' en segmento 0
+2026-02-03T23:52:33 INFO        URL: https://www.google.com/maps/search/instalaciones+eléctricas/@-32.952256150000004,-60.697465900000005,11z?hl=es-419
+2026-02-03T23:52:53 INFO     📄 Iniciando extracción para rubro: instalaciones eléctricas
+2026-02-03T23:52:53 INFO        Scroll 1: 7 elementos en página
+2026-02-03T23:53:41 INFO        ✅ 7 nuevos, 7 total
+2026-02-03T23:53:46 INFO        Scroll 2: 14 elementos en página
+2026-02-03T23:54:44 INFO        ✅ 7 nuevos, 14 total
+2026-02-03T23:54:49 INFO        Scroll 3: 21 elementos en página
+2026-02-03T23:55:45 INFO        ✅ 7 nuevos, 21 total
+2026-02-03T23:55:50 INFO        Scroll 4: 29 elementos en página
+2026-02-03T23:56:43 INFO        ✅ 6 nuevos, 27 total
+2026-02-03T23:56:49 INFO        Scroll 5: 36 elementos en página
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54779/text
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54779/text
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54779/text
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54689/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54689/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54689/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54816/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54816/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54816/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54817/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54817/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54817/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54818/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54818/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54818/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54819/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54819/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54819/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54820/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54820/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54820/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54821/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54821/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54821/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54822/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54822/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54822/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54956/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54956/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54956/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54957/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54957/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54957/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54958/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54958/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54958/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54959/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54959/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54959/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54960/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54960/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54960/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54961/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54961/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54961/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54962/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54962/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54962/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54963/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54963/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.54963/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55090/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55090/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55090/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55091/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55091/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55091/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55092/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55092/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55092/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55093/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55093/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55093/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55094/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55094/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55094/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55095/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55095/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55095/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55096/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55096/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element/f.79E3C7FA04951DF8EFD2003EA0D0E091.d.2274C2023FCC2407691892458E8E50AB.e.55096/element
+2026-02-04T00:18:29 INFO        ⚠️  Sin nuevos elementos (1/5)
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element
+2026-02-04T00:18:29 WARNING  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused")': /session/be3d5e402868259a87356f27ff247f4f/element
+2026-02-04T00:18:29 WARNING  Error en iteración de scroll: HTTPConnectionPool(host='localhost', port=39467): Max retries exceeded with url: /session/be3d5e402868259a87356f27ff247f4f/element (Caused by NewConnectionError("HTTPConnection(host='localhost', port=39467): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-02-04T00:18:29 INFO     🔍 [instalaciones eléctricas][-32.9523|-60.6975][SCROLL: 4]: Search page scraped: 27 unique, 57 duplicate, 27 seen, 4 paginations, 0 outOfLocation.
+2026-02-04T00:18:29 INFO     ✅ Extracción completada: 27 lugares encontrados
+2026-02-04T00:18:29 INFO     📊 11 lugares agregados (Total: 26815)
+2026-02-04T00:18:29 INFO     Estado guardado: 26815 empresas
+2026-02-04T00:18:34 INFO     ⏳ Esperando 5.1s antes del siguiente rubro...
+2026-02-04T00:18:34 INFO     
+⏸️  PAUSA DETECTADA - Guardando progreso...
+2026-02-04T00:18:34 INFO     Estado guardado: 26815 empresas
+2026-02-04T00:18:34 INFO     🔒 Backup temporal creado: resultados/google_maps_results.csv.backup_temp
+2026-02-04T00:18:50 INFO     💾 Checkpoint guardado: 26815 empresas TOTALES
+2026-02-04T00:18:50 INFO     
+============================================================
+2026-02-04T00:18:50 INFO     ✅ ESTADO GUARDADO CORRECTAMENTE
+2026-02-04T00:18:50 INFO     ============================================================
+2026-02-04T00:18:50 INFO     📊 Progreso guardado:
+2026-02-04T00:18:50 INFO        - Ciudad actual: Rosario, Argentina
+2026-02-04T00:18:50 INFO        - Rubros completados en Rosario, Argentina: 124/194
+2026-02-04T00:18:50 INFO        - Total empresas: 26815
+2026-02-04T00:18:50 INFO     
+💡 Para reanudar, ejecuta nuevamente: python main.py
+2026-02-04T00:18:50 INFO     ============================================================
+
+2026-02-04T00:18:50 INFO     🔒 Cerrando navegador...
+2026-02-04T00:18:51 INFO     
+⏸️  Script pausado - ejecuta nuevamente para reanudar

@@ -1,0 +1,16 @@
+2026-02-04T00:21:27 INFO     
+============================================================
+2026-02-04T00:21:27 INFO     🗺️  GOOGLE MAPS SCRAPER - ESTRATEGIA APIFY
+2026-02-04T00:21:27 INFO     ============================================================
+2026-02-04T00:21:27 INFO     📍 Ubicaciones: 29 ciudades
+2026-02-04T00:21:27 INFO     🏷️  Rubros: 194 rubros
+2026-02-04T00:21:27 INFO     📐 Grid size: 1x1
+2026-02-04T00:21:27 INFO     💾 Checkpoint cada: 20 empresas
+2026-02-04T00:21:27 INFO     
+⏸️  CTRL+C para pausar y guardar (presiona solo una vez)
+2026-02-04T00:21:27 INFO     ============================================================
+
+2026-02-04T00:21:27 INFO     📂 Cargando datos existentes desde resultados/google_maps_results.csv
+2026-02-04T00:21:32 INFO     ✅ 26815 empresas cargadas desde archivo previo
+2026-02-04T00:21:32 INFO     Estado cargado: 26815 empresas previas
+2026-02-04T00:21:32 INFO     🚀 Inicializando navegador...
