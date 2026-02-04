@@ -1,0 +1,6 @@
+# No se necesitan dependencias externas
+# El script usa solo librerías estándar de Python:
+# - smtplib (envío de emails)
+# - email (creación de mensajes)
+# - csv (lectura de contactos)
+# - time (delays entre envíos)

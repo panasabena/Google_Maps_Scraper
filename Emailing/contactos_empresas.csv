@@ -1,0 +1,6 @@
+# En este csv tengo que copiar y pegar toda la info de mails de la base de datos que ya cree.
+# Las líneas con # al inicio son ignoradas automáticamente.
+email,nombre_empresa
+panasabena@gmail.com,Panadería Nueva Familiar
+alfre.sabena@gmail.com,Otra Empresa Test
+tobigrassani@gmail.com,Ñizarro Ñatógenos

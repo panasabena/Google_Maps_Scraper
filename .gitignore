@@ -3,6 +3,8 @@ scraper/
 venv/
 env/
 ENV/
+emailing_env/
+Emailing/emailing_env/
 
 # Python
 __pycache__/
@@ -18,11 +20,13 @@ build/
 resultados/
 backups/
 # logs/  # Descomentado para permitir subir logs a GitHub
-*.xlsx
-*.csv
+# *.xlsx  # Descomentado para permitir subir archivos Excel a GitHub
+# *.csv  # Descomentado para permitir subir archivos CSV a GitHub
 *.pkl
-estado_ejecucion.json
+# estado_ejecucion.json  # Descomentado para permitir subir JSON a GitHub
 cookies.pkl
+email_tracking.db
+Emailing/email_tracking.db
 
 # IDE
 .vscode/
