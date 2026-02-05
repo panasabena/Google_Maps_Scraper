@@ -1,7 +1,7 @@
 {
   "rubros_completados": [],
   "segmentos_completados": {},
-  "empresas_extraidas": 26815,
+  "empresas_extraidas": 29385,
   "ultimo_checkpoint": null,
   "fecha_inicio": "2026-01-26T20:31:00.312441",
   "ubicaciones_completadas": {
@@ -590,6 +590,38 @@
         "representantes de deportistas",
         "agencias deportivas",
         "management deportivo"
+      ],
+      "completado": false
+    },
+    "mendoza_argentina": {
+      "nombre": "Mendoza, Argentina",
+      "rubros_completados": [
+        "fabrica",
+        "logistica",
+        "transportes",
+        "mudanzas",
+        "fletes",
+        "agencia de marketing",
+        "higiene y seguridad",
+        "auditores",
+        "cadetería",
+        "carpintería",
+        "herrería",
+        "electricista",
+        "plomero",
+        "pintor",
+        "consultoría",
+        "software",
+        "diseño gráfico",
+        "estudio de ingeniería",
+        "consultoría ingeniería",
+        "ingeniería civil",
+        "ingenieros consultores",
+        "proyectos de ingeniería",
+        "clínica médica",
+        "consultorio médico",
+        "centro de salud",
+        "policlínico"
       ],
       "completado": false
     }
