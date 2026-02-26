@@ -2,6 +2,10 @@
 
 Script profesional de web scraping para Google Maps que replica la estrategia utilizada por Apify.
 
+## 🎬 Demo
+
+![Demo del Scraper en acción](demo_scraper.gif)
+
 ---
 
 ## 📑 Tabla de Contenidos
