@@ -2,7 +2,34 @@
 
 Dashboard interactivo en Python para visualizar el progreso y resultados del scraping de Google Maps en Argentina. Desarrollado con Dash, Plotly y Bootstrap.
 
-![Dashboard Preview](assets/images/dashboard-preview.png)
+## 📸 Capturas de Pantalla
+
+### 1. Resumen General
+Estadísticas principales, gauges de progreso e indicadores de calidad de datos.
+
+![Resumen General](screenshots/1_resumen_general.png)
+
+### 2. Mapa Interactivo
+Mapa de Argentina con ubicaciones de scraping y densidad de empresas.
+
+![Mapa Interactivo](screenshots/2_mapa_interactivo.png)
+
+### 3. Estadísticas
+Filtros avanzados, Top 10 provincias y Top 15 categorías.
+
+![Estadísticas](screenshots/3_estadisticas.png)
+
+### 4. Progreso
+Progreso de scraping por provincia con barras de porcentaje.
+
+![Progreso](screenshots/4_progreso.png)
+
+### 5. Datos
+Tabla de búsqueda con exportación a CSV.
+
+![Datos](screenshots/5_datos.png)
+
+---
 
 ## 📋 Descripción
 

@@ -25,6 +25,7 @@ MANIFEST
 
 # Entorno Virtual
 Dossier/
+dashboard_env/
 venv/
 ENV/
 env/
